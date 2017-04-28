@@ -1,0 +1,66 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<title>Apache MINA 2.0.7 Reference Package org.apache.mina.transport.serial</title>
+		<link rel="stylesheet" type="text/css" href="../../../../../stylesheet.css" title="style" />
+	</head>
+	<body>
+
+		<h3>
+        	<a href="package-summary.html" target="classFrame">org.apache.mina.transport.serial</a>
+      	</h3>
+
+      	<h3>Classes</h3>
+
+      	<ul>
+      		          	<li>
+            	<a href="SerialAddress.html" target="classFrame">DataBits</a>
+          	</li>
+          	          	<li>
+            	<a href="DefaultSerialSessionConfig.html" target="classFrame">DefaultSerialSessionConfig</a>
+          	</li>
+          	          	<li>
+            	<a href="SerialAddress.html" target="classFrame">FlowControl</a>
+          	</li>
+          	          	<li>
+            	<a href="SerialAddress.html" target="classFrame">Parity</a>
+          	</li>
+          	          	<li>
+            	<a href="SerialSessionImpl.html" target="classFrame">ReadWorker</a>
+          	</li>
+          	          	<li>
+            	<a href="SerialAddress.html" target="classFrame">SerialAddress</a>
+          	</li>
+          	          	<li>
+            	<a href="SerialAddressEditor.html" target="classFrame">SerialAddressEditor</a>
+          	</li>
+          	          	<li>
+            	<a href="SerialConnector.html" target="classFrame">SerialConnector</a>
+          	</li>
+          	          	<li>
+            	<a href="SerialSessionImpl.html" target="classFrame">SerialIoProcessor</a>
+          	</li>
+          	          	<li>
+            	<a href="SerialPortUnavailableException.html" target="classFrame">SerialPortUnavailableException</a>
+          	</li>
+          	          	<li>
+            	<a href="SerialSession.html" target="classFrame">SerialSession</a>
+          	</li>
+          	          	<li>
+            	<a href="SerialSessionConfig.html" target="classFrame">SerialSessionConfig</a>
+          	</li>
+          	          	<li>
+            	<a href="SerialSessionImpl.html" target="classFrame">SerialSessionImpl</a>
+          	</li>
+          	          	<li>
+            	<a href="SerialAddress.html" target="classFrame">StopBits</a>
+          	</li>
+          	          	<li>
+            	<a href="SerialSessionImpl.html" target="classFrame">WriteWorker</a>
+          	</li>
+          	      	</ul>
+
+	</body>
+</html>

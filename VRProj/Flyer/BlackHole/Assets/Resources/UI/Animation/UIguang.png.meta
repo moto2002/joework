@@ -1,0 +1,249 @@
+fileFormatVersion: 2
+guid: 8796627c0c768ff4ebb70e05d675a470
+timeCreated: 1474856698
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: UIguang_0
+    21300002: UIguang_1
+    21300004: UIguang_2
+    21300006: UIguang_3
+    21300008: UIguang_4
+    21300010: UIguang_5
+    21300012: UIguang_6
+    21300014: UIguang_7
+    21300016: UIguang_8
+    21300018: UIguang_9
+    21300020: UIguang_10
+    21300022: UIguang_11
+    21300024: UIguang_12
+    21300026: UIguang_13
+    21300028: UIguang_14
+    21300030: UIguang_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: UIguang_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2058
+        width: 21
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UIguang_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2058
+        width: 21
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UIguang_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2058
+        width: 21
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UIguang_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 2058
+        width: 21
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UIguang_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1372
+        width: 21
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UIguang_5
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1372
+        width: 21
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UIguang_6
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1372
+        width: 21
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UIguang_7
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1372
+        width: 21
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UIguang_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 686
+        width: 21
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UIguang_9
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 686
+        width: 21
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UIguang_10
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 686
+        width: 21
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UIguang_11
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 686
+        width: 21
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UIguang_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 21
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UIguang_13
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 0
+        width: 21
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UIguang_14
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 21
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UIguang_15
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 21
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="rbw1tvvv" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="iitt1" name="Main" folder="" file="iitt1.xml" exported="true"/>
+    <component id="q9do18" name="circle" folder="" file="q9do18.xml"/>
+    <image id="q9do19" name="1" folder="od6b1b" qualityOption="source" file="q9do19.png" size="178,160"/>
+    <image id="q9do1a" name="0" folder="od6b1b" qualityOption="source" file="q9do1a.png" size="76,77"/>
+    <folder id="od6b1b" name="images" folder=""/>
+  </resources>
+  <publish name="Joystick">
+    <atlas name="默认" index="0"/>
+  </publish>
+</packageDescription>

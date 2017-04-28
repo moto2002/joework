@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectDescription name="FairyGUI-Examples" type="Unity" id="5b85d3c8fa4ef4d0cc856c635439191d">
+  <packages>
+    <package id="rbw1tv9t" name="Bag"/>
+    <package id="9leh0eyf" name="Basics"/>
+    <package id="y768eypf" name="Cooldown"/>
+    <package id="y768eypa" name="Emoji"/>
+    <package id="rbw1tvvv" name="Joystick"/>
+    <package id="rbw1tc9t" name="RenderTexture"/>
+    <package id="g6qoonuh" name="HeadBar"/>
+    <package id="t7096b8q" name="EmitNumbers"/>
+    <package id="zgmoraj4" name="Transition"/>
+    <package id="d8m5tmok" name="BundleUsage"/>
+    <package id="ddm193o7" name="CutScene"/>
+    <package id="jou4kj6p" name="Extension"/>
+    <package id="jqu05wyc" name="Particles"/>
+    <package id="oqv64gwp" name="ModalWaiting"/>
+    <package id="qkteqwfp" name="VirtualList"/>
+    <package id="qf88jb5n" name="LoopList"/>
+    <package id="qef31w6w" name="Model"/>
+    <package id="q3l7vvj0" name="Guide"/>
+    <package id="qnypfqdk" name="Perspective"/>
+    <package id="ezq9a8mh" name="HitTest"/>
+    <package id="i1i2ucwo" name="Curve"/>
+    <package id="lua1ugq6" name="Gesture"/>
+    <package id="9fb2r88o" name="Filter"/>
+    <package id="f3xz8s8w" name="TurnCard"/>
+    <package id="2mabf2jp" name="TreeView"/>
+    <package id="evxk1eek" name="EmojiPro"/>
+  </packages>
+  <textSetting font="Heiti SC Medium,SimSun" size="12" color="#000000"/>
+  <scrollBars vertical="ui://9leh0eyfi3s65w" horizontal="ui://9leh0eyfi3s65i" defaultDisplay="visible"/>
+  <colorScheme value="Custom color #FF0000"/>
+  <fontSizeScheme value="Custom font size 30"/>
+  <codeGenSetting targetPath="" classNamePrefix="UI_" memberNamePrefix="m_" packageName="" ignoreNoname="true"/>
+</projectDescription>

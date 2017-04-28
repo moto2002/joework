@@ -1,0 +1,15 @@
+C:\Users\Joe\Desktop\ExceltoProtoBuf - 副本\ExceltoProtoBuf\AutoCSharp\bin\Release\AutoCSharp.exe.config
+C:\Users\Joe\Desktop\ExceltoProtoBuf - 副本\ExceltoProtoBuf\AutoCSharp\bin\Release\AutoCSharp.exe
+C:\Users\Joe\Desktop\ExceltoProtoBuf - 副本\ExceltoProtoBuf\AutoCSharp\bin\Release\AutoCSharp.pdb
+C:\Users\Joe\Desktop\ExceltoProtoBuf - 副本\ExceltoProtoBuf\AutoCSharp\bin\Release\UnityEngine.dll
+C:\Users\Joe\Desktop\ExceltoProtoBuf - 副本\ExceltoProtoBuf\AutoCSharp\bin\Release\UnityEngine.xml
+C:\Users\Joe\Desktop\ExceltoProtoBuf - 副本\ExceltoProtoBuf\AutoCSharp\obj\Release\MainWindow.g.cs
+C:\Users\Joe\Desktop\ExceltoProtoBuf - 副本\ExceltoProtoBuf\AutoCSharp\obj\Release\App.g.cs
+C:\Users\Joe\Desktop\ExceltoProtoBuf - 副本\ExceltoProtoBuf\AutoCSharp\obj\Release\AutoCSharp_MarkupCompile.cache
+C:\Users\Joe\Desktop\ExceltoProtoBuf - 副本\ExceltoProtoBuf\AutoCSharp\obj\Release\AutoCSharp_MarkupCompile.lref
+C:\Users\Joe\Desktop\ExceltoProtoBuf - 副本\ExceltoProtoBuf\AutoCSharp\obj\Release\MainWindow.baml
+C:\Users\Joe\Desktop\ExceltoProtoBuf - 副本\ExceltoProtoBuf\AutoCSharp\obj\Release\AutoCSharp.g.resources
+C:\Users\Joe\Desktop\ExceltoProtoBuf - 副本\ExceltoProtoBuf\AutoCSharp\obj\Release\AutoCSharp.Properties.Resources.resources
+C:\Users\Joe\Desktop\ExceltoProtoBuf - 副本\ExceltoProtoBuf\AutoCSharp\obj\Release\AutoCSharp.csproj.GenerateResource.Cache
+C:\Users\Joe\Desktop\ExceltoProtoBuf - 副本\ExceltoProtoBuf\AutoCSharp\obj\Release\AutoCSharp.exe
+C:\Users\Joe\Desktop\ExceltoProtoBuf - 副本\ExceltoProtoBuf\AutoCSharp\obj\Release\AutoCSharp.pdb

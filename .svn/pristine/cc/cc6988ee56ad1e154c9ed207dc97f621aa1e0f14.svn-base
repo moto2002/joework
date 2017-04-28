@@ -1,0 +1,4 @@
+code~pk,name,desc,str,dex,mind,con,hitPoint,manaPoint,attack,defense,mAttack,speed,resist_1,resist_2,resist_3,resist_4,resist_5,accuracy,avoid,critical,cri_avoid,counter,nextJob
+string,string,null,int{},int{},int{},int{},float{},float{},float{},float{},float{},float{},float{},float{},float{},float{},float{},float{},float{},float{},float{},float{},string
+swordMan,job_sword_man,½£Ê¿,min=1;max=1,min=1;max=1,min=1;max=1,min=1;max=1,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,½£ºÀ
+swordMaster,job_sword_master,½£ºÀ,min=1;max=2,min=1;max=2,min=1;max=2,min=1;max=2,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,min=0;max=0,

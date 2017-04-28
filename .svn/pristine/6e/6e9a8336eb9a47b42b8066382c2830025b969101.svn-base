@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Basic - ColorPickerPopup -->
+  <string name="nk9ejx23au3n5x-n5">透明度</string>
+  <!-- Builder - MainPanel -->
+  <string name="2pshu6oiau3n0-n88-tips">弹出发布菜单</string>
+  <string name="2pshu6oiau3n0-n43-tips">放大：Ctrl+'+'
+缩小：Ctrl+'-'
+自由缩放：Ctrl+鼠标滚轮
+恢复到100%：Ctrl+1</string>
+  <string name="2pshu6oiau3n0-n44">缩放比例</string>
+  <string name="2pshu6oiau3n0-n45-tips">新建组件(Ctrl+N)</string>
+  <string name="2pshu6oiau3n0-n46-tips">新建按钮</string>
+  <string name="2pshu6oiau3n0-n47-tips">保存(Ctrl+S)</string>
+  <string name="2pshu6oiau3n0-n48-tips">全部保存</string>
+  <string name="2pshu6oiau3n0-n54">背景颜色</string>
+  <string name="2pshu6oiau3n0-n74-tips">新建位图字体</string>
+  <string name="2pshu6oiau3n0-n75-tips">导入素材</string>
+  <string name="2pshu6oiau3n0-n84-tips">发布(F9)</string>
+  <string name="2pshu6oiau3n0-n85-tips">测试(F5)</string>
+  <string name="2pshu6oiau3n0-n87-tips">新建动画</string>
+  <!-- Builder - LibPanel -->
+  <string name="2pshu6oiau3n3-n39">库</string>
+  <string name="2pshu6oiau3n3-n21-tips">过滤显示包</string>
+  <string name="2pshu6oiau3n3-n24-tips">全部折叠</string>
+  <string name="2pshu6oiau3n3-n27-tips">查找</string>
+  <!-- Builder - PreviewPanel -->
+  <string name="2pshu6oiau3n4-n18">预览</string>
+  <!-- Builder - BasicPropsPanel -->
+  <string name="2pshu6oiau3n5-n46">基本</string>
+  <string name="2pshu6oiau3n5-n11">原大小</string>
+  <string name="2pshu6oiau3n5-n17">名称</string>
+  <string name="2pshu6oiau3n5-n13">X</string>
+  <string name="2pshu6oiau3n5-n22">Y</string>
+  <string name="2pshu6oiau3n5-n24">宽</string>
+  <string name="2pshu6oiau3n5-n26">高</string>
+  <string name="2pshu6oiau3n5-n31">不可触摸</string>
+  <string name="2pshu6oiau3n5-n32-tips">仅在测试和运行期可以看到效果，
+设计界面中将始终保持可见</string>
+  <string name="2pshu6oiau3n5-n32">不可见</string>
+  <string name="2pshu6oiau3n5-n33">透明度</string>
+  <string name="2pshu6oiau3n5-n35">旋转</string>
+  <string name="2pshu6oiau3n5-n36">变灰</string>
+  <string name="2pshu6oiau3n5-n39">轴心X</string>
+  <string name="2pshu6oiau3n5-n40">轴心Y</string>
+  <string name="2pshu6oiau3n5-n48">ScaleX</string>
+  <string name="2pshu6oiau3n5-n49">ScaleY</string>
+  <string name="2pshu6oiau3n5-n53-tips">当选定多个对象时，使用#可以自动添加数字序列。例如：
+a#
+则选定的元件的名称依次修改为a0,a1,a2..</string>
+  <string name="2pshu6oiau3n5-n57">倾斜X</string>
+  <string name="2pshu6oiau3n5-n58">倾斜Y</string>
+  <string name="2pshu6oiau3n5-n61-tips">勾选后，轴心位置将作为元件的原点</string>
+  <string name="2pshu6oiau3n5-n61">同时作为锚点</string>
+  <!-- Builder - EditPanel -->
+  <string name="2pshu6oiau3nh-n33-tips">左对齐</string>
+  <string name="2pshu6oiau3nh-n34-tips">垂直中线对齐</string>
+  <string name="2pshu6oiau3nh-n35-tips">右对齐</string>
+  <string name="2pshu6oiau3nh-n36-tips">上对齐</string>
+  <string name="2pshu6oiau3nh-n37-tips">水平中线对齐</string>
+  <string name="2pshu6oiau3nh-n38-tips">下对齐</string>
+  <string name="2pshu6oiau3nh-n39-tips">相同宽度</string>
+  <string name="2pshu6oiau3nh-n40-tips">相同高度</string>
+  <string name="2pshu6oiau3nh-n41-tips">自定义排列</string>
+  <string name="2pshu6oiau3nh-n57-tips">拖动模式（按住空格可快捷切换）</string>
+  <string name="2pshu6oiau3nh-n60-tips">选择模式</string>
+  <string name="2pshu6oiau3nh-n26-tips">文本</string>
+  <string name="2pshu6oiau3nh-n27-tips">图形</string>
+  <string name="2pshu6oiau3nh-n28-tips">列表</string>
+  <string name="2pshu6oiau3nh-n29-tips">装载器</string>
+  <string name="2pshu6oiau3nh-n31-tips">组合</string>
+  <string name="2pshu6oiau3nh-n32-tips">取消组合</string>
+  <string name="2pshu6oiau3nh-n49-tips">多媒体文本</string>
+  <string name="2pshu6oiau3nh-n56">组导航</string>
+  <!-- Builder - GearPropsPanel -->
+  <string name="2pshu6oiau3n2r-n41">属性控制</string>
+  <string name="2pshu6oiau3n2r-n17">显示控制</string>
+  <string name="2pshu6oiau3n2r-n48-tips">新建属性控制</string>
+  <!-- Builder - TextPropsPanel -->
+  <string name="2pshu6oiau3n2s-n62">文本</string>
+  <string name="2pshu6oiau3n2s-n17">字体</string>
+  <string name="2pshu6oiau3n2s-n32">单行</string>
+  <string name="2pshu6oiau3n2s-n33">字体大小</string>
+  <string name="2pshu6oiau3n2s-n35">颜色</string>
+  <string name="2pshu6oiau3n2s-n38">UBB</string>
+  <string name="2pshu6oiau3n2s-n46">自动大小</string>
+  <string name="2pshu6oiau3n2s-n47">对齐</string>
+  <string name="2pshu6oiau3n2s-n50">输入</string>
+  <string name="2pshu6oiau3n2s-n51">下划线</string>
+  <string name="2pshu6oiau3n2s-n52">密码</string>
+  <string name="2pshu6oiau3n2s-n42">行距</string>
+  <string name="2pshu6oiau3n2s-n44">字距</string>
+  <string name="2pshu6oiau3n2s-n68">描边</string>
+  <string name="2pshu6oiau3n2s-n71">粗体</string>
+  <string name="2pshu6oiau3n2s-n72">斜体</string>
+  <string name="2pshu6oiau3n2s-n83">投影</string>
+  <!-- Builder - GraphPropsPanel -->
+  <string name="2pshu6oiau3n2t-n62">图形</string>
+  <string name="2pshu6oiau3n2t-n17">图形</string>
+  <string name="2pshu6oiau3n2t-n33">线条大小</string>
+  <string name="2pshu6oiau3n2t-n35">线条颜色</string>
+  <string name="2pshu6oiau3n2t-n55">填充颜色</string>
+  <string name="2pshu6oiau3n2t-n57">圆角</string>
+  <string name="2pshu6oiau3n2t-n66">将我作为组件的遮罩</string>
+  <!-- Builder - ListPropsPanel -->
+  <string name="2pshu6oiau3n2u-n69">列表</string>
+  <string name="2pshu6oiau3n2u-n17">列表布局</string>
+  <string name="2pshu6oiau3n2u-n58">溢出处理</string>
+  <string name="2pshu6oiau3n2u-n33">行距</string>
+  <string name="2pshu6oiau3n2u-n57">边缘留空</string>
+  <string name="2pshu6oiau3n2u-n61">列距</string>
+  <string name="2pshu6oiau3n2u-n62">项目资源</string>
+  <string name="2pshu6oiau3n2u-n63">编辑列表数据</string>
+  <string name="2pshu6oiau3n2u-n77">上</string>
+  <string name="2pshu6oiau3n2u-n79">下</string>
+  <string name="2pshu6oiau3n2u-n81">左</string>
+  <string name="2pshu6oiau3n2u-n83">右</string>
+  <string name="2pshu6oiau3n2u-n86">边缘虚化</string>
+  <string name="2pshu6oiau3n2u-n87">X</string>
+  <string name="2pshu6oiau3n2u-n89">Y</string>
+  <string name="2pshu6oiau3n2u-n92-tips">边缘虚化效果在编辑器无法预览</string>
+  <string name="2pshu6oiau3n2u-n93">选择模式</string>
+  <string name="2pshu6oiau3n2u-n95">自动调整列表项目大小</string>
+  <string name="2pshu6oiau3n2u-n96-tips">如果勾选，
+1、列表布局为单列时，列表项目的宽度自动设置为列表显示区域的宽度；
+2、列表布局为单行时，列表项目的高度自动设置为列表显示区域的高度。
+3、其他布局此选项无效</string>
+  <string name="2pshu6oiau3n2u-n97">行数/列数</string>
+  <string name="2pshu6oiau3n2u-n99-tips">当列表布局为横向流动时，这里设定的是固定的列数；
+当列表布局为竖向流动时，这里设定的是固定的行数；
+其他情况下该值无效。
+如果为0，表示自动换行。</string>
+  <!-- Builder - LoaderPropsPanel -->
+  <string name="2pshu6oiau3n2v-n67">装载器</string>
+  <string name="2pshu6oiau3n2v-n17">URL</string>
+  <string name="2pshu6oiau3n2v-n46">自动大小</string>
+  <string name="2pshu6oiau3n2v-n59">填充处理</string>
+  <string name="2pshu6oiau3n2v-n47">对齐</string>
+  <string name="2pshu6oiau3n2v-n32">播放</string>
+  <string name="2pshu6oiau3n2v-n69">帧</string>
+  <string name="2pshu6oiau3n2v-n71">颜色</string>
+  <string name="2pshu6oiau3n2v-n73">亮度</string>
+  <string name="2pshu6oiau3n2v-n81">填充方法</string>
+  <string name="2pshu6oiau3n2v-n82-tips">抱歉此功能未能提供预览</string>
+  <string name="2pshu6oiau3n2v-n85">填充比例</string>
+  <string name="2pshu6oiau3n2v-n88">填充原点</string>
+  <string name="2pshu6oiau3n2v-n89">顺时针方向</string>
+  <!-- Builder - ControllerBar -->
+  <string name="2pshu6oiau3n3f-n15-tips">切换控制器屏蔽状态（仅设计期有效）
+屏蔽后，则此控制器不起作用，方便查看所有被控制器隐藏的元件</string>
+<!-- Builder - ControllerPanel -->
+  <string name="2pshu6oiau3n3h-n3">控制器</string>
+  <string name="2pshu6oiau3n3h-n5-tips">新建控制器</string>
+  <!-- Builder - SaveConfirmDialog -->
+  <string name="2pshu6oiau3n3k-n2">是</string>
+  <string name="2pshu6oiau3n3k-n3">否</string>
+  <string name="2pshu6oiau3n3k-n4">取消</string>
+  <string name="2pshu6oiau3n3k-n6">是否保存以下各项的修改？</string>
+  <!-- Builder - AlertDialog -->
+  <string name="2pshu6oiau3n3l-n1">确定</string>
+  <!-- Builder - ProjectSettingsDialog -->
+  <string name="2pshu6oiau3n3n-n0">项目属性</string>
+  <string name="2pshu6oiau3n3n-n1">项目名称</string>
+  <string name="2pshu6oiau3n3n-n34">项目类型</string>
+  <string name="2pshu6oiau3n3n-n47">自定义属性</string>
+
+  <string name="2pshu6oiau3n3n-n32">颜色方案（每行一个记录，每行格式为“记录名 颜色值”）</string>
+  <string name="2pshu6oiau3n3n-n2">字体</string>
+  <string name="2pshu6oiau3n3n-n3">字体大小</string>
+  <string name="2pshu6oiau3n3n-n4">字体颜色</string>
+  <string name="2pshu6oiau3n3n-n33">文字大小方案（每行一个记录，每行格式为“记录名 字号”）</string>
+  <string name="2pshu6oiau3n3n-n5">垂直</string>
+  <string name="2pshu6oiau3n3n-n6">水平</string>
+  <string name="2pshu6oiau3n3n-n7">默认显示</string>
+  <string name="2pshu6oiau3n3n-n14">保存</string>
+  <string name="2pshu6oiau3n3n-n15">取消</string>
+  <string name="2pshu6oiau3n3n-n17">基本</string>
+  <string name="2pshu6oiau3n3n-n18">字体/颜色</string>
+  <string name="2pshu6oiau3n3n-n19">滚动条设置</string>
+  <!-- Builder - CreatePackageDialog -->
+  <string name="2pshu6oiau3n3o-n0">创建包</string>
+  <string name="2pshu6oiau3n3o-n1">包名称</string>
+  <string name="2pshu6oiau3n3o-n6">创建</string>
+  <string name="2pshu6oiau3n3o-n7">取消</string>
+  <!-- Builder - PackageSettingsDialog -->
+  <string name="2pshu6oiau3n3p-n0">包属性</string>
+  <string name="2pshu6oiau3n3p-n14">保存</string>
+  <string name="2pshu6oiau3n3p-n15">取消</string>
+  <string name="2pshu6oiau3n3p-n1">包名称</string>
+  <string name="2pshu6oiau3n3p-n2">JPEG品质</string>
+  <string name="2pshu6oiau3n3p-n33">压缩PNG</string>
+  <string name="2pshu6oiau3n3p-n35">（压缩工具为pngquant）</string>
+  <string name="2pshu6oiau3n3p-n17">基本</string>
+  <!-- Builder - CreateComDialog -->
+  <string name="2pshu6oiau3n3q-n0">创建组件</string>
+  <string name="2pshu6oiau3n3q-n1">组件名称</string>
+  <string name="2pshu6oiau3n3q-n2">大小</string>
+  <string name="2pshu6oiau3n3q-n6">创建</string>
+  <string name="2pshu6oiau3n3q-n7">取消</string>
+  <string name="2pshu6oiau3n3q-n9">X</string>
+  <string name="2pshu6oiau3n3q-n12">创建位置</string>
+  <string name="2pshu6oiau3n3q-n14">浏览..</string>
+  <!-- Builder - CreateButtonDialog -->
+  <string name="2pshu6oiau3n3r-n0">创建按钮</string>
+  <string name="2pshu6oiau3n3r-n1">按钮名称</string>
+  <string name="2pshu6oiau3n3r-n11">创建文本标题</string>
+  <string name="2pshu6oiau3n3r-n12">创建图形标题</string>
+  <string name="2pshu6oiau3n3r-n13">创建</string>
+  <string name="2pshu6oiau3n3r-n14">取消</string>
+  <string name="2pshu6oiau3n3r-n15">创建位置</string>
+  <string name="2pshu6oiau3n3r-n17">浏览..</string>
+  <string name="2pshu6oiau3n3r-n22">自定义大小</string>
+  <string name="2pshu6oiau3n3r-n23">自动大小(使用设定的图片的大小）</string>
+  <string name="2pshu6oiau3n3r-n20">X</string>
+  <string name="2pshu6oiau3n3r-n3">正常状态图片</string>
+  <string name="2pshu6oiau3n3r-n4">按下状态图片</string>
+  <string name="2pshu6oiau3n3r-n5">鼠标悬浮时图片</string>
+  <string name="2pshu6oiau3n3r-n6">按下状态鼠标悬浮时图片</string>
+  <string name="2pshu6oiau3n3r-n27">图片设置：（以下图片设置均为可选）</string>
+  <string name="2pshu6oiau3n3r-n28">按钮模式</string>
+  <!-- Builder - ControllerEditDialog -->
+  <string name="2pshu6oiau3n3s-n0">控制器属性</string>
+  <string name="2pshu6oiau3n3s-n13">保存</string>
+  <string name="2pshu6oiau3n3s-n14">取消</string>
+  <string name="2pshu6oiau3n3s-n15">名称</string>
+  <string name="2pshu6oiau3n3s-n28">增加页</string>
+  <string name="2pshu6oiau3n3s-n29">删除页</string>
+  <string name="2pshu6oiau3n3s-n30">按钮模板</string>
+  <string name="2pshu6oiau3n3s-n31">上移</string>
+  <string name="2pshu6oiau3n3s-n32">下移</string>
+  <string name="2pshu6oiau3n3s-n34">删除控制器</string>
+  <string name="2pshu6oiau3n3s-n36">自动调整单选组对象层次</string>
+  <string name="2pshu6oiau3n3s-n37-tips">勾选后，在所有属于此控制器控制的单选按钮中，
+选中状态的按钮都会被自动调整到其他按钮的最上面</string>
+  <!-- Builder - WaitingDialog -->
+  <string name="2pshu6oiau3n3t-n0">正在努力完成你的请求。。。</string>
+  <string name="2pshu6oiau3n3t-n3">取消</string>
+  <!-- Builder - ControllerEdit_header -->
+  <string name="2pshu6oiau3n3v-n12">名称</string>
+  <string name="2pshu6oiau3n3v-n0">索引</string>
+
+  <string name="2pshu6oiau3n3v-n13">动效</string>
+  <string name="2pshu6oiau3n3v-n19-tips">格式为：变换前索引A=特效名称T
+1)表示从A页跳转到本页时播放T动效
+2)其中“A=”可以忽略，表示从任何页面跳转
+3)多个设置用逗号隔开</string>
+  <!-- Builder - CreateFontDialog -->
+  <string name="2pshu6oiau3n3w-n0">创建字体</string>
+  <string name="2pshu6oiau3n3w-n1">字体名称</string>
+  <string name="2pshu6oiau3n3w-n6">创建</string>
+  <string name="2pshu6oiau3n3w-n7">取消</string>
+  <string name="2pshu6oiau3n3w-n8">创建位置</string>
+  <string name="2pshu6oiau3n3w-n10">浏览..</string>
+  <!-- Builder - ImageEditDialog -->
+  <string name="2pshu6oiau3n3x-n24">图片属性</string>
+  <string name="2pshu6oiau3n3x-n1">图像大小：</string>
+  <string name="2pshu6oiau3n3x-n3">数据大小：</string>
+  <string name="2pshu6oiau3n3x-n15">使用九宫格进行缩放</string>
+  <string name="2pshu6oiau3n3x-n16">使用平铺进行缩放</string>
+  <string name="2pshu6oiau3n3x-n21">保存</string>
+  <string name="2pshu6oiau3n3x-n22">应用</string>
+  <string name="2pshu6oiau3n3x-n23">取消</string>
+  <string name="2pshu6oiau3n3x-n27">缩放模式：</string>
+  <string name="2pshu6oiau3n3x-n6">左</string>
+  <string name="2pshu6oiau3n3x-n7">上</string>
+  <string name="2pshu6oiau3n3x-n8">右</string>
+  <string name="2pshu6oiau3n3x-n9">下</string>
+  <string name="2pshu6oiau3n3x-n29">无</string>
+  <string name="2pshu6oiau3n3x-n34">导入...</string>
+  <string name="2pshu6oiau3n3x-n17">质量</string>
+  <string name="2pshu6oiau3n3x-n19">纹理集</string>
+  <string name="2pshu6oiau3n3x-n32">允许平滑</string>
+  <string name="2pshu6oiau3n3x-n38">导出...</string>
+  <!-- Builder - FontEditDialog -->
+  <string name="2pshu6oiau3n40-n0">编辑字体</string>
+  <string name="2pshu6oiau3n40-n3">纹理集</string>
+  <string name="2pshu6oiau3n40-n5">字体大小</string>
+
+  <string name="2pshu6oiau3n40-n9">保存</string>
+  <string name="2pshu6oiau3n40-n10">取消</string>
+  <string name="2pshu6oiau3n40-n17">应用</string>
+  <string name="2pshu6oiau3n40-n18">默认占位</string>
+  <string name="2pshu6oiau3n40-n20-tips">当表格中的占位设置为0时，
+使用这里的值</string>
+  <string name="2pshu6oiau3n40-n23-tips">勾选后，使用这个字体的文本可以设置字体大小使图片缩放</string>
+  <string name="2pshu6oiau3n40-n24">允许动态改变字号</string>
+  <string name="2pshu6oiau3n40-n7">删除选定字符</string>
+  <string name="2pshu6oiau3n40-n26-tips">勾选后，使用这个字体的文本可以设置字体图片的颜色</string>
+  <string name="2pshu6oiau3n40-n27">允许动态改变颜色</string>
+  <!-- Builder - FontEdit_header -->
+  <string name="2pshu6oiau3n41-n12">字符</string>
+  <string name="2pshu6oiau3n41-n0">图片</string>
+
+  <string name="2pshu6oiau3n41-n13">偏移X</string>
+  <string name="2pshu6oiau3n41-n14">偏移Y</string>
+  <string name="2pshu6oiau3n41-n15">占位</string>
+  <!-- Builder - RenameDialog -->
+  <string name="2pshu6oiau3n44-n0">重命名</string>
+  <string name="2pshu6oiau3n44-n1">新名称</string>
+  <string name="2pshu6oiau3n44-n3">确定</string>
+  <string name="2pshu6oiau3n44-n4">取消</string>
+  <!-- Builder - FixConflictedNameDialog -->
+  <string name="2pshu6oiau3n45-n0">名称冲突</string>
+  <string name="2pshu6oiau3n45-n1">名称</string>
+  <string name="2pshu6oiau3n45-n3">确定</string>
+  <string name="2pshu6oiau3n45-n4">取消</string>
+  <!-- Builder - ConfirmDialog -->
+  <string name="2pshu6oiau3n46-n1">是</string>
+  <string name="2pshu6oiau3n46-n3">否</string>
+  <!-- Builder - ComPropsPanel -->
+  <string name="2pshu6oiau3n47-n57">基本</string>
+  <string name="2pshu6oiau3n47-n16">元件描述</string>
+  <string name="2pshu6oiau3n47-n17">初始名字</string>
+  <string name="2pshu6oiau3n47-n24">宽</string>
+  <string name="2pshu6oiau3n47-n26">高</string>
+  <string name="2pshu6oiau3n47-n46">边缘留空</string>
+  <string name="2pshu6oiau3n47-n48">溢出处理</string>
+  <string name="2pshu6oiau3n47-n58">扩展</string>
+  <string name="2pshu6oiau3n47-n62">背景颜色</string>
+  <string name="2pshu6oiau3n47-n65">（仅设计期有效）</string>
+  <string name="2pshu6oiau3n47-n66">上</string>
+  <string name="2pshu6oiau3n47-n68">下</string>
+  <string name="2pshu6oiau3n47-n70">左</string>
+  <string name="2pshu6oiau3n47-n72">右</string>
+  <string name="2pshu6oiau3n47-n75">边缘虚化</string>
+  <string name="2pshu6oiau3n47-n76">X</string>
+  <string name="2pshu6oiau3n47-n78">Y</string>
+  <string name="2pshu6oiau3n47-n81-tips">边缘虚化效果在编辑器无法预览</string>
+  <string name="2pshu6oiau3n47-n82-tips">当此组件被拖入使用时，自动设置组件的“名称”属性为这里设置的值</string>
+  <string name="2pshu6oiau3n47-n83">备注</string>
+  <string name="2pshu6oiau3n47-n85">可穿透空白区域</string>
+  <string name="2pshu6oiau3n47-n86">点击穿透</string>
+  <string name="2pshu6oiau3n47-n87-tips">不勾选时，点击无法穿透组件的矩形范围。（推荐）
+勾选时，点击可以穿透组件的空白区域。</string>
+  <string name="2pshu6oiau3n47-n88">轴心X</string>
+  <string name="2pshu6oiau3n47-n89">轴心Y</string>
+  <string name="2pshu6oiau3n47-n93-tips">勾选后，轴心位置将作为元件的原点</string>
+  <string name="2pshu6oiau3n47-n93">同时作为锚点</string>
+  <!-- Builder - RelationPropsPanel -->
+  <string name="2pshu6oiau3n4a-n41">关联</string>
+  <!-- Builder - GroupPropsPanel -->
+  <string name="2pshu6oiau3n4d-n62">组</string>
+  <string name="2pshu6oiau3n4d-n66">txtRemark</string>
+  <string name="2pshu6oiau3n4d-n67">名称</string>
+  <string name="2pshu6oiau3n4d-n68">X</string>
+  <string name="2pshu6oiau3n4d-n70">Y</string>
+  <string name="2pshu6oiau3n4d-n72">宽</string>
+  <string name="2pshu6oiau3n4d-n73">高</string>
+  <string name="2pshu6oiau3n4d-n76">不可见</string>
+  <string name="2pshu6oiau3n4d-n78">普通组</string>
+  <string name="2pshu6oiau3n4d-n79">高级组</string>
+  <!-- Builder - MovieClipPropsPanel -->
+  <string name="2pshu6oiau3n4e-n67">动画</string>
+  <string name="2pshu6oiau3n4e-n32">播放</string>
+  <string name="2pshu6oiau3n4e-n69">帧</string>
+  <string name="2pshu6oiau3n4e-n71">颜色</string>
+  <string name="2pshu6oiau3n4e-n73">亮度</string>
+  <!-- Builder - SwfPropsPanel -->
+  <string name="2pshu6oiau3n4f-n67">动画</string>
+  <string name="2pshu6oiau3n4f-n32">播放</string>
+  <string name="2pshu6oiau3n4f-n69">帧</string>
+  <!-- Builder - RichTextPropsPanel -->
+  <string name="2pshu6oiau3n4h-n62">多媒体文本</string>
+  <string name="2pshu6oiau3n4h-n113">字体</string>
+  <string name="2pshu6oiau3n4h-n115">字体大小</string>
+  <string name="2pshu6oiau3n4h-n116">颜色</string>
+  <string name="2pshu6oiau3n4h-n117">UBB</string>
+  <string name="2pshu6oiau3n4h-n119">自动大小</string>
+  <string name="2pshu6oiau3n4h-n124">下划线</string>
+  <string name="2pshu6oiau3n4h-n126">行距</string>
+  <string name="2pshu6oiau3n4h-n127">字距</string> 
+  <string name="2pshu6oiau3n4h-n135">粗体</string>
+  <string name="2pshu6oiau3n4h-n136">斜体</string>
+  <string name="2pshu6oiau3n4h-n153">描边</string>
+  <string name="2pshu6oiau3n4h-n155">投影</string>
+
+  <!-- Builder - RelationItem -->
+  <string name="2pshu6oiau3n4i-n4-tips">删除关联</string>
+  <string name="2pshu6oiau3n4i-n8-tips">设置关联目标为父元件</string>
+  <string name="2pshu6oiau3n4i-n13">点击设置</string>
+  <!-- Builder - ButtonPropsPanel2 -->
+  <string name="2pshu6oiau3n4k-n46">按钮</string>
+  <string name="2pshu6oiau3n4k-n47">模式</string>
+  <string name="2pshu6oiau3n4k-n69">按钮控制器请命名为button
+（可选）文本标题请命名为title
+（可选）图标请命名为icon</string>
+  <string name="2pshu6oiau3n4k-n71">声音</string>
+  <string name="2pshu6oiau3n4k-n73">音量</string>
+  <string name="2pshu6oiau3n4k-n86">按下效果</string>
+  <!-- Builder - ButtonPropsPanel -->
+  <string name="2pshu6oiau3n4r-n46">按钮</string>
+  <string name="2pshu6oiau3n4r-n50">状态</string>
+  <string name="2pshu6oiau3n4r-n51">选中</string>
+  <string name="2pshu6oiau3n4r-n52">标题</string>
+  <string name="2pshu6oiau3n4r-n54">选中时标题</string>
+  <string name="2pshu6oiau3n4r-n56">标题颜色</string>
+  <string name="2pshu6oiau3n4r-n59">图标</string>
+  <string name="2pshu6oiau3n4r-n61">选中时图标</string>
+  <string name="2pshu6oiau3n4r-n63">单选控制</string>
+  <string name="2pshu6oiau3n4r-n71">点击声音</string>
+  <string name="2pshu6oiau3n4r-n72">音量</string>
+  <!-- Builder - ComboBoxPropsPanel2 -->
+  <string name="2pshu6oiau3n4s-n46">下拉框</string>
+  <string name="2pshu6oiau3n4s-n47">弹出组件</string>
+  <string name="2pshu6oiau3n4s-n69">按钮控制器请命名为button
+弹出组件里需放置名称为list的列表
+list的项目资源为单选按钮
+（可选）文本标题请命名为title</string>
+  <!-- Builder - ComboBoxPropsPanel -->
+  <string name="2pshu6oiau3n4t-n46">下拉框</string>
+  <string name="2pshu6oiau3n4t-n70">标题</string>
+  <string name="2pshu6oiau3n4t-n72">标题颜色</string>
+  <string name="2pshu6oiau3n4t-n75">可见项目数</string>
+  <string name="2pshu6oiau3n4t-n77">编辑列表项目</string>
+  <string name="2pshu6oiau3n4t-n78">弹出方向</string>
+  <!-- Builder - ProgressBarPropsPanel2 -->
+  <string name="2pshu6oiau3n4u-n46">进度条</string>
+  <string name="2pshu6oiau3n4u-n47">标题类型</string>
+  <string name="2pshu6oiau3n4u-n69">（可选）横向伸缩部分请命名为bar
+　　　　纵向伸缩部分请命名为bar_v
+　　　　并设置至100%长度
+（可选）文本标题请命名为title
+（可选）动画请命名为ani</string>
+  <string name="2pshu6oiau3n4u-n70">反向</string>
+  <!-- Builder - ProgressBarPropsPanel -->
+  <string name="2pshu6oiau3n4v-n46">进度条</string>
+  <string name="2pshu6oiau3n4v-n70">当前值</string>
+  <string name="2pshu6oiau3n4v-n72">最大值</string>
+  <!-- Builder - SliderPropsPanel2 -->
+  <string name="2pshu6oiau3n4w-n46">滑动条</string>
+  <string name="2pshu6oiau3n4w-n47">标题类型</string>
+  <string name="2pshu6oiau3n4w-n69">（可选）横向伸缩部分请命名为bar
+　　　　纵向伸缩部分请命名为bar_v
+　　　　并设置至100%长度
+（可选）拖动滑块请命名为grip
+（可选）文本标题请命名为title
+（可选）动画请命名为ani</string>
+  <!-- Builder - SliderPropsPanel -->
+  <string name="2pshu6oiau3n4x-n46">滑动条</string>
+  <string name="2pshu6oiau3n4x-n70">当前值</string>
+  <string name="2pshu6oiau3n4x-n72">最大值</string>
+  <!-- Builder - ScrollBarPropsPanel2 -->
+  <string name="2pshu6oiau3n4y-n46">滚动条</string>
+  <string name="2pshu6oiau3n4y-n69">（可选）上/左按钮请命名为arrow1
+（可选）下/右按钮请命名为arrow2
+滚动滑块请命名为grip
+滚动滑块限制区域请命名为bar</string>
+  <string name="2pshu6oiau3n4y-n70">固定的滚动滑块大小</string>
+  <!-- Builder - LabelPropsPanel2 -->
+  <string name="2pshu6oiau3n50-n46">标签</string>
+  <string name="2pshu6oiau3n50-n69">（可选）文本标题请命名为title
+（可选）图标请命名为icon</string>
+  <!-- Builder - LabelPropsPanel -->
+  <string name="2pshu6oiau3n51-n46">标签</string>
+  <string name="2pshu6oiau3n51-n52">标题</string>
+  <string name="2pshu6oiau3n51-n56">标题颜色</string>
+  <string name="2pshu6oiau3n51-n59">图标</string>
+  <!-- Builder - TestPanel -->
+  <string name="2pshu6oiau3n53-n5">返回(ESC)</string>
+  <string name="2pshu6oiau3n53-n7">再次播放(F5)</string>
+  <string name="2pshu6oiau3n53-n9">动效列表：</string>
+  <string name="2pshu6oiau3n53-n13-tips">放大：Ctrl+'+'
+缩小：Ctrl+'-'
+自由缩放：Ctrl+鼠标滚轮
+恢复到100%：Ctrl+1</string>
+  <string name="2pshu6oiau3n53-n14">缩放比例</string>
+  <!-- Builder - PublishDialog -->
+  <string name="2pshu6oiau3n54-n0">发布设置</string>
+  <string name="2pshu6oiau3n54-n4">关闭</string>
+  <string name="2pshu6oiau3n54-n25">发布</string>
+  <string name="2pshu6oiau3n54-n27">导出目录</string>
+  <string name="2pshu6oiau3n54-n29">文件名</string>
+  <string name="2pshu6oiau3n54-n33">浏览</string>
+  <string name="2pshu6oiau3n54-n35">全部发布</string>
+  <string name="2pshu6oiau3n54-n36">两个包（定义文件包+资源包）</string>
+  <string name="2pshu6oiau3n54-n37">一个包</string>
+  <string name="2pshu6oiau3n54-n31">打包方式</string>
+  <string name="2pshu6oiau3n54-n52-tips">通过此方法，可以在Unity里将原纹理设置为不支持Alpha通道的格式（例如ETC1）以减少内存占用。
+FairyGUI提供了专门的着色器混合。</string>
+  <string name="2pshu6oiau3n54-n52">为Alpha通道创建单独的贴图</string>
+  <string name="2pshu6oiau3n54-n53">仅发布定义</string>
+  <string name="2pshu6oiau3n54-n56">设为默认值</string>
+  <string name="2pshu6oiau3n54-n54">压缩包扩展名</string>
+  <string name="2pshu6oiau3n54-n61">纹理集定义...</string>
+  <string name="2pshu6oiau3n54-n62">代码生成设置...</string>
+  <string name="2pshu6oiau3n54-n66">为本包生成代码</string>
+  <!-- Builder - ListItemsEditDialog -->
+  <string name="2pshu6oiau3n55-n0">编辑列表</string>
+  <string name="2pshu6oiau3n55-n28">增加</string>
+  <string name="2pshu6oiau3n55-n29">删除</string>
+  <string name="2pshu6oiau3n55-n31">上移</string>
+  <string name="2pshu6oiau3n55-n32">下移</string>
+  <string name="2pshu6oiau3n55-n13">保存</string>
+  <string name="2pshu6oiau3n55-n14">取消</string>
+  <!-- Builder - ListItemsEdit_header -->
+  <string name="2pshu6oiau3n57-n12">文本</string>
+  <string name="2pshu6oiau3n57-n0">资源</string>
+
+  <string name="2pshu6oiau3n57-n13">图标</string>
+  <string name="2pshu6oiau3n57-n16">名称</string>
+  <!-- Builder - ComboBoxEdit_header -->
+  <string name="2pshu6oiau3n59-n12">文本</string>
+  <string name="2pshu6oiau3n59-n13">值</string>
+  <!-- Builder - ComboBoxEditDialog -->
+  <string name="2pshu6oiau3n5a-n0">编辑列表</string>
+  <string name="2pshu6oiau3n5a-n28">增加</string>
+  <string name="2pshu6oiau3n5a-n29">删除</string>
+  <string name="2pshu6oiau3n5a-n31">上移</string>
+  <string name="2pshu6oiau3n5a-n32">下移</string>
+  <string name="2pshu6oiau3n5a-n13">保存</string>
+  <string name="2pshu6oiau3n5a-n14">取消</string>
+  <!-- Builder - CropQueryDialog -->
+  <string name="2pshu6oiau3n5b-n0">裁剪素材</string>
+  <string name="2pshu6oiau3n5b-n1">确定</string>
+  <string name="2pshu6oiau3n5b-n3">自动裁剪（推荐）</string>
+  <string name="2pshu6oiau3n5b-n4">不自动裁剪</string>
+  <!-- Builder - ExchangeDialog -->
+  <string name="2pshu6oiau3n5c-n0">交换元件</string>
+  <string name="2pshu6oiau3n5c-n1">确定</string>
+  <string name="2pshu6oiau3n5c-n6">取消</string>
+  <!-- Builder - MovieClipEditDialog -->
+  <string name="2pshu6oiau3n5d-n24">动画属性</string>
+  <string name="2pshu6oiau3n5d-n19">纹理集</string>
+  <string name="2pshu6oiau3n5d-n42">保存</string>
+  <string name="2pshu6oiau3n5d-n44">关闭</string>
+  <string name="2pshu6oiau3n5d-n58">速度</string>
+  <string name="2pshu6oiau3n5d-n59">快</string>
+  <string name="2pshu6oiau3n5d-n61">慢</string>
+  <string name="2pshu6oiau3n5d-n62">循环延迟</string>
+  <string name="2pshu6oiau3n5d-n64">本帧延迟</string>
+  <string name="2pshu6oiau3n5d-n66">摆动式播放</string>
+  <string name="2pshu6oiau3n5d-n75">（也可以从库中拖入）</string>
+  <string name="2pshu6oiau3n5d-n76">导入图片序列</string>
+  <!-- Builder - PasteOptionDialog -->
+  <string name="2pshu6oiau3n5e-n0">粘贴项目</string>
+
+  <string name="2pshu6oiau3n5e-n36">从x复制到x</string>
+  <string name="2pshu6oiau3n5e-n37">重命名</string>
+  <string name="2pshu6oiau3n5e-n38">替换(多个元件可能被覆盖）</string>
+  <string name="2pshu6oiau3n5e-n40">忽略已导出的元件</string>
+  <string name="2pshu6oiau3n5e-n42">同名元件处理</string>
+  <string name="2pshu6oiau3n5e-n3">确定</string>
+  <string name="2pshu6oiau3n5e-n4">取消</string>
+  <string name="2pshu6oiau3n5e-n45">使用目标元件</string>
+  <!-- Builder - SelectObjectPanel -->
+  <string name="2pshu6oiau3n5f-n3">从左边选择对象</string>
+  <string name="2pshu6oiau3n5f-n4">完成</string>
+  <string name="2pshu6oiau3n5f-n5">取消</string>
+  <!-- Builder - CustomArrangeDialog -->
+  <string name="2pshu6oiau3n5i-n24">自定义排列</string>
+  <string name="2pshu6oiau3n5i-n21">确定</string>
+  <string name="2pshu6oiau3n5i-n23">取消</string>
+  <string name="2pshu6oiau3n5i-n31">均匀行距</string>
+  <string name="2pshu6oiau3n5i-n32">均匀列距</string>
+  <string name="2pshu6oiau3n5i-n33">表格</string>
+  <string name="2pshu6oiau3n5i-n34">行距</string>
+  <string name="2pshu6oiau3n5i-n35">列距</string>
+  <string name="2pshu6oiau3n5i-n36">列数</string>
+  <string name="2pshu6oiau3n5i-n40">应用</string>
+  <!-- Builder - RelationTypePopup -->
+  <string name="2pshu6oisl3v5j-n7">清除</string>
+  <string name="2pshu6oisl3v5j-n8">使用百分比</string>
+  <!-- Builder - PreferencesDialog -->
+  <string name="2pshu6oiio7w5r-n0">偏好设置</string>
+  <string name="2pshu6oiio7w5r-n14">保存</string>
+  <string name="2pshu6oiio7w5r-n15">取消</string>
+  <string name="2pshu6oiio7w5r-n33">导入时自动裁剪图片到最小包围</string>
+  <string name="2pshu6oiio7w5r-n37">语言（需重启后生效）</string>
+  <!-- Builder - ChoosePackagesDialog -->
+  <string name="2pshu6oiofk55u-n0">过滤显示</string>
+  <string name="2pshu6oiofk55u-n14">关闭</string>
+  <string name="2pshu6oiofk55u-n19-0">包1</string>
+  <string name="2pshu6oiofk55u-n19-1">包2</string>
+  <string name="2pshu6oiofk55u-n19-2">包3</string>
+  <string name="2pshu6oiofk55u-n39">设定要在库中显示的包</string>
+  <string name="2pshu6oiofk55u-n40">全选</string>
+  <string name="2pshu6oiofk55u-n41">清空</string>
+  <!-- Builder - PromptDialog -->
+  <string name="2pshu6oigs6u5w-n0">操作成功完成</string>
+  <!-- Builder - ChooseFolderDialog -->
+  <string name="2pshu6oivdh75x-n0">选择文件夹</string>
+  <string name="2pshu6oivdh75x-n40">选择</string>
+  <string name="2pshu6oivdh75x-n41">取消</string>
+  <!-- Builder - ComDesignPropsPanel -->
+  <string name="2pshu6oiud2n61-n57">设计图</string>
+  <string name="2pshu6oiud2n61-n17">资源</string>
+  <string name="2pshu6oiud2n61-n61">偏移</string>
+
+  <string name="2pshu6oiud2n61-n65">透明度</string>
+  <string name="2pshu6oiud2n61-n67">顶层</string>
+  <string name="2pshu6oiud2n61-n68">底层</string>
+  <string name="2pshu6oiud2n61-n69-tips">为方便拼接界面，可以在这里为组件指定设计图。
+设计图以半透明的方式显示在底层或顶层（均不影响正常操作），使用F6可切换。
+设计图只在设计期可见，不会发布到最终资源包中。</string>
+  <string name="2pshu6oiud2n61-n71">显示层次</string>
+  <!-- Builder - EtcPropsPanel -->
+  <string name="2pshu6oiguki62-n46">其它</string>
+  <string name="2pshu6oiguki62-n48">Tooltips</string>
+  <!-- Builder - DownloadDialog -->
+  <string name="2pshu6oi104iu63-n1">下载新版本</string>
+  <string name="2pshu6oi104iu63-n2">立即安装</string>
+  <string name="2pshu6oi104iu63-n3">残忍取消</string>
+  <string name="2pshu6oi104iu63-n9">正在拼命的下载。。。</string>
+  <string name="2pshu6oi104iu63-n10">下载完成！</string>
+  <string name="2pshu6oi104iu63-n11">正在启动安装，请耐心等候。。。</string>
+  <!-- Builder - AboutDialog -->
+  <string name="2pshu6oil2gzu66-n0">关于 FairyGUI Editor</string>
+  <string name="2pshu6oil2gzu66-n8">Editor</string>
+  <string name="2pshu6oil2gzu66-n14">关闭</string>
+  <!-- Builder - CreateMovieClipDialog -->
+  <string name="2pshu6oiyi3eu6i-n0">创建动画</string>
+  <string name="2pshu6oiyi3eu6i-n1">动画名称</string>
+  <string name="2pshu6oiyi3eu6i-n6">创建</string>
+  <string name="2pshu6oiyi3eu6i-n7">取消</string>
+  <string name="2pshu6oiyi3eu6i-n8">创建位置</string>
+  <string name="2pshu6oiyi3eu6i-n10">浏览..</string>
+  <!-- Builder - FindReferenceDialog -->
+  <string name="2pshu6oillhvu6j-n0">依赖关系查询</string>
+  <string name="2pshu6oillhvu6j-n14">关闭</string>
+  <string name="2pshu6oillhvu6j-n28">查询</string>
+  <string name="2pshu6oillhvu6j-n40">我依赖的资源</string>
+  <string name="2pshu6oillhvu6j-n41">依赖我的资源</string>
+  <string name="2pshu6oillhvu6j-n42">替换...</string>
+  <!-- Builder - StringsFunctionDialog -->
+  <string name="2pshu6oioqvzu6k-n0">字符串导入和导出</string>
+  <string name="2pshu6oioqvzu6k-n19-0">包1</string>
+  <string name="2pshu6oioqvzu6k-n19-1">包2</string>
+  <string name="2pshu6oioqvzu6k-n19-2">包3</string>
+  <string name="2pshu6oioqvzu6k-n39">选定一个或多个目标包</string>
+  <string name="2pshu6oioqvzu6k-n40">全选</string>
+  <string name="2pshu6oioqvzu6k-n41">清空</string>
+  <string name="2pshu6oioqvzu6k-n51">导出...</string>
+  <string name="2pshu6oioqvzu6k-n45">多国语言支持：
+1、使用导出功能，将包里所有文本属性的字符串提取出来，保存为XML格式的文件，将该文件提交翻译。
+2、翻译完毕后，可以重新导入到包中,则所有文本的内容将直接被替换。也可以使用SDK中UIPackage.setStringsSource方法动态导入。</string>
+  <string name="2pshu6oioqvzu6k-n46">导出所有字符串到文件</string>
+  <string name="2pshu6oioqvzu6k-n47">从文件中导入字符串，覆盖包中的文本（多个元件可能被修改）</string>
+  <string name="2pshu6oioqvzu6k-n43">下一步</string>
+  <string name="2pshu6oioqvzu6k-n53">浏览...</string>
+  <string name="2pshu6oioqvzu6k-n14">关闭</string>
+  <string name="2pshu6oioqvzu6k-n57">文件内容中包含以下包的字符串集</string>
+  <string name="2pshu6oioqvzu6k-n61">导入</string>
+  <!-- Builder - CreateComboBoxDialog -->
+  <string name="2pshu6oif814u6l-n0">创建下拉框</string>
+  <string name="2pshu6oif814u6l-n1">名称</string>
+  <string name="2pshu6oif814u6l-n6">创建</string>
+  <string name="2pshu6oif814u6l-n7">取消</string>
+  <string name="2pshu6oif814u6l-n12">创建位置</string>
+  <string name="2pshu6oif814u6l-n14">浏览..</string>
+  <string name="2pshu6oif814u6l-n18">下一步</string>
+  <string name="2pshu6oif814u6l-n17">下拉框由三部分组成
+(1)按钮
+(2)下拉列表
+(3)下拉列表项目</string>
+  <string name="2pshu6oif814u6l-n32">第一步：设计按钮</string>
+  <string name="2pshu6oif814u6l-n30">图片设置：（以下图片设置均为可选）</string>
+  <string name="2pshu6oif814u6l-n19">正常状态图片</string>
+  <string name="2pshu6oif814u6l-n20">按下状态图片</string>
+  <string name="2pshu6oif814u6l-n21">鼠标悬浮时图片</string>
+  <string name="2pshu6oif814u6l-n22">按下状态鼠标悬浮时图片</string>
+  <string name="2pshu6oif814u6l-n36">第二步：设计弹出组件</string>
+  <string name="2pshu6oif814u6l-n64">背景图片</string>
+  <string name="2pshu6oif814u6l-n42">第三步：设计弹出列表中每个项目。列表中每个项目是一个单选按钮。</string>
+  <string name="2pshu6oif814u6l-n49">正常状态图片</string>
+  <string name="2pshu6oif814u6l-n50">按下状态图片</string>
+  <string name="2pshu6oif814u6l-n51">鼠标悬浮时图片</string>
+  <string name="2pshu6oif814u6l-n52">按下状态鼠标悬浮时图片</string>
+  <string name="2pshu6oif814u6l-n60">图片设置：（以下图片设置均为可选）</string>
+  <string name="2pshu6oif814u6l-n63">上一步</string>
+  <!-- Builder - CreateLabelDialog -->
+  <string name="2pshu6oif814u6n-n0">创建标签</string>
+  <string name="2pshu6oif814u6n-n1">名称</string>
+  <string name="2pshu6oif814u6n-n2">大小</string>
+  <string name="2pshu6oif814u6n-n6">创建</string>
+  <string name="2pshu6oif814u6n-n7">取消</string>
+  <string name="2pshu6oif814u6n-n9">X</string>
+  <string name="2pshu6oif814u6n-n12">创建位置</string>
+  <string name="2pshu6oif814u6n-n14">浏览..</string>
+  <!-- Builder - AtlasList_header -->
+  <string name="2pshu6oimellu6t-n0">编号</string>
+  <string name="2pshu6oimellu6t-n12">大小</string>
+  <string name="2pshu6oimellu6t-n13">名称</string>
+
+  <string name="2pshu6oimellu6t-n15-tips">格式：长x宽
+默认不需要填写，表示自动计算最适合的大小</string>
+  <!-- Builder - ImagePropsPanel -->
+  <string name="2pshu6oipstgu6v-n67">图片</string>
+  <string name="2pshu6oipstgu6v-n71">颜色</string>
+  <string name="2pshu6oipstgu6v-n73">水平翻转</string>
+  <string name="2pshu6oipstgu6v-n74">垂直翻转</string>
+  <string name="2pshu6oipstgu6v-n75">亮度</string>
+  <string name="2pshu6oipstgu6v-n87">填充方法</string>
+  <string name="2pshu6oipstgu6v-n88-tips">抱歉此功能未能提供预览</string>
+  <string name="2pshu6oipstgu6v-n89">填充比例</string>
+  <string name="2pshu6oipstgu6v-n92">填充原点</string>
+  <string name="2pshu6oipstgu6v-n93">顺时针方向</string>
+  <string name="2pshu6oipstgu6v-n77">将我作为组件的点击测试图片</string>
+  <string name="2pshu6oipstgu6v-n80-tips">勾选后，在组件点击测试时，点击的坐标将映射到图片中的坐标，
+如果在该坐标的像素为透明，则点击穿透组件。</string>
+
+  <string name="2pshu6oipstgu6v-n96">将我作为组件的遮罩</string>
+  <!-- Builder - TimelinePanel -->
+  <string name="2pshu6oitvg7u72-n21">fps</string>
+  <string name="2pshu6oitvg7u72-n24">frame:</string>
+  <string name="2pshu6oitvg7u72-n26">time:</string>
+  <string name="2pshu6oitvg7u72-n27">1s</string>
+  <string name="2pshu6oitvg7u72-n30">选择一个元件后，在右键菜单中选择改变目标属性</string>
+  <!-- Builder - TransitionPropsPanel -->
+  <string name="2pshu6oitvg7u73-n57">动效</string>
+  <string name="2pshu6oitvg7u73-n50">滚动类型</string>
+  <string name="2pshu6oitvg7u73-n52">滚动条显示</string>
+  <string name="2pshu6oitvg7u73-n54">将滚动条显示在左边</string>
+  <string name="2pshu6oitvg7u73-n66">删除动效</string>
+  <string name="2pshu6oitvg7u73-n69">名称</string>
+  <string name="2pshu6oitvg7u73-n70">忽略显示控制器影响</string>
+  <string name="2pshu6oitvg7u73-n71-tips">勾选后，动效开始时所有参与此动效的元件不受显示控制器的控制，也就是不会被显示控制器隐藏。
+动效结束后恢复控制。</string>
+  <string name="2pshu6oitvg7u73-n72">自动播放</string>
+  <string name="2pshu6oitvg7u73-n73">重复次数</string>
+  <string name="2pshu6oitvg7u73-n76">延迟</string>
+  <!-- Builder - TransitionFramePanel -->
+  <string name="2pshu6oiwzy5u7a-n85">帧</string>
+  <string name="2pshu6oiwzy5u7a-n79">X</string>
+  <string name="2pshu6oiwzy5u7a-n80">Y</string>
+  <string name="2pshu6oiwzy5u7a-n124-tips">如果不勾选，表示不改变当前的值</string>
+  <string name="2pshu6oiwzy5u7a-n81">宽</string>
+  <string name="2pshu6oiwzy5u7a-n82">高</string>
+  <string name="2pshu6oiwzy5u7a-n125-tips">如果不勾选，表示不改变当前的值</string>
+  <string name="2pshu6oiwzy5u7a-n33">Tween</string>
+  <string name="2pshu6oiwzy5u7a-n40">透明度</string>
+  <string name="2pshu6oiwzy5u7a-n43">旋转</string>
+  <string name="2pshu6oiwzy5u7a-n46">颜色</string>
+  <string name="2pshu6oiwzy5u7a-n83">帧</string>
+  <string name="2pshu6oiwzy5u7a-n49">播放</string>
+  <string name="2pshu6oiwzy5u7a-n54">ScaleX</string>
+  <string name="2pshu6oiwzy5u7a-n55">ScaleY</string>
+  <string name="2pshu6oiwzy5u7a-n64">轴心X</string>
+  <string name="2pshu6oiwzy5u7a-n65">轴心Y</string>
+  <string name="2pshu6oiwzy5u7a-n77">格式name=index或者name=$page，例如c1=1,c1=$up，多个设置用逗号分隔。</string>
+  <string name="2pshu6oiwzy5u7a-n86">缓动函数</string>
+  <string name="2pshu6oiwzy5u7a-n104">yoyo</string>
+  <string name="2pshu6oiwzy5u7a-n105">重复</string>
+  <string name="2pshu6oiwzy5u7a-n127">(-1表示无限次数)</string>
+  <string name="2pshu6oiwzy5u7a-n90">声音</string>
+  <string name="2pshu6oiwzy5u7a-n100">音量</string>
+  <string name="2pshu6oiwzy5u7a-n93">动效名称</string>
+  <string name="2pshu6oiwzy5u7a-n96">播放次数</string>
+  <string name="2pshu6oiwzy5u7a-n103">(0表示停止播放，-1表示无限次数)</string>
+  <string name="2pshu6oiwzy5u7a-n108">标签</string>
+  <string name="2pshu6oiwzy5u7a-n115">震动幅度</string>
+  <string name="2pshu6oiwzy5u7a-n117">持续时间</string>
+  <string name="2pshu6oiwzy5u7a-n122">可见</string>
+  <!-- Builder - TimelineNameItem -->
+  <string name="2pshu6oij9jou7j-n1">Alpha</string>
+  <!-- Builder - BasicPropsInTransPanel -->
+  <string name="2pshu6oiq5ueu7m-n46">基本</string>
+  <string name="2pshu6oiq5ueu7m-n17">名称</string>
+  <string name="2pshu6oiq5ueu7m-n13">X</string>
+  <string name="2pshu6oiq5ueu7m-n22">Y</string>
+  <string name="2pshu6oiq5ueu7m-n24">宽</string>
+  <string name="2pshu6oiq5ueu7m-n26">高</string>
+  <string name="2pshu6oiq5ueu7m-n33">透明度</string>
+  <string name="2pshu6oiq5ueu7m-n35">旋转</string>
+  <string name="2pshu6oiq5ueu7m-n39">轴心X</string>
+  <string name="2pshu6oiq5ueu7m-n40">轴心Y</string>
+  <string name="2pshu6oiq5ueu7m-n52">ScaleX</string>
+  <string name="2pshu6oiq5ueu7m-n53">ScaleY</string>
+  <!-- Builder - TweenEditPanel -->
+  <string name="2pshu6oijcdgu7r-n5">缓动函数</string>
+  <string name="2pshu6oijcdgu7r-n9">持续时间</string>
+  <string name="2pshu6oijcdgu7r-n11">延迟时间</string>
+  <!-- Builder - OpenProjectWindow -->
+
+  <string name="2pshu6oi8z21u7s-n2">打开</string>
+  <string name="2pshu6oi8z21u7s-n3">打开其他...</string>
+  <string name="2pshu6oi8z21u7s-n6">选择最近打开的项目：</string>
+  <string name="2pshu6oi8z21u7s-n24-tips">删除历史记录</string>
+  <string name="2pshu6oi8z21u7s-n15">项目名称</string>
+  <string name="2pshu6oi8z21u7s-n16">项目位置</string>
+  <string name="2pshu6oi8z21u7s-n19">浏览..</string>
+  <string name="2pshu6oi8z21u7s-n20">创建</string>
+  <string name="2pshu6oi8z21u7s-n21">项目类型</string>
+  <string name="2pshu6oi8z21u7s-n10">打开项目</string>
+  <string name="2pshu6oi8z21u7s-n11">创建项目</string>
+  <!-- Builder - UpgradeWindow -->
+  <string name="2pshu6oisux8u7v-n14">Release Notes:</string>
+  <string name="2pshu6oisux8u7v-n15">跳过此版本</string>
+  <string name="2pshu6oisux8u7v-n16">下次提醒我</string>
+  <string name="2pshu6oisux8u7v-n17">下载更新</string>
+  <!-- Builder - ScrollEditPanel -->
+  <string name="2pshu6oim4vsu7x-n13">滚动条显示</string>
+  <string name="2pshu6oim4vsu7x-n15">将垂直滚动条显示在左边</string>
+  <string name="2pshu6oim4vsu7x-n16">定位</string>
+  <string name="2pshu6oim4vsu7x-n17">上</string>
+  <string name="2pshu6oim4vsu7x-n19">下</string>
+  <string name="2pshu6oim4vsu7x-n21">左</string>
+  <string name="2pshu6oim4vsu7x-n23">右</string>
+  <string name="2pshu6oim4vsu7x-n26">滚动位置自动贴近元件</string>
+  <string name="2pshu6oim4vsu7x-n27">仅在内容溢出时才显示滚动条</string>
+  <string name="2pshu6oim4vsu7x-n29">覆盖滚动条资源</string>
+  <string name="2pshu6oim4vsu7x-n59">设置</string>
+  <string name="2pshu6oim4vsu7x-n51">垂直</string>
+  <string name="2pshu6oim4vsu7x-n60">水平</string>
+  <string name="2pshu6oim4vsu7x-n65">边缘回弹效果</string>
+  <string name="2pshu6oim4vsu7x-n67">触摸滚动效果</string>
+  <string name="2pshu6oim4vsu7x-n69">页面模式</string>
+  <string name="2pshu6oim4vsu7x-n70">禁用惯性</string>
+  <!-- Builder - MultiSelectionPanel -->
+  <string name="2pshu6oiqacnu81-n3">包围</string>
+  <string name="2pshu6oiqacnu81-n7">X</string>
+  <string name="2pshu6oiqacnu81-n9">Y</string>
+  <string name="2pshu6oiqacnu81-n11">宽</string>
+  <string name="2pshu6oiqacnu81-n12">高</string>
+  <!-- Builder - CreateScrollBarDialog -->
+  <string name="2pshu6oifmz5u85-n0">创建滚动条</string>
+  <string name="2pshu6oifmz5u85-n1">名称</string>
+  <string name="2pshu6oifmz5u85-n6">创建</string>
+  <string name="2pshu6oifmz5u85-n7">取消</string>
+  <string name="2pshu6oifmz5u85-n12">创建位置</string>
+  <string name="2pshu6oifmz5u85-n14">浏览..</string>
+  <string name="2pshu6oifmz5u85-n18">下一步</string>
+  <string name="2pshu6oifmz5u85-n17">滚动条由四部分组成
+(1)向上/向左箭头按钮
+(2)向下/向右箭头按钮
+(3)滚动条背景
+(4)把手按钮
+其中上下/左右的箭头按钮在移动设备上不是必须的</string>
+  <string name="2pshu6oifmz5u85-n64">垂直滚动条</string>
+  <string name="2pshu6oifmz5u85-n65">水平滚动条</string>
+  <string name="2pshu6oifmz5u85-n66">不创建箭头按钮</string>
+  <string name="2pshu6oifmz5u85-n32">第一步：设计向上/向左按钮</string>
+  <string name="2pshu6oifmz5u85-n30">图片设置：（以下图片设置均为可选）</string>
+  <string name="2pshu6oifmz5u85-n19">正常状态图片</string>
+  <string name="2pshu6oifmz5u85-n20">按下状态图片</string>
+  <string name="2pshu6oifmz5u85-n21">鼠标悬浮时图片</string>
+  <string name="2pshu6oifmz5u85-n22">按下状态鼠标悬浮时图片</string>
+  <string name="2pshu6oifmz5u85-n36">第三步：设计滚动条背景（可选）</string>
+  <string name="2pshu6oifmz5u85-n81">背景图片</string>
+  <string name="2pshu6oifmz5u85-n42">第二步：设计向下/向右按钮</string>
+  <string name="2pshu6oifmz5u85-n49">正常状态图片</string>
+  <string name="2pshu6oifmz5u85-n50">按下状态图片</string>
+  <string name="2pshu6oifmz5u85-n51">鼠标悬浮时图片</string>
+  <string name="2pshu6oifmz5u85-n52">按下状态鼠标悬浮时图片</string>
+  <string name="2pshu6oifmz5u85-n60">图片设置：（以下图片设置均为可选）</string>
+  <string name="2pshu6oifmz5u85-n63">上一步</string>
+  <string name="2pshu6oifmz5u85-n68">第四步：设计把手按钮</string>
+  <string name="2pshu6oifmz5u85-n70">图片设置：（以下图片设置均为可选）</string>
+  <string name="2pshu6oifmz5u85-n71">正常状态图片</string>
+  <string name="2pshu6oifmz5u85-n72">按下状态图片</string>
+  <string name="2pshu6oifmz5u85-n73">鼠标悬浮时图片</string>
+  <string name="2pshu6oifmz5u85-n74">按下状态鼠标悬浮时图片</string>
+  <!-- Builder - CreateProgressBarDialog -->
+  <string name="2pshu6oiw67pu87-n0">创建进度条</string>
+  <string name="2pshu6oiw67pu87-n1">名称</string>
+  <string name="2pshu6oiw67pu87-n6">创建</string>
+  <string name="2pshu6oiw67pu87-n7">取消</string>
+  <string name="2pshu6oiw67pu87-n12">创建位置</string>
+  <string name="2pshu6oiw67pu87-n14">浏览..</string>
+  <string name="2pshu6oiw67pu87-n17">进度条由两部分组成
+(1)进度条背景
+(2)进度条伸缩部分</string>
+  <string name="2pshu6oiw67pu87-n36">进度条背景</string>
+  <string name="2pshu6oiw67pu87-n82">进度条伸缩部分</string>
+  <string name="2pshu6oiw67pu87-n87">标题类型</string>
+  <string name="2pshu6oiw67pu87-n89">反向</string>
+  <!-- Builder - CreateSliderDialog -->
+  <string name="2pshu6oijgs1u8a-n0">创建滑动条</string>
+  <string name="2pshu6oijgs1u8a-n1">名称</string>
+  <string name="2pshu6oijgs1u8a-n6">创建</string>
+  <string name="2pshu6oijgs1u8a-n7">取消</string>
+  <string name="2pshu6oijgs1u8a-n12">创建位置</string>
+  <string name="2pshu6oijgs1u8a-n14">浏览..</string>
+  <string name="2pshu6oijgs1u8a-n18">下一步</string>
+  <string name="2pshu6oijgs1u8a-n17">滑动条由三部分组成
+(1)滑动条背景
+(2)滑动条伸缩部分
+(3)拖动滑块</string>
+  <string name="2pshu6oijgs1u8a-n64">水平滑动条</string>
+  <string name="2pshu6oijgs1u8a-n65">垂直滑动条</string>
+  <string name="2pshu6oijgs1u8a-n90">标题类型</string>
+  <string name="2pshu6oijgs1u8a-n36">第一步：设计滑动条背景</string>
+  <string name="2pshu6oijgs1u8a-n92">背景图片</string>
+  <string name="2pshu6oijgs1u8a-n63">上一步</string>
+  <string name="2pshu6oijgs1u8a-n68">第三步：设计拖动滑块按钮</string>
+  <string name="2pshu6oijgs1u8a-n70">图片设置：（以下图片设置均为可选）</string>
+  <string name="2pshu6oijgs1u8a-n71">正常状态图片</string>
+  <string name="2pshu6oijgs1u8a-n72">按下状态图片</string>
+  <string name="2pshu6oijgs1u8a-n73">鼠标悬浮时图片</string>
+  <string name="2pshu6oijgs1u8a-n74">按下状态鼠标悬浮时图片</string>
+  <string name="2pshu6oijgs1u8a-n83">第二步：设计滑动条伸缩部分</string>
+  <string name="2pshu6oijgs1u8a-n88">图片</string>
+  <!-- Builder - ChooseFontDialog -->
+  <string name="2pshu6oi10j9iu8e-n0">选择字体</string>
+  <string name="2pshu6oi10j9iu8e-n40">选择</string>
+  <string name="2pshu6oi10j9iu8e-n41">取消</string>
+  <!-- Builder - MultiImageEditDialog -->
+  <string name="2pshu6oi8swdiu8f-n24">批量修改图片属性</string>
+  <string name="2pshu6oi8swdiu8f-n15">使用九宫格进行缩放</string>
+  <string name="2pshu6oi8swdiu8f-n16">使用平铺进行缩放</string>
+  <string name="2pshu6oi8swdiu8f-n21">保存</string>
+  <string name="2pshu6oi8swdiu8f-n23">取消</string>
+  <string name="2pshu6oi8swdiu8f-n29">无</string>
+  <string name="2pshu6oi8swdiu8f-n39">缩放模式</string>
+  <string name="2pshu6oi8swdiu8f-n40">允许平滑</string>
+  <string name="2pshu6oi8swdiu8f-n41">质量</string>
+  <string name="2pshu6oi8swdiu8f-n42">纹理集</string>
+  <!-- Builder - CreatePopupMenuDialog -->
+  <string name="2pshu6oit3skiu8g-n0">创建弹出菜单</string>
+  <string name="2pshu6oit3skiu8g-n1">名称</string>
+  <string name="2pshu6oit3skiu8g-n6">创建</string>
+  <string name="2pshu6oit3skiu8g-n7">取消</string>
+  <string name="2pshu6oit3skiu8g-n12">创建位置</string>
+  <string name="2pshu6oit3skiu8g-n14">浏览..</string>
+  <string name="2pshu6oit3skiu8g-n17">弹出菜单由两部分组成
+(1)菜单背景
+(2)菜单项目列表</string>
+  <string name="2pshu6oit3skiu8g-n36">菜单背景</string>
+  <string name="2pshu6oit3skiu8g-n93">正常状态图片</string>
+  <string name="2pshu6oit3skiu8g-n94">按下状态图片</string>
+  <string name="2pshu6oit3skiu8g-n95">鼠标悬浮时图片</string>
+  <string name="2pshu6oit3skiu8g-n96">按下状态鼠标悬浮时图片</string>
+  <string name="2pshu6oit3skiu8g-n102">菜单项目按钮图片设置：（以下图片设置均为可选）</string>
+  <!-- Builder - SearchPanel -->
+  <string name="2pshu6oirjtoiu8j-n32">搜索</string>
+  <!-- Builder - ReplaceRefDialog -->
+  <string name="2pshu6oithzxiu8m-n0">替换元件引用</string>
+  <string name="2pshu6oithzxiu8m-n1">确定</string>
+  <string name="2pshu6oithzxiu8m-n6">取消</string>
+  <string name="2pshu6oithzxiu8m-n7">将对查找目标的引用全部替换为下面所输入的元件</string>
+  <!-- Builder - TextInputEditPanel -->
+  <string name="2pshu6oipb9oiu8p-n42-tips">输入框为空时显示的提示文字
+可以直接使用UBB语法</string>
+  <string name="2pshu6oipb9oiu8p-n34">最大长度</string>
+  <string name="2pshu6oipb9oiu8p-n36">输入限制</string>
+  <string name="2pshu6oipb9oiu8p-n40">键盘类型</string>
+  <string name="2pshu6oipb9oiu8p-n41">提示文字</string>
+  <string name="2pshu6oipb9oiu8p-n43-tips">仅在移动平台有效</string>
+  <!-- Builder - PlugInManageDialog -->
+  <string name="2pshu6oiocfaiu8q-n0">插件管理器</string>
+  <string name="2pshu6oiocfaiu8q-n28">打开插件目录...</string>
+  <string name="2pshu6oiocfaiu8q-n14">关闭</string>
+  <string name="2pshu6oiocfaiu8q-n40">已安装的插件:</string>
+  <string name="2pshu6oiocfaiu8q-n41">重新载入</string>
+  <!-- Builder - PlugInEdit_header -->
+  <string name="2pshu6oiocfaiu8r-n12">名称</string>
+  <string name="2pshu6oiocfaiu8r-n13">功能</string>
+  <!-- Builder - ImportProgressDialog -->
+  <string name="2pshu6oiryi8iu8t-n1">导入素材</string>
+  <string name="2pshu6oiryi8iu8t-n3">取消</string>
+  <string name="2pshu6oiryi8iu8t-n9">正在导入</string>
+  <!-- Builder - ProjectProps_header -->
+  <string name="2pshu6oikqx1iu8u-n12">Key</string>
+  <string name="2pshu6oikqx1iu8u-n13">Value</string>
+  <!-- Builder - ScrollBarSettingDialog -->
+  <string name="2pshu6oiorb8iu93-n0">设置滚动条资源</string>
+  <string name="2pshu6oiorb8iu93-n1">确定</string>
+  <string name="2pshu6oiorb8iu93-n6">取消</string>
+  <string name="2pshu6oiorb8iu93-n7">水平</string>
+  <string name="2pshu6oiorb8iu93-n8">垂直</string>
+  <!-- Builder - TransitionListPanel -->
+  <string name="2pshu6oikrzwiu99-n3">动效</string>
+  <string name="2pshu6oikrzwiu99-n5-tips">创建动效</string>
+  <string name="2pshu6oikrzwiu99-n6">退出编辑</string>
+  <!-- Builder - ChildrenPanel -->
+  <string name="2pshu6oioj7qiu9e-n18">显示列表</string>
+ <!-- Builder - ChildrenPanel_header -->
+  <string name="2pshu6oioj7qiu9f-n15-tips">取消所有隐藏</string>
+  <string name="2pshu6oioj7qiu9f-n17-tips">取消所有锁定</string>
+  <string name="2pshu6oioj7qiu9f-n25-tips">全部展开/全部收起</string>
+  <!-- Builder - AtlasSettingsDialog -->
+  <string name="2pshu6oirxviiu9k-n61">纹理集定义</string>
+  <string name="2pshu6oirxviiu9k-n59">最大允许纹理大小</string>
+  <string name="2pshu6oirxviiu9k-n63">保存</string>
+  <string name="2pshu6oirxviiu9k-n64">取消</string>
+  <!-- Builder - CodeGenSettingsDialog -->
+  <string name="2pshu6oiqnujiu9l-n61">代码生成设置</string>
+  <string name="2pshu6oiqnujiu9l-n59">这里的设置将应用于整个项目</string>
+  <string name="2pshu6oiqnujiu9l-n63">保存</string>
+  <string name="2pshu6oiqnujiu9l-n64">取消</string>
+  <string name="2pshu6oiqnujiu9l-n66">代码保存路径</string>
+  <string name="2pshu6oiqnujiu9l-n68">组件名前缀</string>
+  <string name="2pshu6oiqnujiu9l-n70">成员名称前缀</string>
+  <string name="2pshu6oiqnujiu9l-n72">包名称</string>
+  <string name="2pshu6oiqnujiu9l-n74">浏览..</string>
+  <string name="2pshu6oiqnujiu9l-n78">不生成使用默认名称的成员</string>
+  <!-- Builder - EffectPropsPanel -->
+  <string name="2pshu6oik3u8iu9m-n46">效果</string>
+  <string name="2pshu6oik3u8iu9m-n56">BlendMode</string>
+  <string name="2pshu6oik3u8iu9m-n59">滤镜</string>
+  <string name="2pshu6oik3u8iu9m-n63">亮度</string>
+  <string name="2pshu6oik3u8iu9m-n65">对比度</string>
+  <string name="2pshu6oik3u8iu9m-n67">饱和度</string>
+  <string name="2pshu6oik3u8iu9m-n69">色相</string>
+  <!-- Builder - GearPropsItem -->
+  <string name="2pshu6oifr0ciu9n-n44">缓动</string>
+</resources>

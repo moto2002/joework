@@ -1,0 +1,305 @@
+fileFormatVersion: 2
+guid: 333fce49f3750134397455c743c46ab5
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: B_gown_a
+    100004: B_gown_b
+    100006: B_gown_c
+    100008: BUFFBONE_GLB_CHANNEL_LOC
+    100010: BUFFBONE_GLB_GROUND_LOC
+    100012: BUFFBONE_GLB_WEAPON_1
+    100014: C_BUFFBONE_GLB_CENTER_LOC
+    100016: C_BUFFBONE_GLB_CHEST_LOC
+    100018: C_BUFFBONE_GLB_HEAD_LOC
+    100020: C_BUFFBONE_GLB_LAYOUT_LOC
+    100022: C_BUFFBONE_GLB_OVERHEAD_LOC
+    100024: Cap_a
+    100026: Cap_b
+    100028: Cap_c
+    100030: F_gown_a
+    100032: F_gown_b
+    100034: F_gown_c
+    100036: Head
+    100038: L_arm
+    100040: L_BUFFBONE_GLB_FOOT_LOC
+    100042: L_BUFFBONE_GLB_HAND_LOC
+    100044: L_finger_a
+    100046: L_finger_b
+    100048: L_forearm
+    100050: L_gown_a
+    100052: L_gown_b
+    100054: L_gown_c
+    100056: L_hand
+    100058: L_PARENTING_HAND_LOC
+    100060: L_shoulder
+    100062: L_thumb_a
+    100064: L_thumb_b
+    100066: Neck
+    100068: R_arm
+    100070: R_BUFFBONE_GLB_FOOT_LOC
+    100072: R_BUFFBONE_GLB_HAND_LOC
+    100074: R_finger_a
+    100076: R_finger_b
+    100078: R_forearm
+    100080: R_gown_a
+    100082: R_gown_b
+    100084: R_gown_c
+    100086: R_hand
+    100088: R_PARENTING_HAND_LOC
+    100090: R_shoulder
+    100092: R_thumb_a
+    100094: R_thumb_b
+    100096: Root
+    100098: Shield
+    100100: Spine
+    100102: Spine1
+    100104: transformRed_Minion_Basic
+    100106: Weapon
+    400000: //RootNode
+    400002: B_gown_a
+    400004: B_gown_b
+    400006: B_gown_c
+    400008: BUFFBONE_GLB_CHANNEL_LOC
+    400010: BUFFBONE_GLB_GROUND_LOC
+    400012: BUFFBONE_GLB_WEAPON_1
+    400014: C_BUFFBONE_GLB_CENTER_LOC
+    400016: C_BUFFBONE_GLB_CHEST_LOC
+    400018: C_BUFFBONE_GLB_HEAD_LOC
+    400020: C_BUFFBONE_GLB_LAYOUT_LOC
+    400022: C_BUFFBONE_GLB_OVERHEAD_LOC
+    400024: Cap_a
+    400026: Cap_b
+    400028: Cap_c
+    400030: F_gown_a
+    400032: F_gown_b
+    400034: F_gown_c
+    400036: Head
+    400038: L_arm
+    400040: L_BUFFBONE_GLB_FOOT_LOC
+    400042: L_BUFFBONE_GLB_HAND_LOC
+    400044: L_finger_a
+    400046: L_finger_b
+    400048: L_forearm
+    400050: L_gown_a
+    400052: L_gown_b
+    400054: L_gown_c
+    400056: L_hand
+    400058: L_PARENTING_HAND_LOC
+    400060: L_shoulder
+    400062: L_thumb_a
+    400064: L_thumb_b
+    400066: Neck
+    400068: R_arm
+    400070: R_BUFFBONE_GLB_FOOT_LOC
+    400072: R_BUFFBONE_GLB_HAND_LOC
+    400074: R_finger_a
+    400076: R_finger_b
+    400078: R_forearm
+    400080: R_gown_a
+    400082: R_gown_b
+    400084: R_gown_c
+    400086: R_hand
+    400088: R_PARENTING_HAND_LOC
+    400090: R_shoulder
+    400092: R_thumb_a
+    400094: R_thumb_b
+    400096: Root
+    400098: Shield
+    400100: Spine
+    400102: Spine1
+    400104: transformRed_Minion_Basic
+    400106: Weapon
+    4300000: transformRed_Minion_Basic
+    7400000: Attack
+    9500000: //RootNode
+    13700000: transformRed_Minion_Basic
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Attack
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: C_BUFFBONE_GLB_LAYOUT_LOC
+        weight: 1
+      - path: C_BUFFBONE_GLB_OVERHEAD_LOC
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/BUFFBONE_GLB_CHANNEL_LOC
+        weight: 1
+      - path: Root/BUFFBONE_GLB_GROUND_LOC
+        weight: 1
+      - path: Root/C_BUFFBONE_GLB_CENTER_LOC
+        weight: 1
+      - path: Root/L_BUFFBONE_GLB_FOOT_LOC
+        weight: 1
+      - path: Root/R_BUFFBONE_GLB_FOOT_LOC
+        weight: 1
+      - path: Root/Spine
+        weight: 1
+      - path: Root/Spine/B_gown_a
+        weight: 1
+      - path: Root/Spine/B_gown_a/B_gown_b
+        weight: 1
+      - path: Root/Spine/B_gown_a/B_gown_b/B_gown_c
+        weight: 1
+      - path: Root/Spine/F_gown_a
+        weight: 1
+      - path: Root/Spine/F_gown_a/F_gown_b
+        weight: 1
+      - path: Root/Spine/F_gown_a/F_gown_b/F_gown_c
+        weight: 1
+      - path: Root/Spine/L_gown_a
+        weight: 1
+      - path: Root/Spine/L_gown_a/L_gown_b
+        weight: 1
+      - path: Root/Spine/L_gown_a/L_gown_b/L_gown_c
+        weight: 1
+      - path: Root/Spine/R_gown_a
+        weight: 1
+      - path: Root/Spine/R_gown_a/R_gown_b
+        weight: 1
+      - path: Root/Spine/R_gown_a/R_gown_b/R_gown_c
+        weight: 1
+      - path: Root/Spine/Spine1
+        weight: 1
+      - path: Root/Spine/Spine1/C_BUFFBONE_GLB_CHEST_LOC
+        weight: 1
+      - path: Root/Spine/Spine1/L_shoulder
+        weight: 1
+      - path: Root/Spine/Spine1/L_shoulder/L_arm
+        weight: 1
+      - path: Root/Spine/Spine1/L_shoulder/L_arm/L_forearm
+        weight: 1
+      - path: Root/Spine/Spine1/L_shoulder/L_arm/L_forearm/L_hand
+        weight: 1
+      - path: Root/Spine/Spine1/L_shoulder/L_arm/L_forearm/L_hand/L_BUFFBONE_GLB_HAND_LOC
+        weight: 1
+      - path: Root/Spine/Spine1/L_shoulder/L_arm/L_forearm/L_hand/L_finger_a
+        weight: 1
+      - path: Root/Spine/Spine1/L_shoulder/L_arm/L_forearm/L_hand/L_finger_a/L_finger_b
+        weight: 1
+      - path: Root/Spine/Spine1/L_shoulder/L_arm/L_forearm/L_hand/L_PARENTING_HAND_LOC
+        weight: 1
+      - path: Root/Spine/Spine1/L_shoulder/L_arm/L_forearm/L_hand/L_thumb_a
+        weight: 1
+      - path: Root/Spine/Spine1/L_shoulder/L_arm/L_forearm/L_hand/L_thumb_a/L_thumb_b
+        weight: 1
+      - path: Root/Spine/Spine1/L_shoulder/L_arm/L_forearm/L_hand/Shield
+        weight: 1
+      - path: Root/Spine/Spine1/Neck
+        weight: 1
+      - path: Root/Spine/Spine1/Neck/Head
+        weight: 1
+      - path: Root/Spine/Spine1/Neck/Head/C_BUFFBONE_GLB_HEAD_LOC
+        weight: 1
+      - path: Root/Spine/Spine1/Neck/Head/Cap_a
+        weight: 1
+      - path: Root/Spine/Spine1/Neck/Head/Cap_a/Cap_b
+        weight: 1
+      - path: Root/Spine/Spine1/Neck/Head/Cap_a/Cap_b/Cap_c
+        weight: 1
+      - path: Root/Spine/Spine1/R_shoulder
+        weight: 1
+      - path: Root/Spine/Spine1/R_shoulder/R_arm
+        weight: 1
+      - path: Root/Spine/Spine1/R_shoulder/R_arm/R_forearm
+        weight: 1
+      - path: Root/Spine/Spine1/R_shoulder/R_arm/R_forearm/R_hand
+        weight: 1
+      - path: Root/Spine/Spine1/R_shoulder/R_arm/R_forearm/R_hand/BUFFBONE_GLB_WEAPON_1
+        weight: 1
+      - path: Root/Spine/Spine1/R_shoulder/R_arm/R_forearm/R_hand/R_BUFFBONE_GLB_HAND_LOC
+        weight: 1
+      - path: Root/Spine/Spine1/R_shoulder/R_arm/R_forearm/R_hand/R_finger_a
+        weight: 1
+      - path: Root/Spine/Spine1/R_shoulder/R_arm/R_forearm/R_hand/R_finger_a/R_finger_b
+        weight: 1
+      - path: Root/Spine/Spine1/R_shoulder/R_arm/R_forearm/R_hand/R_PARENTING_HAND_LOC
+        weight: 1
+      - path: Root/Spine/Spine1/R_shoulder/R_arm/R_forearm/R_hand/R_thumb_a
+        weight: 1
+      - path: Root/Spine/Spine1/R_shoulder/R_arm/R_forearm/R_hand/R_thumb_a/R_thumb_b
+        weight: 1
+      - path: Root/Spine/Spine1/R_shoulder/R_arm/R_forearm/R_hand/Weapon
+        weight: 1
+      - path: transformRed_Minion_Basic
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

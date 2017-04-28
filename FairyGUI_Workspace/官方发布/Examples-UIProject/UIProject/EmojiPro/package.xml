@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="evxk1eek" jpegQuality="80" compressPNG="true">
+  <resources>
+    <folder id="g25y0" name="emoji" folder=""/>
+    <image id="g25y1" name="1f626" folder="g25y0" qualityOption="source" file="g25y1.png" size="60,58" exported="true"/>
+    <image id="g25y2" name="1f625" folder="g25y0" qualityOption="source" file="g25y2.png" size="62,60" exported="true"/>
+    <image id="g25y3" name="1f624" folder="g25y0" qualityOption="source" file="g25y3.png" size="62,61" exported="true"/>
+    <image id="g25y4" name="1f623" folder="g25y0" qualityOption="source" file="g25y4.png" size="62,60" exported="true"/>
+    <image id="g25y5" name="1f622" folder="g25y0" qualityOption="source" file="g25y5.png" size="62,60" exported="true"/>
+    <image id="g25y6" name="1f621" folder="g25y0" qualityOption="source" file="g25y6.png" size="62,60" exported="true"/>
+    <image id="g25y7" name="1f620" folder="g25y0" qualityOption="source" file="g25y7.png" size="62,60" exported="true"/>
+    <image id="g25y8" name="1f619" folder="g25y0" qualityOption="source" file="g25y8.png" size="60,58" exported="true"/>
+    <image id="g25y9" name="1f618" folder="g25y0" qualityOption="source" file="g25y9.png" size="63,60" exported="true"/>
+    <image id="g25ya" name="1f617" folder="g25y0" qualityOption="source" file="g25ya.png" size="60,58" exported="true"/>
+    <image id="g25yb" name="1f616" folder="g25y0" qualityOption="source" file="g25yb.png" size="62,60" exported="true"/>
+    <image id="g25yc" name="1f615" folder="g25y0" qualityOption="source" file="g25yc.png" size="60,58" exported="true"/>
+    <image id="g25yd" name="1f614" folder="g25y0" qualityOption="source" file="g25yd.png" size="62,60" exported="true"/>
+    <image id="g25ye" name="1f613" folder="g25y0" qualityOption="source" file="g25ye.png" size="62,63" exported="true"/>
+    <image id="g25yf" name="1f612" folder="g25y0" qualityOption="source" file="g25yf.png" size="62,60" exported="true"/>
+    <image id="g25yg" name="1f611" folder="g25y0" qualityOption="source" file="g25yg.png" size="60,58" exported="true"/>
+    <image id="g25yh" name="1f610" folder="g25y0" qualityOption="source" file="g25yh.png" size="62,60" exported="true"/>
+    <image id="g25yi" name="1f609" folder="g25y0" qualityOption="source" file="g25yi.png" size="62,60" exported="true"/>
+    <image id="g25yj" name="1f608" folder="g25y0" qualityOption="source" file="g25yj.png" size="64,63" exported="true"/>
+    <image id="g25yk" name="1f607" folder="g25y0" qualityOption="source" file="g25yk.png" size="62,64" exported="true"/>
+    <image id="g25yl" name="1f606" folder="g25y0" qualityOption="source" file="g25yl.png" size="62,60" exported="true"/>
+    <image id="g25ym" name="1f605" folder="g25y0" qualityOption="source" file="g25ym.png" size="62,60" exported="true"/>
+    <image id="g25yn" name="1f604" folder="g25y0" qualityOption="source" file="g25yn.png" size="62,60" exported="true"/>
+    <image id="g25yo" name="1f603" folder="g25y0" qualityOption="source" file="g25yo.png" size="62,60" exported="true"/>
+    <image id="g25yp" name="1f602" folder="g25y0" qualityOption="source" file="g25yp.png" size="62,60" exported="true"/>
+    <image id="g25yq" name="1f601" folder="g25y0" qualityOption="source" file="g25yq.png" size="62,60" exported="true"/>
+    <image id="g25yr" name="1f600" folder="g25y0" qualityOption="source" file="g25yr.png" size="60,58" exported="true"/>
+    <image id="g25ys" name="1f637" folder="g25y0" qualityOption="source" file="g25ys.png" size="62,60" exported="true"/>
+    <image id="g25yt" name="1f636" folder="g25y0" qualityOption="source" file="g25yt.png" size="62,61" exported="true"/>
+    <image id="g25yu" name="1f635" folder="g25y0" qualityOption="source" file="g25yu.png" size="62,61" exported="true"/>
+    <image id="g25yv" name="1f634" folder="g25y0" qualityOption="source" file="g25yv.png" size="60,59" exported="true"/>
+    <image id="g25yw" name="1f633" folder="g25y0" qualityOption="source" file="g25yw.png" size="62,60" exported="true"/>
+    <image id="g25yx" name="1f632" folder="g25y0" qualityOption="source" file="g25yx.png" size="62,60" exported="true"/>
+    <image id="g25yy" name="1f631" folder="g25y0" qualityOption="source" file="g25yy.png" size="58,60" exported="true"/>
+    <image id="g25yz" name="1f630" folder="g25y0" qualityOption="source" file="g25yz.png" size="62,60" exported="true"/>
+    <image id="g25y10" name="1f629" folder="g25y0" qualityOption="source" file="g25y10.png" size="62,61" exported="true"/>
+    <image id="g25y11" name="1f628" folder="g25y0" qualityOption="source" file="g25y11.png" size="62,60" exported="true"/>
+    <image id="g25y12" name="1f627" folder="g25y0" qualityOption="source" file="g25y12.png" size="60,58" exported="true"/>
+    <component id="g25y13" name="Main" folder="" file="g25y13.xml" exported="true"/>
+    <image id="g25y14" name="3" folder="g25y1g" file="g25y14.png" size="50,62" scale="9grid" scale9grid="10,15,28,32" qualityOption="source"/>
+    <image id="g25y15" name="9" folder="g25y1g" file="g25y15.png" size="48,40" scale="9grid" scale9grid="12,10,24,20" qualityOption="source"/>
+    <component id="g25y16" name="Button" folder="" file="g25y16.xml"/>
+    <image id="g25y17" name="0" folder="g25y1g" file="g25y17.png" size="173,74" scale="9grid" scale9grid="40,17,80,34" qualityOption="source"/>
+    <image id="g25y18" name="1" folder="g25y1g" file="g25y18.png" size="163,69" scale="9grid" scale9grid="40,17,80,34" qualityOption="source"/>
+    <component id="g25y1b" name="chatLeft" folder="" file="g25y1b.xml" exported="true"/>
+    <image id="g25y1d" name="6" folder="g25y1g" file="g25y1d.png" size="377,48" scale="9grid" scale9grid="27,21,334,18" qualityOption="source"/>
+    <component id="g25y1e" name="chatRight" folder="" file="g25y1e.xml" exported="true"/>
+    <image id="g25y1f" name="7" folder="g25y1g" file="g25y1f.png" size="277,79" scale="9grid" scale9grid="19,23,229,37" qualityOption="source"/>
+    <folder id="g25y1g" name="images" folder=""/>
+    <image id="g25y1h" name="r0" folder="g25y1g" qualityOption="source" file="g25y1h.png" size="117,120" exported="true"/>
+    <image id="g25y1i" name="r1" folder="g25y1g" qualityOption="source" file="g25y1i.png" size="120,120" exported="true"/>
+  </resources>
+  <publish name="EmojiPro"/>
+</packageDescription>

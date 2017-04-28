@@ -1,0 +1,1006 @@
+[nLayers]
+18
+
+[Resolution]
+4096x3072
+
+[FileFormat]
+PNG
+
+[LayerSet]
+Name DRAG_dragTest
+Depth 0
+
+[Layer]
+Name Background-b=25=25=25=25
+Depth 1
+PosX 1568
+PosY 870
+SizeX 320
+SizeY 320
+[Layer end]
+
+[Layer]
+Name dragImage
+Depth 2
+PosX 1651
+PosY 941
+SizeX 153
+SizeY 191
+[Layer end]
+
+nLayers 2
+[LayerSet end]
+
+[LayerSet]
+Name TOGG_Toggle:w=130
+Depth 0
+
+[Layer]
+Name Background-b=3=3=3=3
+Depth 3
+PosX 645
+PosY 704
+SizeX 134
+SizeY 134
+[Layer end]
+
+[Layer]
+Name V
+Depth 4
+PosX 668
+PosY 724
+SizeX 80
+SizeY 93
+[Layer end]
+
+[LayerSet]
+Name TEXT_Etiqueta
+Depth 0
+
+[Layer]
+Name etiqueta
+Depth 5
+PosX 796
+PosY 716
+SizeX 426
+SizeY 117
+[Layer end]
+
+nLayers 1
+[LayerSet end]
+
+nLayers 3
+[LayerSet end]
+
+[LayerSet]
+Name LIST_Test
+Depth 0
+
+[LayerSet]
+Name TEXT_Sample text:fs=12:al=l
+Depth 0
+
+[Layer]
+Name This is a sample text fro Scrollviews
+Depth 6
+PosX 1181
+PosY 939
+SizeX 1735
+SizeY 110
+[Layer end]
+
+nLayers 1
+[LayerSet end]
+
+[LayerSet]
+Name Content:w=128
+Depth 0
+
+[LayerSet]
+Name BUTT_Item 4 copia
+Depth 0
+
+[Layer]
+Name Logo
+Depth 7
+PosX 3372
+PosY 1110
+SizeX 640
+SizeY 640
+[Layer end]
+
+[LayerSet]
+Name TEXT_Texto de ScrollView:fs=12:al=l copia
+Depth 0
+
+[Layer]
+Name TextoFigura4
+Depth 8
+PosX 3508
+PosY 1766
+SizeX 172
+SizeY 53
+[Layer end]
+
+nLayers 1
+[LayerSet end]
+
+nLayers 2
+[LayerSet end]
+
+[LayerSet]
+Name BUTT_Item 4
+Depth 0
+
+[Layer]
+Name Logo
+Depth 9
+PosX 156
+PosY 1078
+SizeX 640
+SizeY 640
+[Layer end]
+
+[LayerSet]
+Name TEXT_Texto de ScrollView:fs=12:al=l copia
+Depth 0
+
+[Layer]
+Name TextoFigura4
+Depth 10
+PosX 390
+PosY 1766
+SizeX 172
+SizeY 53
+[Layer end]
+
+nLayers 1
+[LayerSet end]
+
+nLayers 2
+[LayerSet end]
+
+[LayerSet]
+Name BUTT_Item 3
+Depth 0
+
+[Layer]
+Name Logo
+Depth 11
+PosX 933
+PosY 1078
+SizeX 640
+SizeY 640
+[Layer end]
+
+[LayerSet]
+Name TEXT_Texto de ScrollView:fs=12:al=l copia
+Depth 0
+
+[Layer]
+Name TextoFigura3
+Depth 12
+PosX 1173
+PosY 1766
+SizeX 172
+SizeY 53
+[Layer end]
+
+nLayers 1
+[LayerSet end]
+
+nLayers 2
+[LayerSet end]
+
+[LayerSet]
+Name BUTT_Item 2
+Depth 0
+
+[Layer]
+Name Logo
+Depth 13
+PosX 1711
+PosY 1078
+SizeX 640
+SizeY 640
+[Layer end]
+
+[LayerSet]
+Name TEXT_Texto de ScrollView:fs=12:al=l copia
+Depth 0
+
+[Layer]
+Name TextoFigura2
+Depth 14
+PosX 1945
+PosY 1766
+SizeX 172
+SizeY 53
+[Layer end]
+
+nLayers 1
+[LayerSet end]
+
+nLayers 2
+[LayerSet end]
+
+[LayerSet]
+Name BUTT_Item 1
+Depth 0
+
+[Layer]
+Name Logo
+Depth 15
+PosX 2504
+PosY 1078
+SizeX 640
+SizeY 640
+[Layer end]
+
+[LayerSet]
+Name TEXT_Texto de ScrollView:fs=12:al=l copia
+Depth 0
+
+[Layer]
+Name TextoFigura1
+Depth 16
+PosX 2748
+PosY 1766
+SizeX 172
+SizeY 53
+[Layer end]
+
+nLayers 1
+[LayerSet end]
+
+nLayers 2
+[LayerSet end]
+
+[LayerSet]
+Name DRAG_dragEnScrollview
+Depth 0
+
+[Layer]
+Name Background-b=25=25=25=25
+Depth 17
+PosX 2319
+PosY 1836
+SizeX 320
+SizeY 320
+[Layer end]
+
+[Layer]
+Name dragImage2
+Depth 18
+PosX 2402
+PosY 1907
+SizeX 153
+SizeY 202
+[Layer end]
+
+nLayers 2
+[LayerSet end]
+
+nLayers 6
+[LayerSet end]
+
+[LayerSet]
+Name SCRB_loading:w=130:h=18
+Depth 0
+
+[Layer]
+Name Handle-b=3=3=3=3
+Depth 19
+PosX 2000
+PosY 1929
+SizeX 70
+SizeY 70
+[Layer end]
+
+[Layer]
+Name Background-b=3=3=3=3
+Depth 20
+PosX 1968
+PosY 1897
+SizeX 134
+SizeY 134
+[Layer end]
+
+nLayers 2
+[LayerSet end]
+
+[Layer]
+Name Hola_Background-b=3=3=3=3
+Depth 21
+PosX 355
+PosY 1897
+SizeX 134
+SizeY 134
+[Layer end]
+
+nLayers 4
+[LayerSet end]
+
+[LayerSet]
+Name DRAG_dragTest2
+Depth 0
+
+[Layer]
+Name Background-b=25=25=25=25
+Depth 6
+PosX 2159
+PosY 870
+SizeX 320
+SizeY 320
+[Layer end]
+
+[Layer]
+Name dragImage2
+Depth 7
+PosX 2242
+PosY 941
+SizeX 153
+SizeY 202
+[Layer end]
+
+nLayers 2
+[LayerSet end]
+
+[LayerSet]
+Name DROP_dropTest:w=130
+Depth 0
+
+[Layer]
+Name Background-b=25=25=25=25
+Depth 8
+PosX 1867
+PosY 1615
+SizeX 320
+SizeY 320
+[Layer end]
+
+[Layer]
+Name dropImage
+Depth 9
+PosX 1950
+PosY 1686
+SizeX 153
+SizeY 191
+[Layer end]
+
+[LayerSet]
+Name TEXT_Drop Area:fs=30:al=c
+Depth 0
+
+[Layer]
+Name DROP IN
+Depth 10
+PosX 1921
+PosY 1504
+SizeX 204
+SizeY 41
+[Layer end]
+
+nLayers 1
+[LayerSet end]
+
+nLayers 3
+[LayerSet end]
+
+[LayerSet]
+Name LIST_listOfDraggableItems
+Depth 0
+
+[LayerSet]
+Name TEXT_Sample text:fs=12:al=l
+Depth 0
+
+[Layer]
+Name This is a sample text fro Scrollviews
+Depth 11
+PosX 1181
+PosY 939
+SizeX 1735
+SizeY 110
+[Layer end]
+
+nLayers 1
+[LayerSet end]
+
+[LayerSet]
+Name Content:w=128
+Depth 0
+
+[LayerSet]
+Name DROP_dropEnScrollview4
+Depth 0
+
+[Layer]
+Name Logo
+Depth 12
+PosX 3376
+PosY 1114
+SizeX 640
+SizeY 640
+[Layer end]
+
+[Layer]
+Name dragImage2
+Depth 13
+PosX 3615
+PosY 1333
+SizeX 153
+SizeY 202
+[Layer end]
+
+[LayerSet]
+Name TEXT_Drop Area:fs=30:al=c
+Depth 0
+
+[Layer]
+Name DROP IN
+Depth 14
+PosX 3590
+PosY 1021
+SizeX 204
+SizeY 41
+[Layer end]
+
+nLayers 1
+[LayerSet end]
+
+nLayers 3
+[LayerSet end]
+
+[LayerSet]
+Name DRAG_dragEnScrollview3
+Depth 0
+
+[Layer]
+Name Logo
+Depth 15
+PosX 2560
+PosY 1110
+SizeX 640
+SizeY 640
+[Layer end]
+
+[Layer]
+Name dragImage2
+Depth 16
+PosX 2799
+PosY 1329
+SizeX 153
+SizeY 202
+[Layer end]
+
+nLayers 2
+[LayerSet end]
+
+[LayerSet]
+Name DRAG_dragEnScrollview2
+Depth 0
+
+[Layer]
+Name Logo
+Depth 17
+PosX 1737
+PosY 1110
+SizeX 640
+SizeY 640
+[Layer end]
+
+[Layer]
+Name dragImage2
+Depth 18
+PosX 1976
+PosY 1329
+SizeX 153
+SizeY 202
+[Layer end]
+
+nLayers 2
+[LayerSet end]
+
+[LayerSet]
+Name DRAG_dragEnScrollview1
+Depth 0
+
+[Layer]
+Name Logo
+Depth 19
+PosX 933
+PosY 1110
+SizeX 640
+SizeY 640
+[Layer end]
+
+[Layer]
+Name dragImage2
+Depth 20
+PosX 1172
+PosY 1329
+SizeX 153
+SizeY 202
+[Layer end]
+
+nLayers 2
+[LayerSet end]
+
+[LayerSet]
+Name DRAG_dragEnScrollview
+Depth 0
+
+[Layer]
+Name Logo
+Depth 21
+PosX 110
+PosY 1110
+SizeX 640
+SizeY 640
+[Layer end]
+
+[Layer]
+Name dragImage2
+Depth 22
+PosX 349
+PosY 1329
+SizeX 153
+SizeY 202
+[Layer end]
+
+nLayers 2
+[LayerSet end]
+
+nLayers 5
+[LayerSet end]
+
+[LayerSet]
+Name SCRB_loading:w=130:h=18
+Depth 0
+
+[Layer]
+Name Handle-b=3=3=3=3
+Depth 23
+PosX 2000
+PosY 1929
+SizeX 70
+SizeY 70
+[Layer end]
+
+[Layer]
+Name Background-b=3=3=3=3
+Depth 24
+PosX 1968
+PosY 1897
+SizeX 134
+SizeY 134
+[Layer end]
+
+nLayers 2
+[LayerSet end]
+
+[Layer]
+Name Background-b=3=3=3=3
+Depth 25
+PosX 355
+PosY 1897
+SizeX 134
+SizeY 134
+[Layer end]
+
+nLayers 4
+[LayerSet end]
+
+[LayerSet]
+Name INPT_Input:w=240:h=320
+Depth 0
+
+[Layer]
+Name Background-b=3=3=3=3
+Depth 26
+PosX 645
+PosY 1753
+SizeX 134
+SizeY 134
+[Layer end]
+
+nLayers 1
+[LayerSet end]
+
+[LayerSet]
+Name TEXT_Sample text:fs=12:al=l
+Depth 0
+
+[Layer]
+Name This is an example
+Depth 27
+PosX 376
+PosY 1168
+SizeX 735
+SizeY 58
+[Layer end]
+
+nLayers 1
+[LayerSet end]
+
+[LayerSet]
+Name SCRB_Full Scrollbar
+Depth 0
+
+[Layer]
+Name Handle1
+Depth 28
+PosX 2880
+PosY 1354
+SizeX 220
+SizeY 104
+[Layer end]
+
+[Layer]
+Name Background1
+Depth 29
+PosX 2875
+PosY 1353
+SizeX 1065
+SizeY 105
+[Layer end]
+
+nLayers 2
+[LayerSet end]
+
+[LayerSet]
+Name SCRB_Vertical scrollbar:w=18:h=130
+Depth 0
+
+[Layer]
+Name Handle-b=3=3=3=3
+Depth 30
+PosX 1861
+PosY 1370
+SizeX 70
+SizeY 70
+[Layer end]
+
+[Layer]
+Name Background-b=3=3=3=3
+Depth 31
+PosX 1829
+PosY 1338
+SizeX 134
+SizeY 134
+[Layer end]
+
+nLayers 2
+[LayerSet end]
+
+[LayerSet]
+Name SCRB_Horizontal scrollbar:w=130:h=18
+Depth 0
+
+[Layer]
+Name Handle-b=3=3=3=3
+Depth 32
+PosX 277
+PosY 1383
+SizeX 70
+SizeY 70
+[Layer end]
+
+[Layer]
+Name Background-b=3=3=3=3
+Depth 33
+PosX 245
+PosY 1351
+SizeX 134
+SizeY 134
+[Layer end]
+
+nLayers 2
+[LayerSet end]
+
+[LayerSet]
+Name BUTT_Button No labeled
+Depth 0
+
+[Layer]
+Name Background2
+Depth 34
+PosX 1825
+PosY 147
+SizeX 834
+SizeY 175
+[Layer end]
+
+nLayers 1
+[LayerSet end]
+
+[LayerSet]
+Name BUTT_Button
+Depth 0
+
+[Layer]
+Name Background2
+Depth 35
+PosX 2727
+PosY 147
+SizeX 834
+SizeY 175
+[Layer end]
+
+[LayerSet]
+Name TEXT_Push me:fs=14:al=c
+Depth 0
+
+[Layer]
+Name Label sample
+Depth 36
+PosX 2836
+PosY 185
+SizeX 646
+SizeY 109
+[Layer end]
+
+nLayers 1
+[LayerSet end]
+
+nLayers 2
+[LayerSet end]
+
+[LayerSet]
+Name BUTT_Button1:w=130:h=18
+Depth 0
+
+[Layer]
+Name Background-b=3=3=3=3
+Depth 37
+PosX 2918
+PosY 460
+SizeX 134
+SizeY 134
+[Layer end]
+
+[LayerSet]
+Name TEXT_Push me:fs=14:al=c
+Depth 0
+
+[Layer]
+Name Label Sample 
+Depth 38
+PosX 2664
+PosY 487
+SizeX 657
+SizeY 109
+[Layer end]
+
+nLayers 1
+[LayerSet end]
+
+nLayers 2
+[LayerSet end]
+
+[LayerSet]
+Name SLID_Slider:w=130:h=18
+Depth 0
+
+[Layer]
+Name Handle-b=3=3=3=3
+Depth 39
+PosX 691
+PosY 492
+SizeX 70
+SizeY 70
+[Layer end]
+
+[Layer]
+Name FIll-b=3=3=3=3
+Depth 40
+PosX 659
+PosY 460
+SizeX 134
+SizeY 134
+[Layer end]
+
+[Layer]
+Name Background-b=3=3=3=3
+Depth 41
+PosX 659
+PosY 460
+SizeX 134
+SizeY 134
+[Layer end]
+
+nLayers 3
+[LayerSet end]
+
+[LayerSet]
+Name PANL_Panel:w=100:tag=prueba
+Depth 0
+
+[Layer]
+Name panel-b=4=4=4=4
+Depth 42
+PosX 1942
+PosY 1414
+SizeX 134
+SizeY 134
+[Layer end]
+
+nLayers 1
+[LayerSet end]
+
+[LayerSet]
+Name Unmapped button
+Depth 0
+
+[Layer]
+Name Background2
+Depth 42
+PosX 1197
+PosY 147
+SizeX 834
+SizeY 175
+[Layer end]
+
+[LayerSet]
+Name Unmapped text
+Depth 0
+
+[Layer]
+Name Label sample
+Depth 43
+PosX 1306
+PosY 185
+SizeX 646
+SizeY 109
+[Layer end]
+
+nLayers 1
+[LayerSet end]
+
+nLayers 2
+[LayerSet end]
+
+[LayerSet]
+Name Tree
+Depth 0
+
+[LayerSet]
+Name Tree top
+Depth 0
+
+[LayerSet]
+Name Top 1
+Depth 0
+
+[Layer]
+Name Top1
+Depth 44
+PosX 1737
+PosY 1233
+SizeX 1229
+SizeY 705
+[Layer end]
+
+nLayers 1
+[LayerSet end]
+
+[LayerSet]
+Name Top 2
+Depth 0
+
+[Layer]
+Name Top2
+Depth 45
+PosX 2277
+PosY 835
+SizeX 999
+SizeY 668
+[Layer end]
+
+nLayers 1
+[LayerSet end]
+
+[LayerSet]
+Name Top 3
+Depth 0
+
+nLayers 0
+[LayerSet end]
+
+[LayerSet]
+Name Top 4
+Depth 0
+
+[Layer]
+Name Top4
+Depth 46
+PosX 726
+PosY 235
+SizeX 1685
+SizeY 1213
+[Layer end]
+
+nLayers 1
+[LayerSet end]
+
+[LayerSet]
+Name Top 5
+Depth 0
+
+[Layer]
+Name Top5
+Depth 47
+PosX 502
+PosY 1402
+SizeX 720
+SizeY 649
+[Layer end]
+
+nLayers 1
+[LayerSet end]
+
+[LayerSet]
+Name Top 6
+Depth 0
+
+[Layer]
+Name Top6
+Depth 48
+PosX 824
+PosY 926
+SizeX 1060
+SizeY 958
+[Layer end]
+
+nLayers 1
+[LayerSet end]
+
+[LayerSet]
+Name Top 7
+Depth 0
+
+[Layer]
+Name Top7
+Depth 49
+PosX 2760
+PosY 1168
+SizeX 863
+SizeY 1080
+[Layer end]
+
+nLayers 1
+[LayerSet end]
+
+nLayers 7
+[LayerSet end]
+
+[LayerSet]
+Name Tronco
+Depth 0
+
+[Layer]
+Name TroncoPintado
+Depth 50
+PosX 0
+PosY 334
+SizeX 4096
+SizeY 2612
+[Layer end]
+
+[Layer]
+Name Agujero
+Depth 51
+PosX 2166
+PosY 2227
+SizeX 65
+SizeY 113
+[Layer end]
+
+nLayers 2
+[LayerSet end]
+
+nLayers 2
+[LayerSet end]
+

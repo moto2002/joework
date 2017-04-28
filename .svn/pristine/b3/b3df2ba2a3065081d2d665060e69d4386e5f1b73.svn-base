@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: D_chibang
+  m_Shader: {fileID: 4800000, guid: bb1c7a9a1f9ded8418667cd1bc870970, type: 3}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 4ff570c15bc2b6c47bef4c179efd2178, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AlphaTex
+        second:
+          m_Texture: {fileID: 2800000, guid: aa154c67403ebe542b5bdd1989ca89e5, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Layer1Tex
+        second:
+          m_Texture: {fileID: 2800000, guid: a73c08d25445d01409e7cf958f9f7698, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NosieTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _HighLight
+        second: 1.28999996
+      data:
+        first:
+          name: _DeltaTime
+        second: 0
+      data:
+        first:
+          name: _Strenth
+        second: 8.35999966
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _CtrlColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _HitColor
+        second: {r: 0, g: 0, b: 0, a: 0}

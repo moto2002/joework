@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 3036158194
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8c13462ef42e39ae2931f8909e97f705
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f5af7b02a35fd70c6d12f251cb04c1a5
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/GameAtlas/GameAtlas.prefab
+Dependencies: []

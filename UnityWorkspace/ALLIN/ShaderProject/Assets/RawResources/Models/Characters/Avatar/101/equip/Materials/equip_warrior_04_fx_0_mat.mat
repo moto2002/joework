@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: equip_warrior_04_fx_0_mat
+  m_Shader: {fileID: 4800000, guid: bb1c7a9a1f9ded8418667cd1bc870970, type: 3}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: be49b09cc36faff45aafb53607d44770, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Layer1Tex
+        second:
+          m_Texture: {fileID: 2800000, guid: 57a0cce9d0177e24786396665daa4f5c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BRDFTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 54f99b6fff109ca4b9a00195f57f3e8b, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NosieTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AlphaTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 0b60498dd7b63964fb14276b1680e06f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _HighLight
+        second: 1
+      data:
+        first:
+          name: _FinalPower
+        second: 1
+      data:
+        first:
+          name: _RimWidth
+        second: 1
+      data:
+        first:
+          name: _RimPower
+        second: 6
+      data:
+        first:
+          name: _DeltaTime
+        second: 0
+      data:
+        first:
+          name: _Strenth
+        second: 1
+      data:
+        first:
+          name: _LightStrenth
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _CtrlColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _HitColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _RimColor
+        second: {r: .829999983, g: .769999981, b: 1, a: 1}

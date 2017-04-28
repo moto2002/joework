@@ -1,0 +1,240 @@
+fileFormatVersion: 2
+guid: a0979bc1fb060fb4fae3a831d16b7693
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Bip001 Head
+    100002: Bip001 L Calf
+    100004: Bip001 L Clavicle
+    100006: Bip001 L Finger0
+    100008: Bip001 L Finger01
+    100010: Bip001 L Finger02
+    100012: Bip001 L Finger1
+    100014: Bip001 L Finger11
+    100016: Bip001 L Finger12
+    100018: Bip001 L Foot
+    100020: Bip001 L Forearm
+    100022: Bip001 L ForeTwist
+    100024: Bip001 L ForeTwist1
+    100026: Bip001 L Hand
+    100028: Bip001 L Thigh
+    100030: Bip001 L Toe0
+    100032: Bip001 L UpperArm
+    100034: Bip001 LUpArmTwist
+    100036: Bip001 LUpArmTwist1
+    100038: Bip001 Neck
+    100040: Bip001 Neck1
+    100042: Bip001 Neck2
+    100044: Bip001 Neck3
+    100046: Bip001 Pelvis
+    100048: Bip001 R Calf
+    100050: Bip001 R Clavicle
+    100052: Bip001 R Finger0
+    100054: Bip001 R Finger01
+    100056: Bip001 R Finger02
+    100058: Bip001 R Finger1
+    100060: Bip001 R Finger11
+    100062: Bip001 R Finger12
+    100064: Bip001 R Foot
+    100066: Bip001 R Forearm
+    100068: Bip001 R ForeTwist
+    100070: Bip001 R ForeTwist1
+    100072: Bip001 R Hand
+    100074: Bip001 R Thigh
+    100076: Bip001 R Toe0
+    100078: Bip001 R UpperArm
+    100080: Bip001 RUpArmTwist
+    100082: Bip001 RUpArmTwist1
+    100084: Bip001 Spine
+    100086: Bip001 Spine1
+    100088: Bip001 Spine2
+    100090: Bip001 Tail
+    100092: Bip001 Tail1
+    100094: Bip001 Tail2
+    100096: Bip001 Tail3
+    100098: Bip001_jaw
+    100100: Bip_master
+    100102: bone_wing_R1_01
+    100104: bone_wing_R1_02
+    100106: bone_wing_R1_03
+    100108: bone_wing_R1_04
+    100110: bone_wing_R2_01
+    100112: bone_wing_R2_02
+    100114: bone_wing_R2_03
+    100116: bone_wing_R_01
+    100118: bone_wing_R_02
+    100120: bone_wing_R_03
+    100122: bone_wing_R_04
+    100124: bone_wing_R_05
+    100126: bone_wing_R_06
+    100128: bone_wing_R_07
+    100130: bone_wings_L1_01
+    100132: bone_wings_L1_02
+    100134: bone_wings_L1_03
+    100136: bone_wings_L1_04
+    100138: bone_wings_L2_01
+    100140: bone_wings_L2_02
+    100142: bone_wings_L2_03
+    100144: bone_wings_L_01
+    100146: bone_wings_L_02
+    100148: bone_wings_L_03
+    100150: bone_wings_L_04
+    100152: bone_wings_L_05
+    100154: bone_wings_L_06
+    100156: bone_wings_L_07
+    100158: //RootNode
+    100160: n2007
+    100162: slot_billboard
+    100164: slot_camera
+    100166: slot_chest
+    100168: slot_hand_left
+    100170: slot_hand_right
+    100172: slot_head
+    100174: slot_waist
+    100176: Bip_location
+    400000: Bip001 Head
+    400002: Bip001 L Calf
+    400004: Bip001 L Clavicle
+    400006: Bip001 L Finger0
+    400008: Bip001 L Finger01
+    400010: Bip001 L Finger02
+    400012: Bip001 L Finger1
+    400014: Bip001 L Finger11
+    400016: Bip001 L Finger12
+    400018: Bip001 L Foot
+    400020: Bip001 L Forearm
+    400022: Bip001 L ForeTwist
+    400024: Bip001 L ForeTwist1
+    400026: Bip001 L Hand
+    400028: Bip001 L Thigh
+    400030: Bip001 L Toe0
+    400032: Bip001 L UpperArm
+    400034: Bip001 LUpArmTwist
+    400036: Bip001 LUpArmTwist1
+    400038: Bip001 Neck
+    400040: Bip001 Neck1
+    400042: Bip001 Neck2
+    400044: Bip001 Neck3
+    400046: Bip001 Pelvis
+    400048: Bip001 R Calf
+    400050: Bip001 R Clavicle
+    400052: Bip001 R Finger0
+    400054: Bip001 R Finger01
+    400056: Bip001 R Finger02
+    400058: Bip001 R Finger1
+    400060: Bip001 R Finger11
+    400062: Bip001 R Finger12
+    400064: Bip001 R Foot
+    400066: Bip001 R Forearm
+    400068: Bip001 R ForeTwist
+    400070: Bip001 R ForeTwist1
+    400072: Bip001 R Hand
+    400074: Bip001 R Thigh
+    400076: Bip001 R Toe0
+    400078: Bip001 R UpperArm
+    400080: Bip001 RUpArmTwist
+    400082: Bip001 RUpArmTwist1
+    400084: Bip001 Spine
+    400086: Bip001 Spine1
+    400088: Bip001 Spine2
+    400090: Bip001 Tail
+    400092: Bip001 Tail1
+    400094: Bip001 Tail2
+    400096: Bip001 Tail3
+    400098: Bip001_jaw
+    400100: Bip_master
+    400102: bone_wing_R1_01
+    400104: bone_wing_R1_02
+    400106: bone_wing_R1_03
+    400108: bone_wing_R1_04
+    400110: bone_wing_R2_01
+    400112: bone_wing_R2_02
+    400114: bone_wing_R2_03
+    400116: bone_wing_R_01
+    400118: bone_wing_R_02
+    400120: bone_wing_R_03
+    400122: bone_wing_R_04
+    400124: bone_wing_R_05
+    400126: bone_wing_R_06
+    400128: bone_wing_R_07
+    400130: bone_wings_L1_01
+    400132: bone_wings_L1_02
+    400134: bone_wings_L1_03
+    400136: bone_wings_L1_04
+    400138: bone_wings_L2_01
+    400140: bone_wings_L2_02
+    400142: bone_wings_L2_03
+    400144: bone_wings_L_01
+    400146: bone_wings_L_02
+    400148: bone_wings_L_03
+    400150: bone_wings_L_04
+    400152: bone_wings_L_05
+    400154: bone_wings_L_06
+    400156: bone_wings_L_07
+    400158: //RootNode
+    400160: n2007
+    400162: slot_billboard
+    400164: slot_camera
+    400166: slot_chest
+    400168: slot_hand_left
+    400170: slot_hand_right
+    400172: slot_head
+    400174: slot_waist
+    400176: Bip_location
+    4300000: n2007
+    7400000: n2007_skin
+    7400002: Take 001
+    9500000: //RootNode
+    13700000: n2007
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: Bip_master
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

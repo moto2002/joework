@@ -1,0 +1,11 @@
+<Root>
+  <List>
+    <GameList id="1" name="珊瑚礁淘金者" icon="Icon_Seabed" type="射击\n单人" desc="这是一款基于Unity3D引擎开发的海底360度全景体验游戏。在真实的海洋中感受深海的魅力，用你手中的大炮“打”出一片天吧！" relativePath="珊瑚礁淘金者\珊瑚礁淘金者.exe" screenShot="ScreenShot_Seabed" />
+    <GameList id="2" name="热火篮球" icon="Icon_Basketball" type="运动\n单人" desc="这是一款基于Unity3D开发的真实体验游戏，我们旨在让玩家感受最真实的VR体验。当然了，为了适应玩家的口味，我们在游戏中加入了两种不同的模式。一起来感受篮球的魅力吧！" relativePath="热火篮球\热火篮球.exe" screenShot="ScreenShot_Basketball" />
+    <GameList id="3" name="狂野丛林" icon="Icon_Jungle" type="射击\n单人" desc="这是一款基于Unity3D引擎开发的VR射击游戏。作为水果大作战的第二代，这次的舞台不再是古色的高老庄，而是充满了热带风情的狂野丛林。不仅有丰富的水沟，更有调皮捣蛋的猴子，让玩家感受不一样的丛林魅力，乐在其中。" relativePath="狂野丛林\狂野丛林.exe" screenShot="ScreenShot_Jungle" />
+    <GameList id="4" name="水果大作战" icon="Icon_Fruit" type="射击\n单人" desc="这是一款基于Unity3D引擎开发的VR射击游戏。不同于传统的游戏，VR游戏能让你能身临其境感受八戒的水果园，在这趟快乐之旅中，不光有美不胜收的美味水果，更有画胜景，让你享受于美味留恋于美景。" relativePath="超级水果\超级水果.exe" screenShot="ScreenShot_Fruit" />
+    <GameList id="5" name="特技卡丁车" icon="Icon_Stunt" type="竞速\n多人" desc="这是一款适配OculusRift的虚拟现实体育竞技游戏。玩家开着卡丁车穿梭在赛道上，途中会遇到障碍物，玩家可以加足马力直接飞跃过去也可以从旁边绕开过去。开吃时要注意不要开除跑道喔，不然游戏又会重新开始比赛哟！" relativePath="特技卡丁车\Stunt.exe" screenShot="ScreenShot_Stunt" />
+    <GameList id="6" name="农场计划" icon="Icon_HarvestSimulator" type="模拟经营\n单人" desc="游戏的时代背景被设定在了19世纪，幽静安详的河边有一个家庭农场，你将成为农场的主人。种植，饲养，建设还要养育你的家人。游戏尽可能的拟真农场的生活，带给我们质朴醇厚的田园气息。" relativePath="HarvestSimulator\HarvestSimulatorVR.exe" screenShot="ScreenShot_HarvestSimulator" />
+    <GameList id="7" name="乘船旅行" icon="Icon_JourneyByBoa" type="休闲\n单人" desc="游戏中，玩家坐在一艘小船上，在这里跟随着小船肆无忌惮的穿梭在这些卡通漫画中。喜欢的话快快体验吧！" relativePath="JourneyByBoat\Journey_By_Boat_Win_x86.exe" screenShot="ScreenShot_JourneyByBoat" />
+  </List>
+</Root>

@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+f:\my\hookwindowsdemo\hookdlldemo\dllmain.cpp(110): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+  HookDllDemo.cpp
+    正在创建库 F:\my\HookWindowsDemo\Debug\HookDllDemo.lib 和对象 F:\my\HookWindowsDemo\Debug\HookDllDemo.exp
+  HookDllDemo.vcxproj -> F:\my\HookWindowsDemo\Debug\HookDllDemo.dll

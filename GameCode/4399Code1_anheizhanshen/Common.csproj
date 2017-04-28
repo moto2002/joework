@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>118e9c61-1130-429f-8904-51ed48ec079a</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>Common</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="GameData" />
+    <Reference Include="UnityEngine" />
+    <Reference Include="System.Core" />
+    <Reference Include="System" />
+    <Reference Include="LoaderLib" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Mogo\Util\Events.cs" />
+    <Compile Include="Mogo\RPC\DefParser.cs" />
+    <Compile Include="Mogo\RPC\EntityDef.cs" />
+    <Compile Include="Mogo\RPC\EntityDefMethod.cs" />
+    <Compile Include="Mogo\RPC\EntityDefProperties.cs" />
+    <Compile Include="Mogo\RPC\AttachedInfo.cs" />
+    <Compile Include="Mogo\RPC\CellAttachedInfo.cs" />
+    <Compile Include="Mogo\RPC\BaseAttachedInfo.cs" />
+    <Compile Include="Mogo\RPC\MSGIDType.cs" />
+    <Compile Include="Mogo\RPC\ServerInfo.cs" />
+    <Compile Include="Mogo\RPC\MSGType.cs" />
+    <Compile Include="Mogo\RPC\MissionReq.cs" />
+    <Compile Include="Mogo\RPC\LoginResult.cs" />
+    <Compile Include="Mogo\RPC\AccountErrorCode.cs" />
+    <Compile Include="Mogo\RPC\DefCheckResult.cs" />
+    <Compile Include="Mogo\RPC\CampaignReq.cs" />
+    <Compile Include="Mogo\RPC\CampaignErrorCode.cs" />
+    <Compile Include="Mogo\RPC\VType.cs" />
+    <Compile Include="Mogo\RPC\DefineParseException.cs" />
+    <Compile Include="Mogo\RPC\RPCException.cs" />
+    <Compile Include="Mogo\RPC\VObject.cs" />
+    <Compile Include="Mogo\RPC\VBLOB.cs" />
+    <Compile Include="Mogo\RPC\VBoolean.cs" />
+    <Compile Include="Mogo\RPC\VDouble.cs" />
+    <Compile Include="Mogo\RPC\VEmpty.cs" />
+    <Compile Include="Mogo\RPC\VFloat.cs" />
+    <Compile Include="Mogo\RPC\VInt16.cs" />
+    <Compile Include="Mogo\RPC\VInt32.cs" />
+    <Compile Include="Mogo\RPC\VInt64.cs" />
+    <Compile Include="Mogo\RPC\VInt8.cs" />
+    <Compile Include="Mogo\RPC\VLuaTable.cs" />
+    <Compile Include="Mogo\RPC\VString.cs" />
+    <Compile Include="Mogo\RPC\VUInt16.cs" />
+    <Compile Include="Mogo\RPC\VUInt32.cs" />
+    <Compile Include="Mogo\RPC\VUInt64.cs" />
+    <Compile Include="Mogo\RPC\VUInt8.cs" />
+    <Compile Include="Mogo\RPC\TypeMapping.cs" />
+    <Compile Include="ContentDefine.cs" />
+    <Compile Include="MecanimEvent.cs" />
+    <Compile Include="Mogo\Util\TCPClientWorker.cs" />
+    <Compile Include="Mogo\Util\RandomHelper.cs" />
+    <Compile Include="UIPara.cs" />
+  </ItemGroup>
+</Project>

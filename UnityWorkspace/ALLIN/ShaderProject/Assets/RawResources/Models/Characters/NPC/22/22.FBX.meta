@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: 41477a8e6349fc54e9206c809f64cdcf
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bip001 Head
+    100004: Bip001 L Calf
+    100006: Bip001 L Clavicle
+    100008: Bip001 L Foot
+    100010: Bip001 L Forearm
+    100012: Bip001 L Hand
+    100014: Bip001 L Thigh
+    100016: Bip001 L UpperArm
+    100018: Bip001 Neck
+    100020: Bip001 Pelvis
+    100022: Bip001 R Calf
+    100024: Bip001 R Clavicle
+    100026: Bip001 R Foot
+    100028: Bip001 R Forearm
+    100030: Bip001 R Hand
+    100032: Bip001 R Thigh
+    100034: Bip001 R UpperArm
+    100036: Bip001 Spine
+    100038: Bip001 Spine1
+    100040: Bip_master
+    100042: bip_shoulder_left
+    100044: bip_shoulder_right
+    100046: bip_weapon_right
+    100048: n1101
+    100050: n1102
+    100052: n1103
+    100054: n1109
+    100056: n1110
+    100058: n1112
+    100060: slot_billboard
+    100062: slot_camera
+    100064: slot_chest
+    100066: slot_clavicle_left
+    100068: slot_clavicle_right
+    100070: slot_foot_left
+    100072: slot_foot_right
+    100074: slot_forearm_left
+    100076: slot_forearm_right
+    100078: slot_hand_left
+    100080: slot_hand_right
+    100082: slot_head
+    100084: slot_waist
+    100086: n1108
+    100088: n1117
+    100090: n1104
+    100092: n1105
+    100094: n1106
+    100096: n1113
+    100098: n1114
+    100100: n1116
+    100102: n1111
+    100104: n1115
+    400000: //RootNode
+    400002: Bip001 Head
+    400004: Bip001 L Calf
+    400006: Bip001 L Clavicle
+    400008: Bip001 L Foot
+    400010: Bip001 L Forearm
+    400012: Bip001 L Hand
+    400014: Bip001 L Thigh
+    400016: Bip001 L UpperArm
+    400018: Bip001 Neck
+    400020: Bip001 Pelvis
+    400022: Bip001 R Calf
+    400024: Bip001 R Clavicle
+    400026: Bip001 R Foot
+    400028: Bip001 R Forearm
+    400030: Bip001 R Hand
+    400032: Bip001 R Thigh
+    400034: Bip001 R UpperArm
+    400036: Bip001 Spine
+    400038: Bip001 Spine1
+    400040: Bip_master
+    400042: bip_shoulder_left
+    400044: bip_shoulder_right
+    400046: bip_weapon_right
+    400048: n1101
+    400050: n1102
+    400052: n1103
+    400054: n1109
+    400056: n1110
+    400058: n1112
+    400060: slot_billboard
+    400062: slot_camera
+    400064: slot_chest
+    400066: slot_clavicle_left
+    400068: slot_clavicle_right
+    400070: slot_foot_left
+    400072: slot_foot_right
+    400074: slot_forearm_left
+    400076: slot_forearm_right
+    400078: slot_hand_left
+    400080: slot_hand_right
+    400082: slot_head
+    400084: slot_waist
+    400086: n1108
+    400088: n1117
+    400090: n1104
+    400092: n1105
+    400094: n1106
+    400096: n1113
+    400098: n1114
+    400100: n1116
+    400102: n1111
+    400104: n1115
+    4300000: n1109
+    4300002: n1101
+    4300004: n1102
+    4300006: n1103
+    4300008: n1110
+    4300010: n1112
+    4300012: n1108
+    4300014: n1117
+    4300016: n1104
+    4300018: n1105
+    4300020: n1106
+    4300022: n1113
+    4300024: n1114
+    4300026: n1116
+    4300028: n1111
+    4300030: n1115
+    9500000: //RootNode
+    13700000: n1101
+    13700002: n1102
+    13700004: n1103
+    13700006: n1109
+    13700008: n1110
+    13700010: n1112
+    13700012: n1108
+    13700014: n1117
+    13700016: n1104
+    13700018: n1105
+    13700020: n1106
+    13700022: n1113
+    13700024: n1114
+    13700026: n1116
+    13700028: n1111
+    13700030: n1115
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: Bip_master
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="jqu05wyc" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="x7kw0" name="Main" folder="" file="x7kw0.xml" exported="true"/>
+    <image id="chmf1" name="change" folder="" qualityOption="source" file="chmf1.png" size="282,500"/>
+    <component id="chmf5" name="CoolComponent" folder="" file="chmf5.xml" exported="true"/>
+    <jta id="chmf8" name="pet" folder="" origin="59,61" file="chmf8.jta" size="84,74"/>
+  </resources>
+  <publish name="Particles">
+    <atlas name="Default" index="0"/>
+  </publish>
+</packageDescription>

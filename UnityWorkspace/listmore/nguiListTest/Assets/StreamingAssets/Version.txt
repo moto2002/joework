@@ -1,0 +1,12 @@
+Date|2015-09-24 22:22:52
+Windows/fonts/simhei.ttf|1054d571c8a003c497366a95c11b5760|9751960
+Windows/gameatlas/gameatlas.unity3d|38f1e8d7b452301fc459db81a864fd71|817352
+Windows/gameatlas/gameatlas.unity3d.manifest|a3100650d0060a8756d7ae71ea62bc5f|633
+Windows/hero.unity3d|388faf7feacd3d19d3e07ef1e4cd42cb|4462322
+Windows/hero.unity3d.manifest|2a73b6e7fdc7e401ac9758f7e3bd611b|1299
+Windows/item.unity3d|8c6d8b4f7dd31d9430dc389eec7e4414|346273
+Windows/item.unity3d.manifest|e13d0c82a8d0166b83ca51a9219a077a|968
+Windows/item2.unity3d|8db22f7bf908980f057f8e17efabde1d|346541
+Windows/item2.unity3d.manifest|0b2c3e98847c3aa9d911bb5b173919a5|968
+Windows/Windows|8e7d3afaff50c43e8277201afbbde140|992
+Windows/Windows.manifest|46e840f9c49174c912d4711292d1d442|367

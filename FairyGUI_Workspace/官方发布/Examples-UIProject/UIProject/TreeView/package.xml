@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="2mabf2jp" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="pclm0" name="Main" folder="" file="pclm0.xml" exported="true"/>
+    <component id="mlvd1" name="TreeExpandButton" folder="" file="mlvd1.xml" exported="true"/>
+    <image id="mlvd2" name="i3.png" folder="mlvdb" qualityOption="source" file="mlvd2.png" size="22,28" exported="true"/>
+    <image id="mlvd3" name="i4.png" folder="mlvdb" qualityOption="source" file="mlvd3.png" size="31,23" exported="true"/>
+    <component id="mlvd4" name="TreeItem" folder="" file="mlvd4.xml" exported="true"/>
+    <image id="mlvd7" name="folder_closed" folder="mlvda" qualityOption="source" file="mlvd7.png" size="42,33" exported="true"/>
+    <image id="mlvd8" name="folder_opened" folder="mlvda" qualityOption="source" file="mlvd8.png" size="47,33" exported="true"/>
+    <image id="mlvd9" name="file" folder="mlvda" qualityOption="source" file="mlvd9.png" size="36,46" exported="true"/>
+    <folder id="mlvda" name="Icons" folder=""/>
+    <folder id="mlvdb" name="Images" folder=""/>
+    <jta id="mlvdc" name="heart" folder="mlvda" origin="38,29" file="mlvdc.jta" size="75,66" exported="true"/>
+  </resources>
+  <publish name="TreeView"/>
+</packageDescription>

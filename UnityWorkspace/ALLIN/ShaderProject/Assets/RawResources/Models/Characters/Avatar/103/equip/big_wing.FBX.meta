@@ -1,0 +1,96 @@
+fileFormatVersion: 2
+guid: 98abfd72ed1e1f848a914f58b3659c9e
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: 007
+    100002: bip_bigwing
+    100004: bip_bigwing01
+    100006: bip_bigwing_L
+    100008: bip_bigwing_L_02
+    100010: bip_bigwing_L_03
+    100012: bip_bigwing_R
+    100014: bip_bigwing_R_02
+    100016: bip_bigwing_R_03
+    100018: //RootNode
+    100020: D_chibang_01
+    100022: D_chibang_02
+    100024: D_chibang_03
+    100026: D_chibang_04
+    400000: 007
+    400002: bip_bigwing
+    400004: bip_bigwing01
+    400006: bip_bigwing_L
+    400008: bip_bigwing_L_02
+    400010: bip_bigwing_L_03
+    400012: bip_bigwing_R
+    400014: bip_bigwing_R_02
+    400016: bip_bigwing_R_03
+    400018: //RootNode
+    400020: D_chibang_01
+    400022: D_chibang_02
+    400024: D_chibang_03
+    400026: D_chibang_04
+    4300000: 007
+    4300002: D_chibang_03
+    4300004: D_chibang_01
+    4300006: D_chibang_02
+    4300008: D_chibang_04
+    9500000: //RootNode
+    13700000: 007
+    13700002: D_chibang_01
+    13700004: D_chibang_02
+    13700006: D_chibang_03
+    13700008: D_chibang_04
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: bip_bigwing
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

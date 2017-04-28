@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,582">
+  <displayList>
+    <component id="n7" name="frame" src="dwwc3" xy="0,0" size="640,582">
+      <Label title="Bag"/>
+    </component>
+    <list id="n8" name="list" xy="53,76" size="521,328" layout="flow_hz" overflow="scroll" margin="0,0,0,0" clipSoftness="0,20" lineGap="5" colGap="5" defaultItem="ui://rbw1tv9tjlmg7">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n9" name="n9" src="thi7g" xy="61,418" size="511,2"/>
+    <image id="n10" name="n10" src="thi7h" xy="61,425" size="130,124"/>
+    <loader id="n11" name="n11" xy="67,432" size="120,110" align="center" vAlign="middle"/>
+    <text id="n12" name="n12" xy="205,461" size="113,28" fontSize="24" color="#ff0099" text="Selected:"/>
+    <text id="n13" name="n13" xy="336,461" size="119,28" fontSize="24" color="#ff0099" autoSize="height" text=""/>
+  </displayList>
+</component>

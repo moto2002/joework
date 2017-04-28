@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<List>
+		<GameList m_date="2016-09-22">
+			<GameItems>
+				<GameItem m_gameId="1" m_gameName="珊瑚礁淘金者" m_count="2">
+					<Records>
+						<Record m_startTime="05:40:02" m_stopTime="05:40:16" m_duringTime="14秒" />
+						<Record m_startTime="05:41:00" m_stopTime="05:41:10" m_duringTime="9秒" />
+					</Records>
+				</GameItem>
+				<GameItem m_gameId="2" m_gameName="热火篮球" m_count="1">
+					<Records>
+						<Record m_startTime="05:44:51" m_stopTime="05:45:11" m_duringTime="20秒" />
+					</Records>
+				</GameItem>
+			</GameItems>
+		</GameList>
+	</List>
+</Root>

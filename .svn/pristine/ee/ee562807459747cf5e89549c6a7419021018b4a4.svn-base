@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>9774147f-012a-4984-baa1-7a6b83bd7b72</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>LoaderLib</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="UnityEngine" />
+    <Reference Include="System.Core" />
+    <Reference Include="MsgPack" />
+    <Reference Include="System" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Mogo\Util\SystemConfig.cs" />
+    <Compile Include="SystemSwitch.cs" />
+    <Compile Include="PluginCallback.cs" />
+    <Compile Include="DriverLib.cs" />
+    <Compile Include="MogoForwardLoadingUIData.cs" />
+    <Compile Include="DefaultLanguageData.cs" />
+    <Compile Include="DefaulSoundData.cs" />
+    <Compile Include="DefaultUI.cs" />
+    <Compile Include="ForwardLoadingMsgBoxLib.cs" />
+    <Compile Include="VersionManager.cs" />
+    <Compile Include="VersionManagerInfo.cs" />
+    <Compile Include="PackageInfo.cs" />
+    <Compile Include="VersionCodeInfo.cs" />
+    <Compile Include="CheckTimeout.cs" />
+    <Compile Include="HMF\Hmf.cs" />
+    <Compile Include="HMF\Tag.cs" />
+    <Compile Include="HMF\Util.cs" />
+    <Compile Include="MS\KeyedPriorityQueue!3.cs" />
+    <Compile Include="MS\KeyedPriorityQueueHeadChangedEventArgs!1.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\BZip2\BZip2.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\BZip2\BZip2Constants.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\SharpZipBaseException.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\BZip2\BZip2Exception.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\BZip2\BZip2InputStream.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\BZip2\BZip2OutputStream.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Checksums\IChecksum.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Checksums\Adler32.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Checksums\Crc32.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Checksums\StrangeCRC.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Core\ScanEventArgs.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Core\ProgressEventArgs.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Core\DirectoryEventArgs.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Core\ScanFailureEventArgs.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Core\ProcessDirectoryHandler.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Core\ProcessFileHandler.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Core\ProgressHandler.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Core\CompletedFileHandler.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Core\DirectoryFailureHandler.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Core\FileFailureHandler.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Core\FileSystemScanner.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Core\INameTransform.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Core\IScanFilter.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Core\NameFilter.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Core\PathFilter.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Core\ExtendedPathFilter.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Core\NameAndSizeFilter.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Core\StreamUtils.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Core\WindowsPathUtils.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Encryption\PkzipClassic.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Encryption\PkzipClassicCryptoBase.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Encryption\PkzipClassicEncryptCryptoTransform.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Encryption\PkzipClassicDecryptCryptoTransform.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Encryption\PkzipClassicManaged.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Encryption\ZipAESStream.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Encryption\ZipAESTransform.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\GZip\GZipConstants.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\GZip\GZipException.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\Compression\Streams\InflaterInputStream.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\GZip\GZipInputStream.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\Compression\Streams\DeflaterOutputStream.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\GZip\GZipOutputStream.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Tar\TarException.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Tar\InvalidHeaderException.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Tar\ProgressMessageHandler.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Tar\TarArchive.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Tar\TarBuffer.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Tar\TarEntry.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Tar\TarHeader.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Tar\TarInputStream.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Tar\TarOutputStream.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\Compression\Deflater.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\Compression\DeflaterConstants.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\Compression\DeflateStrategy.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\Compression\DeflaterEngine.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\Compression\DeflaterHuffman.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\Compression\PendingBuffer.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\Compression\DeflaterPending.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\Compression\Inflater.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\Compression\InflaterDynHeader.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\Compression\InflaterHuffmanTree.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\Compression\Streams\InflaterInputBuffer.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\Compression\Streams\OutputWindow.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\Compression\Streams\StreamManipulator.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\FastZipEvents.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\FastZip.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\IEntryFactory.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\WindowsNameTransform.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\UseZip64.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\CompressionMethod.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\EncryptionAlgorithm.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\GeneralBitFlags.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\ZipConstants.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\HostSystemID.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\ZipEntry.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\ZipEntryFactory.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\ZipException.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\ITaggedData.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\RawTaggedData.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\ExtendedUnixData.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\NTTaggedData.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\ITaggedDataFactory.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\ZipExtraData.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\KeysRequiredEventArgs.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\TestStrategy.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\TestOperation.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\TestStatus.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\ZipTestResultHandler.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\FileUpdateMode.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\ZipFile.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\IStaticDataSource.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\IDynamicDataSource.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\StaticDiskDataSource.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\DynamicDiskDataSource.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\IArchiveStorage.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\BaseArchiveStorage.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\DiskArchiveStorage.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\MemoryArchiveStorage.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\DescriptorData.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\EntryPatchData.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\ZipHelperStream.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\ZipInputStream.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\ZipNameTransform.cs" />
+    <Compile Include="ICSharpCode\SharpZipLib\Zip\ZipOutputStream.cs" />
+    <Compile Include="Mono\Xml\MiniParser.cs" />
+    <Compile Include="Mono\Xml\SmallXmlParser.cs" />
+    <Compile Include="Mono\Xml\SecurityParser.cs" />
+    <Compile Include="Mono\Xml\DefaultHandler.cs" />
+    <Compile Include="Mono\Xml\SmallXmlParserException.cs" />
+    <Compile Include="Mogo\RPC\Utils.cs" />
+    <Compile Include="AssetCacheMgr.cs" />
+    <Compile Include="ILoadAsset.cs" />
+    <Compile Include="Mogo\Util\BitCryto.cs" />
+    <Compile Include="Mogo\Util\DESCrypto.cs" />
+    <Compile Include="IDownloadManager.cs" />
+    <Compile Include="DownloadManager.cs" />
+    <Compile Include="ThreadDownloadBreakPoint.cs" />
+    <Compile Include="DownloadTask.cs" />
+    <Compile Include="DownloadMgr.cs" />
+    <Compile Include="DownloadObserver.cs" />
+    <Compile Include="Mogo\Util\EventController.cs" />
+    <Compile Include="Mogo\Util\EventDispatcher.cs" />
+    <Compile Include="Mogo\Util\EventException.cs" />
+    <Compile Include="GlobalEvents.cs" />
+    <Compile Include="SignalEvents.cs" />
+    <Compile Include="InstanceIdentity.cs" />
+    <Compile Include="WindowName.cs" />
+    <Compile Include="UIEvent.cs" />
+    <Compile Include="InventoryEvent.cs" />
+    <Compile Include="SettingEvent.cs" />
+    <Compile Include="VersionEvent.cs" />
+    <Compile Include="MarketEvent.cs" />
+    <Compile Include="Mogo\Util\FileAccessManager.cs" />
+    <Compile Include="Mogo\Util\LogLevel.cs" />
+    <Compile Include="Mogo\Util\LoggerHelper.cs" />
+    <Compile Include="Mogo\Util\LogWriter.cs" />
+    <Compile Include="LuaTable.cs" />
+    <Compile Include="DictionaryExtend.cs" />
+    <Compile Include="Mogo\Util\MogoFileSystem.cs" />
+    <Compile Include="Mogo\Util\IndexInfo.cs" />
+    <Compile Include="Mogo\Util\FileState.cs" />
+    <Compile Include="Mogo\Util\PackageInfo.cs" />
+    <Compile Include="Mogo\Util\EncodeDecoder.cs" />
+    <Compile Include="ResourceIndexInfo.cs" />
+    <Compile Include="Mogo\Util\RSACrypto.cs" />
+    <Compile Include="StreamingAssetCacheManager.cs" />
+    <Compile Include="StreamingAssetManager.cs" />
+    <Compile Include="Mogo\Util\ServerType.cs" />
+    <Compile Include="Mogo\Util\ServerInfo.cs" />
+    <Compile Include="Mogo\Util\CfgInfo.cs" />
+    <Compile Include="Mogo\Util\LocalSetting.cs" />
+    <Compile Include="Mogo\Util\FrameTimerHeap.cs" />
+    <Compile Include="TimerBehaviour.cs" />
+    <Compile Include="Mogo\Util\AbsTimerData.cs" />
+    <Compile Include="Mogo\Util\TimerData.cs" />
+    <Compile Include="Mogo\Util\TimerData!1.cs" />
+    <Compile Include="Mogo\Util\TimerData!2.cs" />
+    <Compile Include="Mogo\Util\TimerData!3.cs" />
+    <Compile Include="Mogo\Util\TimerHeap.cs" />
+    <Compile Include="TimerManager.cs" />
+    <Compile Include="Mogo\Util\LayerMask.cs" />
+    <Compile Include="Mogo\Util\Utils.cs" />
+    <Compile Include="Mogo\Util\XMLParser.cs" />
+  </ItemGroup>
+</Project>

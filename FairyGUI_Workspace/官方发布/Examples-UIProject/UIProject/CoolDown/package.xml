@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="y768eypf" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="fvaib" name="Main" folder="" file="fvaib.xml" exported="true"/>
+    <component id="ltiql" name="Button1" folder="" file="ltiql.xml"/>
+    <image id="ltiqn" name="15" folder="p3ya16" file="ltiqn.png" size="40,40" scale="9grid" scale9grid="10,10,20,20" qualityOption="source"/>
+    <image id="ltiqo" name="14" folder="p3ya16" file="ltiqo.png" size="40,40" scale="9grid" scale9grid="10,10,20,20" qualityOption="source"/>
+    <component id="p3yap" name="Button2" folder="" file="p3yap.xml"/>
+    <image id="p3yaq" name="11" folder="p3ya16" qualityOption="source" file="p3yaq.png" size="127,127"/>
+    <image id="p3yar" name="13" folder="p3ya16" qualityOption="source" file="p3yar.png" size="127,127"/>
+    <image id="p3yau" name="12" folder="p3ya16" qualityOption="source" file="p3yau.png" size="82,82"/>
+    <font id="p3yav" name="cdtime" folder="" file="p3yav.fnt" exported="true"/>
+    <image id="p3yaw" name="0(4).png" folder="p3ya16" qualityOption="source" file="p3yaw.png" size="41,45"/>
+    <image id="p3yax" name="1(4).png" folder="p3ya16" qualityOption="source" file="p3yax.png" size="41,45"/>
+    <image id="p3yay" name="2(4).png" folder="p3ya16" qualityOption="source" file="p3yay.png" size="41,45"/>
+    <image id="p3yaz" name="3(4).png" folder="p3ya16" qualityOption="source" file="p3yaz.png" size="41,45"/>
+    <image id="p3ya10" name="4(4).png" folder="p3ya16" qualityOption="source" file="p3ya10.png" size="41,45"/>
+    <image id="p3ya11" name="5(4).png" folder="p3ya16" qualityOption="source" file="p3ya11.png" size="41,45"/>
+    <image id="p3ya12" name="6(4).png" folder="p3ya16" qualityOption="source" file="p3ya12.png" size="41,45"/>
+    <image id="p3ya13" name="7(4).png" folder="p3ya16" qualityOption="source" file="p3ya13.png" size="41,45"/>
+    <image id="p3ya14" name="8(4).png" folder="p3ya16" qualityOption="source" file="p3ya14.png" size="41,45"/>
+    <image id="p3ya15" name="9(4).png" folder="p3ya16" qualityOption="source" file="p3ya15.png" size="41,45"/>
+    <folder id="p3ya16" name="images" folder=""/>
+    <image id="uo8117" name="mask0" folder="p3ya16" qualityOption="source" file="uo8117.png" size="48,48"/>
+    <image id="uo8118" name="mask1" folder="p3ya16" qualityOption="source" file="uo8118.png" size="80,80"/>
+  </resources>
+  <publish name="Cooldown">
+    <atlas name="默认" index="0"/>
+  </publish>
+</packageDescription>

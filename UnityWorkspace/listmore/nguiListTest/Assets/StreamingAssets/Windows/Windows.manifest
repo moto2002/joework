@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: gameatlas/gameatlas.unity3d
+      Dependencies: {}
+    Info_1:
+      Name: hero.unity3d
+      Dependencies:
+        Dependency_0: gameatlas/gameatlas.unity3d
+    Info_2:
+      Name: item.unity3d
+      Dependencies: {}
+    Info_3:
+      Name: item2.unity3d
+      Dependencies: {}

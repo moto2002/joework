@@ -1,0 +1,20 @@
+﻿namespace Mogo.RPC
+{
+    using System;
+
+    public enum CampaignReq : ushort
+    {
+        CAMPAIGN_COUNT_DOWN = 0x271b,
+        CAMPAIGN_GET_ACTIVITY_LEFT_TIME = 0x271f,
+        CAMPAIGN_GET_LEFT_TIMES = 0x271e,
+        CAMPAIGN_JOIN = 0x2714,
+        CAMPAIGN_LEAVE = 0x2716,
+        CAMPAIGN_MATCH = 0x2715,
+        CAMPAIGN_MISSION_COUNT_DOWN = 0x271c,
+        CAMPAIGN_NOTIFY_CLIENT_TO_FINISH = 0x271a,
+        CAMPAIGN_NOTIFY_CLIENT_TO_START = 0x2719,
+        CAMPAIGN_NOTIFY_WAVE_COUNT = 0x2720,
+        CAMPAIGN_RESULT = 0x2717
+    }
+}
+

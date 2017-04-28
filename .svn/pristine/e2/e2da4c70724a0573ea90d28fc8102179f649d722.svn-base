@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 2921588541
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d04f1ba13f352b095c4b2ab501809abe
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: dab900571f4697feb2b338a3186a9072
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 92
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -619905303, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1077351063, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8c5884249c2de474994fb14d13e58339, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/UIPrefab/UIRoot.prefab
+Dependencies: []

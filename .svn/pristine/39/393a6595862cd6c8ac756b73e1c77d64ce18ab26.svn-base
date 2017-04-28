@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a707393767c5b493292665c823f95075
+labels:
+- Texture
+- Packer
+- TexturePacker
+PluginImporter:
+  serializedVersion: 1
+  iconMap: {}
+  executionOrder: {}
+  isPreloaded: 0
+  platformData:
+    Any:
+      enabled: 1
+      settings: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

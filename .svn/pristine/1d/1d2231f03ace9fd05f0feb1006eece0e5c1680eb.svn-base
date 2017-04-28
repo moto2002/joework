@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="qkteqwfp" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="c8s20" name="Main" folder="" file="c8s20.xml" exported="true"/>
+    <image id="c8s21" name="1" folder="" file="c8s21.png" size="50,62" scale="9grid" scale9grid="10,15,28,32" qualityOption="source"/>
+    <image id="c8s22" name="3" folder="" file="c8s22.png" size="261,63" scale="9grid" scale9grid="110,16,33,32" qualityOption="source"/>
+    <image id="c8s23" name="4" folder="" qualityOption="source" file="c8s23.png" size="133,34"/>
+    <component id="c8s24" name="mailItem" folder="" file="c8s24.xml"/>
+    <image id="c8s25" name="2" folder="" file="c8s25.png" size="78,141" scale="9grid" scale9grid="25,26,26,90" qualityOption="source"/>
+    <image id="c8s26" name="0" folder="" file="c8s26.png" size="108,108" scale="9grid" scale9grid="17,16,74,73" qualityOption="source"/>
+    <image id="c8s27" name="7" folder="" qualityOption="source" file="c8s27.png" size="71,71"/>
+    <image id="c8s28" name="9" folder="" qualityOption="source" file="c8s28.png" size="55,59"/>
+    <image id="c8s29" name="6" folder="" qualityOption="source" file="c8s29.png" size="55,47"/>
+    <image id="c8s2a" name="8" folder="" qualityOption="source" file="c8s2a.png" size="143,120"/>
+    <component id="rpolb" name="Button1" folder="" file="rpolb.xml"/>
+  </resources>
+  <publish name="VirtualList">
+    <atlas name="默认" index="0"/>
+  </publish>
+</packageDescription>

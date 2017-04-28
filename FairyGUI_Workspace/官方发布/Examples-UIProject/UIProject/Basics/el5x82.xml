@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="560,400">
+  <displayList>
+    <graph id="n1" name="n1" xy="0,0" size="560,400" type="rect" lineSize="2" lineColor="#ff00ff00" fillColor="#00663300"/>
+    <image id="n0" name="n0" src="sner1h" xy="2,3"/>
+    <jta id="n4" name="n4" src="t9fj5f" xy="270,136"/>
+    <component id="n5" name="n5" src="rpmb13" xy="209,255" pivot="90,35">
+      <Button icon="ui://9leh0eyfrpmbu"/>
+    </component>
+    <text id="n6" name="n6" xy="206,34" size="345,54" font="ui://9leh0eyfduef6m" fontSize="16" color="#ffffff" leading="12" autoSize="height" text="1234567890"/>
+    <text id="n7" name="n7" xy="228,368" size="329,28" font="Consolas" fontSize="22" color="#ccff00" text="Use system font(Unity5&amp;Web)"/>
+  </displayList>
+</component>

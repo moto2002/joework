@@ -1,0 +1,23 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: niuniu.png (256 x 512)
+# $TexturePacker:SmartUpdate:5f1c200a359a53bad9d30d45e75e75fb:feac6fecdf19d0ddcb0c2ce5df6072fa:9a1a643710d89156efa6f7ffad870f3d$
+#
+
+niu0;134;464;89;46;0.5;0.5
+niu1;2;323;85;45;0.5058823529411764;0.5
+niu11;2;417;127;45;0.5;0.5
+niu12;2;464;130;46;0.5;0.5
+niu13;131;416;89;46;0.5;0.5
+niu2;89;322;85;45;0.5058823529411764;0.5
+niu3;2;182;84;45;0.5119047619047619;0.5
+niu4;2;276;85;45;0.5058823529411764;0.5
+niu5;89;275;85;45;0.5058823529411764;0.5
+niu6;2;370;86;45;0.5;0.5
+niu7;90;369;86;45;0.5;0.5
+niu8;2;229;85;45;0.5058823529411764;0.5
+niu9;89;228;85;45;0.5058823529411764;0.5

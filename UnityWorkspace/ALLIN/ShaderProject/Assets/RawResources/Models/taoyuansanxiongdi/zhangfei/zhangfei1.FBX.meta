@@ -1,0 +1,327 @@
+fileFormatVersion: 2
+guid: d711b2abc574db24a8faaabd3636a337
+timeCreated: 1451483964
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bip001
+    100002: Bip001 Footsteps
+    100004: Bip001 Head
+    100006: Bip001 HeadNub
+    100008: Bip001 L Calf
+    100010: Bip001 L Clavicle
+    100012: Bip001 L Finger0
+    100014: Bip001 L Finger01
+    100016: Bip001 L Finger02
+    100018: Bip001 L Finger0Nub
+    100020: Bip001 L Finger1
+    100022: Bip001 L Finger11
+    100024: Bip001 L Finger12
+    100026: Bip001 L Finger1Nub
+    100028: Bip001 L Finger2
+    100030: Bip001 L Finger21
+    100032: Bip001 L Finger22
+    100034: Bip001 L Finger2Nub
+    100036: Bip001 L Finger3
+    100038: Bip001 L Finger31
+    100040: Bip001 L Finger32
+    100042: Bip001 L Finger3Nub
+    100044: Bip001 L Finger4
+    100046: Bip001 L Finger41
+    100048: Bip001 L Finger42
+    100050: Bip001 L Finger4Nub
+    100052: Bip001 L Foot
+    100054: Bip001 L Forearm
+    100056: Bip001 L Hand
+    100058: Bip001 L Thigh
+    100060: Bip001 L Toe0
+    100062: Bip001 L Toe0Nub
+    100064: Bip001 L UpperArm
+    100066: Bip001 Neck
+    100068: Bip001 Pelvis
+    100070: Bip001 R Calf
+    100072: Bip001 R Clavicle
+    100074: Bip001 R Finger0
+    100076: Bip001 R Finger01
+    100078: Bip001 R Finger02
+    100080: Bip001 R Finger0Nub
+    100082: Bip001 R Finger1
+    100084: Bip001 R Finger11
+    100086: Bip001 R Finger12
+    100088: Bip001 R Finger1Nub
+    100090: Bip001 R Finger2
+    100092: Bip001 R Finger21
+    100094: Bip001 R Finger22
+    100096: Bip001 R Finger2Nub
+    100098: Bip001 R Finger3
+    100100: Bip001 R Finger31
+    100102: Bip001 R Finger32
+    100104: Bip001 R Finger3Nub
+    100106: Bip001 R Finger4
+    100108: Bip001 R Finger41
+    100110: Bip001 R Finger42
+    100112: Bip001 R Finger4Nub
+    100114: Bip001 R Foot
+    100116: Bip001 R Forearm
+    100118: Bip001 R Hand
+    100120: Bip001 R Thigh
+    100122: Bip001 R Toe0
+    100124: Bip001 R Toe0Nub
+    100126: Bip001 R UpperArm
+    100128: Bip001 Spine
+    100130: Bip001 Spine1
+    100132: Bip001 Xtra01
+    100134: Bip001 Xtra0102
+    100136: Bip001 Xtra01Nub
+    100138: Bip001 Xtra02
+    100140: Bip001 Xtra0202
+    100142: Bip001 Xtra0203
+    100144: Bip001 Xtra0204
+    100146: Bip001 Xtra02Nub
+    100148: Bip001 Xtra03
+    100150: Bip001 Xtra03Nub
+    100152: "Bip001 \u9AA8\u76C61"
+    100154: "Bip001 \u9AA8\u76C6102"
+    100156: "Bip001 \u9AA8\u76C61Nub"
+    100158: "Bip001 \u9AA8\u76C6\u4FA7"
+    100160: "Bip001 \u9AA8\u76C6\u4FA702"
+    100162: "Bip001 \u9AA8\u76C6\u4FA703"
+    100164: "Bip001 \u9AA8\u76C6\u4FA7Nub"
+    100166: "Bip001 \u9AA8\u76C6\u524D"
+    100168: "Bip001 \u9AA8\u76C6\u524D02"
+    100170: "Bip001 \u9AA8\u76C6\u524D03"
+    100172: "Bip001 \u9AA8\u76C6\u524D04"
+    100174: "Bip001 \u9AA8\u76C6\u524DNub"
+    100176: "Bip001 \u9AA8\u76C6\u540E"
+    100178: "Bip001 \u9AA8\u76C6\u540E02"
+    100180: "Bip001 \u9AA8\u76C6\u540E03"
+    100182: "Bip001 \u9AA8\u76C6\u540ENub"
+    100184: Camera001
+    100186: Camera001.Target
+    100188: Dummy001
+    100190: mr Sky Portal001
+    100192: "mr \u533A\u57DF\u6CDB\u5149\u706F001"
+    100194: "NPC_\u5F20\u98DE_02"
+    100196: "NPC_\u5F20\u98DE_\u6B66\u5668_02"
+    100198: Particle View01
+    100200: Particle View02
+    100202: Sky001
+    100204: //RootNode
+    100206: "\u5BF9\u8C6103"
+    100208: "\u5BF9\u8C6104"
+    100210: "\u5BF9\u8C61100"
+    100212: "\u5BF9\u8C61104"
+    100214: "\u5BF9\u8C61108"
+    100216: "\u5BF9\u8C61111"
+    100218: "\u5BF9\u8C61112"
+    100220: "\u5BF9\u8C61116"
+    100222: "\u5BF9\u8C6152"
+    100224: "\u5BF9\u8C6166"
+    100226: "\u5BF9\u8C6168"
+    100228: "\u5BF9\u8C6196"
+    100230: "\u5BF9\u8C6199"
+    100232: "\u5F20\u98DE_\u6B66\u5668_02"
+    100234: "\u5F20\u98DE_\u6B66\u5668_08"
+    100236: "\u5F20\u98DE_\u6B66\u5668_12"
+    100238: "\u5F20\u98DE_\u6B66\u5668_13"
+    100240: "\u5F20\u98DE_\u6B66\u5668_22"
+    100242: "\u5F20\u98DE_\u6B66\u5668_23"
+    100244: "\u5F20\u98DE_\u6B66\u5668_24"
+    100246: "\u5F20\u98DE_\u6B66\u5668_26"
+    100248: "\u5F20\u98DE_\u6B66\u5668_27"
+    100250: "\u5F20\u98DE_\u6B66\u5668_28"
+    400000: Bip001
+    400002: Bip001 Footsteps
+    400004: Bip001 Head
+    400006: Bip001 HeadNub
+    400008: Bip001 L Calf
+    400010: Bip001 L Clavicle
+    400012: Bip001 L Finger0
+    400014: Bip001 L Finger01
+    400016: Bip001 L Finger02
+    400018: Bip001 L Finger0Nub
+    400020: Bip001 L Finger1
+    400022: Bip001 L Finger11
+    400024: Bip001 L Finger12
+    400026: Bip001 L Finger1Nub
+    400028: Bip001 L Finger2
+    400030: Bip001 L Finger21
+    400032: Bip001 L Finger22
+    400034: Bip001 L Finger2Nub
+    400036: Bip001 L Finger3
+    400038: Bip001 L Finger31
+    400040: Bip001 L Finger32
+    400042: Bip001 L Finger3Nub
+    400044: Bip001 L Finger4
+    400046: Bip001 L Finger41
+    400048: Bip001 L Finger42
+    400050: Bip001 L Finger4Nub
+    400052: Bip001 L Foot
+    400054: Bip001 L Forearm
+    400056: Bip001 L Hand
+    400058: Bip001 L Thigh
+    400060: Bip001 L Toe0
+    400062: Bip001 L Toe0Nub
+    400064: Bip001 L UpperArm
+    400066: Bip001 Neck
+    400068: Bip001 Pelvis
+    400070: Bip001 R Calf
+    400072: Bip001 R Clavicle
+    400074: Bip001 R Finger0
+    400076: Bip001 R Finger01
+    400078: Bip001 R Finger02
+    400080: Bip001 R Finger0Nub
+    400082: Bip001 R Finger1
+    400084: Bip001 R Finger11
+    400086: Bip001 R Finger12
+    400088: Bip001 R Finger1Nub
+    400090: Bip001 R Finger2
+    400092: Bip001 R Finger21
+    400094: Bip001 R Finger22
+    400096: Bip001 R Finger2Nub
+    400098: Bip001 R Finger3
+    400100: Bip001 R Finger31
+    400102: Bip001 R Finger32
+    400104: Bip001 R Finger3Nub
+    400106: Bip001 R Finger4
+    400108: Bip001 R Finger41
+    400110: Bip001 R Finger42
+    400112: Bip001 R Finger4Nub
+    400114: Bip001 R Foot
+    400116: Bip001 R Forearm
+    400118: Bip001 R Hand
+    400120: Bip001 R Thigh
+    400122: Bip001 R Toe0
+    400124: Bip001 R Toe0Nub
+    400126: Bip001 R UpperArm
+    400128: Bip001 Spine
+    400130: Bip001 Spine1
+    400132: Bip001 Xtra01
+    400134: Bip001 Xtra0102
+    400136: Bip001 Xtra01Nub
+    400138: Bip001 Xtra02
+    400140: Bip001 Xtra0202
+    400142: Bip001 Xtra0203
+    400144: Bip001 Xtra0204
+    400146: Bip001 Xtra02Nub
+    400148: Bip001 Xtra03
+    400150: Bip001 Xtra03Nub
+    400152: "Bip001 \u9AA8\u76C61"
+    400154: "Bip001 \u9AA8\u76C6102"
+    400156: "Bip001 \u9AA8\u76C61Nub"
+    400158: "Bip001 \u9AA8\u76C6\u4FA7"
+    400160: "Bip001 \u9AA8\u76C6\u4FA702"
+    400162: "Bip001 \u9AA8\u76C6\u4FA703"
+    400164: "Bip001 \u9AA8\u76C6\u4FA7Nub"
+    400166: "Bip001 \u9AA8\u76C6\u524D"
+    400168: "Bip001 \u9AA8\u76C6\u524D02"
+    400170: "Bip001 \u9AA8\u76C6\u524D03"
+    400172: "Bip001 \u9AA8\u76C6\u524D04"
+    400174: "Bip001 \u9AA8\u76C6\u524DNub"
+    400176: "Bip001 \u9AA8\u76C6\u540E"
+    400178: "Bip001 \u9AA8\u76C6\u540E02"
+    400180: "Bip001 \u9AA8\u76C6\u540E03"
+    400182: "Bip001 \u9AA8\u76C6\u540ENub"
+    400184: Camera001
+    400186: Camera001.Target
+    400188: Dummy001
+    400190: mr Sky Portal001
+    400192: "mr \u533A\u57DF\u6CDB\u5149\u706F001"
+    400194: "NPC_\u5F20\u98DE_02"
+    400196: "NPC_\u5F20\u98DE_\u6B66\u5668_02"
+    400198: Particle View01
+    400200: Particle View02
+    400202: Sky001
+    400204: //RootNode
+    400206: "\u5BF9\u8C6103"
+    400208: "\u5BF9\u8C6104"
+    400210: "\u5BF9\u8C61100"
+    400212: "\u5BF9\u8C61104"
+    400214: "\u5BF9\u8C61108"
+    400216: "\u5BF9\u8C61111"
+    400218: "\u5BF9\u8C61112"
+    400220: "\u5BF9\u8C61116"
+    400222: "\u5BF9\u8C6152"
+    400224: "\u5BF9\u8C6166"
+    400226: "\u5BF9\u8C6168"
+    400228: "\u5BF9\u8C6196"
+    400230: "\u5BF9\u8C6199"
+    400232: "\u5F20\u98DE_\u6B66\u5668_02"
+    400234: "\u5F20\u98DE_\u6B66\u5668_08"
+    400236: "\u5F20\u98DE_\u6B66\u5668_12"
+    400238: "\u5F20\u98DE_\u6B66\u5668_13"
+    400240: "\u5F20\u98DE_\u6B66\u5668_22"
+    400242: "\u5F20\u98DE_\u6B66\u5668_23"
+    400244: "\u5F20\u98DE_\u6B66\u5668_24"
+    400246: "\u5F20\u98DE_\u6B66\u5668_26"
+    400248: "\u5F20\u98DE_\u6B66\u5668_27"
+    400250: "\u5F20\u98DE_\u6B66\u5668_28"
+    4300000: "NPC_\u5F20\u98DE_02"
+    4300002: "NPC_\u5F20\u98DE_\u6B66\u5668_02"
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: "NPC_\u5F20\u98DE_02"
+    13700002: "NPC_\u5F20\u98DE_\u6B66\u5668_02"
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

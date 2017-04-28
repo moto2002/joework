@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="oqv64gwp" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="p6030" name="GlobalModalWaiting" folder="" file="p6030.xml" exported="true"/>
+    <image id="p6032" name="0" folder="" qualityOption="source" file="p6032.png" size="146,146"/>
+    <image id="p6033" name="1" folder="" qualityOption="source" file="p6033.png" size="189,188"/>
+    <component id="p6034" name="WindowModalWaiting" folder="" file="p6034.xml" exported="true"/>
+    <image id="p6035" name="2" folder="" qualityOption="source" file="p6035.png" size="69,69" scale="9grid" scale9grid="18,18,36,36"/>
+    <jta id="p6036" name="qtm011" folder="" origin="24,15" file="p6036.jta" size="49,31"/>
+    <component id="p6037" name="WindowFrame" folder="" file="p6037.xml"/>
+    <image id="p6038" name="5" folder="" file="p6038.png" size="615,387" scale="9grid" scale9grid="64,54,484,303" qualityOption="source"/>
+    <component id="p6039" name="CloseButton" folder="" file="p6039.xml"/>
+    <image id="p603a" name="02" folder="" qualityOption="source" file="p603a.png" size="60,74"/>
+    <image id="p603b" name="4" folder="" qualityOption="source" file="p603b.png" size="61,53"/>
+    <component id="p603c" name="TestWin" folder="" file="p603c.xml" exported="true"/>
+    <component id="p603d" name="Button1" folder="" file="p603d.xml"/>
+    <component id="p603e" name="Main" folder="" file="p603e.xml" exported="true"/>
+  </resources>
+  <publish name="ModalWaiting">
+    <atlas name="Default" index="0"/>
+  </publish>
+</packageDescription>

@@ -1,0 +1,4 @@
+FairyGUI-u5-x_x_x.unitypackage 适用于Unity5的完整版本，内含插件以及所有示例。
+FairyGUI-u4-x_x_x.unitypackage 适用于Unity4的完整版本，内含插件以及所有示例。
+FairyGUI-Unity-Plugin-x.x.x    内含适用Unity各个版本的插件，不包含示例。使用FairyGUI开发项目只需要这部分内容。
+FairyGUI-lua.zip               FairyGUI可以完美配合lua使用。如果你使用tolua或者ulua，可以从这里获得启发。

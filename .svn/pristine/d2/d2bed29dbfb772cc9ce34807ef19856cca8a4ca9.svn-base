@@ -1,0 +1,441 @@
+fileFormatVersion: 2
+guid: 412aabb159e166e4e8bf46d7c5311566
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: barrel
+    100002: BUFFBONE_CSTM_BOOSTER
+    100004: BUFFBONE_CSTM_IGNITE
+    100006: BUFFBONE_CSTM_ROCKET
+    100008: BUFFBONE_CSTM_ROCKET_L
+    100010: BUFFBONE_CSTM_ROCKET_R
+    100012: BUFFBONE_GLB_CHANNEL_LOC
+    100014: BUFFBONE_GLB_GROUND_LOC
+    100016: BUFFBONE_GLB_WEAPON_1
+    100018: C_BUFFBONE_GLB_CENTER_LOC
+    100020: C_BUFFBONE_GLB_CHEST_LOC
+    100022: C_BUFFBONE_GLB_HEAD_LOC
+    100024: C_BUFFBONE_GLB_LAYOUT_LOC
+    100026: C_BUFFBONE_GLB_OVERHEAD_LOC
+    100028: chest
+    100030: fuel_bottle
+    100032: gun
+    100034: hair_a
+    100036: hair_b
+    100038: head
+    100040: hip
+    100042: L_BUFFBONE_GLB_FOOT_LOC
+    100044: L_BUFFBONE_GLB_HAND_LOC
+    100046: l_ear
+    100048: l_foot
+    100050: l_hand
+    100052: l_hand_lever
+    100054: l_knee
+    100056: l_rocket
+    100058: l_rocket_holder
+    100060: l_stablizer
+    100062: l_suction_cup
+    100064: l_thigh
+    100066: l_toe
+    100068: l_uparm
+    100070: mouth
+    100072: pilot_l_finger
+    100074: pilot_l_foot
+    100076: pilot_l_forearm
+    100078: pilot_l_hand
+    100080: pilot_l_knee
+    100082: pilot_l_shoulder
+    100084: pilot_l_thigh
+    100086: pilot_l_toe
+    100088: pilot_l_uparm
+    100090: pilot_r_finger
+    100092: pilot_r_foot
+    100094: pilot_r_forearm
+    100096: pilot_r_hand
+    100098: pilot_r_knee
+    100100: pilot_r_shoulder
+    100102: pilot_r_thigh
+    100104: pilot_r_toe
+    100106: pilot_r_uparm
+    100108: pipe
+    100110: R_BUFFBONE_GLB_FOOT_LOC
+    100112: R_BUFFBONE_GLB_HAND_LOC
+    100114: r_ear
+    100116: r_foot
+    100118: r_hand_lever
+    100120: r_knee
+    100122: r_rocket
+    100124: r_rocket_holder
+    100126: r_stablizer
+    100128: r_suction_cup
+    100130: r_thigh
+    100132: r_toe
+    100134: robo_hip
+    100136: robot_root
+    100138: rocket
+    100140: rocket_holder
+    100142: root
+    100144: //RootNode
+    100146: seat
+    100148: shield_a
+    100150: shield_b
+    100152: spike
+    100154: spine
+    100156: transformrumble
+    100158: tube_a
+    100160: tube_b
+    100162: tube_c
+    100164: tube_d
+    100166: upper_body
+    100168: weapon
+    100170: weapon_a
+    100172: weapon_b
+    100174: weapon_c
+    400000: barrel
+    400002: BUFFBONE_CSTM_BOOSTER
+    400004: BUFFBONE_CSTM_IGNITE
+    400006: BUFFBONE_CSTM_ROCKET
+    400008: BUFFBONE_CSTM_ROCKET_L
+    400010: BUFFBONE_CSTM_ROCKET_R
+    400012: BUFFBONE_GLB_CHANNEL_LOC
+    400014: BUFFBONE_GLB_GROUND_LOC
+    400016: BUFFBONE_GLB_WEAPON_1
+    400018: C_BUFFBONE_GLB_CENTER_LOC
+    400020: C_BUFFBONE_GLB_CHEST_LOC
+    400022: C_BUFFBONE_GLB_HEAD_LOC
+    400024: C_BUFFBONE_GLB_LAYOUT_LOC
+    400026: C_BUFFBONE_GLB_OVERHEAD_LOC
+    400028: chest
+    400030: fuel_bottle
+    400032: gun
+    400034: hair_a
+    400036: hair_b
+    400038: head
+    400040: hip
+    400042: L_BUFFBONE_GLB_FOOT_LOC
+    400044: L_BUFFBONE_GLB_HAND_LOC
+    400046: l_ear
+    400048: l_foot
+    400050: l_hand
+    400052: l_hand_lever
+    400054: l_knee
+    400056: l_rocket
+    400058: l_rocket_holder
+    400060: l_stablizer
+    400062: l_suction_cup
+    400064: l_thigh
+    400066: l_toe
+    400068: l_uparm
+    400070: mouth
+    400072: pilot_l_finger
+    400074: pilot_l_foot
+    400076: pilot_l_forearm
+    400078: pilot_l_hand
+    400080: pilot_l_knee
+    400082: pilot_l_shoulder
+    400084: pilot_l_thigh
+    400086: pilot_l_toe
+    400088: pilot_l_uparm
+    400090: pilot_r_finger
+    400092: pilot_r_foot
+    400094: pilot_r_forearm
+    400096: pilot_r_hand
+    400098: pilot_r_knee
+    400100: pilot_r_shoulder
+    400102: pilot_r_thigh
+    400104: pilot_r_toe
+    400106: pilot_r_uparm
+    400108: pipe
+    400110: R_BUFFBONE_GLB_FOOT_LOC
+    400112: R_BUFFBONE_GLB_HAND_LOC
+    400114: r_ear
+    400116: r_foot
+    400118: r_hand_lever
+    400120: r_knee
+    400122: r_rocket
+    400124: r_rocket_holder
+    400126: r_stablizer
+    400128: r_suction_cup
+    400130: r_thigh
+    400132: r_toe
+    400134: robo_hip
+    400136: robot_root
+    400138: rocket
+    400140: rocket_holder
+    400142: root
+    400144: //RootNode
+    400146: seat
+    400148: shield_a
+    400150: shield_b
+    400152: spike
+    400154: spine
+    400156: transformrumble
+    400158: tube_a
+    400160: tube_b
+    400162: tube_c
+    400164: tube_d
+    400166: upper_body
+    400168: weapon
+    400170: weapon_a
+    400172: weapon_b
+    400174: weapon_c
+    4300000: transformrumble
+    7400000: Run
+    9500000: //RootNode
+    13700000: transformrumble
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BUFFBONE_GLB_CHANNEL_LOC
+        weight: 1
+      - path: BUFFBONE_GLB_GROUND_LOC
+        weight: 1
+      - path: C_BUFFBONE_GLB_CENTER_LOC
+        weight: 1
+      - path: C_BUFFBONE_GLB_LAYOUT_LOC
+        weight: 1
+      - path: C_BUFFBONE_GLB_OVERHEAD_LOC
+        weight: 1
+      - path: robot_root
+        weight: 1
+      - path: robot_root/robo_hip
+        weight: 1
+      - path: robot_root/robo_hip/l_thigh
+        weight: 1
+      - path: robot_root/robo_hip/l_thigh/l_knee
+        weight: 1
+      - path: robot_root/robo_hip/l_thigh/l_knee/L_BUFFBONE_GLB_FOOT_LOC
+        weight: 1
+      - path: robot_root/robo_hip/l_thigh/l_knee/l_foot
+        weight: 1
+      - path: robot_root/robo_hip/l_thigh/l_knee/l_foot/l_toe
+        weight: 1
+      - path: robot_root/robo_hip/l_thigh/l_knee/l_foot/l_toe/l_suction_cup
+        weight: 1
+      - path: robot_root/robo_hip/l_thigh/l_stablizer
+        weight: 1
+      - path: robot_root/robo_hip/r_thigh
+        weight: 1
+      - path: robot_root/robo_hip/r_thigh/r_knee
+        weight: 1
+      - path: robot_root/robo_hip/r_thigh/r_knee/R_BUFFBONE_GLB_FOOT_LOC
+        weight: 1
+      - path: robot_root/robo_hip/r_thigh/r_knee/r_foot
+        weight: 1
+      - path: robot_root/robo_hip/r_thigh/r_knee/r_foot/r_toe
+        weight: 1
+      - path: robot_root/robo_hip/r_thigh/r_knee/r_foot/r_toe/r_suction_cup
+        weight: 1
+      - path: robot_root/robo_hip/r_thigh/r_stablizer
+        weight: 1
+      - path: robot_root/upper_body
+        weight: 1
+      - path: robot_root/upper_body/BUFFBONE_CSTM_BOOSTER
+        weight: 1
+      - path: robot_root/upper_body/fuel_bottle
+        weight: 1
+      - path: robot_root/upper_body/fuel_bottle/tube_a
+        weight: 1
+      - path: robot_root/upper_body/fuel_bottle/tube_b
+        weight: 1
+      - path: robot_root/upper_body/gun
+        weight: 1
+      - path: robot_root/upper_body/gun/barrel
+        weight: 1
+      - path: robot_root/upper_body/gun/barrel/BUFFBONE_CSTM_IGNITE
+        weight: 1
+      - path: robot_root/upper_body/gun/barrel/R_BUFFBONE_GLB_HAND_LOC
+        weight: 1
+      - path: robot_root/upper_body/gun/tube_c
+        weight: 1
+      - path: robot_root/upper_body/gun/tube_d
+        weight: 1
+      - path: robot_root/upper_body/l_hand_lever
+        weight: 1
+      - path: robot_root/upper_body/l_rocket_holder
+        weight: 1
+      - path: robot_root/upper_body/l_rocket_holder/l_rocket
+        weight: 1
+      - path: robot_root/upper_body/l_rocket_holder/l_rocket/BUFFBONE_CSTM_ROCKET_L
+        weight: 1
+      - path: robot_root/upper_body/l_uparm
+        weight: 1
+      - path: robot_root/upper_body/l_uparm/l_hand
+        weight: 1
+      - path: robot_root/upper_body/l_uparm/l_hand/L_BUFFBONE_GLB_HAND_LOC
+        weight: 1
+      - path: robot_root/upper_body/l_uparm/l_hand/weapon
+        weight: 1
+      - path: robot_root/upper_body/l_uparm/l_hand/weapon/weapon_a
+        weight: 1
+      - path: robot_root/upper_body/l_uparm/l_hand/weapon/weapon_a/weapon_b
+        weight: 1
+      - path: robot_root/upper_body/l_uparm/l_hand/weapon/weapon_a/weapon_b/weapon_c
+        weight: 1
+      - path: robot_root/upper_body/l_uparm/l_hand/weapon/weapon_a/weapon_b/weapon_c/BUFFBONE_GLB_WEAPON_1
+        weight: 1
+      - path: robot_root/upper_body/pipe
+        weight: 1
+      - path: robot_root/upper_body/r_hand_lever
+        weight: 1
+      - path: robot_root/upper_body/r_rocket_holder
+        weight: 1
+      - path: robot_root/upper_body/r_rocket_holder/r_rocket
+        weight: 1
+      - path: robot_root/upper_body/r_rocket_holder/r_rocket/BUFFBONE_CSTM_ROCKET_R
+        weight: 1
+      - path: robot_root/upper_body/rocket_holder
+        weight: 1
+      - path: robot_root/upper_body/rocket_holder/rocket
+        weight: 1
+      - path: robot_root/upper_body/rocket_holder/rocket/BUFFBONE_CSTM_ROCKET
+        weight: 1
+      - path: robot_root/upper_body/root
+        weight: 1
+      - path: robot_root/upper_body/root/hip
+        weight: 1
+      - path: robot_root/upper_body/root/hip/pilot_l_thigh
+        weight: 1
+      - path: robot_root/upper_body/root/hip/pilot_l_thigh/pilot_l_knee
+        weight: 1
+      - path: robot_root/upper_body/root/hip/pilot_l_thigh/pilot_l_knee/pilot_l_foot
+        weight: 1
+      - path: robot_root/upper_body/root/hip/pilot_l_thigh/pilot_l_knee/pilot_l_foot/pilot_l_toe
+        weight: 1
+      - path: robot_root/upper_body/root/hip/pilot_r_thigh
+        weight: 1
+      - path: robot_root/upper_body/root/hip/pilot_r_thigh/pilot_r_knee
+        weight: 1
+      - path: robot_root/upper_body/root/hip/pilot_r_thigh/pilot_r_knee/pilot_r_foot
+        weight: 1
+      - path: robot_root/upper_body/root/hip/pilot_r_thigh/pilot_r_knee/pilot_r_foot/pilot_r_toe
+        weight: 1
+      - path: robot_root/upper_body/root/spine
+        weight: 1
+      - path: robot_root/upper_body/root/spine/chest
+        weight: 1
+      - path: robot_root/upper_body/root/spine/chest/C_BUFFBONE_GLB_CHEST_LOC
+        weight: 1
+      - path: robot_root/upper_body/root/spine/head
+        weight: 1
+      - path: robot_root/upper_body/root/spine/head/C_BUFFBONE_GLB_HEAD_LOC
+        weight: 1
+      - path: robot_root/upper_body/root/spine/head/hair_a
+        weight: 1
+      - path: robot_root/upper_body/root/spine/head/hair_b
+        weight: 1
+      - path: robot_root/upper_body/root/spine/head/l_ear
+        weight: 1
+      - path: robot_root/upper_body/root/spine/head/mouth
+        weight: 1
+      - path: robot_root/upper_body/root/spine/head/r_ear
+        weight: 1
+      - path: robot_root/upper_body/root/spine/pilot_l_shoulder
+        weight: 1
+      - path: robot_root/upper_body/root/spine/pilot_l_shoulder/pilot_l_uparm
+        weight: 1
+      - path: robot_root/upper_body/root/spine/pilot_l_shoulder/pilot_l_uparm/pilot_l_forearm
+        weight: 1
+      - path: robot_root/upper_body/root/spine/pilot_l_shoulder/pilot_l_uparm/pilot_l_forearm/pilot_l_hand
+        weight: 1
+      - path: robot_root/upper_body/root/spine/pilot_l_shoulder/pilot_l_uparm/pilot_l_forearm/pilot_l_hand/pilot_l_finger
+        weight: 1
+      - path: robot_root/upper_body/root/spine/pilot_r_shoulder
+        weight: 1
+      - path: robot_root/upper_body/root/spine/pilot_r_shoulder/pilot_r_uparm
+        weight: 1
+      - path: robot_root/upper_body/root/spine/pilot_r_shoulder/pilot_r_uparm/pilot_r_forearm
+        weight: 1
+      - path: robot_root/upper_body/root/spine/pilot_r_shoulder/pilot_r_uparm/pilot_r_forearm/pilot_r_hand
+        weight: 1
+      - path: robot_root/upper_body/root/spine/pilot_r_shoulder/pilot_r_uparm/pilot_r_forearm/pilot_r_hand/pilot_r_finger
+        weight: 1
+      - path: robot_root/upper_body/seat
+        weight: 1
+      - path: robot_root/upper_body/shield_a
+        weight: 1
+      - path: robot_root/upper_body/shield_a/shield_b
+        weight: 1
+      - path: robot_root/upper_body/spike
+        weight: 1
+      - path: transformrumble
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

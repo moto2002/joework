@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ezq9a8mh" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="d7yq0" name="Main" folder="" file="d7yq0.xml" exported="true"/>
+    <image id="zis77" name="change" folder="" qualityOption="source" file="zis77.png" size="282,500"/>
+    <image id="g40j8" name="2" folder="" qualityOption="source" file="g40j8.png" size="190,144"/>
+    <image id="g40j9" name="1" folder="" qualityOption="source" file="g40j9.png" size="131,168"/>
+    <image id="g40ja" name="0" folder="" qualityOption="source" file="g40ja.png" size="121,169"/>
+    <component id="g40je" name="button1" folder="" file="g40je.xml"/>
+    <component id="g40jf" name="button2" folder="" file="g40jf.xml"/>
+    <component id="g40jg" name="button3" folder="" file="g40jg.xml"/>
+    <component id="g40jh" name="component1" folder="" file="g40jh.xml"/>
+  </resources>
+  <publish name="HitTest">
+    <atlas name="默认" index="0"/>
+  </publish>
+</packageDescription>

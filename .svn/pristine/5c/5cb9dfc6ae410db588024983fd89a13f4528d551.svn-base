@@ -1,0 +1,53 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Properties="clr-namespace:AutoCSharp.Properties" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="AutoCSharp.MainWindow"
+        Title="KLTools" Height="320" Width="460" Icon="Icon.ico" ResizeMode="NoResize">
+    <Grid OpacityMask="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}">
+        <!--起始页-->
+        <Grid x:Name="StartGrid" HorizontalAlignment="Left" Height="290" VerticalAlignment="Center" Width="452" Panel.ZIndex="100" Margin="3,9,-1,-7">
+            <Button Content="AutoXml" Margin="298,17,27,202" Width="127" Click="ShowAutoXml" Height="71"/>
+            <Button Tag="" Content="Excel2Cs(不用)" HorizontalAlignment="Left" Margin="18,102,0,0" VerticalAlignment="Top" Width="122" Click="ShowAutoExcel" Height="74"/>
+            <Button Tag="AutoBin" Content="ExcelBin(不用)" HorizontalAlignment="Left" Margin="18,192,0,0" VerticalAlignment="Top" Width="122" Click="CreatrBin" Height="70"/>
+            <Button Content=".Proto2Cs" HorizontalAlignment="Left" Margin="304,106,0,0" VerticalAlignment="Top" Width="121" Click="CreateCSharpFromProto" Height="74"/>
+            <WrapPanel HorizontalAlignment="Left" Height="100" Margin="341,102,0,0" VerticalAlignment="Top" Width="94"/>
+            <Button Content="Excel2Txt" Margin="18,17,312,0" VerticalAlignment="Top" Height="74" Click="CreateTxtFromExcel"/>
+            <Button Content="Txt2Cs" HorizontalAlignment="Left" Margin="160,16,0,0" VerticalAlignment="Top" Width="121" Height="74" Click="TxtToCS"/>
+            <Button Content="Txt2Bin" HorizontalAlignment="Left" Margin="160,106,0,0" VerticalAlignment="Top" Width="121" Height="70" Click="TxtBin"/>
+            <Button Content="Txt2Xml" HorizontalAlignment="Left" Margin="160,192,0,0" VerticalAlignment="Top" Width="121" Height="70" Click="Txt2Xml"/>
+            <Button Content=".Json2Bin" HorizontalAlignment="Left" Margin="304,190,0,0" VerticalAlignment="Top" Width="121" Click="Json2Bin" Height="74"/>
+        </Grid>
+
+        <!--AutoXml-->
+        <Grid x:Name="AutoXml" HorizontalAlignment="Left" Height="290" VerticalAlignment="Center" Width="452" Margin="0,1" d:IsHidden="True">
+            <Label Content="将策划配的 xml 文档转成对应的解析类：&#xA;1. xml值类型为：string, uint, float&#xA;1. 若参数为浮点型时其值应为浮点值（eg. 1.0 而不是 1 ）；&#xA;2. 所有要转换的 xml 表放在同级目录的Xml文件夹内；&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" ToolTip="xml值类型为：string, uint, float" Height="83" Width="452"/>
+            <TextBox x:Name="XmlFolder" HorizontalAlignment="Left" Height="26" Margin="75,118,0,0" TextWrapping="Wrap" Text="XmlItems" VerticalAlignment="Top" Width="367"/>
+            <Label Content="输出目录 :" HorizontalAlignment="Left" Margin="6,118,0,0" VerticalAlignment="Top"/>
+            <Label Content="根节点名：" HorizontalAlignment="Left" Margin="6,88,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.475,1.641"/>
+            <TextBox x:Name="XmlRootName" HorizontalAlignment="Left" Height="26" Margin="76,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="366" Text="Config" />
+            <Label Content="命名空间：" HorizontalAlignment="Left" Margin="6,149,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.286,0.231"/>
+            <TextBox x:Name="NameSpaceText" HorizontalAlignment="Left" Height="26" Margin="75,149,0,0" TextWrapping="Wrap" Text="KLBase.Xml" VerticalAlignment="Top" Width="367"/>
+            <Label Content="继       承：" HorizontalAlignment="Left" Margin="6,180,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.478,0.987" Width="70"/>
+            <TextBox x:Name="HeritNames" HorizontalAlignment="Left" Height="26" Margin="75,180,0,0" TextWrapping="Wrap" Text="IXmlValue" VerticalAlignment="Top" Width="367"/>
+            <Button Content="xml -&gt; cs" HorizontalAlignment="Left" Margin="0,229,0,0" VerticalAlignment="Top" Width="212" Click="XmlToCS" Height="51" FontSize="14" ToolTip="xml 文件请放在同级目录的&quot;Xml&quot;文件夹内"/>
+            <Button Content="返 回" HorizontalAlignment="Left" Margin="228,229,0,0" VerticalAlignment="Top" Width="214" Click="BackRoot" Height="51" FontSize="14" />
+            <CheckBox x:Name="RootXmlFolder" Content="使用根目录下的Xml目录" HorizontalAlignment="Left" Margin="10,210,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        </Grid>
+
+        <!--AutoExcel-->
+        <Grid x:Name="AutoExcel" HorizontalAlignment="Left" Height="290" VerticalAlignment="Center" Width="452" d:IsHidden="True">
+            <Label Content="xml档转成对应的PB解析类" VerticalAlignment="Top" Height="33" Margin="0,1,135,0" FontSize="20"/>
+            <Label Content="将策划配的 Excel 文档转成对应的解析类" HorizontalAlignment="Left" VerticalAlignment="Top" ToolTip="xml值类型为：string, uint, float" Height="108" Width="452" Margin="0,97,0,0"/>
+            <TextBox x:Name="ExcelFolder" Text="ExcelItems" HorizontalAlignment="Left" Height="26" Margin="75,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="367"/>
+            <TextBox x:Name="ExcelNameSpace" Text="" HorizontalAlignment="Left" Height="26" Margin="75,154,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="367"/>
+            <TextBox x:Name="ExcelHerit" Text="" HorizontalAlignment="Left" Height="26" Margin="75,185,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="367"/>
+            <Label Content="输出目录 :" HorizontalAlignment="Left" Margin="6,123,0,0" VerticalAlignment="Top"/>
+            <Label Content="命名空间：" HorizontalAlignment="Left" Margin="6,154,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.286,0.231"/>
+            <Label Content="继       承：" HorizontalAlignment="Left" Margin="6,185,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.478,0.987" Width="70"/>
+            <Button Content="Excel -&gt; cs" Click="ExcelToCS" HorizontalAlignment="Left" Margin="0,229,0,0" VerticalAlignment="Top" Width="221" Height="51" FontSize="14"/>
+            <Button Content="xml -&gt; cs" Click="XmlToProtocolBufferCSharp" HorizontalAlignment="Left" Margin="10,39,0,0" VerticalAlignment="Top" Width="432" Height="58" FontSize="14" ToolTip="每一行解析成一个类" />
+            <Button Content="返 回" Click="BackRoot" HorizontalAlignment="Left" Margin="226,229,0,0" VerticalAlignment="Top" Width="216" Height="51" FontSize="14" />
+            <CheckBox x:Name="RootExcelFolder" Content="使用根目录下的Excel目录" HorizontalAlignment="Left" Margin="10,210,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        </Grid>
+    </Grid>
+</Window>

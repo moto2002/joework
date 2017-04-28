@@ -1,0 +1,770 @@
+using Assets.Scripts.Common;
+using Assets.Scripts.Framework;
+using Assets.Scripts.GameLogic.GameKernal;
+using CSProtocol;
+using ResData;
+using System;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace Assets.Scripts.GameLogic
+{
+	public class BattleStatistic : Singleton<BattleStatistic>
+	{
+		private DictionaryView<uint, CampInfo> campStat = new DictionaryView<uint, CampInfo>();
+
+		private DictionaryView<uint, Dictionary<int, DestroyStat>> destroyStats = new DictionaryView<uint, Dictionary<int, DestroyStat>>();
+
+		public DictionaryView<uint, DictionaryView<uint, NONHERO_STATISTIC_INFO>> m_NonHeroInfo = new DictionaryView<uint, DictionaryView<uint, NONHERO_STATISTIC_INFO>>();
+
+		private int m_iBattleResult;
+
+		private AchievementRecorder m_optAchievementRecorder = new AchievementRecorder();
+
+		public CBattleDeadStat m_battleDeadStat = new CBattleDeadStat();
+
+		public CPlayerKDAStat m_playerKDAStat = new CPlayerKDAStat();
+
+		public CPlayerSoulLevelStat m_playerSoulLevelStat = new CPlayerSoulLevelStat();
+
+		public CShenFuStat m_shenFuStat = new CShenFuStat();
+
+		public CPlayerBehaviorStat m_playerBehaviorStat = new CPlayerBehaviorStat();
+
+		public CHeroSkillStat m_heroSkillStat = new CHeroSkillStat();
+
+		public CBattleBuffStat m_battleBuffStat = new CBattleBuffStat();
+
+		private uint m_winMvpId;
+
+		private uint m_loseMvpId;
+
+		private bool _useServerMvpScore;
+
+		private Dictionary<uint, int> _mvpScore = new Dictionary<uint, int>();
+
+		private uint m_lastBestPlayer;
+
+		public COMDT_SETTLE_HERO_RESULT_DETAIL heroSettleInfo;
+
+		public COMDT_RANK_SETTLE_INFO rankInfo;
+
+		public COMDT_ACNT_INFO acntInfo;
+
+		public COMDT_REWARD_MULTIPLE_DETAIL multiDetail;
+
+		public GET_SOUL_EXP_STATISTIC_INFO m_stSoulStatisticInfo = new GET_SOUL_EXP_STATISTIC_INFO();
+
+		public CPlayerLocationStat m_locStat = new CPlayerLocationStat();
+
+		public COMDT_PVPSPECITEM_OUTPUT SpecialItemInfo;
+
+		public COMDT_REWARD_DETAIL Rewards;
+
+		public VDStat m_vdStat = new VDStat();
+
+		public bool bSelfCampHaveWinningFlag;
+
+		public int iBattleResult
+		{
+			get
+			{
+				return this.m_iBattleResult;
+			}
+			set
+			{
+				this.m_iBattleResult = value;
+			}
+		}
+
+		public void StartStatistic()
+		{
+			this.campStat.Clear();
+			this.destroyStats.Clear();
+			CPlayerBehaviorStat.Clear();
+			this.destroyStats.Add(0u, new Dictionary<int, DestroyStat>());
+			this.destroyStats.Add(1u, new Dictionary<int, DestroyStat>());
+			this.destroyStats.Add(2u, new Dictionary<int, DestroyStat>());
+			this.m_playerKDAStat.StartKDARecord();
+			this.m_battleDeadStat.StartRecord();
+			this.m_playerSoulLevelStat.StartRecord();
+			this.m_shenFuStat.StartRecord();
+			this.m_battleBuffStat.StartRecord();
+			this.m_optAchievementRecorder.StartRecord();
+			this.m_locStat.StartRecord();
+			this.m_vdStat.StartRecord();
+			this.m_NonHeroInfo.Clear();
+			for (uint num = 0u; num < 3u; num += 1u)
+			{
+				this.campStat.Add(num, new CampInfo(num));
+			}
+			this.initEvent();
+			this.initNotifyDestroyStat();
+			this.m_winMvpId = 0u;
+			this.m_loseMvpId = 0u;
+			this._useServerMvpScore = false;
+			this._mvpScore.Clear();
+			this.m_lastBestPlayer = 0u;
+			this.m_heroSkillStat.StartRecord();
+		}
+
+		private void initNotifyDestroyStat()
+		{
+			SLevelContext curLvelContext = Singleton<BattleLogic>.GetInstance().GetCurLvelContext();
+			if (curLvelContext.IsMobaMode())
+			{
+				return;
+			}
+			if (curLvelContext != null && curLvelContext.m_starDetail != null)
+			{
+				for (int i = 0; i < curLvelContext.m_starDetail.Length; i++)
+				{
+					int iParam = curLvelContext.m_starDetail[i].iParam;
+					if (iParam != 0)
+					{
+						ResEvaluateStarInfo dataByKey = GameDataMgr.evaluateCondInfoDatabin.GetDataByKey((uint)iParam);
+						this.CondfoToDestroyStat(dataByKey.astConditions);
+					}
+				}
+			}
+			else
+			{
+				DebugHelper.Assert(false, string.Format("LevelConfig is null -- levelID: {0}", curLvelContext.m_mapID));
+			}
+		}
+
+		private void CondfoToDestroyStat(ResDT_ConditionInfo[] astCond)
+		{
+			for (int i = 0; i < astCond.Length; i++)
+			{
+				if (astCond[i].dwType == 1u && astCond[i].KeyDetail[1] != 0)
+				{
+					Dictionary<int, DestroyStat> dictionary;
+					if (!this.destroyStats.TryGetValue((uint)astCond[i].KeyDetail[0], ref dictionary))
+					{
+						dictionary = new Dictionary<int, DestroyStat>();
+						this.destroyStats.Add((uint)astCond[i].KeyDetail[0], dictionary);
+					}
+					DestroyStat destroyStat;
+					if (!dictionary.TryGetValue(astCond[i].KeyDetail[1], ref destroyStat))
+					{
+						destroyStat = default(DestroyStat);
+						dictionary.Add(astCond[i].KeyDetail[1], destroyStat);
+					}
+				}
+			}
+		}
+
+		private void initEvent()
+		{
+			this.unInitEvent();
+			Singleton<GameEventSys>.get_instance().AddEventHandler<GameDeadEventParam>(GameEventDef.Event_ActorDead, new RefAction<GameDeadEventParam>(this.onActorDead));
+			Singleton<GameEventSys>.get_instance().AddEventHandler<DefaultGameEventParam>(GameEventDef.Event_BeginFightOver, new RefAction<DefaultGameEventParam>(this.onFightOver));
+			Singleton<GameEventSys>.get_instance().AddEventHandler<PoolObjHandle<ActorRoot>>(GameEventDef.Event_ActorInit, new RefAction<PoolObjHandle<ActorRoot>>(this.OnActorInit));
+			Singleton<GameEventSys>.get_instance().AddEventHandler<HurtEventResultInfo>(GameEventDef.Event_ActorDamage, new RefAction<HurtEventResultInfo>(this.OnActorDamage));
+			Singleton<EventRouter>.GetInstance().AddEventHandler<PoolObjHandle<ActorRoot>, int, int, int>("HeroSoulExpChange", new Action<PoolObjHandle<ActorRoot>, int, int, int>(this.onSoulExpChange));
+			Singleton<EventRouter>.GetInstance().AddEventHandler<PoolObjHandle<ActorRoot>, int, bool, PoolObjHandle<ActorRoot>>("HeroGoldCoinInBattleChange", new Action<PoolObjHandle<ActorRoot>, int, bool, PoolObjHandle<ActorRoot>>(this.OnActorBattleCoinChanged));
+			Singleton<GameEventSys>.get_instance().AddEventHandler<AddSoulExpEventParam>(GameEventDef.Event_AddExpValue, new RefAction<AddSoulExpEventParam>(this.OnAddExpValue));
+		}
+
+		public void unInitEvent()
+		{
+			Singleton<GameEventSys>.get_instance().RmvEventHandler<GameDeadEventParam>(GameEventDef.Event_ActorDead, new RefAction<GameDeadEventParam>(this.onActorDead));
+			Singleton<GameEventSys>.get_instance().RmvEventHandler<DefaultGameEventParam>(GameEventDef.Event_BeginFightOver, new RefAction<DefaultGameEventParam>(this.onFightOver));
+			Singleton<GameEventSys>.get_instance().RmvEventHandler<PoolObjHandle<ActorRoot>>(GameEventDef.Event_ActorInit, new RefAction<PoolObjHandle<ActorRoot>>(this.OnActorInit));
+			Singleton<GameEventSys>.get_instance().RmvEventHandler<HurtEventResultInfo>(GameEventDef.Event_ActorDamage, new RefAction<HurtEventResultInfo>(this.OnActorDamage));
+			Singleton<EventRouter>.GetInstance().RemoveEventHandler<PoolObjHandle<ActorRoot>, int, int, int>("HeroSoulExpChange", new Action<PoolObjHandle<ActorRoot>, int, int, int>(this.onSoulExpChange));
+			Singleton<EventRouter>.GetInstance().RemoveEventHandler<PoolObjHandle<ActorRoot>, int, bool, PoolObjHandle<ActorRoot>>("HeroGoldCoinInBattleChange", new Action<PoolObjHandle<ActorRoot>, int, bool, PoolObjHandle<ActorRoot>>(this.OnActorBattleCoinChanged));
+			Singleton<GameEventSys>.get_instance().RmvEventHandler<AddSoulExpEventParam>(GameEventDef.Event_AddExpValue, new RefAction<AddSoulExpEventParam>(this.OnAddExpValue));
+		}
+
+		public void PostEndGame()
+		{
+			this.unInitEvent();
+			this.m_battleBuffStat.RemoveTimerEvent();
+			this.m_locStat.Clear();
+			this.m_vdStat.Clear();
+		}
+
+		public void UpdateLogic(int DeltaTime)
+		{
+			if (this.m_locStat != null)
+			{
+				this.m_locStat.UpdateLogic(DeltaTime);
+			}
+		}
+
+		public DictionaryView<uint, CampInfo> GetCampStat()
+		{
+			return this.campStat;
+		}
+
+		public void GetCampsByScoreRank(RES_STAR_CONDITION_DATA_SUB_TYPE inDataSubType, out List<COM_PLAYERCAMP> result, out List<int> resultScore)
+		{
+			result = new List<COM_PLAYERCAMP>();
+			resultScore = new List<int>();
+			Dictionary<uint, int> dictionary = new Dictionary<uint, int>();
+			DictionaryView<uint, CampInfo>.Enumerator enumerator = this.campStat.GetEnumerator();
+			while (enumerator.MoveNext())
+			{
+				KeyValuePair<uint, CampInfo> current = enumerator.get_Current();
+				CampInfo value = current.get_Value();
+				if (value != null)
+				{
+					KeyValuePair<uint, CampInfo> current2 = enumerator.get_Current();
+					uint key = current2.get_Key();
+					int score = value.GetScore(inDataSubType);
+					if (score >= 0)
+					{
+						dictionary.Add(key, score);
+					}
+				}
+			}
+			Dictionary<uint, int>.Enumerator enumerator2 = dictionary.GetEnumerator();
+			while (enumerator2.MoveNext())
+			{
+				KeyValuePair<uint, int> current3 = enumerator2.get_Current();
+				COM_PLAYERCAMP key2 = current3.get_Key();
+				KeyValuePair<uint, int> current4 = enumerator2.get_Current();
+				int value2 = current4.get_Value();
+				bool flag = false;
+				int count = result.get_Count();
+				for (int i = 0; i < count; i++)
+				{
+					if (resultScore.get_Item(i) < value2)
+					{
+						result.Insert(i, key2);
+						resultScore.Insert(i, value2);
+						flag = true;
+						break;
+					}
+				}
+				if (!flag)
+				{
+					result.Add(key2);
+					resultScore.Add(value2);
+				}
+			}
+			DebugHelper.Assert(resultScore.get_Count() == result.get_Count());
+		}
+
+		public uint GetScoreRank(COM_PLAYERCAMP inCampType, RES_STAR_CONDITION_DATA_SUB_TYPE inDataSubType)
+		{
+			List<COM_PLAYERCAMP> list = null;
+			List<int> list2 = null;
+			this.GetCampsByScoreRank(inDataSubType, out list, out list2);
+			HashSet<int> hashSet = new HashSet<int>();
+			if (list != null && list.get_Count() > 0)
+			{
+				int num = list.IndexOf(inCampType);
+				if (num >= 0)
+				{
+					for (int i = 0; i <= num; i++)
+					{
+						hashSet.Add(list2.get_Item(i));
+					}
+				}
+			}
+			return (uint)hashSet.get_Count();
+		}
+
+		public CampInfo GetCampInfoByCamp(COM_PLAYERCAMP campType)
+		{
+			CampInfo result;
+			if (this.campStat.TryGetValue(campType, ref result))
+			{
+				return result;
+			}
+			return null;
+		}
+
+		public DictionaryView<uint, Dictionary<int, DestroyStat>> GetDestroyStat()
+		{
+			return this.destroyStats;
+		}
+
+		private void onActorDead(ref GameDeadEventParam prm)
+		{
+			if (prm.bImmediateRevive)
+			{
+				return;
+			}
+			this.doDestroyStat(prm.src, prm.orignalAtker);
+			if (prm.src.get_handle().TheActorMeta.ActorType == ActorTypeDef.Actor_Type_Hero)
+			{
+				HeroWrapper heroWrapper = prm.src.get_handle().ActorControl as HeroWrapper;
+				CampInfo campInfo = null;
+				PoolObjHandle<ActorRoot> poolObjHandle = new PoolObjHandle<ActorRoot>(null);
+				if (prm.orignalAtker && prm.orignalAtker.get_handle().TheActorMeta.ActorType == ActorTypeDef.Actor_Type_Hero)
+				{
+					campInfo = this.GetCampInfoByCamp(prm.orignalAtker.get_handle().TheActorMeta.ActorCamp);
+					poolObjHandle = prm.orignalAtker;
+				}
+				else if (heroWrapper.IsKilledByHero() && heroWrapper.LastHeroAtker)
+				{
+					campInfo = this.GetCampInfoByCamp(heroWrapper.LastHeroAtker.get_handle().TheActorMeta.ActorCamp);
+					poolObjHandle = heroWrapper.LastHeroAtker;
+				}
+				if (campInfo != null && poolObjHandle)
+				{
+					campInfo.IncCampScore(prm.src, poolObjHandle);
+					uint dwConfValue = GameDataMgr.globalInfoDatabin.GetDataByKey(109u).dwConfValue;
+					campInfo.IncHeadPoints((int)dwConfValue, prm.src, poolObjHandle);
+				}
+			}
+			else if (prm.src.get_handle().TheActorMeta.ActorType == ActorTypeDef.Actor_Type_Monster)
+			{
+				MonsterWrapper monsterWrapper = prm.src.get_handle().ActorControl as MonsterWrapper;
+				if (monsterWrapper.IsKilledByHero())
+				{
+					CampInfo campInfoByCamp = this.GetCampInfoByCamp(monsterWrapper.LastHeroAtker.get_handle().TheActorMeta.ActorCamp);
+					DebugHelper.Assert(campInfoByCamp != null);
+					if (campInfoByCamp != null)
+					{
+						campInfoByCamp.IncHeadPoints(monsterWrapper.cfgInfo.iHeadPoints, prm.src, prm.orignalAtker);
+					}
+				}
+				else if (prm.orignalAtker && prm.orignalAtker.get_handle().TheActorMeta.ActorType == ActorTypeDef.Actor_Type_Hero)
+				{
+					CampInfo campInfoByCamp2 = this.GetCampInfoByCamp(prm.orignalAtker.get_handle().TheActorMeta.ActorCamp);
+					DebugHelper.Assert(campInfoByCamp2 != null);
+					if (campInfoByCamp2 != null)
+					{
+						campInfoByCamp2.IncHeadPoints(monsterWrapper.cfgInfo.iHeadPoints, prm.src, prm.orignalAtker);
+					}
+				}
+			}
+			DictionaryView<uint, NONHERO_STATISTIC_INFO> dictionaryView;
+			NONHERO_STATISTIC_INFO nONHERO_STATISTIC_INFO;
+			if (prm.src && prm.src.get_handle().TheActorMeta.ActorType != ActorTypeDef.Actor_Type_Hero && this.m_NonHeroInfo.TryGetValue((uint)prm.src.get_handle().TheActorMeta.ActorType, ref dictionaryView) && dictionaryView.TryGetValue(prm.src.get_handle().TheActorMeta.ActorCamp, ref nONHERO_STATISTIC_INFO))
+			{
+				nONHERO_STATISTIC_INFO.uiTotalDeadNum += 1u;
+			}
+			if (prm.atker && prm.src && prm.src.get_handle().TheActorMeta.ActorType == ActorTypeDef.Actor_Type_Organ)
+			{
+				OrganWrapper organWrapper = prm.src.get_handle().ActorControl as OrganWrapper;
+				if (organWrapper != null && organWrapper.cfgInfo.bOrganType == 1)
+				{
+					CampInfo campInfoByCamp3 = this.GetCampInfoByCamp(prm.atker.get_handle().TheActorMeta.ActorCamp);
+					if (campInfoByCamp3 != null)
+					{
+						campInfoByCamp3.destoryTowers++;
+						Singleton<EventRouter>.get_instance().BroadCastEvent(EventID.BATTLE_TOWER_DESTROY_CHANGED);
+					}
+				}
+			}
+		}
+
+		public void onFightOver(ref DefaultGameEventParam prm)
+		{
+			this.iBattleResult = Singleton<BattleLogic>.get_instance().JudgeBattleResult(prm.src, prm.atker);
+		}
+
+		private void doDestroyStat(PoolObjHandle<ActorRoot> src, PoolObjHandle<ActorRoot> atker)
+		{
+			Dictionary<int, DestroyStat> dictionary;
+			if (!this.destroyStats.TryGetValue((uint)src.get_handle().TheActorMeta.ActorType, ref dictionary))
+			{
+				dictionary = new Dictionary<int, DestroyStat>();
+				this.destroyStats.Add((uint)src.get_handle().TheActorMeta.ActorType, dictionary);
+			}
+			DestroyStat destroyStat;
+			if (!dictionary.TryGetValue(src.get_handle().TheActorMeta.ConfigId, ref destroyStat))
+			{
+				destroyStat = default(DestroyStat);
+				dictionary.Add(src.get_handle().TheActorMeta.ConfigId, destroyStat);
+			}
+			COM_PLAYERCAMP playerCamp = Singleton<GamePlayerCenter>.GetInstance().GetHostPlayer().PlayerCamp;
+			COM_PLAYERCAMP actorCamp = src.get_handle().TheActorMeta.ActorCamp;
+			int num = (playerCamp == actorCamp) ? 0 : 1;
+			if (num == 1)
+			{
+				if (actorCamp == null)
+				{
+					if (atker && atker.get_handle().TheActorMeta.ActorCamp == playerCamp)
+					{
+						destroyStat.CampEnemyNum++;
+					}
+				}
+				else
+				{
+					destroyStat.CampEnemyNum++;
+				}
+			}
+			else if (actorCamp == null)
+			{
+				if (atker && atker.get_handle().TheActorMeta.ActorCamp != playerCamp)
+				{
+					destroyStat.CampSelfNum++;
+				}
+			}
+			else
+			{
+				destroyStat.CampSelfNum++;
+			}
+			this.destroyStats.get_Item((uint)src.get_handle().TheActorMeta.ActorType).set_Item(src.get_handle().TheActorMeta.ConfigId, destroyStat);
+		}
+
+		public int GetCampScore(COM_PLAYERCAMP camp)
+		{
+			int num = 0;
+			DictionaryView<uint, PlayerKDA>.Enumerator enumerator = this.m_playerKDAStat.GetEnumerator();
+			while (enumerator.MoveNext())
+			{
+				KeyValuePair<uint, PlayerKDA> current = enumerator.get_Current();
+				if (camp == current.get_Value().PlayerCamp)
+				{
+					int arg_42_0 = num;
+					KeyValuePair<uint, PlayerKDA> current2 = enumerator.get_Current();
+					num = arg_42_0 + current2.get_Value().numKill;
+				}
+			}
+			return num;
+		}
+
+		private void OnActorInit(ref PoolObjHandle<ActorRoot> inActor)
+		{
+			if (inActor.get_handle().TheActorMeta.ActorType == ActorTypeDef.Actor_Type_Monster)
+			{
+				DictionaryView<uint, NONHERO_STATISTIC_INFO> dictionaryView;
+				if (!this.m_NonHeroInfo.TryGetValue((uint)inActor.get_handle().TheActorMeta.ActorType, ref dictionaryView))
+				{
+					dictionaryView = new DictionaryView<uint, NONHERO_STATISTIC_INFO>();
+					this.m_NonHeroInfo.Add((uint)inActor.get_handle().TheActorMeta.ActorType, dictionaryView);
+				}
+				NONHERO_STATISTIC_INFO nONHERO_STATISTIC_INFO;
+				if (!dictionaryView.TryGetValue(inActor.get_handle().TheActorMeta.ActorCamp, ref nONHERO_STATISTIC_INFO))
+				{
+					nONHERO_STATISTIC_INFO = new NONHERO_STATISTIC_INFO();
+					dictionaryView.Add(inActor.get_handle().TheActorMeta.ActorCamp, nONHERO_STATISTIC_INFO);
+				}
+				nONHERO_STATISTIC_INFO.ActorType = inActor.get_handle().TheActorMeta.ActorType;
+				nONHERO_STATISTIC_INFO.ActorCamp = inActor.get_handle().TheActorMeta.ActorCamp;
+				nONHERO_STATISTIC_INFO.uiTotalSpawnNum += 1u;
+				this.m_NonHeroInfo.get_Item((uint)inActor.get_handle().TheActorMeta.ActorType).set_Item(inActor.get_handle().TheActorMeta.ActorCamp, nONHERO_STATISTIC_INFO);
+			}
+		}
+
+		private void OnActorDamageAtker(ref HurtEventResultInfo prm)
+		{
+			if (prm.atker && prm.atker.get_handle().TheActorMeta.ActorType != ActorTypeDef.Actor_Type_Hero && prm.hurtInfo.hurtType != HurtTypeDef.Therapic)
+			{
+				DictionaryView<uint, NONHERO_STATISTIC_INFO> dictionaryView;
+				if (!this.m_NonHeroInfo.TryGetValue((uint)prm.atker.get_handle().TheActorMeta.ActorType, ref dictionaryView))
+				{
+					dictionaryView = new DictionaryView<uint, NONHERO_STATISTIC_INFO>();
+					this.m_NonHeroInfo.Add((uint)prm.atker.get_handle().TheActorMeta.ActorType, dictionaryView);
+				}
+				NONHERO_STATISTIC_INFO nONHERO_STATISTIC_INFO;
+				if (!dictionaryView.TryGetValue(prm.atker.get_handle().TheActorMeta.ActorCamp, ref nONHERO_STATISTIC_INFO))
+				{
+					nONHERO_STATISTIC_INFO = new NONHERO_STATISTIC_INFO();
+					dictionaryView.Add(prm.atker.get_handle().TheActorMeta.ActorCamp, nONHERO_STATISTIC_INFO);
+				}
+				nONHERO_STATISTIC_INFO.uiTotalAttackNum += 1u;
+				nONHERO_STATISTIC_INFO.uiTotalHurtCount += (uint)prm.hurtTotal;
+				nONHERO_STATISTIC_INFO.uiHurtMax = (uint)((nONHERO_STATISTIC_INFO.uiHurtMax <= (uint)prm.hurtTotal) ? prm.hurtTotal : ((int)nONHERO_STATISTIC_INFO.uiHurtMax));
+				nONHERO_STATISTIC_INFO.uiHurtMin = (uint)((nONHERO_STATISTIC_INFO.uiHurtMin >= (uint)prm.hurtTotal) ? prm.hurtTotal : ((int)nONHERO_STATISTIC_INFO.uiHurtMin));
+				DebugHelper.Assert(prm.atker.get_handle().SkillControl != null, "empty skill control");
+				if (prm.atker.get_handle().SkillControl != null && prm.atker.get_handle().SkillControl.stSkillStat != null && prm.atker.get_handle().SkillControl.stSkillStat.SkillStatistictInfo != null)
+				{
+					int atkSlot = (int)prm.hurtInfo.atkSlot;
+					int num = prm.atker.get_handle().SkillControl.stSkillStat.SkillStatistictInfo.Length;
+					bool flag = atkSlot >= 0 && atkSlot < num;
+					if (flag)
+					{
+						SKILLSTATISTICTINFO sKILLSTATISTICTINFO = prm.atker.get_handle().SkillControl.stSkillStat.SkillStatistictInfo[(int)prm.hurtInfo.atkSlot];
+						nONHERO_STATISTIC_INFO.uiAttackDistanceMax = (uint)sKILLSTATISTICTINFO.iAttackDistanceMax;
+						if (prm.atker.get_handle().SkillControl.CurUseSkillSlot != null && prm.atker.get_handle().SkillControl.CurUseSkillSlot.SkillObj != null && prm.atker.get_handle().SkillControl.CurUseSkillSlot.SkillObj.cfgData != null)
+						{
+							uint num2 = prm.atker.get_handle().SkillControl.CurUseSkillSlot.SkillObj.cfgData.iMaxAttackDistance;
+							nONHERO_STATISTIC_INFO.uiAttackDistanceMin = ((nONHERO_STATISTIC_INFO.uiAttackDistanceMin >= num2) ? num2 : nONHERO_STATISTIC_INFO.uiAttackDistanceMin);
+						}
+					}
+				}
+				if (nONHERO_STATISTIC_INFO.uiFirstBeAttackTime == 0u)
+				{
+					nONHERO_STATISTIC_INFO.uiFirstBeAttackTime = (uint)Singleton<FrameSynchr>.get_instance().LogicFrameTick;
+				}
+				this.m_NonHeroInfo.get_Item((uint)prm.atker.get_handle().TheActorMeta.ActorType).set_Item(prm.atker.get_handle().TheActorMeta.ActorCamp, nONHERO_STATISTIC_INFO);
+			}
+		}
+
+		private void OnActorDamage(ref HurtEventResultInfo prm)
+		{
+			DebugHelper.Assert(this.m_NonHeroInfo != null, "invalid m_NonHeroInfo");
+			this.OnActorDamageAtker(ref prm);
+			if (prm.src && prm.src.get_handle().TheActorMeta.ActorType != ActorTypeDef.Actor_Type_Hero && prm.hurtInfo.hurtType != HurtTypeDef.Therapic)
+			{
+				DictionaryView<uint, NONHERO_STATISTIC_INFO> dictionaryView;
+				if (!this.m_NonHeroInfo.TryGetValue((uint)prm.src.get_handle().TheActorMeta.ActorType, ref dictionaryView))
+				{
+					dictionaryView = new DictionaryView<uint, NONHERO_STATISTIC_INFO>();
+					this.m_NonHeroInfo.Add((uint)prm.src.get_handle().TheActorMeta.ActorType, dictionaryView);
+				}
+				NONHERO_STATISTIC_INFO nONHERO_STATISTIC_INFO;
+				if (!dictionaryView.TryGetValue(prm.src.get_handle().TheActorMeta.ActorCamp, ref nONHERO_STATISTIC_INFO))
+				{
+					nONHERO_STATISTIC_INFO = new NONHERO_STATISTIC_INFO();
+					dictionaryView.Add(prm.src.get_handle().TheActorMeta.ActorCamp, nONHERO_STATISTIC_INFO);
+				}
+				nONHERO_STATISTIC_INFO.uiTotalBeAttackedNum += 1u;
+				nONHERO_STATISTIC_INFO.uiTotalBeHurtCount += (uint)prm.hurtTotal;
+				nONHERO_STATISTIC_INFO.uiBeHurtMax = (uint)((nONHERO_STATISTIC_INFO.uiBeHurtMax <= (uint)prm.hurtTotal) ? prm.hurtTotal : ((int)nONHERO_STATISTIC_INFO.uiBeHurtMax));
+				nONHERO_STATISTIC_INFO.uiBeHurtMin = (uint)((nONHERO_STATISTIC_INFO.uiBeHurtMin >= (uint)prm.hurtTotal) ? prm.hurtTotal : ((int)nONHERO_STATISTIC_INFO.uiBeHurtMin));
+				int num = (prm.src.get_handle().ValueComponent == null) ? 0 : prm.src.get_handle().ValueComponent.actorHp;
+				int num2 = num - prm.hurtTotal;
+				if (num2 < 0)
+				{
+					num2 = 0;
+				}
+				nONHERO_STATISTIC_INFO.uiHpMax = (uint)((nONHERO_STATISTIC_INFO.uiHpMax <= (uint)num) ? num : ((int)nONHERO_STATISTIC_INFO.uiHpMax));
+				nONHERO_STATISTIC_INFO.uiHpMin = (uint)((nONHERO_STATISTIC_INFO.uiHpMin >= (uint)num2) ? num2 : ((int)nONHERO_STATISTIC_INFO.uiHpMin));
+				this.m_NonHeroInfo.get_Item((uint)prm.src.get_handle().TheActorMeta.ActorType).set_Item(prm.src.get_handle().TheActorMeta.ActorCamp, nONHERO_STATISTIC_INFO);
+			}
+		}
+
+		private void onSoulExpChange(PoolObjHandle<ActorRoot> act, int changeValue, int curVal, int maxVal)
+		{
+			CampInfo campInfo = this.campStat.get_Item(act.get_handle().TheActorMeta.ActorCamp);
+			campInfo.soulExpTotal += changeValue;
+		}
+
+		private void OnActorBattleCoinChanged(PoolObjHandle<ActorRoot> actor, int changeValue, bool isIncome, PoolObjHandle<ActorRoot> target)
+		{
+			if (isIncome)
+			{
+				CampInfo campInfo = this.campStat.get_Item(actor.get_handle().TheActorMeta.ActorCamp);
+				campInfo.coinTotal += changeValue;
+			}
+		}
+
+		private void OnAddExpValue(ref AddSoulExpEventParam prm)
+		{
+			this.m_stSoulStatisticInfo.iAddExpTotal += prm.iAddExpValue;
+			if (prm.src)
+			{
+				if (prm.src.get_handle().TheActorMeta.ActorType == ActorTypeDef.Actor_Type_Monster && prm.src.get_handle().TheActorMeta.ActorCamp != null)
+				{
+					this.m_stSoulStatisticInfo.iKillSoldierExpMax = Math.Max(this.m_stSoulStatisticInfo.iKillSoldierExpMax, prm.iAddExpValue);
+				}
+				else if (prm.src.get_handle().TheActorMeta.ActorType == ActorTypeDef.Actor_Type_Monster && prm.src.get_handle().TheActorMeta.ActorCamp == null)
+				{
+					this.m_stSoulStatisticInfo.iKillMonsterExpMax = Math.Max(this.m_stSoulStatisticInfo.iKillMonsterExpMax, prm.iAddExpValue);
+				}
+				else if (prm.src.get_handle().TheActorMeta.ActorType == ActorTypeDef.Actor_Type_Hero)
+				{
+					this.m_stSoulStatisticInfo.iKillHeroExpMax = Math.Max(this.m_stSoulStatisticInfo.iKillHeroExpMax, prm.iAddExpValue);
+				}
+				else if (prm.src.get_handle().TheActorMeta.ActorType == ActorTypeDef.Actor_Type_Organ)
+				{
+					this.m_stSoulStatisticInfo.iKillOrganExpMax = Math.Max(this.m_stSoulStatisticInfo.iKillOrganExpMax, prm.iAddExpValue);
+				}
+			}
+			if (prm.atker && prm.atker.get_handle().TheActorMeta.ActorType == ActorTypeDef.Actor_Type_Hero)
+			{
+				ValueProperty valueComponent = prm.atker.get_handle().ValueComponent;
+				if (valueComponent != null && valueComponent.ObjValueStatistic != null)
+				{
+					ulong logicFrameTick = Singleton<FrameSynchr>.get_instance().LogicFrameTick;
+					uint num = (uint)(logicFrameTick - valueComponent.ObjValueStatistic.ulLastAddSoulExpTime);
+					valueComponent.ObjValueStatistic.uiAddSoulExpIntervalMax = ((valueComponent.ObjValueStatistic.uiAddSoulExpIntervalMax <= num) ? num : valueComponent.ObjValueStatistic.uiAddSoulExpIntervalMax);
+				}
+				List<PoolObjHandle<ActorRoot>> heroActors = Singleton<GameObjMgr>.get_instance().HeroActors;
+				for (int i = 0; i < heroActors.get_Count(); i++)
+				{
+					if (heroActors.get_Item(i).get_handle().TheActorMeta.ActorCamp == prm.atker.get_handle().TheActorMeta.ActorCamp && heroActors.get_Item(i).get_handle().ValueComponent != null && heroActors.get_Item(i).get_handle().ValueComponent.ObjValueStatistic != null)
+					{
+						heroActors.get_Item(i).get_handle().ValueComponent.ObjValueStatistic.uiTeamSoulExpTotal += (uint)prm.iAddExpValue;
+					}
+				}
+			}
+		}
+
+		public void RecordMvp(COMDT_GAME_INFO gameInfo)
+		{
+			this.m_winMvpId = gameInfo.dwWinMvpObjID;
+			this.m_loseMvpId = gameInfo.dwLoseMvpObjID;
+			this._mvpScore.Clear();
+			COMDT_MVP_SCORE_DETAIL stMvpScoreDetail = gameInfo.stMvpScoreDetail;
+			for (int i = 0; i < (int)stMvpScoreDetail.bAcntNum; i++)
+			{
+				this._mvpScore.Add(stMvpScoreDetail.astMvpScoreDetail[i].dwObjID, stMvpScoreDetail.astMvpScoreDetail[i].iMvpScoreTTH);
+			}
+			this._useServerMvpScore = true;
+		}
+
+		public uint GetWinMvp()
+		{
+			return this.m_winMvpId;
+		}
+
+		public uint GetLoseMvp()
+		{
+			return this.m_loseMvpId;
+		}
+
+		public uint GetLastBestPlayer()
+		{
+			return this.m_lastBestPlayer;
+		}
+
+		public bool GetServerMvpScore(uint playerId, out float score)
+		{
+			bool result = false;
+			score = 0f;
+			if (this._useServerMvpScore && this._mvpScore.ContainsKey(playerId))
+			{
+				result = true;
+				int num = 0;
+				this._mvpScore.TryGetValue(playerId, ref num);
+				score = (float)num / 100f;
+			}
+			return result;
+		}
+
+		public int GetServerRawMvpScore(uint playerId)
+		{
+			int result = 0;
+			if (this._useServerMvpScore && this._mvpScore.ContainsKey(playerId))
+			{
+				this._mvpScore.TryGetValue(playerId, ref result);
+			}
+			return result;
+		}
+
+		public uint GetMvpPlayer(COM_PLAYERCAMP camp, bool bWin)
+		{
+			if (this.m_winMvpId != 0u || this.m_loseMvpId != 0u)
+			{
+				if (bWin)
+				{
+					return this.m_winMvpId;
+				}
+				return this.m_loseMvpId;
+			}
+			else
+			{
+				SLevelContext curLvelContext = Singleton<BattleLogic>.get_instance().GetCurLvelContext();
+				int num = 0;
+				if (curLvelContext != null && curLvelContext.IsMobaModeWithOutGuide())
+				{
+					num = curLvelContext.m_pvpPlayerNum;
+				}
+				if (num <= 2)
+				{
+					return 0u;
+				}
+				uint result = 0u;
+				float num2 = 0f;
+				int num3 = 0;
+				DictionaryView<uint, PlayerKDA>.Enumerator enumerator = Singleton<BattleStatistic>.get_instance().m_playerKDAStat.GetEnumerator();
+				float num4 = GameDataMgr.globalInfoDatabin.GetDataByKey(177u).dwConfValue / 10000f;
+				while (enumerator.MoveNext())
+				{
+					KeyValuePair<uint, PlayerKDA> current = enumerator.get_Current();
+					PlayerKDA value = current.get_Value();
+					if (!value.bHangup && !value.bRunaway && !value.bDisconnect)
+					{
+						float mvpValue = value.MvpValue;
+						float kDAValue = value.KDAValue;
+						if (value.PlayerCamp == camp)
+						{
+							if (mvpValue >= num2)
+							{
+								if (mvpValue == num2)
+								{
+									KeyValuePair<uint, PlayerKDA> current2 = enumerator.get_Current();
+									if (current2.get_Value().numKill < num3)
+									{
+										continue;
+									}
+								}
+								if (bWin || mvpValue >= num4)
+								{
+									if (bWin || kDAValue >= 3f)
+									{
+										KeyValuePair<uint, PlayerKDA> current3 = enumerator.get_Current();
+										result = current3.get_Value().PlayerId;
+										num2 = mvpValue;
+										KeyValuePair<uint, PlayerKDA> current4 = enumerator.get_Current();
+										num3 = current4.get_Value().numKill;
+									}
+								}
+							}
+						}
+					}
+				}
+				return result;
+			}
+		}
+
+		public uint GetBestPlayer()
+		{
+			DictionaryView<uint, PlayerKDA>.Enumerator enumerator = Singleton<BattleStatistic>.get_instance().m_playerKDAStat.GetEnumerator();
+			float num = GameDataMgr.GetGlobeValue(185) / 10000f;
+			float num2 = GameDataMgr.GetGlobeValue(186) / 10000f;
+			float num3 = GameDataMgr.GetGlobeValue(187) / 10000f;
+			uint num4 = this.m_lastBestPlayer;
+			float num5 = 0f;
+			int num6 = 0;
+			while (enumerator.MoveNext())
+			{
+				KeyValuePair<uint, PlayerKDA> current = enumerator.get_Current();
+				PlayerKDA value = current.get_Value();
+				float num7 = (float)value.numKill * num + (float)value.numAssist * num2 - (float)value.numDead * num3;
+				if (Mathf.Approximately(num7, num5))
+				{
+					KeyValuePair<uint, PlayerKDA> current2 = enumerator.get_Current();
+					if (current2.get_Value().numKill >= num6)
+					{
+						if (value.PlayerId != this.m_lastBestPlayer)
+						{
+							num4 = value.PlayerId;
+						}
+						num5 = num7;
+						KeyValuePair<uint, PlayerKDA> current3 = enumerator.get_Current();
+						num6 = current3.get_Value().numKill;
+					}
+				}
+				else if (num7 >= num5)
+				{
+					num4 = value.PlayerId;
+					num5 = num7;
+					KeyValuePair<uint, PlayerKDA> current4 = enumerator.get_Current();
+					num6 = current4.get_Value().numKill;
+				}
+			}
+			if (Mathf.Approximately(num5, 0f))
+			{
+				this.m_lastBestPlayer = 0u;
+				return 0u;
+			}
+			this.m_lastBestPlayer = num4;
+			return num4;
+		}
+
+		public string GetPlayerName(ulong playerUid, uint playerLogicWorldId)
+		{
+			if (this.m_playerKDAStat != null)
+			{
+				DictionaryView<uint, PlayerKDA>.Enumerator enumerator = this.m_playerKDAStat.GetEnumerator();
+				while (enumerator.MoveNext())
+				{
+					KeyValuePair<uint, PlayerKDA> current = enumerator.get_Current();
+					if (playerUid == current.get_Value().PlayerUid)
+					{
+						long arg_4D_0 = (long)((ulong)playerLogicWorldId);
+						KeyValuePair<uint, PlayerKDA> current2 = enumerator.get_Current();
+						if (arg_4D_0 == (long)current2.get_Value().WorldId)
+						{
+							KeyValuePair<uint, PlayerKDA> current3 = enumerator.get_Current();
+							return current3.get_Value().PlayerName;
+						}
+					}
+				}
+			}
+			return string.Empty;
+		}
+	}
+}

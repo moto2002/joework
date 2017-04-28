@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectDescription name="test1" type="Unity" id="11281f5ed713fda35d1def241a56eeea">
+  <packages>
+    <package id="m3p3pmid" name="HelloFairyGUI"/>
+  </packages>
+  <textSetting font="宋体" size="12"/>
+  <scrollBars/>
+</projectDescription>

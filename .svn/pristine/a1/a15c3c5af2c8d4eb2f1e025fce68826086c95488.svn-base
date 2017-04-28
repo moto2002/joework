@@ -1,0 +1,94 @@
+ManifestFileVersion: 0
+CRC: 2555953680
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d7d6752988abf20d99f42da228443097
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 79d70a6fe520e2af7d69f63be7f37a0d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 92
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: f545ffd1256143c44a924ff18bb1b6dd, type: 3}
+- Class: 114
+  Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -619905303, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1077351063, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1997211142, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 54ae81354adc5c44d88313357c892705, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71be733871beda24fabbec740d6605bf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fec7164c2f5aae1418de73270d7ee112, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: af2a858cef2a0464e82332906c04a9a9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9a8be00e6c508524fb18e22dd0c05bfa, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 120
+  Script: {instanceID: 0}
+- Class: 124
+  Script: {instanceID: 0}
+- Class: 127
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/scene/battlescene.unity
+Dependencies:
+- Assets/StreamingAssets/Windows/hero/garen.unity3d
+- Assets/StreamingAssets/Windows/scene/scene2.unity3d

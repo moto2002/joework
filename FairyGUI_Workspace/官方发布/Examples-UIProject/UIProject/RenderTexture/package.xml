@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="rbw1tc9t" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="iitt1" name="Main" folder="" file="iitt1.xml" exported="true"/>
+    <component id="iitt5" name="TestWin" folder="" file="iitt5.xml" exported="true"/>
+    <component id="iitt6" name="WindowFrame" folder="" file="iitt6.xml"/>
+    <image id="iitt7" name="5" folder="iittg" file="iitt7.png" size="615,387" scale="9grid" scale9grid="64,54,484,303" qualityOption="source"/>
+    <component id="iitt8" name="CloseButton" folder="" file="iitt8.xml"/>
+    <image id="iitt9" name="0" folder="iittg" qualityOption="source" file="iitt9.png" size="60,74"/>
+    <image id="iitta" name="4" folder="iittg" qualityOption="source" file="iitta.png" size="61,53"/>
+    <image id="iittf" name="8" folder="iittg" file="iittf.png" size="122,103" scale="9grid" scale9grid="20,22,84,61" qualityOption="source"/>
+    <folder id="iittg" name="images" folder=""/>
+    <component id="kotxz" name="ButtonRight" folder="" file="kotxz.xml"/>
+    <image id="kotx10" name="10" folder="iittg" qualityOption="source" file="kotx10.png" size="36,35"/>
+    <image id="kotx11" name="9" folder="iittg" qualityOption="source" file="kotx11.png" size="36,35"/>
+    <component id="kotx12" name="ButtonLeft" folder="" file="kotx12.xml"/>
+    <image id="kotx13" name="12" folder="iittg" qualityOption="source" file="kotx13.png" size="36,35"/>
+    <image id="kotx14" name="11" folder="iittg" qualityOption="source" file="kotx14.png" size="36,35"/>
+    <image id="kotx15" name="13" folder="iittg" qualityOption="source" file="kotx15.png" size="484,432"/>
+    <component id="p60317" name="Button1" folder="" file="p60317.xml"/>
+  </resources>
+  <publish name="RenderTexture">
+    <atlas name="Default" index="0"/>
+  </publish>
+</packageDescription>

@@ -1,0 +1,345 @@
+fileFormatVersion: 2
+guid: 0a40258063687b34dafb934102f8679d
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: BUFFBONE_GLB_CHANNEL_LOC
+    100002: BUFFBONE_GLB_GROUND_LOC
+    100004: BUFFBONE_GLB_WEAPON_1
+    100006: C_BUFFBONE_GLB_CENTER_LOC
+    100008: C_BUFFBONE_GLB_CHEST_LOC
+    100010: C_BUFFBONE_GLB_HEAD_LOC
+    100012: C_BUFFBONE_GLB_LAYOUT_LOC
+    100014: C_BUFFBONE_GLB_OVERHEAD_LOC
+    100016: Chest
+    100018: //RootNode
+    100020: Head
+    100022: Hip
+    100024: Jaw
+    100026: L_BUFFBONE_GLB_FOOT_LOC
+    100028: L_BUFFBONE_GLB_HAND_LOC
+    100030: L_Calf
+    100032: L_finger_A_1
+    100034: L_finger_A_2
+    100036: L_finger_B_1
+    100038: L_finger_B_2
+    100040: L_finger_C_1
+    100042: L_finger_C_2
+    100044: L_finger_D_1
+    100046: L_finger_D_2
+    100048: L_Foot
+    100050: L_Knee
+    100052: L_LowWing
+    100054: L_Shoulder
+    100056: L_Thing
+    100058: L_UpWing
+    100060: L_Wing
+    100062: L_Wing_A
+    100064: L_Wing_A_2
+    100066: L_Wing_B
+    100068: L_Wing_B_2
+    100070: Neck
+    100072: R_BUFFBONE_GLB_FOOT_LOC
+    100074: R_BUFFBONE_GLB_HAND_LOC
+    100076: R_Calf
+    100078: R_finger_A_1
+    100080: R_finger_A_2
+    100082: R_finger_B_1
+    100084: R_finger_B_2
+    100086: R_finger_C_1
+    100088: R_finger_C_2
+    100090: R_finger_D_1
+    100092: R_finger_D_2
+    100094: R_Foot
+    100096: R_Knee
+    100098: R_LowWing
+    100100: R_Shoulder
+    100102: R_Thing
+    100104: R_UpWing
+    100106: R_Wing
+    100108: R_Wing_A
+    100110: R_Wing_A_2
+    100112: R_Wing_B
+    100114: R_Wing_B_2
+    100116: Root
+    100118: Spine
+    100120: Tail_1
+    100122: Tail_2
+    100124: Tail_3
+    100126: transformAnivia
+    400000: BUFFBONE_GLB_CHANNEL_LOC
+    400002: BUFFBONE_GLB_GROUND_LOC
+    400004: BUFFBONE_GLB_WEAPON_1
+    400006: C_BUFFBONE_GLB_CENTER_LOC
+    400008: C_BUFFBONE_GLB_CHEST_LOC
+    400010: C_BUFFBONE_GLB_HEAD_LOC
+    400012: C_BUFFBONE_GLB_LAYOUT_LOC
+    400014: C_BUFFBONE_GLB_OVERHEAD_LOC
+    400016: Chest
+    400018: //RootNode
+    400020: Head
+    400022: Hip
+    400024: Jaw
+    400026: L_BUFFBONE_GLB_FOOT_LOC
+    400028: L_BUFFBONE_GLB_HAND_LOC
+    400030: L_Calf
+    400032: L_finger_A_1
+    400034: L_finger_A_2
+    400036: L_finger_B_1
+    400038: L_finger_B_2
+    400040: L_finger_C_1
+    400042: L_finger_C_2
+    400044: L_finger_D_1
+    400046: L_finger_D_2
+    400048: L_Foot
+    400050: L_Knee
+    400052: L_LowWing
+    400054: L_Shoulder
+    400056: L_Thing
+    400058: L_UpWing
+    400060: L_Wing
+    400062: L_Wing_A
+    400064: L_Wing_A_2
+    400066: L_Wing_B
+    400068: L_Wing_B_2
+    400070: Neck
+    400072: R_BUFFBONE_GLB_FOOT_LOC
+    400074: R_BUFFBONE_GLB_HAND_LOC
+    400076: R_Calf
+    400078: R_finger_A_1
+    400080: R_finger_A_2
+    400082: R_finger_B_1
+    400084: R_finger_B_2
+    400086: R_finger_C_1
+    400088: R_finger_C_2
+    400090: R_finger_D_1
+    400092: R_finger_D_2
+    400094: R_Foot
+    400096: R_Knee
+    400098: R_LowWing
+    400100: R_Shoulder
+    400102: R_Thing
+    400104: R_UpWing
+    400106: R_Wing
+    400108: R_Wing_A
+    400110: R_Wing_A_2
+    400112: R_Wing_B
+    400114: R_Wing_B_2
+    400116: Root
+    400118: Spine
+    400120: Tail_1
+    400122: Tail_2
+    400124: Tail_3
+    400126: transformAnivia
+    4300000: transformAnivia
+    7400000: Death
+    9500000: //RootNode
+    13700000: transformAnivia
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 72
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BUFFBONE_GLB_CHANNEL_LOC
+        weight: 1
+      - path: BUFFBONE_GLB_GROUND_LOC
+        weight: 1
+      - path: C_BUFFBONE_GLB_CENTER_LOC
+        weight: 1
+      - path: C_BUFFBONE_GLB_LAYOUT_LOC
+        weight: 1
+      - path: C_BUFFBONE_GLB_OVERHEAD_LOC
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Hip
+        weight: 1
+      - path: Root/Hip/L_Thing
+        weight: 1
+      - path: Root/Hip/L_Thing/L_Knee
+        weight: 1
+      - path: Root/Hip/L_Thing/L_Knee/L_Calf
+        weight: 1
+      - path: Root/Hip/L_Thing/L_Knee/L_Calf/L_BUFFBONE_GLB_FOOT_LOC
+        weight: 1
+      - path: Root/Hip/L_Thing/L_Knee/L_Calf/L_Foot
+        weight: 1
+      - path: Root/Hip/L_Thing/L_Knee/L_Calf/L_Foot/L_finger_A_1
+        weight: 1
+      - path: Root/Hip/L_Thing/L_Knee/L_Calf/L_Foot/L_finger_A_1/L_finger_A_2
+        weight: 1
+      - path: Root/Hip/L_Thing/L_Knee/L_Calf/L_Foot/L_finger_B_1
+        weight: 1
+      - path: Root/Hip/L_Thing/L_Knee/L_Calf/L_Foot/L_finger_B_1/L_finger_B_2
+        weight: 1
+      - path: Root/Hip/L_Thing/L_Knee/L_Calf/L_Foot/L_finger_C_1
+        weight: 1
+      - path: Root/Hip/L_Thing/L_Knee/L_Calf/L_Foot/L_finger_C_1/L_finger_C_2
+        weight: 1
+      - path: Root/Hip/L_Thing/L_Knee/L_Calf/L_Foot/L_finger_D_1
+        weight: 1
+      - path: Root/Hip/L_Thing/L_Knee/L_Calf/L_Foot/L_finger_D_1/L_finger_D_2
+        weight: 1
+      - path: Root/Hip/R_Thing
+        weight: 1
+      - path: Root/Hip/R_Thing/R_Knee
+        weight: 1
+      - path: Root/Hip/R_Thing/R_Knee/R_Calf
+        weight: 1
+      - path: Root/Hip/R_Thing/R_Knee/R_Calf/R_BUFFBONE_GLB_FOOT_LOC
+        weight: 1
+      - path: Root/Hip/R_Thing/R_Knee/R_Calf/R_Foot
+        weight: 1
+      - path: Root/Hip/R_Thing/R_Knee/R_Calf/R_Foot/R_finger_A_1
+        weight: 1
+      - path: Root/Hip/R_Thing/R_Knee/R_Calf/R_Foot/R_finger_A_1/R_finger_A_2
+        weight: 1
+      - path: Root/Hip/R_Thing/R_Knee/R_Calf/R_Foot/R_finger_B_1
+        weight: 1
+      - path: Root/Hip/R_Thing/R_Knee/R_Calf/R_Foot/R_finger_B_1/R_finger_B_2
+        weight: 1
+      - path: Root/Hip/R_Thing/R_Knee/R_Calf/R_Foot/R_finger_C_1
+        weight: 1
+      - path: Root/Hip/R_Thing/R_Knee/R_Calf/R_Foot/R_finger_C_1/R_finger_C_2
+        weight: 1
+      - path: Root/Hip/R_Thing/R_Knee/R_Calf/R_Foot/R_finger_D_1
+        weight: 1
+      - path: Root/Hip/R_Thing/R_Knee/R_Calf/R_Foot/R_finger_D_1/R_finger_D_2
+        weight: 1
+      - path: Root/Hip/Tail_1
+        weight: 1
+      - path: Root/Hip/Tail_1/Tail_2
+        weight: 1
+      - path: Root/Hip/Tail_1/Tail_2/Tail_3
+        weight: 1
+      - path: Root/Spine
+        weight: 1
+      - path: Root/Spine/Chest
+        weight: 1
+      - path: Root/Spine/Chest/C_BUFFBONE_GLB_CHEST_LOC
+        weight: 1
+      - path: Root/Spine/Chest/L_Shoulder
+        weight: 1
+      - path: Root/Spine/Chest/L_Shoulder/L_UpWing
+        weight: 1
+      - path: Root/Spine/Chest/L_Shoulder/L_UpWing/L_LowWing
+        weight: 1
+      - path: Root/Spine/Chest/L_Shoulder/L_UpWing/L_LowWing/L_Wing
+        weight: 1
+      - path: Root/Spine/Chest/L_Shoulder/L_UpWing/L_LowWing/L_Wing/L_BUFFBONE_GLB_HAND_LOC
+        weight: 1
+      - path: Root/Spine/Chest/L_Shoulder/L_UpWing/L_LowWing/L_Wing/L_Wing_A
+        weight: 1
+      - path: Root/Spine/Chest/L_Shoulder/L_UpWing/L_LowWing/L_Wing/L_Wing_A/L_Wing_A_2
+        weight: 1
+      - path: Root/Spine/Chest/L_Shoulder/L_UpWing/L_LowWing/L_Wing/L_Wing_B
+        weight: 1
+      - path: Root/Spine/Chest/L_Shoulder/L_UpWing/L_LowWing/L_Wing/L_Wing_B/L_Wing_B_2
+        weight: 1
+      - path: Root/Spine/Chest/Neck
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/BUFFBONE_GLB_WEAPON_1
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/C_BUFFBONE_GLB_HEAD_LOC
+        weight: 1
+      - path: Root/Spine/Chest/Neck/Head/Jaw
+        weight: 1
+      - path: Root/Spine/Chest/R_Shoulder
+        weight: 1
+      - path: Root/Spine/Chest/R_Shoulder/R_UpWing
+        weight: 1
+      - path: Root/Spine/Chest/R_Shoulder/R_UpWing/R_LowWing
+        weight: 1
+      - path: Root/Spine/Chest/R_Shoulder/R_UpWing/R_LowWing/R_Wing
+        weight: 1
+      - path: Root/Spine/Chest/R_Shoulder/R_UpWing/R_LowWing/R_Wing/R_BUFFBONE_GLB_HAND_LOC
+        weight: 1
+      - path: Root/Spine/Chest/R_Shoulder/R_UpWing/R_LowWing/R_Wing/R_Wing_A
+        weight: 1
+      - path: Root/Spine/Chest/R_Shoulder/R_UpWing/R_LowWing/R_Wing/R_Wing_A/R_Wing_A_2
+        weight: 1
+      - path: Root/Spine/Chest/R_Shoulder/R_UpWing/R_LowWing/R_Wing/R_Wing_B
+        weight: 1
+      - path: Root/Spine/Chest/R_Shoulder/R_UpWing/R_LowWing/R_Wing/R_Wing_B/R_Wing_B_2
+        weight: 1
+      - path: transformAnivia
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

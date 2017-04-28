@@ -1,0 +1,25 @@
+[nLayers]
+1
+
+[Resolution]
+960x640
+
+[FileFormat]
+PNG
+
+[LayerSet]
+Name PANL_loginbg
+Depth 0
+
+[Layer]
+Name bg
+Depth 1
+PosX 270
+PosY 106
+SizeX 420
+SizeY 383
+[Layer end]
+
+nLayers 1
+[LayerSet end]
+

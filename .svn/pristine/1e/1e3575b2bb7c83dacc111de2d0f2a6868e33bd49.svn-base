@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="f3xz8s8w" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="c5s80" name="Main" folder="" file="c5s80.xml" exported="true"/>
+    <image id="c5s81" name="card_back" folder="" qualityOption="source" file="c5s81.png" size="362,505"/>
+    <image id="c5s82" name="card_k" folder="" qualityOption="source" file="c5s82.png" size="363,505"/>
+    <component id="c5s83" name="CardComponent" folder="" file="c5s83.xml"/>
+    <image id="c5s84" name="card_a" folder="" qualityOption="source" file="c5s84.png" size="363,505"/>
+  </resources>
+  <publish name="TurnCard"/>
+</packageDescription>

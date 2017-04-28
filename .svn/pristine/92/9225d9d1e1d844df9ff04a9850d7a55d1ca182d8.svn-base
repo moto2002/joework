@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="t7096b8q" jpegQuality="80" compressPNG="true">
+  <resources>
+    <font id="mulj0" name="number1" folder="" file="mulj0.fnt" exported="true"/>
+    <image id="mulj1" name="0(2)5.png" folder="" file="mulj1.png" size="30,35" qualityOption="source"/>
+    <image id="mulj2" name="1(2)5.png" folder="" file="mulj2.png" size="30,35" qualityOption="source"/>
+    <image id="mulj3" name="2(2)5.png" folder="" file="mulj3.png" size="30,35" qualityOption="source"/>
+    <image id="mulj4" name="3(2)5.png" folder="" file="mulj4.png" size="30,35" qualityOption="source"/>
+    <image id="mulj5" name="4(2)5.png" folder="" file="mulj5.png" size="30,35" qualityOption="source"/>
+    <image id="mulj6" name="5(2)5.png" folder="" file="mulj6.png" size="30,35" qualityOption="source"/>
+    <image id="mulj7" name="6(2)5.png" folder="" file="mulj7.png" size="30,35" qualityOption="source"/>
+    <image id="mulj8" name="7(2)5.png" folder="" file="mulj8.png" size="30,35" qualityOption="source"/>
+    <image id="mulj9" name="8(2)5.png" folder="" file="mulj9.png" size="30,35" qualityOption="source"/>
+    <image id="mulja" name="9(2)5.png" folder="" file="mulja.png" size="30,35" qualityOption="source"/>
+    <image id="muljb" name="m2.png" folder="" file="muljb.png" size="30,35" qualityOption="source"/>
+    <font id="muljc" name="number2" folder="" file="muljc.fnt" exported="true"/>
+    <image id="muljd" name="0(4).png" folder="" file="muljd.png" size="30,35" qualityOption="source"/>
+    <image id="mulje" name="1(4).png" folder="" file="mulje.png" size="30,35" qualityOption="source"/>
+    <image id="muljf" name="2(4).png" folder="" file="muljf.png" size="30,35" qualityOption="source"/>
+    <image id="muljg" name="3(4).png" folder="" file="muljg.png" size="30,35" qualityOption="source"/>
+    <image id="muljh" name="4(4).png" folder="" file="muljh.png" size="30,35" qualityOption="source"/>
+    <image id="mulji" name="5(4).png" folder="" file="mulji.png" size="30,35" qualityOption="source"/>
+    <image id="muljj" name="6(4).png" folder="" file="muljj.png" size="30,35" qualityOption="source"/>
+    <image id="muljk" name="7(4).png" folder="" file="muljk.png" size="30,35" qualityOption="source"/>
+    <image id="muljl" name="8(4).png" folder="" file="muljl.png" size="30,35" qualityOption="source"/>
+    <image id="muljm" name="9(4).png" folder="" file="muljm.png" size="30,35" qualityOption="source"/>
+    <image id="muljn" name="m1.png" folder="" file="muljn.png" size="30,35" qualityOption="source"/>
+    <image id="muljo" name="critical" folder="" qualityOption="source" file="muljo.png" size="148,83" exported="true"/>
+    <component id="muljp" name="Main" folder="" file="muljp.xml" exported="true"/>
+  </resources>
+  <publish name="EmitNumbers">
+    <atlas name="Default" index="0"/>
+  </publish>
+</packageDescription>

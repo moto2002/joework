@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="m3p3pmid" jpegQuality="80" compressPNG="true">
+  <resources>
+    <folder id="s3lb0" name="hello" folder=""/>
+    <component id="s3lb1" name="Panel" folder="s3lb0" file="s3lb1.xml"/>
+  </resources>
+  <publish name="HelloFairyGUI"/>
+</packageDescription>

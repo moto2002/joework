@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="rbw1av9t" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="kcy10" name="BagWin" folder="" file="kcy10.xml" exported="true"/>
+    <image id="dwwc2" name="5" folder="thi7k" file="dwwc2.png" size="615,387" scale="9grid" scale9grid="88,78,441,243" qualityOption="source"/>
+    <component id="dwwc3" name="WindowFrame" folder="" file="dwwc3.xml"/>
+    <component id="dwwc4" name="CloseButton" folder="" file="dwwc4.xml"/>
+    <image id="dwwc5" name="0" folder="thi7k" qualityOption="source" file="dwwc5.png" size="60,74"/>
+    <image id="dwwc6" name="4" folder="thi7k" qualityOption="source" file="dwwc6.png" size="61,53"/>
+    <component id="jlmg7" name="BagGridSub" folder="" file="jlmg7.xml"/>
+    <image id="jlmg8" name="1" folder="thi7k" qualityOption="source" file="jlmg8.png" size="90,91"/>
+    <image id="jlmg9" name="3" folder="thi7k" qualityOption="source" file="jlmg9.png" size="100,100"/>
+    <image id="jlmga" name="2" folder="thi7k" file="jlmga.png" size="108,108" scale="9grid" scale9grid="17,16,74,73" qualityOption="source"/>
+    <component id="fvaib" name="Main" folder="" file="fvaib.xml" exported="true"/>
+    <component id="thi7c" name="BagButton" folder="" file="thi7c.xml"/>
+    <image id="thi7d" name="btnimage" folder="thi7k" qualityOption="source" file="thi7d.png" size="86,99"/>
+    <image id="thi7g" name="7" folder="thi7k" qualityOption="source" file="thi7g.png" size="332,2" scale="9grid" scale9grid="83,1,166,2"/>
+    <image id="thi7h" name="8" folder="thi7k" file="thi7h.png" size="122,103" scale="9grid" scale9grid="31,26,62,52" qualityOption="source"/>
+    <jta id="thi7j" name="quan" folder="thi7k" origin="60,60" file="thi7j.jta" size="120,119"/>
+    <folder id="thi7k" name="images" folder=""/>
+  </resources>
+  <publish name="Bag">
+    <atlas name="Default" index="0"/>
+  </publish>
+</packageDescription>

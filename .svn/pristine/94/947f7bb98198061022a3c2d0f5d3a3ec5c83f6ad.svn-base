@@ -1,0 +1,15 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class TestGZip : MonoBehaviour
+{
+    void Start()
+    {
+    }
+
+    void Update()
+    {
+
+    }
+}
+

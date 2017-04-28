@@ -1,0 +1,56 @@
+﻿<Window x:Class="AutoCfg.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutoCfg"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" ResizeMode="NoResize">
+    <Grid >
+        <DockPanel >
+            <Grid x:Name="btns" DockPanel.Dock="Left" Width="100">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Button x:Name="btn_excel2xml" Content="Excel2Xml"  Grid.Row="0" Click="btn_excel2xml_Click" Background="#FF1EB046" />
+                <Button x:Name="btn_excel2json" Content="Excel2Json" Grid.Row="1" Click="btn_excel2json_Click" Background="#FF1EB046" />
+                <Button x:Name="btn_excel2csharp" Content="Excel2CSharp" Grid.Row="2" Click="btn_excel2csharp_Click" Background="#FF1EB046" />
+                <Button x:Name="btn_xml2csharp" Content="Xml2CSharp"  Grid.Row="3" Click="btn_xml2csharp_Click" Background="#FFDE0C0C" />
+                <Button x:Name="btn_json2csharp" Content="Json2CSharp" Grid.Row="4" Click="btn_json2csharp_Click" Background="#FFDE0C0C" />
+                <Button x:Name="btn_excel2csv" Content="Excel2CSV" Grid.Row="5" Click="btn_excel2csv_Click" Background="#FF1EB046" />
+            </Grid>
+            <Grid x:Name="pages" DockPanel.Dock="Right" Visibility="Visible" Margin="5,0,0,0">
+                <Grid x:Name="page1_excel2xml" Visibility="Visible">
+                    <Label Content="1"  Background="#FFF08282" ></Label>
+                    <Button x:Name="btn_gen_excel2xml" Content="Go" Width="100" Height="100" Margin="168,199,146,22" Click="btn_gen_excel2xml_Click"></Button>
+                </Grid>
+                <Grid x:Name="page2_excel2json"  Visibility="Hidden">
+                    <Label  Content="2"  Background="#FFF08282" ></Label>
+                    <Button x:Name="btn_gen_excel2json" Content="btn2" Width="100" Height="100" Click="btn_gen_excel2json_Click"></Button>
+                </Grid>
+                <Grid x:Name="page3_excel2csharp"  Visibility="Hidden">
+                    <Label Content="3" Background="#FFF08282" ></Label>
+                    <Button Content="Gen CSharp" Width="100" Height="100" Click="btn_gen_excel2csharp_Click" Margin="64,117,250,104"></Button>
+                    <Button Content="Gen PBData" Width="100" Height="100" Click="btn_gen_genPBdata_Click" Margin="248,117,66,104"></Button>
+                </Grid>
+                <Grid x:Name="page4_xml2csharp"  Visibility="Hidden">
+                    <Label  Content="4" Background="#FFF08282" ></Label>
+                    <Button Content="btn4" Width="100" Height="100"></Button>
+                </Grid>
+                <Grid x:Name="page5_json2csharp" Visibility="Hidden">
+                    <Label  Content="5" Background="#FFF08282" ></Label>
+                    <Button Content="btn5" Width="100" Height="100"></Button>
+                </Grid>
+                <Grid x:Name="page6_excel2csv" Visibility="Hidden">
+                    <Label  Content="6" Background="#FFF08282" ></Label>
+                    <Button x:Name="btn_gen_excel2csv" Content="btn6" Width="100" Height="100" Click="btn_gen_excel2csv_Click"></Button>
+                </Grid>
+            </Grid>
+        </DockPanel>
+    </Grid>
+</Window>

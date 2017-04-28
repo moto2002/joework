@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: 1854bccd27ea1264b9f2b580f8394dad
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bip01 Head
+    100004: Bip01 L Calf
+    100006: Bip01 L Clavicle
+    100008: Bip01 L Foot
+    100010: Bip01 L Forearm
+    100012: Bip01 L ForeTwist
+    100014: Bip01 L Hand
+    100016: Bip01 L HorseLink
+    100018: Bip01 L Thigh
+    100020: Bip01 L UpperArm
+    100022: Bip01 LUpArmTwist
+    100024: Bip01 Neck
+    100026: Bip01 Pelvis
+    100028: Bip01 R Calf
+    100030: Bip01 R Clavicle
+    100032: Bip01 R Foot
+    100034: Bip01 R Forearm
+    100036: Bip01 R ForeTwist
+    100038: Bip01 R Hand
+    100040: Bip01 R HorseLink
+    100042: Bip01 R Thigh
+    100044: Bip01 R UpperArm
+    100046: Bip01 RUpArmTwist
+    100048: Bip01 Spine
+    100050: Bip01 Spine1
+    100052: bip_master
+    100054: Bip_weapon
+    100056: Bone_beard001
+    100058: Bone_beard002
+    100060: Bone_qunbai_b
+    100062: Bone_qunbai_f
+    100064: n1015
+    100066: n1019
+    100068: n1021
+    100070: slot_billboard
+    100072: slot_camera
+    100074: slot_chest
+    100076: slot_head
+    100078: slot_weapon_fx
+    400000: //RootNode
+    400002: Bip01 Head
+    400004: Bip01 L Calf
+    400006: Bip01 L Clavicle
+    400008: Bip01 L Foot
+    400010: Bip01 L Forearm
+    400012: Bip01 L ForeTwist
+    400014: Bip01 L Hand
+    400016: Bip01 L HorseLink
+    400018: Bip01 L Thigh
+    400020: Bip01 L UpperArm
+    400022: Bip01 LUpArmTwist
+    400024: Bip01 Neck
+    400026: Bip01 Pelvis
+    400028: Bip01 R Calf
+    400030: Bip01 R Clavicle
+    400032: Bip01 R Foot
+    400034: Bip01 R Forearm
+    400036: Bip01 R ForeTwist
+    400038: Bip01 R Hand
+    400040: Bip01 R HorseLink
+    400042: Bip01 R Thigh
+    400044: Bip01 R UpperArm
+    400046: Bip01 RUpArmTwist
+    400048: Bip01 Spine
+    400050: Bip01 Spine1
+    400052: bip_master
+    400054: Bip_weapon
+    400056: Bone_beard001
+    400058: Bone_beard002
+    400060: Bone_qunbai_b
+    400062: Bone_qunbai_f
+    400064: n1015
+    400066: n1019
+    400068: n1021
+    400070: slot_billboard
+    400072: slot_camera
+    400074: slot_chest
+    400076: slot_head
+    400078: slot_weapon_fx
+    4300000: n1021
+    4300002: n1015
+    4300004: n1019
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: n1015
+    13700002: n1019
+    13700004: n1021
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: bip_master
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

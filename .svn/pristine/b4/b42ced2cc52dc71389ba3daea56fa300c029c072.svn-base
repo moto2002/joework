@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 2040641955
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0d11a3eef2ff38920697ac4dbc3bfdec
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d0654a5074bc18ad28f70ac6aa5c0ed1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/scene/Scene2.prefab
+Dependencies: []

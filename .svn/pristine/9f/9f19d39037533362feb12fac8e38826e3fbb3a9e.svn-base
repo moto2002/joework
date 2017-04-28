@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="qf88jb5n" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="rpol0" name="Main" folder="" file="rpol0.xml" exported="true"/>
+    <component id="rpol1" name="item" folder="" file="rpol1.xml"/>
+    <image id="rpol3" name="n1" folder="" qualityOption="source" file="rpol3.png" size="248,378" exported="true"/>
+    <image id="rpol4" name="n2" folder="" qualityOption="source" file="rpol4.png" size="248,378" exported="true"/>
+    <image id="rpol5" name="n3" folder="" qualityOption="source" file="rpol5.png" size="248,378" exported="true"/>
+    <image id="rpol6" name="n4" folder="" qualityOption="source" file="rpol6.png" size="248,378" exported="true"/>
+    <image id="rpol7" name="n5" folder="" qualityOption="source" file="rpol7.png" size="248,378" exported="true"/>
+  </resources>
+  <publish name="LoopList">
+    <atlas name="默认" index="0"/>
+  </publish>
+</packageDescription>

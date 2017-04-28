@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ddm193o7" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="fou90" name="CutScene" folder="" file="fou90.xml" exported="true"/>
+    <component id="fou91" name="ProgressBar5" folder="" file="fou91.xml"/>
+    <image id="fou92" name="loading.png" folder="" qualityOption="source" file="fou92.jpg" size="4,16"/>
+    <image id="fou93" name="huawen1.png" folder="" qualityOption="source" file="fou93.png" size="85,59"/>
+    <image id="fou94" name="huawen2.png" folder="" qualityOption="source" file="fou94.png" size="88,59"/>
+    <jta id="fou95" name="pet" folder="" origin="59,61" file="fou95.jta" size="84,74"/>
+    <component id="fou96" name="Main" folder="" file="fou96.xml" exported="true"/>
+    <component id="fou97" name="Button1" folder="" file="fou97.xml"/>
+  </resources>
+  <publish name="CutScene">
+    <atlas name="Default" index="0"/>
+  </publish>
+</packageDescription>

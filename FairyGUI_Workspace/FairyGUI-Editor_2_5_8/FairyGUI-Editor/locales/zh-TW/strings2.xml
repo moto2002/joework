@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="font">PMingLiU</string>
+	<string name="mac_font">Arial</string>
+	
+	<!-- ComDocument -->
+	<string name="text1">剪切</string>
+	<string name="text2">複製</string>
+	<string name="text3">粘貼</string>
+	<string name="text4">刪除</string>
+	<string name="text5">全選</string>
+	<string name="text6">移至頂層</string>
+	<string name="text7">上移一層</string>
+	<string name="text8">下移一層</string>
+	<string name="text9">移至底層</string>
+	<string name="text10">交換元件</string>
+	<string name="text11">在庫中顯示</string>
+	<string name="text12">無法導入其他包的未導出資源</string>
+	<string name="text76">不能把組件放入自身</string>
+	<string name="text77">創建失敗</string>
+	<string name="text238">轉換為組件</string>
+	<string name="text23">取消全選</string>
+	<string name="text104">粘貼到中心位置</string>
+	<string name="text105">粘貼都當前位置</string>
+	<string name="text106">插入</string>
+	<string name="text107">撤銷</string>
+	<string name="text108">重做</string>
+	
+	<!-- EditPanel -->
+	<string name="text13">關閉</string>
+	<string name="text14">關閉其他</string>
+	<string name="text15">全部關閉</string>
+	
+	<!-- LibPanel -->
+	<string name="text16">複製URL</string>
+	<string name="text17">重命名</string>
+	<string name="text18">新建檔夾</string>
+	<string name="text20">設置為導出</string>
+	<string name="text21">設置為不導出</string>
+	<string name="text22">更新資源</string>
+	<string name="text24">在檔管理器中打開</string>
+	<string name="text25">刪除</string>
+	<string name="text27">包設置</string>
+	<string name="text28">發佈</string>
+	<string name="text29">刪除包</string>
+	<string name="text30">確實要刪除{0}等{1}個項嗎？
+注意：此操作不可恢復。</string>
+	<string name="text31">確實要刪除{0}嗎？
+注意：此操作不可恢復。</string>
+	<string name="text32">確實要刪除包{0}嗎？
+注意：包內容不會刪除，你仍然可以將包重新導入。
+如果需徹底刪除，請自行刪掉檔目錄。</string>
+	<string name="text33">不能拖動到其他包，請用複製功能</string>
+	<string name="text171">依賴關係查詢</string>
+	<string name="text192">導出資源</string>
+	<string name="text193">選擇保存目錄</string>
+	<string name="text194">複製名稱</string>
+	<string name="text243">{0}個結果</string>
+	<string name="text245">移動至</string>
+	<string name="text246">直接複製</string>
+	
+	<!-- MainPanel -->
+	<string name="text34">新建專案</string>
+	<string name="text35">打開專案</string>
+	<string name="text36">關閉專案</string>
+	<string name="text37">專案設置</string>
+	<string name="text38">新建包</string>
+	<string name="text39">導入包</string>
+	<string name="text40">包設置</string>
+	<string name="text41">發佈設置</string>
+	<string name="text42">首選項</string>
+	<string name="text226">退出</string>
+	<string name="text43">檔案</string>
+	<string name="text44">關於</string>
+	<string name="text45">幫助</string>
+	<string name="text46">導入資源到包</string>
+	<string name="text47">所有資源檔</string>
+	<string name="text48">所有檔</string>
+	<string name="text49">圖片檔</string>
+	<string name="text50">Flash動畫檔</string>
+	<string name="text51">JTA動畫檔</string>
+	<string name="text52">BMFont字體檔</string>
+	<string name="text53">聲音檔</string>
+	<string name="text54">更新資源</string>
+	<string name="text55">導入失敗</string>
+	<string name="text56">選擇包</string>
+	<string name="text86">正在導入</string>
+	<string name="text172">GIF動畫檔</string>
+	<string name="text173">編輯</string>
+	<string name="text236">編輯</string>
+	<string name="text174">新建組件</string>
+	<string name="text175">新建按鈕</string>
+	<string name="text176">新建標籤</string>
+	<string name="text177">新建下拉框</string>
+	<string name="text178">新建滾動條</string>
+	<string name="text179">新建進度條</string>
+	<string name="text180">新建滑動條</string>
+	<string name="text240">新建彈出菜單</string>
+	<string name="text181">導入素材</string>
+	<string name="text182">依賴關係查詢</string>
+	<string name="text183">字串導入和導出</string>
+	<string name="text208">僅發佈定義包</string>
+	<string name="text19">新建位圖字體</string>
+	<string name="text244">新建動畫</string>
+	<string name="text200">工具</string>
+	<string name="text195">插件管理</string>
+	
+	<!-- PreviewPanel -->
+	<string name="text57">資源大小</string>
+	
+	<!-- baseui -->
+	<string name="text58">全選</string>
+	<string name="text59">全不選</string>
+	<string name="text60">反向選擇</string>
+	<string name="text61">&lt;從庫中拖拽到此&gt;</string>
+	<string name="text62">在庫中顯示</string>
+	<string name="text63">複製URL</string>
+	<string name="text64">清除</string>
+	<string name="text230">打開</string>
+	<string name="text239">只能選擇圖片</string>
+	
+	<!-- ControllerEditDialog -->
+	<string name="text65">新建控制器</string>
+	<string name="text66">修改控制器</string>
+	<string name="text237">確認刪除？</string>
+	
+	<!-- CopyToPackageDialog -->
+	<string name="text67">從'{0}'複製到'{1}'</string>
+	<string name="text68">複製成功！
+
+以下為警告資訊，但可以忽略</string>
+	<string name="text69">複製失敗！</string>
+	
+	<!-- CreateFontDialog -->
+	<string name="text70">字體</string>
+	
+	<!-- CreateMovieClipDialog -->
+	<string name="text71">動畫</string>
+	
+	<!-- CreatePackageDialog -->
+	<string name="text72">創建包失敗</string>
+	
+	<!-- CreateProjectDialog -->
+	<string name="text73">創建專案失敗</string>
+	<string name="text74">選擇專案路徑</string>
+	
+	<!-- DownloadDialog -->
+	<string name="text75">下載新版本失敗！</string>
+	
+	<!-- FontEditDialog -->
+	<string name="text78">只能拖入圖片！</string>
+	<string name="text79">只能拖入本包的圖片！</string>
+	
+	<!-- ImageEditDialog -->
+	<string name="text85">讀取圖像錯誤</string>
+	
+	<!-- MovieClipEditDialog -->
+	<string name="text87">動畫編輯</string>
+	
+	<!-- PublishDialog -->
+	<string name="text96">發佈成功！
+	
+以下為警告資訊，但可以忽略</string>
+	<string name="text97">發佈成功！</string>
+	<string name="text98">發佈失敗！</string>
+	<string name="text99">正在發佈</string>
+	<string name="text100">'{0}'未設置發佈路徑</string>
+	<string name="text101">'{0}'未設置檔案名</string>
+	<string name="text273">未能發佈代碼，代碼保存路徑未設置！</string>
+		
+	<!-- WaitingDialog -->
+	<string name="text102">正在努力完成你的請求</string>
+	
+	<!-- ChooseFontDialog -->
+	<string name="text241">示例文本 demo 123</string>
+	
+	<!-- DuplicateItemDialog -->
+	<string name="text242">對“{0}”輸入新名稱</string>
+	
+	<!-- FindReferenceDialog -->
+	<string name="text267">源和目標的資源類型不相同，無法替換！</string>
+	
+	<!-- package -->
+	<string name="text110">無法讀取包在</string>
+	<string name="text111">圖片不存在</string>
+	<string name="text112">資源不存在</string>
+	<string name="text113">指定的名稱已被使用</string>
+	<string name="text114">不支持含多個紋理的字體</string>
+	<string name="text115">新建檔夾</string>
+	<string name="text116">動作0沒有數據！</string>
+	<string name="text170">容器組件</string>
+	<string name="text191">組件</string>
+	<string name="text103">多個對象</string>
+	
+	<!-- project -->
+	<string name="text117">指定的位置並沒有UI專案！</string>
+	<string name="text118">自定義顏色</string>
+	<string name="text119">自定義字體大小</string>
+	<string name="text120">不是合法的包</string>
+	<string name="text121">包已經存在，不能覆蓋！</string>
+	<string name="text196">名稱不能包含.:*?&lt;&gt;|/\字元</string>
+	<string name="text197">名稱不能為空</string>
+	<string name="text227">未命名包</string>
+	
+	<!-- publish -->
+	<string name="text122">無法打包：需要的紋理大小超過{0}x{1}。</string>
+	<string name="text123">目標檔已被打開，無法覆蓋！</string>
+	<string name="text124">檔格式錯誤</string>
+	
+	<!-- Options -->
+	<string name="text138">默認</string>
+	<string name="text139">無</string>
+	<string name="text161">否</string>
+	<string name="text162">是</string>
+	
+	<!-- atlas -->
+	<string name="text80">默認</string>
+	<string name="text81">單獨</string>
+	
+	<!-- quality -->
+	<string name="text82">使用包定義品質</string>
+	<string name="text83">使用原始數據</string>
+	<string name="text84">自定義</string>
+	
+	<!-- import -->
+	<string name="text88">裁剪</string>
+	<string name="text89">不裁剪</string>
+	<string name="text90">詢問</string>
+	
+	<!-- scroll display -->
+	<string name="text91">可見</string>
+	<string name="text92">滾動時顯示</string>
+	<string name="text93">隱藏</string>
+	
+	<!-- export type -->
+	<string name="text94">不使用紋理集</string>
+	<string name="text95">使用紋理集</string>
+	
+	<!-- button type -->
+	<string name="text125">複選按鈕</string>
+	<string name="text126">單選按鈕</string>
+	<string name="text127">普通按鈕</string>
+	
+	<!-- title type -->
+	<string name="text128">百分比</string>
+	<string name="text129">當前值/最大值</string>
+	<string name="text130">當前值</string>
+	<string name="text131">最大值</string>
+	
+	<!-- overflow -->
+	<string name="text132">可見</string>
+	<string name="text133">隱藏</string>
+	<string name="text134">滾動</string>
+	
+	<!-- scroll type -->
+	<string name="text135">垂直滾動</string>
+	<string name="text136">水準滾動</string>
+	<string name="text137">自由滾動</string>
+	
+	<!-- extention -->
+	<string name="text140">按鈕</string>
+	<string name="text141">標籤</string>
+	<string name="text142">進度條</string>
+	<string name="text143">滾動條</string>
+	<string name="text144">滑動條</string>
+	<string name="text145">下拉框</string>
+	
+	<!-- graph type -->
+	<string name="text146">空白</string>
+	<string name="text147">矩形</string>
+	<string name="text148">圓形</string>
+	
+	<!-- list type -->
+	<string name="text149">單列豎排</string>
+	<string name="text150">單行橫排</string>
+	<string name="text151">橫向流動</string>
+	<string name="text152">豎向流動</string>
+	
+	<!-- list selection mode -->
+	<string name="text231">單選</string>
+	<string name="text232">多選（需shift鍵）</string>
+	<string name="text233">多選（單擊實現）</string>
+	<string name="text234">無</string>
+	
+	<!-- align -->
+	<string name="text153">左</string>
+	<string name="text154">水準居中</string>
+	<string name="text155">右</string>
+	
+	<!-- vertical align -->
+	<string name="text156">上</string>
+	<string name="text157">垂直居中</string>
+	<string name="text158">下</string>
+	
+	<!-- loader fill -->
+	<string name="text159">等比縮放</string>
+	<string name="text160">自由縮放</string>
+	
+	<!-- gear type -->
+	<string name="text163">顯示控制</string>
+	<string name="text164">位置控制(X/Y)</string>
+	<string name="text165">大小控制(寬/高/ScaleX/ScaleY)</string>
+	<string name="text166">顏色控制</string>
+	<string name="text167">動畫控制</string>
+	<string name="text198">外觀控制(透明度/灰度/旋轉)</string>
+	
+	<!-- text auto size -->
+	<string name="text168">寬度和高度</string>
+	<string name="text169">高度</string>
+	
+	<!-- relation props-->
+	<string name="text26">未定義</string>
+	<string name="text247">左</string>
+	<string name="text248">中</string>
+	<string name="text249">右</string>
+	<string name="text250">頂</string>
+	<string name="text251">中</string>
+	<string name="text252">底</string>
+	<string name="text253">寬</string>
+	<string name="text254">高</string>
+	<string name="text255">左延展</string>
+	<string name="text256">右延展</string>
+	<string name="text257">頂延展</string>
+	<string name="text258">底延展</string>
+	<string name="text259">垂直中線</string>
+	<string name="text260">水準中線</string>
+	
+	<!-- image fill method -->
+	<string name="text268">水準</string>
+	<string name="text269">垂直</string>
+	<string name="text270">Radial90</string>
+	<string name="text271">Radial180</string>
+	<string name="text272">Radial360</string>
+	
+	<!-- image fill origin -->
+	<string name="text274">左</string>
+	<string name="text275">右</string>
+	<string name="text276">上</string>
+	<string name="text277">下</string>
+	<string name="text278">左上</string>
+	<string name="text279">左下</string>
+	<string name="text280">右上</string>
+	<string name="text281">右下</string>
+	
+	<!-- StringsFunctionDialog -->
+	<string name="text184">請選擇導入的檔</string>
+	<string name="text185">導出完成</string>
+	<string name="text186">XML檔</string>
+	<string name="text187">請先保存所有檔</string>
+	<string name="text188">無法導入</string>
+	<string name="text189">導入完成</string>
+	<string name="text190">導入完成！
+	
+以下為警告資訊，但可以忽略</string>
+	
+	<!-- Transition -->
+	<string name="text209">改變位置</string>
+	<string name="text210">改變大小</string>
+	<string name="text211">改變透明度</string>
+	<string name="text212">改變旋轉</string>
+	<string name="text213">改變縮放</string>
+	<string name="text214">改變顏色</string>
+	<string name="text215">改變動畫</string>
+	<string name="text216">改變軸心</string>
+	<string name="text217">插入幀</string>
+	<string name="text218">刪除幀</string>
+	<string name="text219">刪除時間軸</string>
+	<string name="text220">時間軸非空，確實要刪除嗎？</string>
+	<string name="text221">設置控制器</string>
+	<string name="text222">播放聲音</string>
+	<string name="text223">播放動效</string>
+	<string name="text224">播放震動</string>
+	<string name="text225">改變可見性</string>
+	<string name="text235">確認刪除動效？</string>
+	<string name="text265">創建Tween</string>
+	<string name="text266">刪除Tween</string>
+	
+	<!-- UpgradeWindow -->
+	<string name="text228">新版本通知</string>
+	<string name="text229">[b]FairyGUI Editor發佈了一個新版本[/b]
+最新版本是{0}，當前版本是{1}，現在下載並安裝嗎？</string>
+
+	<!-- ImportProgressDialog -->
+	<string name="text199">正在导入{0}/{1}...</string>
+	
+	<!-- Pivot menu -->
+	<string name="text109">中心</string>
+	<string name="text261">左上角</string>
+	<string name="text262">右上角</string>
+	<string name="text263">左下角</string>
+	<string name="text264">右下角</string>
+	
+	<!-- Button down effect -->
+	<string name="text282">变暗</string>
+	<string name="text283">缩放</string>
+	
+	<!-- Scroll Options -->
+	<string name="text284">默認</string>
+	<string name="text285">啟用</string>
+	<string name="text286">關閉</string>
+	
+	<!-- Test Panel -->
+	<string name="text287">設計大小</string>
+	
+	<!-- Filters -->
+	<string name="text288">改變顏色</string>	
+	
+	<!-- ComboBox -->
+	<string name="text289">自動</string>
+	<string name="text290">向下</string>
+	<string name="text291">向上</string>
+	
+	<!-- Keyboard type -->
+	<string name="text292">字母</string>
+	<string name="text293">數字和標點</string>
+	<string name="text294">URL</string>
+	<string name="text295">數字</string>
+	<string name="text296">電話號碼</string>
+</resources>

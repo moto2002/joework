@@ -1,0 +1,7 @@
+id~pk,name,desc,icon,target,hpPoint,mpPoint,stPoint,hpPer,mpPer,stPer,hpUp,mpUp,atkUp,defUp,mAtkUp,speedUp,luckUp,capyUp,resistUp,price
+int,string,null,string,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int[],int
+1,r_hp_l1,回复药,recover_hp,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,,100
+2,rp_hp_l1,秘药,recover_hp,0,0,0,0,30,0,0,0,0,0,0,0,0,0,0,,200
+3,r_mp_l1,妖精泉,recover_mp,0,0,40,0,0,0,0,0,0,0,0,0,0,0,0,,150
+4,rp_mp_l1,天使之露,recover_mp,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,,350
+5,r_st_l1,神威之酒,recover_sp,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,,250

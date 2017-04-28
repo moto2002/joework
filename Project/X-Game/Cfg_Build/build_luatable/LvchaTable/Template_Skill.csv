@@ -1,0 +1,4 @@
+code~pk,name,desc,icon,cost,element,type,hitRate,rangeType,rangeValue,effRangeType,effRangeValue,HalfRangeType,halfRangeValue,damage,hitMp,hitSt,buff,debuff,animation
+string,string,null,string,int{},int[],int,int,string,int,string,int,string,int,int,int,int,int{},string[],string
+air_slash,air_slash,ÆøÈĞÕ¶,,st=50,,0,98,cell,2,cell,1,cell,1,50,,,,,
+thunder_sword,thunder_sword,ÌìÀ×ÃÍÏ®½£,element_wind,st=50,3,0,97,cell,1,thrust,1,cell,1,100,,,,,

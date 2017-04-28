@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en_US" lang="en_US">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>SpringXBeanTest xref</title>
+<link type="text/css" rel="stylesheet" href="../../../../../stylesheet.css" />
+</head>
+<body>
+<div id="overview"><a href="../../../../../../testapidocs/org/apache/mina/integration/xbean/SpringXBeanTest.html">View Javadoc</a></div><pre>
+
+<a class="jxr_linenumber" name="1" href="#1">1</a>   <em class="jxr_comment">/*</em>
+<a class="jxr_linenumber" name="2" href="#2">2</a>   <em class="jxr_comment"> * Licensed to the Apache Software Foundation (ASF) under one</em>
+<a class="jxr_linenumber" name="3" href="#3">3</a>   <em class="jxr_comment"> * or more contributor license agreements.  See the NOTICE file</em>
+<a class="jxr_linenumber" name="4" href="#4">4</a>   <em class="jxr_comment"> * distributed with this work for additional information</em>
+<a class="jxr_linenumber" name="5" href="#5">5</a>   <em class="jxr_comment"> * regarding copyright ownership.  The ASF licenses this file</em>
+<a class="jxr_linenumber" name="6" href="#6">6</a>   <em class="jxr_comment"> * to you under the Apache License, Version 2.0 (the</em>
+<a class="jxr_linenumber" name="7" href="#7">7</a>   <em class="jxr_comment"> * "License"); you may not use this file except in compliance</em>
+<a class="jxr_linenumber" name="8" href="#8">8</a>   <em class="jxr_comment"> * with the License.  You may obtain a copy of the License at</em>
+<a class="jxr_linenumber" name="9" href="#9">9</a>   <em class="jxr_comment"> *</em>
+<a class="jxr_linenumber" name="10" href="#10">10</a>  <em class="jxr_comment"> *  <a href="http://www.apache.org/licenses/LICENSE-2.0" target="alexandria_uri">http://www.apache.org/licenses/LICENSE-2.0</a></em>
+<a class="jxr_linenumber" name="11" href="#11">11</a>  <em class="jxr_comment"> *</em>
+<a class="jxr_linenumber" name="12" href="#12">12</a>  <em class="jxr_comment"> * Unless required by applicable law or agreed to in writing,</em>
+<a class="jxr_linenumber" name="13" href="#13">13</a>  <em class="jxr_comment"> * software distributed under the License is distributed on an</em>
+<a class="jxr_linenumber" name="14" href="#14">14</a>  <em class="jxr_comment"> * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY</em>
+<a class="jxr_linenumber" name="15" href="#15">15</a>  <em class="jxr_comment"> * KIND, either express or implied.  See the License for the</em>
+<a class="jxr_linenumber" name="16" href="#16">16</a>  <em class="jxr_comment"> * specific language governing permissions and limitations</em>
+<a class="jxr_linenumber" name="17" href="#17">17</a>  <em class="jxr_comment"> * under the License.</em>
+<a class="jxr_linenumber" name="18" href="#18">18</a>  <em class="jxr_comment"> */</em>
+<a class="jxr_linenumber" name="19" href="#19">19</a>  <strong class="jxr_keyword">package</strong> org.apache.mina.integration.xbean;
+<a class="jxr_linenumber" name="20" href="#20">20</a>  
+<a class="jxr_linenumber" name="21" href="#21">21</a>  <strong class="jxr_keyword">import</strong> <strong class="jxr_keyword">static</strong> org.junit.Assert.assertEquals;
+<a class="jxr_linenumber" name="22" href="#22">22</a>  <strong class="jxr_keyword">import</strong> <strong class="jxr_keyword">static</strong> org.junit.Assert.assertFalse;
+<a class="jxr_linenumber" name="23" href="#23">23</a>  <strong class="jxr_keyword">import</strong> <strong class="jxr_keyword">static</strong> org.junit.Assert.assertNotNull;
+<a class="jxr_linenumber" name="24" href="#24">24</a>  <strong class="jxr_keyword">import</strong> <strong class="jxr_keyword">static</strong> org.junit.Assert.assertTrue;
+<a class="jxr_linenumber" name="25" href="#25">25</a>  
+<a class="jxr_linenumber" name="26" href="#26">26</a>  <strong class="jxr_keyword">import</strong> org.apache.mina.transport.socket.nio.NioDatagramAcceptor;
+<a class="jxr_linenumber" name="27" href="#27">27</a>  <strong class="jxr_keyword">import</strong> org.apache.xbean.spring.context.FileSystemXmlApplicationContext;
+<a class="jxr_linenumber" name="28" href="#28">28</a>  <strong class="jxr_keyword">import</strong> org.junit.Test;
+<a class="jxr_linenumber" name="29" href="#29">29</a>  <strong class="jxr_keyword">import</strong> org.springframework.context.ApplicationContext;
+<a class="jxr_linenumber" name="30" href="#30">30</a>  
+<a class="jxr_linenumber" name="31" href="#31">31</a>  <strong class="jxr_keyword">import</strong> java.io.File;
+<a class="jxr_linenumber" name="32" href="#32">32</a>  <strong class="jxr_keyword">import</strong> java.net.InetSocketAddress;
+<a class="jxr_linenumber" name="33" href="#33">33</a>  <strong class="jxr_keyword">import</strong> java.net.URL;
+<a class="jxr_linenumber" name="34" href="#34">34</a>  
+<a class="jxr_linenumber" name="35" href="#35">35</a>  <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="36" href="#36">36</a>  <em class="jxr_javadoccomment"> * TODO : Add documentation</em>
+<a class="jxr_linenumber" name="37" href="#37">37</a>  <em class="jxr_javadoccomment"> * @author &lt;a href="<a href="http://mina.apache.org" target="alexandria_uri">http://mina.apache.org</a>"&gt;Apache MINA Project&lt;/a&gt;</em>
+<a class="jxr_linenumber" name="38" href="#38">38</a>  <em class="jxr_javadoccomment"> */</em>
+<a class="jxr_linenumber" name="39" href="#39">39</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../../org/apache/mina/integration/xbean/SpringXBeanTest.html">SpringXBeanTest</a> {
+<a class="jxr_linenumber" name="40" href="#40">40</a>      <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="41" href="#41">41</a>  <em class="jxr_javadoccomment">     * Checks to see we can easily configure a NIO based DatagramAcceptor </em>
+<a class="jxr_linenumber" name="42" href="#42">42</a>  <em class="jxr_javadoccomment">     * using XBean-Spring.  Tests various configuration settings for the </em>
+<a class="jxr_linenumber" name="43" href="#43">43</a>  <em class="jxr_javadoccomment">     * NIO based DatagramAcceptor.</em>
+<a class="jxr_linenumber" name="44" href="#44">44</a>  <em class="jxr_javadoccomment">     */</em>
+<a class="jxr_linenumber" name="45" href="#45">45</a>      @Test
+<a class="jxr_linenumber" name="46" href="#46">46</a>      <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> testNioDatagramAcceptor() <strong class="jxr_keyword">throws</strong> Exception {
+<a class="jxr_linenumber" name="47" href="#47">47</a>          ClassLoader classLoader = <strong class="jxr_keyword">this</strong>.getClass().getClassLoader();
+<a class="jxr_linenumber" name="48" href="#48">48</a>          URL configURL = classLoader.getResource(<span class="jxr_string">"org/apache/mina/integration/xbean/datagramAcceptor.xml"</span>);
+<a class="jxr_linenumber" name="49" href="#49">49</a>  
+<a class="jxr_linenumber" name="50" href="#50">50</a>          File configF = <strong class="jxr_keyword">new</strong> File(configURL.toURI());
+<a class="jxr_linenumber" name="51" href="#51">51</a>          ApplicationContext factory = <strong class="jxr_keyword">new</strong> FileSystemXmlApplicationContext(configF.toURI().toURL().toString());
+<a class="jxr_linenumber" name="52" href="#52">52</a>  
+<a class="jxr_linenumber" name="53" href="#53">53</a>          <em class="jxr_comment">// test default without any properties</em>
+<a class="jxr_linenumber" name="54" href="#54">54</a>          NioDatagramAcceptor acceptor0 = (NioDatagramAcceptor) factory.getBean(<span class="jxr_string">"datagramAcceptor0"</span>);
+<a class="jxr_linenumber" name="55" href="#55">55</a>          assertNotNull(<span class="jxr_string">"acceptor0 should not be null"</span>, acceptor0);
+<a class="jxr_linenumber" name="56" href="#56">56</a>          assertTrue(
+<a class="jxr_linenumber" name="57" href="#57">57</a>                  <span class="jxr_string">"Default constructor for NioDatagramAcceptor should have true value for closeOnDeactivation property"</span>,
+<a class="jxr_linenumber" name="58" href="#58">58</a>                  acceptor0.isCloseOnDeactivation());
+<a class="jxr_linenumber" name="59" href="#59">59</a>  
+<a class="jxr_linenumber" name="60" href="#60">60</a>          <em class="jxr_comment">// test setting the port and IP for the acceptor</em>
+<a class="jxr_linenumber" name="61" href="#61">61</a>          NioDatagramAcceptor acceptor1 = (NioDatagramAcceptor) factory.getBean(<span class="jxr_string">"datagramAcceptor1"</span>);
+<a class="jxr_linenumber" name="62" href="#62">62</a>          assertNotNull(<span class="jxr_string">"acceptor1 should not be null"</span>, acceptor1);
+<a class="jxr_linenumber" name="63" href="#63">63</a>          assertEquals(<span class="jxr_string">"192.168.0.1"</span>, acceptor1.getDefaultLocalAddress().getAddress().getHostAddress());
+<a class="jxr_linenumber" name="64" href="#64">64</a>          assertEquals(110, acceptor1.getDefaultLocalAddress().getPort());
+<a class="jxr_linenumber" name="65" href="#65">65</a>  
+<a class="jxr_linenumber" name="66" href="#66">66</a>          <em class="jxr_comment">// test creating with executor and some primitive properties</em>
+<a class="jxr_linenumber" name="67" href="#67">67</a>          NioDatagramAcceptor acceptor2 = (NioDatagramAcceptor) factory.getBean(<span class="jxr_string">"datagramAcceptor2"</span>);
+<a class="jxr_linenumber" name="68" href="#68">68</a>          assertNotNull(acceptor2);
+<a class="jxr_linenumber" name="69" href="#69">69</a>          assertFalse(acceptor2.isCloseOnDeactivation());
+<a class="jxr_linenumber" name="70" href="#70">70</a>          assertFalse(<span class="jxr_string">"NioDatagramAcceptor should have false value for closeOnDeactivation property"</span>,
+<a class="jxr_linenumber" name="71" href="#71">71</a>                  acceptor2.isCloseOnDeactivation());
+<a class="jxr_linenumber" name="72" href="#72">72</a>  
+<a class="jxr_linenumber" name="73" href="#73">73</a>          <em class="jxr_comment">// test creating with multiple addresses</em>
+<a class="jxr_linenumber" name="74" href="#74">74</a>          NioDatagramAcceptor acceptor3 = (NioDatagramAcceptor) factory.getBean(<span class="jxr_string">"datagramAcceptor3"</span>);
+<a class="jxr_linenumber" name="75" href="#75">75</a>          assertNotNull(acceptor3);
+<a class="jxr_linenumber" name="76" href="#76">76</a>          assertEquals(3, acceptor3.getDefaultLocalAddresses().size());
+<a class="jxr_linenumber" name="77" href="#77">77</a>  
+<a class="jxr_linenumber" name="78" href="#78">78</a>          InetSocketAddress address1 = (InetSocketAddress) acceptor3.getDefaultLocalAddresses().get(0);
+<a class="jxr_linenumber" name="79" href="#79">79</a>          assertEquals(<span class="jxr_string">"192.168.0.1"</span>, address1.getAddress().getHostAddress());
+<a class="jxr_linenumber" name="80" href="#80">80</a>          assertEquals(10001, address1.getPort());
+<a class="jxr_linenumber" name="81" href="#81">81</a>  
+<a class="jxr_linenumber" name="82" href="#82">82</a>          InetSocketAddress address2 = (InetSocketAddress) acceptor3.getDefaultLocalAddresses().get(1);
+<a class="jxr_linenumber" name="83" href="#83">83</a>          assertEquals(<span class="jxr_string">"192.168.0.2"</span>, address2.getAddress().getHostAddress());
+<a class="jxr_linenumber" name="84" href="#84">84</a>          assertEquals(10002, address2.getPort());
+<a class="jxr_linenumber" name="85" href="#85">85</a>  
+<a class="jxr_linenumber" name="86" href="#86">86</a>          InetSocketAddress address3 = (InetSocketAddress) acceptor3.getDefaultLocalAddresses().get(2);
+<a class="jxr_linenumber" name="87" href="#87">87</a>          assertEquals(<span class="jxr_string">"192.168.0.3"</span>, address3.getAddress().getHostAddress());
+<a class="jxr_linenumber" name="88" href="#88">88</a>          assertEquals(10003, address3.getPort());
+<a class="jxr_linenumber" name="89" href="#89">89</a>  
+<a class="jxr_linenumber" name="90" href="#90">90</a>          <em class="jxr_comment">// test with multiple default addresses </em>
+<a class="jxr_linenumber" name="91" href="#91">91</a>          <em class="jxr_comment">//        NioDatagramAcceptor acceptor3 = ( NioDatagramAcceptor ) factory.getBean( "datagramAcceptor3" );</em>
+<a class="jxr_linenumber" name="92" href="#92">92</a>          <em class="jxr_comment">//        assertNotNull( acceptor3 );</em>
+<a class="jxr_linenumber" name="93" href="#93">93</a>          <em class="jxr_comment">//        assertEquals( 3, acceptor3.getDefaultLocalAddresses().size() );</em>
+<a class="jxr_linenumber" name="94" href="#94">94</a>          <em class="jxr_comment">//</em>
+<a class="jxr_linenumber" name="95" href="#95">95</a>          <em class="jxr_comment">//        SocketAddress address0 = acceptor3.getDefaultLocalAddresses().get( 0 );</em>
+<a class="jxr_linenumber" name="96" href="#96">96</a>          <em class="jxr_comment">//        assertNotNull( address0 );</em>
+<a class="jxr_linenumber" name="97" href="#97">97</a>          <em class="jxr_comment">//        </em>
+<a class="jxr_linenumber" name="98" href="#98">98</a>          <em class="jxr_comment">//        SocketAddress address1 = acceptor3.getDefaultLocalAddresses().get( 1 );</em>
+<a class="jxr_linenumber" name="99" href="#99">99</a>          <em class="jxr_comment">//        assertNotNull( address1 );</em>
+<a class="jxr_linenumber" name="100" href="#100">100</a>         <em class="jxr_comment">//</em>
+<a class="jxr_linenumber" name="101" href="#101">101</a>         <em class="jxr_comment">//        SocketAddress address2 = acceptor3.getDefaultLocalAddresses().get( 2 );</em>
+<a class="jxr_linenumber" name="102" href="#102">102</a>         <em class="jxr_comment">//        assertNotNull( address2 );</em>
+<a class="jxr_linenumber" name="103" href="#103">103</a>     }
+<a class="jxr_linenumber" name="104" href="#104">104</a> }
+</pre>
+<hr/><div id="footer">This page was automatically generated by <a href="http://maven.apache.org/">Maven</a></div></body>
+</html>
+

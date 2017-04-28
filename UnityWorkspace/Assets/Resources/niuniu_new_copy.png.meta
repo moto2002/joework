@@ -1,0 +1,241 @@
+fileFormatVersion: 2
+guid: 48eda76916b9d61408aa7b65e2507fd5
+timeCreated: 1478586742
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: niu0
+    21300002: niu1
+    21300004: niu11
+    21300006: niu12
+    21300008: niu13
+    21300010: niu2
+    21300012: niu3
+    21300014: niu4
+    21300016: niu5
+    21300018: niu6
+    21300020: niu7
+    21300022: niu8
+    21300024: niu9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: niu0
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 464
+        width: 89
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: niu1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 323
+        width: 85
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5058824, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: niu11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 417
+        width: 127
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: niu12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 464
+        width: 130
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: niu13
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 416
+        width: 89
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: niu2
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 322
+        width: 85
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5058824, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: niu3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 182
+        width: 84
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5119048, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: niu4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 276
+        width: 85
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5058824, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: niu5
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 275
+        width: 85
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5058824, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: niu6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 370
+        width: 86
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: niu7
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 369
+        width: 86
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: niu8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 229
+        width: 85
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5058824, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: niu9
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 228
+        width: 85
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5058824, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

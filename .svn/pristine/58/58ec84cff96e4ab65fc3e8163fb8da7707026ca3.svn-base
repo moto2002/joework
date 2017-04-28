@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 390891299
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c52c4c03dbb619e56dc07cc398028c2a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3ac5702e797ea8d1744588151c0e9010
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2b3207f9744d12d4db9e89ceb21ea3e3, type: 3}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/hero/Garen.prefab
+Dependencies: []

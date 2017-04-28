@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1136,640">
+  <displayList>
+    <image id="n5" name="n5" src="g25y14" xy="93,78" size="936,405"/>
+    <list id="n10" name="list" xy="107,94" size="910,376" overflow="scroll" scrollBarFlags="4" margin="0,0,0,0" defaultItem="ui://y768eypakfcb1j" autoItemSize="false">
+      <item url="ui://y768eypakfcb1h"/>
+      <item/>
+    </list>
+    <image id="n6" name="n6" src="g25y15" xy="95,496" size="765,84" group="n11"/>
+    <text id="n7" name="input" xy="106,501" size="746,70" group="n11" input="true" fontSize="26" vAlign="middle" autoSize="none" singleLine="true" text=""/>
+    <component id="n8" name="btnSend" src="g25y16" xy="871,500" group="n11">
+      <Button title="Send"/>
+    </component>
+    <group id="n11" name="n11" xy="95,496" size="939,84"/>
+    <text id="n12" name="n12" xy="98,24" size="935,34" fontSize="30" color="#ff9900" strokeColor="#000000" text="Test it on IOS device. Input Emoji by the native IOS keyboard."/>
+  </displayList>
+</component>

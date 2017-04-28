@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Basic - ColorPickerPopup -->
+  <string name="nk9ejx23au3n5x-n5">Alpha</string>
+  <!-- Builder - MainPanel -->
+  <string name="2pshu6oiau3n0-n88-tips">Show publish settings</string>
+  <string name="2pshu6oiau3n0-n43-tips">Zoom in：Ctrl+'+'
+Zoom out：Ctrl+'-'
+Zoom: Ctrl+Mouse wheel
+Restore: Ctrl+1</string>
+  <string name="2pshu6oiau3n0-n44">Zoom</string>
+  <string name="2pshu6oiau3n0-n45-tips">Create Component (Ctrl+N)</string>
+  <string name="2pshu6oiau3n0-n46-tips">Create Button</string>
+  <string name="2pshu6oiau3n0-n47-tips">Save (Ctrl+S)</string>
+  <string name="2pshu6oiau3n0-n48-tips">Save All</string>
+  <string name="2pshu6oiau3n0-n54">Bg.Color</string>
+  <string name="2pshu6oiau3n0-n74-tips">Create Bitmap Font</string>
+  <string name="2pshu6oiau3n0-n75-tips">Import</string>
+  <string name="2pshu6oiau3n0-n84-tips">Publish (F9)</string>
+  <string name="2pshu6oiau3n0-n85-tips">Test (F5)</string>
+  <string name="2pshu6oiau3n0-n87-tips">Create MovieClip</string>
+  <!-- Builder - LibPanel -->
+  <string name="2pshu6oiau3n3-n39">Lib</string>
+  <string name="2pshu6oiau3n3-n21-tips">Filter Packages</string>
+  <string name="2pshu6oiau3n3-n24-tips">Collapse All</string>
+  <string name="2pshu6oiau3n3-n27-tips">Find</string>
+  <!-- Builder - PreviewPanel -->
+  <string name="2pshu6oiau3n4-n18">Preview</string>
+  <!-- Builder - BasicPropsPanel -->
+  <string name="2pshu6oiau3n5-n46">Basic</string>
+  <string name="2pshu6oiau3n5-n11">Original</string>
+  <string name="2pshu6oiau3n5-n17">Name</string>
+  <string name="2pshu6oiau3n5-n13">X</string>
+  <string name="2pshu6oiau3n5-n22">Y</string>
+  <string name="2pshu6oiau3n5-n24">W</string>
+  <string name="2pshu6oiau3n5-n26">H</string>
+  <string name="2pshu6oiau3n5-n31">Untouchable</string>
+  <string name="2pshu6oiau3n5-n32-tips">The element will remain visible in EDIT MODE.</string>
+  <string name="2pshu6oiau3n5-n32">Invisible</string>
+  <string name="2pshu6oiau3n5-n33">Alpha</string>
+  <string name="2pshu6oiau3n5-n35">Rotation</string>
+  <string name="2pshu6oiau3n5-n36">Grayed</string>
+  <string name="2pshu6oiau3n5-n39">PivotX</string>
+  <string name="2pshu6oiau3n5-n40">PivotY</string>
+  <string name="2pshu6oiau3n5-n48">ScaleX</string>
+  <string name="2pshu6oiau3n5-n49">ScaleY</string>
+  <string name="2pshu6oiau3n5-n53-tips">When you select multiple objects, the use of # can add digital sequence automatically. For example:
+a#
+The name of the selected element is changed to a0, a1, a2..</string>
+  <string name="2pshu6oiau3n5-n57">SkewX</string>
+  <string name="2pshu6oiau3n5-n58">SkewY</string>
+  <string name="2pshu6oiau3n5-n61-tips">When checked, the pivot position will be the origin of the component.</string>
+  <string name="2pshu6oiau3n5-n61">Anchor</string>
+  <!-- Builder - EditPanel -->
+  <string name="2pshu6oiau3nh-n33-tips">Align Left</string>
+  <string name="2pshu6oiau3nh-n34-tips">Center</string>
+  <string name="2pshu6oiau3nh-n35-tips">Align Right</string>
+  <string name="2pshu6oiau3nh-n36-tips">Align Top</string>
+  <string name="2pshu6oiau3nh-n37-tips">Middle</string>
+  <string name="2pshu6oiau3nh-n38-tips">Align Bottom</string>
+  <string name="2pshu6oiau3nh-n39-tips">Same Width</string>
+  <string name="2pshu6oiau3nh-n40-tips">Same Height</string>
+  <string name="2pshu6oiau3nh-n41-tips">Arrange</string>
+  <string name="2pshu6oiau3nh-n57-tips">Move Mode (Press and hold the space to quickly switch)</string>
+  <string name="2pshu6oiau3nh-n60-tips">Selection Mode</string>
+  <string name="2pshu6oiau3nh-n26-tips">TextField</string>
+  <string name="2pshu6oiau3nh-n27-tips">Graph</string>
+  <string name="2pshu6oiau3nh-n28-tips">List</string>
+  <string name="2pshu6oiau3nh-n29-tips">Loader</string>
+  <string name="2pshu6oiau3nh-n31-tips">Group</string>
+  <string name="2pshu6oiau3nh-n32-tips">Ungroup</string>
+  <string name="2pshu6oiau3nh-n49-tips">RichTextField</string>
+  <string name="2pshu6oiau3nh-n56">Groups</string>
+  <!-- Builder - GearPropsPanel -->
+  <string name="2pshu6oiau3n2r-n41">Property Control</string>
+  <string name="2pshu6oiau3n2r-n17">Visible Control</string>
+  <string name="2pshu6oiau3n2r-n48-tips">New property control</string>
+  <!-- Builder - TextPropsPanel -->
+  <string name="2pshu6oiau3n2s-n62">Text</string>
+  <string name="2pshu6oiau3n2s-n17">Font</string>
+  <string name="2pshu6oiau3n2s-n32">Single Line</string>
+  <string name="2pshu6oiau3n2s-n33">FontSize</string>
+  <string name="2pshu6oiau3n2s-n35">Color</string>
+  <string name="2pshu6oiau3n2s-n38">UBB</string>
+  <string name="2pshu6oiau3n2s-n46">AutoSize</string>
+  <string name="2pshu6oiau3n2s-n47">Align</string>
+  <string name="2pshu6oiau3n2s-n50">Input</string>
+  <string name="2pshu6oiau3n2s-n51">Underline</string>
+  <string name="2pshu6oiau3n2s-n52">Password</string>
+  <string name="2pshu6oiau3n2s-n42">LineGap</string>
+  <string name="2pshu6oiau3n2s-n44">CharGap</string>
+  <string name="2pshu6oiau3n2s-n68">Stroke</string>
+  <string name="2pshu6oiau3n2s-n71">Bold</string>
+  <string name="2pshu6oiau3n2s-n72">Italic</string>
+  <string name="2pshu6oiau3n2s-n83">Shadow</string>
+  <!-- Builder - GraphPropsPanel -->
+  <string name="2pshu6oiau3n2t-n62">Graph</string>
+  <string name="2pshu6oiau3n2t-n17">Graph</string>
+  <string name="2pshu6oiau3n2t-n33">LineSize</string>
+  <string name="2pshu6oiau3n2t-n35">LineColor</string>
+  <string name="2pshu6oiau3n2t-n55">FillColor</string>
+  <string name="2pshu6oiau3n2t-n57">Corner</string>
+  <string name="2pshu6oiau3n2t-n66">Use this shape as mask</string>
+  <!-- Builder - ListPropsPanel -->
+  <string name="2pshu6oiau3n2u-n69">List</string>
+  <string name="2pshu6oiau3n2u-n17">Layout</string>
+  <string name="2pshu6oiau3n2u-n58">Overflow</string>
+  <string name="2pshu6oiau3n2u-n33">RowGap</string>
+  <string name="2pshu6oiau3n2u-n57">Margin</string>
+  <string name="2pshu6oiau3n2u-n61">ColGap</string>
+  <string name="2pshu6oiau3n2u-n62">ItemURL</string>
+  <string name="2pshu6oiau3n2u-n63">Edit items</string>
+  <string name="2pshu6oiau3n2u-n77">T</string>
+  <string name="2pshu6oiau3n2u-n79">B</string>
+  <string name="2pshu6oiau3n2u-n81">L</string>
+  <string name="2pshu6oiau3n2u-n83">R</string>
+  <string name="2pshu6oiau3n2u-n86">Clipsoftness</string>
+  <string name="2pshu6oiau3n2u-n87">X</string>
+  <string name="2pshu6oiau3n2u-n89">Y</string>
+  <string name="2pshu6oiau3n2u-n92-tips">Clipsoftness effect in the editor is unable to preview</string>
+  <string name="2pshu6oiau3n2u-n93">Selection</string>
+  <string name="2pshu6oiau3n2u-n95">Adjust item size</string>
+  <string name="2pshu6oiau3n2u-n96-tips">If check,
+1, when the layout of the list is listed, the width of the list item is automatically set to the width of the list display area;
+2, when the layout of the list is a one-way, the height of the list item is automatically set to the height of the display area.
+3, other layout this option is invalid</string>
+  <string name="2pshu6oiau3n2u-n97">Rows/Cols</string>
+  <string name="2pshu6oiau3n2u-n99-tips">When the list layout is horizontal flow, it is a fixed number of columns;
+When the list layout is vertical flow, it is a fixed number of rows;
+In other cases the value is invalid.
+If 0, said auto wrap.</string>
+  <!-- Builder - LoaderPropsPanel -->
+  <string name="2pshu6oiau3n2v-n67">Loader</string>
+  <string name="2pshu6oiau3n2v-n17">URL</string>
+  <string name="2pshu6oiau3n2v-n46">AutoSize</string>
+  <string name="2pshu6oiau3n2v-n59">Fill</string>
+  <string name="2pshu6oiau3n2v-n47">Align</string>
+  <string name="2pshu6oiau3n2v-n32">Playing</string>
+  <string name="2pshu6oiau3n2v-n69">Frame</string>
+  <string name="2pshu6oiau3n2v-n71">Color</string>
+  <string name="2pshu6oiau3n2v-n73">Brightness</string>
+  <string name="2pshu6oiau3n2v-n81">Fill Method</string>
+  <string name="2pshu6oiau3n2v-n82-tips">Preview not yet supported.</string>
+  <string name="2pshu6oiau3n2v-n85">Fill Amount</string>
+  <string name="2pshu6oiau3n2v-n88">Fill Origin</string>
+  <string name="2pshu6oiau3n2v-n89">Clockwise</string>
+  <!-- Builder - ControllerBar -->
+  <string name="2pshu6oiau3n3f-n15-tips">Enable/Disable controller(Design Mode)</string>
+  <!-- Builder - ControllerPanel -->
+  <string name="2pshu6oiau3n3h-n3">Controller</string>
+  <string name="2pshu6oiau3n3h-n5-tips">Create Controller</string>
+  <!-- Builder - SaveConfirmDialog -->
+  <string name="2pshu6oiau3n3k-n2">Yes</string>
+  <string name="2pshu6oiau3n3k-n3">No</string>
+  <string name="2pshu6oiau3n3k-n4">Cancel</string>
+  <string name="2pshu6oiau3n3k-n6">Do you want to save changes to the following items?</string>
+  <!-- Builder - AlertDialog -->
+  <string name="2pshu6oiau3n3l-n1">OK</string>
+  <!-- Builder - ProjectSettingsDialog -->
+  <string name="2pshu6oiau3n3n-n0">Project settings</string>
+  <string name="2pshu6oiau3n3n-n14">Save</string>
+  <string name="2pshu6oiau3n3n-n15">Cancel</string>
+  <string name="2pshu6oiau3n3n-n1">Project Name</string>
+  <string name="2pshu6oiau3n3n-n2">Font</string>
+  <string name="2pshu6oiau3n3n-n3">Font Size</string>
+  <string name="2pshu6oiau3n3n-n4">Font Color</string>
+  <string name="2pshu6oiau3n3n-n5">Vertical</string>
+  <string name="2pshu6oiau3n3n-n6">Horizontal</string>
+  <string name="2pshu6oiau3n3n-n7">Display</string>
+  <string name="2pshu6oiau3n3n-n34">Project Type</string>
+  <string name="2pshu6oiau3n3n-n47">Custom Properties</string>
+  <string name="2pshu6oiau3n3n-n17">Basic</string>
+  <string name="2pshu6oiau3n3n-n18">Font/Color</string>
+  <string name="2pshu6oiau3n3n-n19">Scrollbar Settings</string>
+  <string name="2pshu6oiau3n3n-n32">Color Scheme (name color)</string>
+  <string name="2pshu6oiau3n3n-n33">Font Size Scheme (name size)</string>
+  <!-- Builder - CreatePackageDialog -->
+  <string name="2pshu6oiau3n3o-n0">Create Package</string>
+  <string name="2pshu6oiau3n3o-n1">Name</string>
+  <string name="2pshu6oiau3n3o-n6">Create</string>
+  <string name="2pshu6oiau3n3o-n7">Cancel</string>
+  <!-- Builder - PackageSettingsDialog -->
+  <string name="2pshu6oiau3n3p-n0">Package settings</string>
+  <string name="2pshu6oiau3n3p-n14">Save</string>
+  <string name="2pshu6oiau3n3p-n15">Cancel</string>
+  <string name="2pshu6oiau3n3p-n1">Package Name</string>
+  <string name="2pshu6oiau3n3p-n2">JPEG Quality</string>
+  <string name="2pshu6oiau3n3p-n33">Compress PNG</string>
+  <string name="2pshu6oiau3n3p-n35">(Compression tool is pngquant)</string>
+  <string name="2pshu6oiau3n3p-n17">Basic</string>
+  <!-- Builder - CreateComDialog -->
+  <string name="2pshu6oiau3n3q-n0">Create Component</string>
+  <string name="2pshu6oiau3n3q-n1">Name</string>
+  <string name="2pshu6oiau3n3q-n2">Size</string>
+  <string name="2pshu6oiau3n3q-n6">Create</string>
+  <string name="2pshu6oiau3n3q-n7">Cancel</string>
+  <string name="2pshu6oiau3n3q-n9">X</string>
+  <string name="2pshu6oiau3n3q-n12">Location</string>
+  <string name="2pshu6oiau3n3q-n14">Browse..</string>
+  <!-- Builder - CreateButtonDialog -->
+  <string name="2pshu6oiau3n3r-n0">Create Button</string>
+  <string name="2pshu6oiau3n3r-n1">Name</string>
+  <string name="2pshu6oiau3n3r-n11">Support Title</string>
+  <string name="2pshu6oiau3n3r-n12">Support Icon</string>
+  <string name="2pshu6oiau3n3r-n13">Create</string>
+  <string name="2pshu6oiau3n3r-n14">Cancel</string>
+  <string name="2pshu6oiau3n3r-n15">Location</string>
+  <string name="2pshu6oiau3n3r-n17">Browse..</string>
+  <string name="2pshu6oiau3n3r-n22">Custom Size</string>
+  <string name="2pshu6oiau3n3r-n23">Auto Size</string>
+  <string name="2pshu6oiau3n3r-n20">X</string>
+  <string name="2pshu6oiau3n3r-n3">Normal State</string>
+  <string name="2pshu6oiau3n3r-n4">Down State</string>
+  <string name="2pshu6oiau3n3r-n5">Hover State</string>
+  <string name="2pshu6oiau3n3r-n6">Down+Hovered State</string>
+  <string name="2pshu6oiau3n3r-n27">Image Settings: (the following is optional)</string>
+  <string name="2pshu6oiau3n3r-n28">Mode</string>
+  <!-- Builder - ControllerEditDialog -->
+  <string name="2pshu6oiau3n3s-n0">Edit Controller</string>
+  <string name="2pshu6oiau3n3s-n13">Save</string>
+  <string name="2pshu6oiau3n3s-n14">Cancel</string>
+  <string name="2pshu6oiau3n3s-n15">Name</string>
+  <string name="2pshu6oiau3n3s-n28">AddPage</string>
+  <string name="2pshu6oiau3n3s-n29">DelPage</string>
+  <string name="2pshu6oiau3n3s-n30">Add Button's</string>
+  <string name="2pshu6oiau3n3s-n31">MoveUp</string>
+  <string name="2pshu6oiau3n3s-n32">MoveDown</string>
+  <string name="2pshu6oiau3n3s-n34">Delete</string>
+  <string name="2pshu6oiau3n3s-n36">Adjust the depths of RadioGroup</string>
+  <string name="2pshu6oiau3n3s-n37-tips">When checked, among all the radio buttons controlled by this controller,
+the button in selected state is automatically adjusted to the top of the other buttons.</string>
+  <!-- Builder - WaitingDialog -->
+  <string name="2pshu6oiau3n3t-n0">Trying to complete your request...</string>
+  <string name="2pshu6oiau3n3t-n3">Cancel</string>
+  <!-- Builder - ControllerEdit_header -->
+  <string name="2pshu6oiau3n3v-n0">Index</string>
+  <string name="2pshu6oiau3n3v-n12">Name</string>
+  <string name="2pshu6oiau3n3v-n13">Transition</string>
+  <string name="2pshu6oiau3n3v-n19-tips">Format for: A(the former index)=T(transition name)
+1) show that the T is played from the A page to the page.
+2) in which the "A=" can be ignored, representing a jump from any page
+3) multiple settings separated by a comma</string>
+  <!-- Builder - CreateFontDialog -->
+  <string name="2pshu6oiau3n3w-n0">Create Bitmap Font</string>
+  <string name="2pshu6oiau3n3w-n1">Name</string>
+  <string name="2pshu6oiau3n3w-n6">Create</string>
+  <string name="2pshu6oiau3n3w-n7">Cancel</string>
+  <string name="2pshu6oiau3n3w-n8">Location</string>
+  <string name="2pshu6oiau3n3w-n10">Browse..</string>
+  <!-- Builder - ImageEditDialog -->
+  <string name="2pshu6oiau3n3x-n24">Image Settings</string>
+  <string name="2pshu6oiau3n3x-n1">Image Size: </string>
+  <string name="2pshu6oiau3n3x-n3">Data Size: </string>
+  <string name="2pshu6oiau3n3x-n15">9 grid</string>
+  <string name="2pshu6oiau3n3x-n16">Tile</string>
+  <string name="2pshu6oiau3n3x-n21">Save</string>
+  <string name="2pshu6oiau3n3x-n22">Apply</string>
+  <string name="2pshu6oiau3n3x-n23">Cancel</string>
+  <string name="2pshu6oiau3n3x-n27">Scale Mode: </string>
+  <string name="2pshu6oiau3n3x-n6">L</string>
+  <string name="2pshu6oiau3n3x-n7">T</string>
+  <string name="2pshu6oiau3n3x-n8">R</string>
+  <string name="2pshu6oiau3n3x-n9">B</string>
+  <string name="2pshu6oiau3n3x-n29">None</string>
+  <string name="2pshu6oiau3n3x-n34">Import...</string>
+  <string name="2pshu6oiau3n3x-n17">Quality</string>
+  <string name="2pshu6oiau3n3x-n19">Atlas</string>
+  <string name="2pshu6oiau3n3x-n32">Smoothing</string>
+  <string name="2pshu6oiau3n3x-n38">Export...</string>
+  <!-- Builder - FontEditDialog -->
+  <string name="2pshu6oiau3n40-n0">Edit Font</string>
+  <string name="2pshu6oiau3n40-n3">Atlas</string>
+  <string name="2pshu6oiau3n40-n5">Font Size</string>
+  <string name="2pshu6oiau3n40-n7">Delete Item</string>
+  <string name="2pshu6oiau3n40-n9">Save</string>
+  <string name="2pshu6oiau3n40-n10">Cancel</string>
+  <string name="2pshu6oiau3n40-n17">Apply</string>
+  <string name="2pshu6oiau3n40-n18">XAdvance</string>
+  <string name="2pshu6oiau3n40-n20-tips">When the xadvance in the table is set to 0,
+Use value here</string>
+  <string name="2pshu6oiau3n40-n23-tips">When checked, the textfield which use this font can scale the images by changing the font size.</string>
+  <string name="2pshu6oiau3n40-n24">Dynamic Size</string>
+  <string name="2pshu6oiau3n40-n26-tips">When checked, this font can tint</string>
+  <string name="2pshu6oiau3n40-n27">Allow tint</string>
+  <!-- Builder - FontEdit_header -->
+  <string name="2pshu6oiau3n41-n0">Image</string>
+  <string name="2pshu6oiau3n41-n12">Character</string>
+  <string name="2pshu6oiau3n41-n13">OffsetX</string>
+  <string name="2pshu6oiau3n41-n14">OffsetY</string>
+  <string name="2pshu6oiau3n41-n15">XAdvance</string>
+  <!-- Builder - RenameDialog -->
+  <string name="2pshu6oiau3n44-n0">Rename</string>
+  <string name="2pshu6oiau3n44-n1">New Name</string>
+  <string name="2pshu6oiau3n44-n3">OK</string>
+  <string name="2pshu6oiau3n44-n4">Cancel</string>
+  <!-- Builder - FixConflictedNameDialog -->
+  <string name="2pshu6oiau3n45-n0">Name conflict</string>
+  <string name="2pshu6oiau3n45-n1">New Name</string>
+  <string name="2pshu6oiau3n45-n3">OK</string>
+  <string name="2pshu6oiau3n45-n4">Cancel</string>
+  <!-- Builder - ConfirmDialog -->
+  <string name="2pshu6oiau3n46-n1">Yes</string>
+  <string name="2pshu6oiau3n46-n3">No</string>
+  <!-- Builder - ComPropsPanel -->
+  <string name="2pshu6oiau3n47-n57">Basic</string>
+  <string name="2pshu6oiau3n47-n16">Description</string>
+  <string name="2pshu6oiau3n47-n17">InitName</string>
+  <string name="2pshu6oiau3n47-n24">Width</string>
+  <string name="2pshu6oiau3n47-n26">Height</string>
+  <string name="2pshu6oiau3n47-n46">Margin</string>
+  <string name="2pshu6oiau3n47-n48">Overflow</string>
+  <string name="2pshu6oiau3n47-n58">Extension</string>
+  <string name="2pshu6oiau3n47-n62">Bg.Color</string>
+  <string name="2pshu6oiau3n47-n65">(Design Mode)</string>
+  <string name="2pshu6oiau3n47-n66">T</string>
+  <string name="2pshu6oiau3n47-n68">B</string>
+  <string name="2pshu6oiau3n47-n70">L</string>
+  <string name="2pshu6oiau3n47-n72">R</string>
+  <string name="2pshu6oiau3n47-n75">ClipSoftness</string>
+  <string name="2pshu6oiau3n47-n76">X</string>
+  <string name="2pshu6oiau3n47-n78">Y</string>
+  <string name="2pshu6oiau3n47-n81-tips">Clipsoftness effect in the editor is unable to preview</string>
+  <string name="2pshu6oiau3n47-n82-tips">When the component is dragged into use, automatically set the components of the "name" property values set here</string>
+  <string name="2pshu6oiau3n47-n83">Remark</string>
+  <string name="2pshu6oiau3n47-n85">Click Through</string>
+  <string name="2pshu6oiau3n47-n86">Hit Test</string>
+  <string name="2pshu6oiau3n47-n87-tips">If not checked, click on the rectangle area of the component cannot penetrate. (recommended)</string>
+  <string name="2pshu6oiau3n47-n88">PivotX</string>
+  <string name="2pshu6oiau3n47-n89">PivotY</string>
+  <string name="2pshu6oiau3n47-n93-tips">When checked, the pivot position will be the origin of the component.</string>
+  <string name="2pshu6oiau3n47-n93">Anchor</string>
+  <!-- Builder - RelationPropsPanel -->
+  <string name="2pshu6oiau3n4a-n41">Relation</string>
+  <!-- Builder - GroupPropsPanel -->
+  <string name="2pshu6oiau3n4d-n62">Group</string>
+  <string name="2pshu6oiau3n4d-n66">txtRemark</string>
+  <string name="2pshu6oiau3n4d-n67">Name</string>
+  <string name="2pshu6oiau3n4d-n68">X</string>
+  <string name="2pshu6oiau3n4d-n70">Y</string>
+  <string name="2pshu6oiau3n4d-n72">W</string>
+  <string name="2pshu6oiau3n4d-n73">H</string>
+  <string name="2pshu6oiau3n4d-n76">Invisible</string>
+  <string name="2pshu6oiau3n4d-n78">Common</string>
+  <string name="2pshu6oiau3n4d-n79">Advanced</string>
+  <!-- Builder - MovieClipPropsPanel -->
+  <string name="2pshu6oiau3n4e-n67">MovieClip</string>
+  <string name="2pshu6oiau3n4e-n32">Playing</string>
+  <string name="2pshu6oiau3n4e-n69">Frame</string>
+  <string name="2pshu6oiau3n4e-n71">Color</string>
+  <string name="2pshu6oiau3n4e-n73">Brightness</string>
+  <!-- Builder - SwfPropsPanel -->
+  <string name="2pshu6oiau3n4f-n67">Swf</string>
+  <string name="2pshu6oiau3n4f-n32">Playing</string>
+  <string name="2pshu6oiau3n4f-n69">Frame</string>
+  <!-- Builder - RichTextPropsPanel -->
+  <string name="2pshu6oiau3n4h-n62">RichTextField</string>
+    <string name="2pshu6oiau3n4h-n113">Font</string>
+  <string name="2pshu6oiau3n4h-n115">Font Size</string>
+  <string name="2pshu6oiau3n4h-n116">Font Color</string>
+  <string name="2pshu6oiau3n4h-n117">UBB</string>
+  <string name="2pshu6oiau3n4h-n119">AutoSize</string>
+  <string name="2pshu6oiau3n4h-n124">Underline</string>
+  <string name="2pshu6oiau3n4h-n126">LineGap</string>
+  <string name="2pshu6oiau3n4h-n127">CharGap</string>
+  <string name="2pshu6oiau3n4h-n135">Bold</string>
+  <string name="2pshu6oiau3n4h-n136">Italic</string>
+  <string name="2pshu6oiau3n4h-n153">Stroke</string>
+  <string name="2pshu6oiau3n4h-n155">Shadow</string>
+  <!-- Builder - RelationItem -->
+  <string name="2pshu6oiau3n4i-n4-tips">Remove Relation</string>
+  <string name="2pshu6oiau3n4i-n8-tips">Set target to parent</string>
+  <string name="2pshu6oiau3n4i-n13">Click To Set</string>
+  <!-- Builder - ButtonPropsPanel2 -->
+  <string name="2pshu6oiau3n4k-n46">Button</string>
+  <string name="2pshu6oiau3n4k-n47">Mode</string>
+  <string name="2pshu6oiau3n4k-n69">Button controller is named 'button'
+(optional) text title is named 'title'
+(optional) the icon is named 'icon'</string>
+  <string name="2pshu6oiau3n4k-n71">Sound</string>
+  <string name="2pshu6oiau3n4k-n73">Volume</string>
+  <string name="2pshu6oiau3n4k-n86">Down Effect</string>
+  <!-- Builder - ButtonPropsPanel -->
+  <string name="2pshu6oiau3n4r-n46">Button</string>
+  <string name="2pshu6oiau3n4r-n50">Status</string>
+  <string name="2pshu6oiau3n4r-n51">Selected</string>
+  <string name="2pshu6oiau3n4r-n52">Title</string>
+  <string name="2pshu6oiau3n4r-n54">Title(Selected)</string>
+  <string name="2pshu6oiau3n4r-n56">Color</string>
+  <string name="2pshu6oiau3n4r-n59">Icon</string>
+  <string name="2pshu6oiau3n4r-n61">Icon(Selected)</string>
+  <string name="2pshu6oiau3n4r-n63">Connect</string>
+  <string name="2pshu6oiau3n4r-n71">Sound</string>
+  <string name="2pshu6oiau3n4r-n72">Volume</string>
+  <!-- Builder - ComboBoxPropsPanel2 -->
+  <string name="2pshu6oiau3n4s-n46">ComboBox</string>
+  <string name="2pshu6oiau3n4s-n47">Popup</string>
+  <string name="2pshu6oiau3n4s-n69">Button controller is named 'button'
+A list named 'list' need to be placed in the popup component
+(optional) text title is named title</string>
+  <!-- Builder - ComboBoxPropsPanel -->
+  <string name="2pshu6oiau3n4t-n46">ComboBox</string>
+  <string name="2pshu6oiau3n4t-n70">Title</string>
+  <string name="2pshu6oiau3n4t-n72">Color</string>
+  <string name="2pshu6oiau3n4t-n75">View Count</string>
+  <string name="2pshu6oiau3n4t-n77">Edit items</string>
+  <string name="2pshu6oiau3n4t-n78">Popup</string>
+  <!-- Builder - ProgressBarPropsPanel2 -->
+  <string name="2pshu6oiau3n4u-n46">ProgressBar</string>
+  <string name="2pshu6oiau3n4u-n47">Title Type</string>
+  <string name="2pshu6oiau3n4u-n69">(optional) the horizontal extension section is named 'bar'
+The vertical extension section is named 'bar_v'
+And set to 100% length
+(optional) text title is named title
+(optional) the animation is named 'ani'</string>
+  <string name="2pshu6oiau3n4u-n70">Reversed</string>
+  <!-- Builder - ProgressBarPropsPanel -->
+  <string name="2pshu6oiau3n4v-n46">ProgressBar</string>
+  <string name="2pshu6oiau3n4v-n70">Current</string>
+  <string name="2pshu6oiau3n4v-n72">Max</string>
+  <!-- Builder - SliderPropsPanel2 -->
+  <string name="2pshu6oiau3n4w-n46">Slider</string>
+  <string name="2pshu6oiau3n4w-n47">Title Type</string>
+  <string name="2pshu6oiau3n4w-n69">(optional) the horizontal extension section is named 'bar'
+The vertical extension section is named 'bar_v'
+And set to 100% length
+(optional) grip of the slider is named 'grip'
+(optional) text title is named title
+(optional) the animation is named 'ani'</string>
+  <!-- Builder - SliderPropsPanel -->
+  <string name="2pshu6oiau3n4x-n46">Slider</string>
+  <string name="2pshu6oiau3n4x-n70">Current</string>
+  <string name="2pshu6oiau3n4x-n72">Max</string>
+  <!-- Builder - ScrollBarPropsPanel2 -->
+  <string name="2pshu6oiau3n4y-n46">ScrollBar</string>
+  <string name="2pshu6oiau3n4y-n69">(optional) up / left button is named 'arrow1'
+(optional) the down / right button is named 'arrow2'
+grip of the ScrollBar is named 'grip'
+The scroll limit area is named 'bar'</string>
+<string name="2pshu6oiau3n4y-n70">Fixed grip size</string>
+  <!-- Builder - LabelPropsPanel2 -->
+  <string name="2pshu6oiau3n50-n46">Label</string>
+  <string name="2pshu6oiau3n50-n69">(optional) text title is named 'title'
+(optional) the icon is named 'icon'</string>
+  <!-- Builder - LabelPropsPanel -->
+  <string name="2pshu6oiau3n51-n46">Label</string>
+  <string name="2pshu6oiau3n51-n52">Title</string>
+  <string name="2pshu6oiau3n51-n56">Color</string>
+  <string name="2pshu6oiau3n51-n59">Icon</string>
+  <!-- Builder - TestPanel -->
+  <string name="2pshu6oiau3n53-n5">Back(ESC)</string>
+  <string name="2pshu6oiau3n53-n7">Replay(F5)</string>
+  <string name="2pshu6oiau3n53-n9">Transitions: </string>
+  <string name="2pshu6oiau3n53-n13-tips">Zoom in：Ctrl+'+'
+Zoom out：Ctrl+'-'
+Zoom: Ctrl+Mouse wheel
+Restore: Ctrl+1</string>
+  <string name="2pshu6oiau3n53-n14">Zoom</string>
+  <!-- Builder - PublishDialog -->
+  <string name="2pshu6oiau3n54-n0">Publish Settings</string>
+  <string name="2pshu6oiau3n54-n4">Close</string>
+  <string name="2pshu6oiau3n54-n25">Publish</string>
+  <string name="2pshu6oiau3n54-n27">File Path</string>
+  <string name="2pshu6oiau3n54-n29">File Name</string>
+  <string name="2pshu6oiau3n54-n33">Browse..</string>
+  <string name="2pshu6oiau3n54-n35">Publish All</string>
+  <string name="2pshu6oiau3n54-n36">Two Packages(desc+resource)</string>
+  <string name="2pshu6oiau3n54-n37">Single Package</string>
+  <string name="2pshu6oiau3n54-n31">Packing</string>
+  <string name="2pshu6oiau3n54-n52-tips">By enabling this option, you can set the original texture in the Unity to some format which does not support the alpha channel (such as ETC1) to reduce the memory usage.
+FairyGUI provides special mixed shader.</string>
+  <string name="2pshu6oiau3n54-n52">Create single texture for alpha channel</string>
+  <string name="2pshu6oiau3n54-n53">Publish Desc Only</string>
+  <string name="2pshu6oiau3n54-n56">Make Default</string>
+  <string name="2pshu6oiau3n54-n54">Extension</string>
+  <string name="2pshu6oiau3n54-n61">Atlas Definitions...</string>
+  <string name="2pshu6oiau3n54-n62">Code Settings...</string>
+  <string name="2pshu6oiau3n54-n66">Generate code</string>
+  <!-- Builder - ListItemsEditDialog -->
+  <string name="2pshu6oiau3n55-n0">Edit List items</string>
+  <string name="2pshu6oiau3n55-n13">Save</string>
+  <string name="2pshu6oiau3n55-n14">Cancel</string>
+  <string name="2pshu6oiau3n55-n28">Add</string>
+  <string name="2pshu6oiau3n55-n29">Delete</string>
+  <string name="2pshu6oiau3n55-n31">MoveUp</string>
+  <string name="2pshu6oiau3n55-n32">MoveDown</string>
+  <!-- Builder - ListItemsEdit_header -->
+  <string name="2pshu6oiau3n57-n0">Resource</string>
+  <string name="2pshu6oiau3n57-n12">Text</string>
+  <string name="2pshu6oiau3n57-n13">Icon</string>
+  <string name="2pshu6oiau3n57-n16">Name</string>
+  <!-- Builder - ComboBoxEdit_header -->
+  <string name="2pshu6oiau3n59-n12">Text</string>
+  <string name="2pshu6oiau3n59-n13">Value</string>
+  <!-- Builder - ComboBoxEditDialog -->
+  <string name="2pshu6oiau3n5a-n0">Edit items</string>
+  <string name="2pshu6oiau3n5a-n28">Add</string>
+  <string name="2pshu6oiau3n5a-n29">Remove</string>
+  <string name="2pshu6oiau3n5a-n31">MoveUp</string>
+  <string name="2pshu6oiau3n5a-n32">MoveDown</string>
+  <string name="2pshu6oiau3n5a-n13">Save</string>
+  <string name="2pshu6oiau3n5a-n14">Cancel</string>
+  <!-- Builder - CropQueryDialog -->
+  <string name="2pshu6oiau3n5b-n0">Cutting images</string>
+  <string name="2pshu6oiau3n5b-n1">OK</string>
+  <string name="2pshu6oiau3n5b-n3">Automatic cutting (recommended)</string>
+  <string name="2pshu6oiau3n5b-n4">Non automatic cutting</string>
+  <!-- Builder - ExchangeDialog -->
+  <string name="2pshu6oiau3n5c-n0">Switching element</string>
+  <string name="2pshu6oiau3n5c-n1">OK</string>
+  <string name="2pshu6oiau3n5c-n6">Cancel</string>
+  <!-- Builder - MovieClipEditDialog -->
+  <string name="2pshu6oiau3n5d-n24">MovieClip settings</string>
+  <string name="2pshu6oiau3n5d-n19">Atlas</string>
+  <string name="2pshu6oiau3n5d-n42">Save</string>
+  <string name="2pshu6oiau3n5d-n44">Close</string>
+  <string name="2pshu6oiau3n5d-n58">Speed</string>
+  <string name="2pshu6oiau3n5d-n59">Fast</string>
+  <string name="2pshu6oiau3n5d-n61">Slow</string>
+  <string name="2pshu6oiau3n5d-n62">Repeat Delay</string>
+  <string name="2pshu6oiau3n5d-n64">Frame Delay</string>
+  <string name="2pshu6oiau3n5d-n66">Swing</string>
+  <string name="2pshu6oiau3n5d-n75">(Can also be dragged from the library)</string>
+  <string name="2pshu6oiau3n5d-n76">Import images</string>
+  <!-- Builder - PasteOptionDialog -->
+  <string name="2pshu6oiau3n5e-n0">Paste</string>
+  <string name="2pshu6oiau3n5e-n3">OK</string>
+  <string name="2pshu6oiau3n5e-n4">Cancel</string>
+  <string name="2pshu6oiau3n5e-n36">Copy</string>
+  <string name="2pshu6oiau3n5e-n37">Rename</string>
+  <string name="2pshu6oiau3n5e-n38">Replace (multiple items may be covered)</string>
+  <string name="2pshu6oiau3n5e-n40">Ignore the items already exported</string>
+  <string name="2pshu6oiau3n5e-n42">Conflicted name processing</string>
+  <string name="2pshu6oiau3n5e-n45">Keep target items</string>
+  <!-- Builder - SelectObjectPanel -->
+  <string name="2pshu6oiau3n5f-n3">Select objects from the left</string>
+  <string name="2pshu6oiau3n5f-n4">OK</string>
+  <string name="2pshu6oiau3n5f-n5">Cancel</string>
+  <!-- Builder - CustomArrangeDialog -->
+  <string name="2pshu6oiau3n5i-n24">Custom arrange</string>
+  <string name="2pshu6oiau3n5i-n21">OK</string>
+  <string name="2pshu6oiau3n5i-n23">Cancel</string>
+  <string name="2pshu6oiau3n5i-n31">Vertical</string>
+  <string name="2pshu6oiau3n5i-n32">Horizontal</string>
+  <string name="2pshu6oiau3n5i-n33">Grid</string>
+  <string name="2pshu6oiau3n5i-n34">Line Gap</string>
+  <string name="2pshu6oiau3n5i-n35">Column Gap</string>
+  <string name="2pshu6oiau3n5i-n36">Column Count</string>
+  <string name="2pshu6oiau3n5i-n40">Apply</string>
+  <!-- Builder - RelationTypePopup -->
+  <string name="2pshu6oisl3v5j-n7">Clear</string>
+  <string name="2pshu6oisl3v5j-n8">Percentage</string>
+  <!-- Builder - PreferencesDialog -->
+  <string name="2pshu6oiio7w5r-n0">Preference</string>
+  <string name="2pshu6oiio7w5r-n14">Save</string>
+  <string name="2pshu6oiio7w5r-n15">Cancel</string>
+  <string name="2pshu6oiio7w5r-n33">Automatically cut the image to the minimum when importing</string>
+	<string name="2pshu6oiio7w5r-n37">Language (Need to restart)</string>
+  <!-- Builder - ChoosePackagesDialog -->
+  <string name="2pshu6oiofk55u-n0">Filter packages</string>
+  <string name="2pshu6oiofk55u-n14">Close</string>
+  <string name="2pshu6oiofk55u-n19-0">Package1</string>
+  <string name="2pshu6oiofk55u-n19-1">Package2</string>
+  <string name="2pshu6oiofk55u-n19-2">Package3</string>
+  <string name="2pshu6oiofk55u-n39">The package to be displayed in the library</string>
+  <string name="2pshu6oiofk55u-n40">Select All</string>
+  <string name="2pshu6oiofk55u-n41">Clear</string>
+  <!-- Builder - PromptDialog -->
+  <string name="2pshu6oigs6u5w-n0">Done!</string>
+  <!-- Builder - ChooseFolderDialog -->
+  <string name="2pshu6oivdh75x-n0">Select Folder</string>
+  <string name="2pshu6oivdh75x-n40">Select</string>
+  <string name="2pshu6oivdh75x-n41">Cancel</string>
+  <!-- Builder - ComDesignPropsPanel -->
+  <string name="2pshu6oiud2n61-n57">Design drawings</string>
+  <string name="2pshu6oiud2n61-n17">Resource</string>
+  <string name="2pshu6oiud2n61-n61">Offset</string>
+  <string name="2pshu6oiud2n61-n71">Layer</string>
+  <string name="2pshu6oiud2n61-n65">Alpha</string>
+  <string name="2pshu6oiud2n61-n67">Top</string>
+  <string name="2pshu6oiud2n61-n68">Bottom</string>
+  <string name="2pshu6oiud2n61-n69-tips">For the convenience of the combination, you can specify a design drawings for the component here.
+Design drawings are shown in a semi-transparent manner in the bottom or the top layer (which does not affect the normal operation), using F6 to switch.
+The design is visible only in the design phase and will not be published in the final package.</string>
+  <!-- Builder - EtcPropsPanel -->
+  <string name="2pshu6oiguki62-n46">Misc</string>
+  <string name="2pshu6oiguki62-n48">Tooltips</string>
+  <!-- Builder - DownloadDialog -->
+  <string name="2pshu6oi104iu63-n1">Upgrade</string>
+  <string name="2pshu6oi104iu63-n2">Install Now</string>
+  <string name="2pshu6oi104iu63-n3">Cancel</string>
+  <string name="2pshu6oi104iu63-n9">Downloading...</string>
+  <string name="2pshu6oi104iu63-n10">Complete!</string>
+  <string name="2pshu6oi104iu63-n11">Starting the installation, please wait...</string>
+  <!-- Builder - AboutDialog -->
+  <string name="2pshu6oil2gzu66-n0">About FairyGUI Editor</string>
+  <string name="2pshu6oil2gzu66-n8">Editor</string>
+  <string name="2pshu6oil2gzu66-n14">Close</string>
+  <!-- Builder - CreateMovieClipDialog -->
+  <string name="2pshu6oiyi3eu6i-n0">Create MovieClip</string>
+  <string name="2pshu6oiyi3eu6i-n1">Name</string>
+  <string name="2pshu6oiyi3eu6i-n6">Create</string>
+  <string name="2pshu6oiyi3eu6i-n7">Cancel</string>
+  <string name="2pshu6oiyi3eu6i-n8">Location</string>
+  <string name="2pshu6oiyi3eu6i-n10">Browse..</string>
+  <!-- Builder - FindReferenceDialog -->
+  <string name="2pshu6oillhvu6j-n0">Dependent query</string>
+  <string name="2pshu6oillhvu6j-n14">Close</string>
+  <string name="2pshu6oillhvu6j-n28">Query</string>
+  <string name="2pshu6oillhvu6j-n40">Dependent resources</string>
+  <string name="2pshu6oillhvu6j-n41">Depend on mine</string>
+  <string name="2pshu6oillhvu6j-n42">Replace...</string>
+  <!-- Builder - StringsFunctionDialog -->
+  <string name="2pshu6oioqvzu6k-n0">String import and export</string>
+  <string name="2pshu6oioqvzu6k-n19-0">Package1</string>
+  <string name="2pshu6oioqvzu6k-n19-1">Package2</string>
+  <string name="2pshu6oioqvzu6k-n19-2">Package3</string>
+  <string name="2pshu6oioqvzu6k-n39">Select one or more target packages</string>
+  <string name="2pshu6oioqvzu6k-n40">Select All</string>
+  <string name="2pshu6oioqvzu6k-n41">Clear</string>
+  <string name="2pshu6oioqvzu6k-n51">Export...</string>
+  <string name="2pshu6oioqvzu6k-n45">Multi language support:
+1, the use of export functions, will be all the text properties of the package to extract, save as XML format file, the file will be submitted for translation.
+2, after the translation, can be re introduced into the package, then the contents of all the text will be replaced directly. You can use the SDK method(UIPackage.setStringsSource) to import dynamically.</string>
+  <string name="2pshu6oioqvzu6k-n46">Export all strings to the file</string>
+  <string name="2pshu6oioqvzu6k-n47">Import strings (more than one component may be modified)</string>
+  <string name="2pshu6oioqvzu6k-n43">Next</string>
+  <string name="2pshu6oioqvzu6k-n53">Browse..</string>
+  <string name="2pshu6oioqvzu6k-n14">Close</string>
+  <string name="2pshu6oioqvzu6k-n57">The file content contains the string set of the following packages</string>
+  <string name="2pshu6oioqvzu6k-n61">Import</string>
+  <!-- Builder - CreateComboBoxDialog -->
+  <string name="2pshu6oif814u6l-n0">Create ComboBox</string>
+  <string name="2pshu6oif814u6l-n1">Name</string>
+  <string name="2pshu6oif814u6l-n6">Create</string>
+  <string name="2pshu6oif814u6l-n7">Cancel</string>
+  <string name="2pshu6oif814u6l-n12">Location</string>
+  <string name="2pshu6oif814u6l-n14">Browse..</string>
+  <string name="2pshu6oif814u6l-n18">Next</string>
+  <string name="2pshu6oif814u6l-n17">The Combobox is made up of three parts.
+(1) button
+(2) drop down list
+(3) drop down list item</string>
+  <string name="2pshu6oif814u6l-n32">Step 1: Design button</string>
+  <string name="2pshu6oif814u6l-n30">Image Settings: (the following is optional)</string>
+  <string name="2pshu6oif814u6l-n19">Normal State</string>
+  <string name="2pshu6oif814u6l-n20">Down State</string>
+  <string name="2pshu6oif814u6l-n21">Hover State</string>
+  <string name="2pshu6oif814u6l-n22">Down+Hovered State</string>
+  <string name="2pshu6oif814u6l-n36">Step 2: Design popup component</string>
+  <string name="2pshu6oif814u6l-n64">Bg.Image</string>
+  <string name="2pshu6oif814u6l-n42">Step 3: Design list item</string>
+  <string name="2pshu6oif814u6l-n49">Normal State</string>
+  <string name="2pshu6oif814u6l-n50">Down State</string>
+  <string name="2pshu6oif814u6l-n51">Hover State</string>
+  <string name="2pshu6oif814u6l-n52">Down+Hovered State</string>
+  <string name="2pshu6oif814u6l-n60">Image Settings: (the following is optional)</string>
+  <string name="2pshu6oif814u6l-n63">Back</string>
+  <!-- Builder - CreateLabelDialog -->
+  <string name="2pshu6oif814u6n-n0">Create Label</string>
+  <string name="2pshu6oif814u6n-n1">Name</string>
+  <string name="2pshu6oif814u6n-n2">Size</string>
+  <string name="2pshu6oif814u6n-n6">Create</string>
+  <string name="2pshu6oif814u6n-n7">Cancel</string>
+  <string name="2pshu6oif814u6n-n9">X</string>
+  <string name="2pshu6oif814u6n-n12">Location</string>
+  <string name="2pshu6oif814u6n-n14">Browse..</string>
+  <!-- Builder - AtlasList_header -->
+  <string name="2pshu6oimellu6t-n0">Index</string>
+  <string name="2pshu6oimellu6t-n13">Name</string>
+  <string name="2pshu6oimellu6t-n12">Size</string>
+  <string name="2pshu6oimellu6t-n15-tips">Format: WxH, e.g. 1024x1024.
+Leave it blank by default, which indicates that the most appropriate size should be used</string>
+  <!-- Builder - ImagePropsPanel -->
+  <string name="2pshu6oipstgu6v-n67">Image</string>
+  <string name="2pshu6oipstgu6v-n71">Color</string>
+  <string name="2pshu6oipstgu6v-n73">Flip X</string>
+  <string name="2pshu6oipstgu6v-n74">Flip Y</string>
+  <string name="2pshu6oipstgu6v-n75">Brightness</string>
+  <string name="2pshu6oipstgu6v-n87">Fill Method</string>
+  <string name="2pshu6oipstgu6v-n88-tips">Preview not yet supported.</string>
+  <string name="2pshu6oipstgu6v-n77">Use this image for hit test</string>
+  <string name="2pshu6oipstgu6v-n80-tips">If checked, when the component is clicked, the coordinates of the click will be mapped to the coordinates in the image,
+If the pixel in this coordinate is transparent, then click through the component.</string>
+  <string name="2pshu6oipstgu6v-n89">Fill Amount</string>
+  <string name="2pshu6oipstgu6v-n92">Fill Origin</string>
+  <string name="2pshu6oipstgu6v-n93">Clockwise</string>
+  <string name="2pshu6oipstgu6v-n96">Use this image as mask</string>
+  <!-- Builder - TimelinePanel -->
+  <string name="2pshu6oitvg7u72-n21">fps</string>
+  <string name="2pshu6oitvg7u72-n24">frame:</string>
+  <string name="2pshu6oitvg7u72-n26">time:</string>
+  <string name="2pshu6oitvg7u72-n27">1s</string>
+  <string name="2pshu6oitvg7u72-n30">Select an object, then choose to change its property in context menu</string>
+  <!-- Builder - TransitionPropsPanel -->
+  <string name="2pshu6oitvg7u73-n57">Transition</string>
+  <string name="2pshu6oitvg7u73-n50">Scroll</string>
+  <string name="2pshu6oitvg7u73-n52">Display</string>
+  <string name="2pshu6oitvg7u73-n54">Display On Left</string>
+  <string name="2pshu6oitvg7u73-n66">Delete</string>
+  <string name="2pshu6oitvg7u73-n69">Name</string>
+  <string name="2pshu6oitvg7u73-n70">Ignore display controllers</string>
+  <string name="2pshu6oitvg7u73-n71-tips">If checked, all the components involved in the transition are not controlled by the display controller,
+Restoration control after transition is complete.</string>
+  <string name="2pshu6oitvg7u73-n72">Auto Play</string>
+  <string name="2pshu6oitvg7u73-n73">Repeat</string>
+  <string name="2pshu6oitvg7u73-n76">Delay</string>
+  <!-- Builder - TransitionFramePanel -->
+  <string name="2pshu6oiwzy5u7a-n85">Frame</string>
+  <string name="2pshu6oiwzy5u7a-n79">X</string>
+  <string name="2pshu6oiwzy5u7a-n80">Y</string>
+  <string name="2pshu6oiwzy5u7a-n124-tips">If you don't check, show that you don't change the current value.</string>
+  <string name="2pshu6oiwzy5u7a-n81">W</string>
+  <string name="2pshu6oiwzy5u7a-n82">H</string>
+  <string name="2pshu6oiwzy5u7a-n125-tips">If you don't check, show that you don't change the current value.</string>
+  <string name="2pshu6oiwzy5u7a-n33">Tween</string>
+  <string name="2pshu6oiwzy5u7a-n40">Alpha</string>
+  <string name="2pshu6oiwzy5u7a-n43">Rotation</string>
+  <string name="2pshu6oiwzy5u7a-n46">Color</string>
+  <string name="2pshu6oiwzy5u7a-n83">Frame</string>
+  <string name="2pshu6oiwzy5u7a-n49">Playing</string>
+  <string name="2pshu6oiwzy5u7a-n54">ScaleX</string>
+  <string name="2pshu6oiwzy5u7a-n55">ScaleY</string>
+  <string name="2pshu6oiwzy5u7a-n64">PivotX</string>
+  <string name="2pshu6oiwzy5u7a-n65">PivotY</string>
+  <string name="2pshu6oiwzy5u7a-n77">Format: name=index or name=$page, such as c1=1, c1=$up, and multiple settings with comma separated.</string>
+  <string name="2pshu6oiwzy5u7a-n86">Ease</string>
+  <string name="2pshu6oiwzy5u7a-n104">yoyo</string>
+  <string name="2pshu6oiwzy5u7a-n105">Repeat</string>
+  <string name="2pshu6oiwzy5u7a-n127">(-1 indicates unlimited number of times)</string>
+  <string name="2pshu6oiwzy5u7a-n90">Sound</string>
+  <string name="2pshu6oiwzy5u7a-n100">Volume</string>
+  <string name="2pshu6oiwzy5u7a-n93">Name</string>
+  <string name="2pshu6oiwzy5u7a-n96">Play count</string>
+  <string name="2pshu6oiwzy5u7a-n103">(0 indicates the stop play, -1 indicates unlimited number of times)</string>
+  <string name="2pshu6oiwzy5u7a-n108">Label</string>
+  <string name="2pshu6oiwzy5u7a-n115">Amplitude</string>
+  <string name="2pshu6oiwzy5u7a-n117">Duration</string>
+  <string name="2pshu6oiwzy5u7a-n122">Visible</string>
+  <!-- Builder - TimelineNameItem -->
+  <string name="2pshu6oij9jou7j-n1">Alpha</string>
+  <!-- Builder - BasicPropsInTransPanel -->
+  <string name="2pshu6oiq5ueu7m-n46">Basic</string>
+  <string name="2pshu6oiq5ueu7m-n17">Name</string>
+  <string name="2pshu6oiq5ueu7m-n13">X</string>
+  <string name="2pshu6oiq5ueu7m-n22">Y</string>
+  <string name="2pshu6oiq5ueu7m-n24">W</string>
+  <string name="2pshu6oiq5ueu7m-n26">H</string>
+  <string name="2pshu6oiq5ueu7m-n33">Alpha</string>
+  <string name="2pshu6oiq5ueu7m-n35">Rotation</string>
+  <string name="2pshu6oiq5ueu7m-n39">PivotX</string>
+  <string name="2pshu6oiq5ueu7m-n40">PivotY</string>
+  <string name="2pshu6oiq5ueu7m-n52">ScaleX</string>
+  <string name="2pshu6oiq5ueu7m-n53">ScaleY</string>
+  <!-- Builder - TweenEditPanel -->
+  <string name="2pshu6oijcdgu7r-n5">Ease</string>
+  <string name="2pshu6oijcdgu7r-n9">Duration</string>
+  <string name="2pshu6oijcdgu7r-n11">Delay</string>
+  <!-- Builder - OpenProjectWindow -->
+  <string name="2pshu6oi8z21u7s-n10">Open Project</string>
+  <string name="2pshu6oi8z21u7s-n11">Create Project</string>
+  <string name="2pshu6oi8z21u7s-n2">Open</string>
+  <string name="2pshu6oi8z21u7s-n3">Open others...</string>
+  <string name="2pshu6oi8z21u7s-n6">Selected recently opened project: </string>
+  <string name="2pshu6oi8z21u7s-n24-tips">Clear history</string>
+  <string name="2pshu6oi8z21u7s-n15">Name</string>
+  <string name="2pshu6oi8z21u7s-n16">Location</string>
+  <string name="2pshu6oi8z21u7s-n19">Browse...</string>
+  <string name="2pshu6oi8z21u7s-n20">Create</string>
+  <string name="2pshu6oi8z21u7s-n21">Type</string>
+  <!-- Builder - UpgradeWindow -->
+  <string name="2pshu6oisux8u7v-n14">Release Notes:</string>
+  <string name="2pshu6oisux8u7v-n15">Skip this version</string>
+  <string name="2pshu6oisux8u7v-n16">Remind me later</string>
+  <string name="2pshu6oisux8u7v-n17">Upgrade</string>
+  <!-- Builder - ScrollEditPanel -->
+  <string name="2pshu6oim4vsu7x-n13">Display</string>
+  <string name="2pshu6oim4vsu7x-n15">Display on left</string>
+  <string name="2pshu6oim4vsu7x-n16">Position</string>
+  <string name="2pshu6oim4vsu7x-n17">T</string>
+  <string name="2pshu6oim4vsu7x-n19">B</string>
+  <string name="2pshu6oim4vsu7x-n21">L</string>
+  <string name="2pshu6oim4vsu7x-n23">R</string>
+  <string name="2pshu6oim4vsu7x-n26">Snapping to item</string>
+  <string name="2pshu6oim4vsu7x-n27">Hide when not overflow</string>
+  <string name="2pshu6oim4vsu7x-n29">Override ScrollBars</string>
+  <string name="2pshu6oim4vsu7x-n59">Set</string>
+  <string name="2pshu6oim4vsu7x-n51">VT</string>
+  <string name="2pshu6oim4vsu7x-n60">HZ</string>
+  <string name="2pshu6oim4vsu7x-n65">Bounds Back</string>
+  <string name="2pshu6oim4vsu7x-n67">Touch Scroll</string>
+  <string name="2pshu6oim4vsu7x-n69">Page Mode</string>
+  <string name="2pshu6oim4vsu7x-n70">Inertia Disabled</string>
+  <!-- Builder - MultiSelectionPanel -->
+  <string name="2pshu6oiqacnu81-n3">Surround</string>
+  <string name="2pshu6oiqacnu81-n7">X</string>
+  <string name="2pshu6oiqacnu81-n9">Y</string>
+  <string name="2pshu6oiqacnu81-n11">W</string>
+  <string name="2pshu6oiqacnu81-n12">H</string>
+  <!-- Builder - CreateScrollBarDialog -->
+  <string name="2pshu6oifmz5u85-n0">Create ScrollBar</string>
+  <string name="2pshu6oifmz5u85-n1">Name</string>
+  <string name="2pshu6oifmz5u85-n6">Create</string>
+  <string name="2pshu6oifmz5u85-n7">Cancel</string>
+  <string name="2pshu6oifmz5u85-n12">Location</string>
+  <string name="2pshu6oifmz5u85-n14">Browse..</string>
+  <string name="2pshu6oifmz5u85-n18">Next</string>
+  <string name="2pshu6oifmz5u85-n17">The scroll bar is made up of four parts.
+(1) up / left arrow buttons
+(2) down / right arrow buttons
+(3) bar background
+(4) the grip button
+Up and down / left and right arrow buttons on the mobile device is not necessary.</string>
+  <string name="2pshu6oifmz5u85-n64">Vertical</string>
+  <string name="2pshu6oifmz5u85-n65">Horizontal</string>
+  <string name="2pshu6oifmz5u85-n66">Do not create arrow button</string>
+  <string name="2pshu6oifmz5u85-n32">Step 1: Design up/left arrow button </string>
+  <string name="2pshu6oifmz5u85-n30">Image Settings: (the following is optional)</string>
+  <string name="2pshu6oifmz5u85-n19">Normal State</string>
+  <string name="2pshu6oifmz5u85-n20">Down State</string>
+  <string name="2pshu6oifmz5u85-n21">Hover State</string>
+  <string name="2pshu6oifmz5u85-n22">Down+Hovered State</string>
+  <string name="2pshu6oifmz5u85-n36">Step 3: Bar background (Optional)</string>
+  <string name="2pshu6oifmz5u85-n81">Image</string>
+  <string name="2pshu6oifmz5u85-n42">Step 3: Design down/right button</string>
+  <string name="2pshu6oifmz5u85-n49">Normal State</string>
+  <string name="2pshu6oifmz5u85-n50">Down State</string>
+  <string name="2pshu6oifmz5u85-n51">Hover State</string>
+  <string name="2pshu6oifmz5u85-n52">Down+Hovered State</string>
+  <string name="2pshu6oifmz5u85-n60">Image Settings: (the following is optional)</string>
+  <string name="2pshu6oifmz5u85-n63">Back</string>
+  <string name="2pshu6oifmz5u85-n68">Step 4: Design grip button</string>
+  <string name="2pshu6oifmz5u85-n70">Image Settings: (the following is optional)</string>
+  <string name="2pshu6oifmz5u85-n71">Normal State</string>
+  <string name="2pshu6oifmz5u85-n72">Down State</string>
+  <string name="2pshu6oifmz5u85-n73">Hover State</string>
+  <string name="2pshu6oifmz5u85-n74">Down+Hovered State</string>
+  <!-- Builder - CreateProgressBarDialog -->
+  <string name="2pshu6oiw67pu87-n0">Create ProgressBar</string>
+  <string name="2pshu6oiw67pu87-n1">Name</string>
+  <string name="2pshu6oiw67pu87-n6">Create</string>
+  <string name="2pshu6oiw67pu87-n7">Cancel</string>
+  <string name="2pshu6oiw67pu87-n12">Location</string>
+  <string name="2pshu6oiw67pu87-n14">Browse..</string>
+  <string name="2pshu6oiw67pu87-n17">The progress bar is made up of two parts.
+(1) background
+(2) the expansion part</string>
+  <string name="2pshu6oiw67pu87-n36">Bg.Image</string>
+  <string name="2pshu6oiw67pu87-n82">Expansion part</string>
+  <string name="2pshu6oiw67pu87-n87">Title Type</string>
+  <string name="2pshu6oiw67pu87-n89">Reversed</string>
+  <!-- Builder - CreateSliderDialog -->
+  <string name="2pshu6oijgs1u8a-n0">Create Slider</string>
+  <string name="2pshu6oijgs1u8a-n1">Name</string>
+  <string name="2pshu6oijgs1u8a-n6">Create</string>
+  <string name="2pshu6oijgs1u8a-n7">Cancel</string>
+  <string name="2pshu6oijgs1u8a-n12">Location</string>
+  <string name="2pshu6oijgs1u8a-n14">Browse..</string>
+  <string name="2pshu6oijgs1u8a-n18">Next</string>
+  <string name="2pshu6oijgs1u8a-n17">The slide bar is made up of three parts.
+(1) background
+(2) the expansion part
+(3) grip button</string>
+  <string name="2pshu6oijgs1u8a-n64">Horizontal</string>
+  <string name="2pshu6oijgs1u8a-n65">Vertical</string>
+  <string name="2pshu6oijgs1u8a-n90">Title Type</string>
+  <string name="2pshu6oijgs1u8a-n36">Step 1: Design background</string>
+  <string name="2pshu6oijgs1u8a-n92">Image</string>
+  <string name="2pshu6oijgs1u8a-n63">Back</string>
+  <string name="2pshu6oijgs1u8a-n68">Step 3: Design grip button</string>
+  <string name="2pshu6oijgs1u8a-n70">Image Settings: (the following is optional)</string>
+  <string name="2pshu6oijgs1u8a-n71">Normal State</string>
+  <string name="2pshu6oijgs1u8a-n72">Down State</string>
+  <string name="2pshu6oijgs1u8a-n73">Hover State</string>
+  <string name="2pshu6oijgs1u8a-n74">Down+Hovered State</string>
+  <string name="2pshu6oijgs1u8a-n83">Step 2: Design the expansion part</string>
+  <string name="2pshu6oijgs1u8a-n88">Image</string>
+  <!-- Builder - ChooseFontDialog -->
+  <string name="2pshu6oi10j9iu8e-n0">Select Font</string>
+  <string name="2pshu6oi10j9iu8e-n40">Select</string>
+  <string name="2pshu6oi10j9iu8e-n41">Cancel</string>
+  <!-- Builder - MultiImageEditDialog -->
+  <string name="2pshu6oi8swdiu8f-n24">Batch modify image properties</string>
+  <string name="2pshu6oi8swdiu8f-n15">9 Grid</string>
+  <string name="2pshu6oi8swdiu8f-n16">Tile</string>
+  <string name="2pshu6oi8swdiu8f-n21">Save</string>
+  <string name="2pshu6oi8swdiu8f-n23">Cancel</string>
+  <string name="2pshu6oi8swdiu8f-n29">None</string>
+  <string name="2pshu6oi8swdiu8f-n39">Scale Mode</string>
+  <string name="2pshu6oi8swdiu8f-n40">Smoothing</string>
+  <string name="2pshu6oi8swdiu8f-n41">Qaulity</string>
+  <string name="2pshu6oi8swdiu8f-n42">Atlas</string>
+  <!-- Builder - CreatePopupMenuDialog -->
+  <string name="2pshu6oit3skiu8g-n0">Create PopupMenu</string>
+  <string name="2pshu6oit3skiu8g-n1">Name</string>
+  <string name="2pshu6oit3skiu8g-n6">Create</string>
+  <string name="2pshu6oit3skiu8g-n7">Cancel</string>
+  <string name="2pshu6oit3skiu8g-n12">Location</string>
+  <string name="2pshu6oit3skiu8g-n14">Browse..</string>
+  <string name="2pshu6oit3skiu8g-n17">The popup menu is made up of two parts.
+(1) background
+(2) menu item list</string>
+  <string name="2pshu6oit3skiu8g-n36">Background</string>
+  <string name="2pshu6oit3skiu8g-n93">Normal State</string>
+  <string name="2pshu6oit3skiu8g-n94">Down State</string>
+  <string name="2pshu6oit3skiu8g-n95">Hover State</string>
+  <string name="2pshu6oit3skiu8g-n96">Down+Hovered State</string>
+  <string name="2pshu6oit3skiu8g-n102">Image Settings: (the following is optional)</string>
+  <!-- Builder - SearchPanel -->
+  <string name="2pshu6oirjtoiu8j-n32">Find</string>
+  <!-- Builder - ReplaceRefDialog -->
+  <string name="2pshu6oithzxiu8m-n0">Replace component reference</string>
+  <string name="2pshu6oithzxiu8m-n1">OK</string>
+  <string name="2pshu6oithzxiu8m-n6">Cancel</string>
+  <string name="2pshu6oithzxiu8m-n7">Replace all references to the search target</string>
+  <!-- Builder - TextInputEditPanel -->
+  <string name="2pshu6oipb9oiu8p-n42-tips">Display message when input is empty.
+UBB can be used directly.</string>
+  <string name="2pshu6oipb9oiu8p-n34">Max Chars</string>
+  <string name="2pshu6oipb9oiu8p-n36">Restrict</string>
+  <string name="2pshu6oipb9oiu8p-n40">KeyBoard Type</string>
+  <string name="2pshu6oipb9oiu8p-n41">Prompt</string>
+  <string name="2pshu6oipb9oiu8p-n43-tips">Available only on mobile platform</string>
+  <!-- Builder - PlugInManageDialog -->
+  <string name="2pshu6oiocfaiu8q-n0">Plug-In Management</string>
+  <string name="2pshu6oiocfaiu8q-n28">Open Plug-In folder...</string>
+  <string name="2pshu6oiocfaiu8q-n14">Close</string>
+  <string name="2pshu6oiocfaiu8q-n40">Installed plug-ins:</string>
+  <string name="2pshu6oiocfaiu8q-n41">Reload All</string>
+  <!-- Builder - PlugInEdit_header -->
+  <string name="2pshu6oiocfaiu8r-n12">Name</string>
+  <string name="2pshu6oiocfaiu8r-n13">Function</string>
+  <!-- Builder - ImportProgressDialog -->
+  <string name="2pshu6oiryi8iu8t-n1">Importing Resource</string>
+  <string name="2pshu6oiryi8iu8t-n3">Cancel</string>
+  <string name="2pshu6oiryi8iu8t-n9">Importing</string>
+  <!-- Builder - ProjectProps_header -->
+  <string name="2pshu6oikqx1iu8u-n12">Key</string>
+  <string name="2pshu6oikqx1iu8u-n13">Value</string>
+  <!-- Builder - ScrollBarSettingDialog -->
+  <string name="2pshu6oiorb8iu93-n0">Set scrollbar resources</string>
+  <string name="2pshu6oiorb8iu93-n1">OK</string>
+  <string name="2pshu6oiorb8iu93-n6">Cancel</string>
+  <string name="2pshu6oiorb8iu93-n7">Horizontal</string>
+  <string name="2pshu6oiorb8iu93-n8">Vertical</string>
+  <!-- Builder - TransitionListPanel -->
+  <string name="2pshu6oikrzwiu99-n3">Transition</string>
+  <string name="2pshu6oikrzwiu99-n5-tips">Create transition</string>
+  <string name="2pshu6oikrzwiu99-n6">Exit</string>
+  <!-- Builder - ChildrenPanel -->
+  <string name="2pshu6oioj7qiu9e-n18">Display List</string>
+ <!-- Builder - ChildrenPanel_header -->
+  <string name="2pshu6oioj7qiu9f-n15-tips">Show All</string>
+  <string name="2pshu6oioj7qiu9f-n17-tips">Unlock All</string>
+  <string name="2pshu6oioj7qiu9f-n25-tips">Expand/Collapse All</string>
+  <!-- Builder - AtlasSettingsDialog -->
+  <string name="2pshu6oirxviiu9k-n61">Atlas Definitions</string>
+  <string name="2pshu6oirxviiu9k-n59">Max atlas size</string>
+  <string name="2pshu6oirxviiu9k-n63">Save</string>
+  <string name="2pshu6oirxviiu9k-n64">Cancel</string>
+  <!-- Builder - CodeGenSettingsDialog -->
+  <string name="2pshu6oiqnujiu9l-n61">Code generation settings</string>
+  <string name="2pshu6oiqnujiu9l-n59">These settings are applied to entire project.</string>
+  <string name="2pshu6oiqnujiu9l-n63">Save</string>
+  <string name="2pshu6oiqnujiu9l-n64">Cancel</string>
+  <string name="2pshu6oiqnujiu9l-n66">Save Path</string>
+  <string name="2pshu6oiqnujiu9l-n68">Class Name Prefix</string>
+  <string name="2pshu6oiqnujiu9l-n70">Member Name Prefix</string>
+  <string name="2pshu6oiqnujiu9l-n72">Package Name</string>
+  <string name="2pshu6oiqnujiu9l-n74">Browse..</string>
+  <string name="2pshu6oiqnujiu9l-n78">Ignore not renamed child</string>
+  <!-- Builder - EffectPropsPanel -->
+  <string name="2pshu6oik3u8iu9m-n46">Effect</string>
+  <string name="2pshu6oik3u8iu9m-n56">BlendMode</string>
+  <string name="2pshu6oik3u8iu9m-n59">Filter</string>
+  <string name="2pshu6oik3u8iu9m-n63">Brightness</string>
+  <string name="2pshu6oik3u8iu9m-n65">Contrast</string>
+  <string name="2pshu6oik3u8iu9m-n67">Saturation</string>
+  <string name="2pshu6oik3u8iu9m-n69">Hue</string>
+   <!-- Builder - GearPropsItem -->
+  <string name="2pshu6oifr0ciu9n-n44">Tween</string>
+</resources>

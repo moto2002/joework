@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="qef31w6w" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="rpol0" name="Main" folder="" file="rpol0.xml" exported="true"/>
+    <image id="rpol1" name="change" folder="" qualityOption="source" file="rpol1.png" size="282,500"/>
+    <jta id="rpol2" name="pet" folder="" origin="59,61" file="rpol2.jta" size="84,74"/>
+  </resources>
+  <publish name="Model">
+    <atlas name="默认" index="0"/>
+  </publish>
+</packageDescription>

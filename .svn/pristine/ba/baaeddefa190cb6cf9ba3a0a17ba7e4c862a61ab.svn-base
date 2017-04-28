@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="lib/apache-mina-2.0.7/dist/mina-core-2.0.7.jar"/>
+	<classpathentry kind="lib" path="lib/apache-mina-2.0.7/dist/mina-example-2.0.7.jar"/>
+	<classpathentry kind="lib" path="lib/apache-mina-2.0.7/dist/mina-filter-compression-2.0.7.jar"/>
+	<classpathentry kind="lib" path="lib/apache-mina-2.0.7/dist/mina-integration-beans-2.0.7.jar"/>
+	<classpathentry kind="lib" path="lib/apache-mina-2.0.7/dist/mina-integration-jmx-2.0.7.jar"/>
+	<classpathentry kind="lib" path="lib/apache-mina-2.0.7/dist/mina-integration-ognl-2.0.7.jar"/>
+	<classpathentry kind="lib" path="lib/apache-mina-2.0.7/dist/mina-integration-xbean-2.0.7.jar"/>
+	<classpathentry kind="lib" path="lib/apache-mina-2.0.7/dist/mina-statemachine-2.0.7.jar"/>
+	<classpathentry kind="lib" path="lib/apache-mina-2.0.7/dist/mina-transport-apr-2.0.7.jar"/>
+	<classpathentry kind="lib" path="lib/apache-mina-2.0.7/lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="lib/apache-mina-2.0.7/lib/commons-logging-1.0.3.jar"/>
+	<classpathentry kind="lib" path="lib/apache-mina-2.0.7/lib/javassist-3.11.0.GA.jar"/>
+	<classpathentry kind="lib" path="lib/apache-mina-2.0.7/lib/javassist-3.7.ga.jar"/>
+	<classpathentry kind="lib" path="lib/apache-mina-2.0.7/lib/jcl-over-slf4j-1.6.6.jar"/>
+	<classpathentry kind="lib" path="lib/apache-mina-2.0.7/lib/jzlib-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/apache-mina-2.0.7/lib/ognl-3.0.5.jar"/>
+	<classpathentry kind="lib" path="lib/apache-mina-2.0.7/lib/slf4j-api-1.6.6.jar"/>
+	<classpathentry kind="lib" path="lib/apache-mina-2.0.7/lib/spring-2.5.6.SEC03.jar"/>
+	<classpathentry kind="lib" path="lib/apache-mina-2.0.7/lib/tomcat-apr-5.5.23.jar"/>
+	<classpathentry kind="lib" path="lib/apache-mina-2.0.7/lib/xbean-spring-3.11.1.jar"/>
+	<classpathentry kind="lib" path="lib/protobuf-java-2.5.0.jar.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

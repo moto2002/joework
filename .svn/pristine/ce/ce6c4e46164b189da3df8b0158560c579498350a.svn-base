@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="font">Arial</string>
+	<string name="mac_font">Arial</string>
+	
+	<!-- ComDocument -->
+	<string name="text1">Cut</string>
+	<string name="text2">Copy</string>
+	<string name="text3">Paste</string>
+	<string name="text4">Delete</string>
+	<string name="text5">Select All</string>
+	<string name="text6">Arrange Top</string>
+	<string name="text7">Arrange Up</string>
+	<string name="text8">Arrange Down</string>
+	<string name="text9">Arrange Bottom</string>
+	<string name="text10">Switch Item</string>
+	<string name="text11">Show in Library</string>
+	<string name="text12">Could not import the non export resources for other packages.</string>
+	<string name="text76">Can not put the components themselves</string>
+	<string name="text77">Create failed</string>
+	<string name="text238">Convert to Component</string>
+	<string name="text23">Deselect All</string>
+	<string name="text104">Paste in Center</string>
+	<string name="text105">Paste in Place</string>
+	<string name="text106">Insert</string>
+	<string name="text107">Undo</string>
+	<string name="text108">Redo</string>
+	
+	<!-- EditPanel -->
+	<string name="text13">Close</string>
+	<string name="text14">Close Others</string>
+	<string name="text15">Close All</string>
+	
+	<!-- LibPanel -->
+	<string name="text16">Copy URL</string>
+	<string name="text17">Rename</string>
+	<string name="text18">Create Folder</string>
+	<string name="text20">Set Exported</string>
+	<string name="text21">Set Not Exported</string>
+	<string name="text22">Update Resource</string>
+	<string name="text24">Open in Explorer</string>
+	<string name="text25">Delete</string>
+	<string name="text27">Package Settings</string>
+	<string name="text28">Publish</string>
+	<string name="text29">Remove Package</string>
+	<string name="text30">Are you sure to delete {0} and other {1} items?
+Note: this operation can not be recovered.</string>
+	<string name="text31">Are you sure to delete {0}?
+Note: this operation can not be recovered.</string>
+	<string name="text32">Are you sure to delete {0}?
+Note: the package content will not be deleted, you can still import the package.
+If you need to delete content, please delete the file directory.</string>
+	<string name="text33">Can't drag to another package, please use the copy function</string>
+	<string name="text171">Dependent query</string>
+	<string name="text192">Export Resource</string>
+	<string name="text193">Select Save directory</string>
+	<string name="text194">Copy Name</string>
+	<string name="text243">{0} results.</string>
+	<string name="text245">Move To</string>
+	<string name="text246">Duplicate</string>
+	
+	<!-- MainPanel -->
+	<string name="text34">Create Project</string>
+	<string name="text35">Open Project</string>
+	<string name="text36">Close Project</string>
+	<string name="text37">Project Settings</string>
+	<string name="text38">Create Package</string>
+	<string name="text39">Import Package</string>
+	<string name="text40">Package Settings</string>
+	<string name="text41">Publish Settings</string>
+	<string name="text42">Preference</string>
+	<string name="text226">Exit</string>
+	<string name="text43">File</string>
+	<string name="text44">About</string>
+	<string name="text45">Help</string>
+	<string name="text46">Import Resources</string>
+	<string name="text47">All Resource Files</string>
+	<string name="text48">All Files</string>
+	<string name="text49">All Image Files</string>
+	<string name="text50">Flash SWF</string>
+	<string name="text51">JTA Files</string>
+	<string name="text52">BMFont Files</string>
+	<string name="text53">Media Files</string>
+	<string name="text54">Update Resource</string>
+	<string name="text55">Import failed</string>
+	<string name="text56">Select Package</string>
+	<string name="text86">Importing</string>
+	<string name="text172">GIF Files</string>
+	<string name="text173">Edit</string>
+	<string name="text236">Edit</string>
+	<string name="text174">Create Component</string>
+	<string name="text175">Create Button</string>
+	<string name="text176">Create Label</string>
+	<string name="text177">Create ComboBox</string>
+	<string name="text178">Create ScrollBar</string>
+	<string name="text179">Create ProgressBar</string>
+	<string name="text180">Create Slider</string>
+	<string name="text240">Create PopupMenu</string>
+	<string name="text181">Import Resource</string>
+	<string name="text182">Dependent Query</string>
+	<string name="text183">Strings Export And Import</string>
+	<string name="text208">Publish Desc Only</string>
+	<string name="text19">Create Bitmap Font</string>
+	<string name="text244">Create MovieClip</string>
+	<string name="text200">Tool</string>
+	<string name="text195">Plug-In Management</string>
+		
+	<!-- PreviewPanel -->
+	<string name="text57">Resource Size</string>
+	
+	<!-- baseui -->
+	<string name="text58">Select All</string>
+	<string name="text59">Select None</string>
+	<string name="text60">Select Reversed</string>
+	<string name="text61">&lt;Drag from library&gt;</string>
+	<string name="text62">Show in Library</string>
+	<string name="text63">Copy URL</string>
+	<string name="text64">Clear</string>
+	<string name="text230">Open</string>
+	<string name="text239">Can only choose pictures</string>
+	
+	<!-- ControllerEditDialog -->
+	<string name="text65">Create Controller</string>
+	<string name="text66">Edit Controller</string>
+	<string name="text237">Are you sure to delete?</string>
+	
+	<!-- CopyToPackageDialog -->
+	<string name="text67">Copy from '{0}' to '{1}'</string>
+	<string name="text68">Copy success!
+	
+The following is a warning message, but it can be ignored.</string>
+	<string name="text69">Copy failed!</string>
+	
+	<!-- CreateFontDialog -->
+	<string name="text70">Font</string>
+	
+	<!-- CreateMovieClipDialog -->
+	<string name="text71">MovieClip</string>
+	
+	<!-- CreatePackageDialog -->
+	<string name="text72">Create package failed</string>
+	
+	<!-- CreateProjectDialog -->
+	<string name="text73">Create project failed</string>
+	<string name="text74">Select Project Location</string>
+	
+	<!-- DownloadDialog -->
+	<string name="text75">Download new version failed</string>
+	
+	<!-- FontEditDialog -->
+	<string name="text78">Can only choose pictures</string>
+	<string name="text79">Can only choose pictures in same package</string>
+	
+	<!-- ImageEditDialog -->
+	<string name="text85">Load image failed</string>
+	
+	<!-- MovieClipEditDialog -->
+	<string name="text87">Edit MovieClip</string>
+	
+	<!-- PublishDialog -->
+	<string name="text96">Publish Success!
+	
+The following is a warning message, but it can be ignored.</string>
+	<string name="text97">Publish success!</string>
+	<string name="text98">Publish failed</string>
+	<string name="text99">Publishing</string>
+	<string name="text100">File path of '{0}' is not set</string>
+	<string name="text101">File name of '{0}' is not set</string>
+	<string name="text273">Failed to generate code, code path is not set!</string>
+		
+	<!-- WaitingDialog -->
+	<string name="text102">Trying to complete your request...</string>
+	
+	<!-- ChooseFontDialog -->
+	<string name="text241">Demo gg 123</string>
+	
+	<!-- DuplicateItemDialog -->
+	<string name="text242">Input new name for '{0}'</string>
+	
+	<!-- FindReferenceDialog -->
+	<string name="text267">The resource type of source and destination is not the same, cannot be replaced！</string>
+	
+	<!-- package -->
+	<string name="text110">Unable to read the package in</string>
+	<string name="text111">Image not exists</string>
+	<string name="text112">Resource not exists</string>
+	<string name="text113">The specified name has been used.</string>
+	<string name="text114">Does not support fonts containing multiple textures</string>
+	<string name="text115">Folder</string>
+	<string name="text116">No data of action 0!</string>
+	<string name="text170">Container</string>
+	<string name="text191">Component</string>
+	<string name="text103">Multiple Objects</string>
+		
+	<!-- project -->
+	<string name="text117">The specified location does not have a UI project!</string>
+	<string name="text118">Custom color</string>
+	<string name="text119">Custom font size</string>
+	<string name="text120">Is not a legal package</string>
+	<string name="text121">Packages already exist, cannot cover!</string>
+	<string name="text196">The name cannot contain character .:*?&lt;&gt;|/\</string>
+	<string name="text197">Name can not be empty</string>
+	<string name="text227">Package1</string>
+	
+	<!-- publish -->
+	<string name="text122">Can not be packaged: the need for texture size over {0}x{1}.</string>
+	<string name="text123">Target file has been opened, can not cover!</string>
+	<string name="text124">File format error</string>
+	
+	<!-- Options -->
+	<string name="text138">Default</string>
+	<string name="text139">None</string>
+	<string name="text161">No</string>
+	<string name="text162">Yes</string>
+	
+	<!-- atlas -->
+	<string name="text80">Default</string>
+	<string name="text81">Alone</string>
+	
+	<!-- quality -->
+	<string name="text82">Use package default</string>
+	<string name="text83">Use raw data</string>
+	<string name="text84">Custom</string>
+	
+	<!-- import -->
+	<string name="text88">Cut</string>
+	<string name="text89">Don't Cut</string>
+	<string name="text90">Always Ask</string>
+	
+	<!-- scroll display -->
+	<string name="text91">Visible</string>
+	<string name="text92">Visible on scrolling</string>
+	<string name="text93">Hidden</string>
+	
+	<!-- export type -->
+	<string name="text94">Not in Atlas</string>
+	<string name="text95">In Atlas</string>
+	
+	<!-- button type -->
+	<string name="text125">Check</string>
+	<string name="text126">Radio</string>
+	<string name="text127">Common</string>
+	
+	<!-- title type -->
+	<string name="text128">Percentage</string>
+	<string name="text129">Current/Max</string>
+	<string name="text130">Current</string>
+	<string name="text131">Max</string>
+	
+	<!-- overflow -->
+	<string name="text132">Visible</string>
+	<string name="text133">Clipped</string>
+	<string name="text134">Scroll</string>
+	
+	<!-- scroll type -->
+	<string name="text135">Scroll Vertical</string>
+	<string name="text136">Scroll Horizontal</string>
+	<string name="text137">Scroll Free</string>
+	
+	<!-- extention -->
+	<string name="text140">Button</string>
+	<string name="text141">Label</string>
+	<string name="text142">ProgressBar</string>
+	<string name="text143">ScrollBar</string>
+	<string name="text144">Slider</string>
+	<string name="text145">ComboBox</string>
+	
+	<!-- graph type -->
+	<string name="text146">Empty</string>
+	<string name="text147">Rectangle</string>
+	<string name="text148">Circle</string>
+	
+	<!-- list type -->
+	<string name="text149">Single Column</string>
+	<string name="text150">Single Row</string>
+	<string name="text151">Flow Horizontal</string>
+	<string name="text152">Flow Vertical</string>
+	
+	<!-- list selection mode -->
+	<string name="text231">Single</string>
+	<string name="text232">Multiple(Shift)</string>
+	<string name="text233">Multiple(Click)</string>
+	<string name="text234">None</string>
+	
+	<!-- align -->
+	<string name="text153">Left</string>
+	<string name="text154">Center</string>
+	<string name="text155">Right</string>
+	
+	<!-- vertical align -->
+	<string name="text156">Top</string>
+	<string name="text157">Middle</string>
+	<string name="text158">Bottom</string>
+	
+	<!-- loader fill -->
+	<string name="text159">Keep Aspect Ratio</string>
+	<string name="text160">Free</string>
+	
+	<!-- gear type -->
+	<string name="text163">Display Control</string>
+	<string name="text164">Position Control (X/Y)</string>
+	<string name="text165">Size Control (W/H/ScaleX/ScaleY)</string>
+	<string name="text166">Color Control</string>
+	<string name="text167">Animation Control</string>
+	<string name="text198">Look Control (Alpha/Grayed/Rot)</string>
+	
+	<!-- text auto size -->
+	<string name="text168">Width+Height</string>
+	<string name="text169">Height</string>
+	
+	<!-- relation props-->
+	<string name="text26">Undefined</string>
+	<string name="text247">Left</string>
+	<string name="text248">Center</string>
+	<string name="text249">Right</string>
+	<string name="text250">Top</string>
+	<string name="text251">Middle</string>
+	<string name="text252">Bottom</string>
+	<string name="text253">Width</string>
+	<string name="text254">Height</string>
+	<string name="text255">LExt</string>
+	<string name="text256">RExt</string>
+	<string name="text257">TExt</string>
+	<string name="text258">BExt</string>	
+	<string name="text259">Center</string>
+	<string name="text260">Middle</string>
+	
+	<!-- image fill method -->
+	<string name="text268">Horizontal</string>
+	<string name="text269">Vertical</string>
+	<string name="text270">Radial90</string>
+	<string name="text271">Radial180</string>
+	<string name="text272">Radial360</string>
+	
+	<!-- image fill origin -->
+	<string name="text274">Left</string>
+	<string name="text275">Right</string>
+	<string name="text276">Top</string>
+	<string name="text277">Bottom</string>
+	<string name="text278">TopLeft</string>
+	<string name="text279">BottomLeft</string>
+	<string name="text280">TopRight</string>
+	<string name="text281">BottomRight</string>
+	
+	<!-- StringsFunctionDialog -->
+	<string name="text184">Select files to import</string>
+	<string name="text185">Export Success</string>
+	<string name="text186">XML Files</string>
+	<string name="text187">Please save all files first</string>
+	<string name="text188">Unable to import</string>
+	<string name="text189">Import Success!</string>
+	<string name="text190">Import Success!
+	
+The following is a warning message, but it can be ignored.</string>
+	
+	<!-- Transition -->
+	<string name="text209">Change Position</string>
+	<string name="text210">Change Size</string>
+	<string name="text211">Change Alpha</string>
+	<string name="text212">Change Rotation</string>
+	<string name="text213">Change Scale</string>
+	<string name="text214">Change Color</string>
+	<string name="text215">Change Animation</string>
+	<string name="text216">Change Pivot</string>
+	<string name="text217">Insert Frame</string>
+	<string name="text218">Remove Frame</string>
+	<string name="text219">Remove Timeline</string>
+	<string name="text220">Timeline is not empty, do you want to delete it?</string>
+	<string name="text221">Change Controller</string>
+	<string name="text222">Play Sound</string>
+	<string name="text223">Play Transition</string>
+	<string name="text224">Play Shaking</string>
+	<string name="text225">Change Visibility</string>
+	<string name="text235">Are you sure to delete the transition?</string>
+	<string name="text265">Create Tween</string>
+	<string name="text266">Remove Tween</string>
+		
+	<!-- UpgradeWindow -->
+	<string name="text228">New release notice</string>
+	<string name="text229">[b]FairyGUI Editor released a new version[/b]
+The latest version is {0}, the current version is {1}, now download and install it?</string>
+
+	<!-- ImportProgressDialog -->
+	<string name="text199">Importing{0}/{1}...</string>
+	
+	<!-- Pivot menu -->
+	<string name="text109">Center</string>
+	<string name="text261">Top Left</string>
+	<string name="text262">Top Right</string>
+	<string name="text263">Bottom Left</string>
+	<string name="text264">Bottom Right</string>
+	
+	<!-- Button down effect -->
+	<string name="text282">Dark</string>
+	<string name="text283">Scale</string>
+	
+	<!-- Scroll Options -->
+	<string name="text284">Default</string>
+	<string name="text285">Enabled</string>
+	<string name="text286">Disabled</string>
+	
+	<!-- Test Panel -->
+	<string name="text287">Design Size</string>
+	
+	<!-- Filters -->
+	<string name="text288">Color</string>
+	
+	<!-- ComboBox -->
+	<string name="text289">Auto</string>
+	<string name="text290">Down</string>
+	<string name="text291">Up</string>
+	
+	<!-- Keyboard type -->
+	<string name="text292">ASCII</string>
+	<string name="text293">NumbersAndPunctuation</string>
+	<string name="text294">URL</string>
+	<string name="text295">NumberPad</string>
+	<string name="text296">PhonePad</string>
+</resources>

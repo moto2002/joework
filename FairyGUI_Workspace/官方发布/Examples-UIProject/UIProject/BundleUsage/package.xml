@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="d8m5tmok" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="fou90" name="Main" folder="" file="fou90.xml" exported="true"/>
+    <image id="fou91" name="sword" folder="" qualityOption="source" file="fou91.png" size="104,512"/>
+  </resources>
+  <publish name="BundleUsage">
+    <atlas name="Default" index="0"/>
+  </publish>
+</packageDescription>

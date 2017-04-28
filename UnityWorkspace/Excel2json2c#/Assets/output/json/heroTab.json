@@ -1,0 +1,54 @@
+﻿{
+  "heroTab": [
+    {
+      "id": 100,
+      "name": "唐三藏",
+      "description": "金蝉子转世",
+      "iconName": "icon_hero_tangsanzang",
+      "modelName": "model_hero_tangsanzang",
+      "scale": 1.0,
+      "skillId1": 1001,
+      "skillId2": 1002
+    },
+    {
+      "id": 101,
+      "name": "孙悟空",
+      "description": "齐天大圣",
+      "iconName": "icon_hero_sunwukong",
+      "modelName": "model_hero_sunwukong",
+      "scale": 1.0,
+      "skillId1": 1000,
+      "skillId2": 1003
+    },
+    {
+      "id": 102,
+      "name": "猪悟能",
+      "description": "天蓬元帅",
+      "iconName": "icon_hero_zhuwuneng",
+      "modelName": "model_hero_zhuwuneng",
+      "scale": 1.0,
+      "skillId1": 1000,
+      "skillId2": 1004
+    },
+    {
+      "id": 103,
+      "name": "沙悟净",
+      "description": "卷帘大将",
+      "iconName": "icon_hero_shawujing",
+      "modelName": "model_hero_shawujing",
+      "scale": 1.0,
+      "skillId1": 1000,
+      "skillId2": 1005
+    },
+    {
+      "id": 104,
+      "name": "白龙马",
+      "description": "西海龙王三太子",
+      "iconName": "icon_hero_bailongma",
+      "modelName": "model_hero_bailongma",
+      "scale": 1.0,
+      "skillId1": 1001,
+      "skillId2": 1006
+    }
+  ]
+}

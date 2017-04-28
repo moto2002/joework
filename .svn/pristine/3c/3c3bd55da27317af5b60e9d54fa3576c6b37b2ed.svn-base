@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Behavior>
+  <Node Class="Behaviac.Design.Nodes.Behavior" AgentType="Player" Domains="" Enable="true" HasOwnPrefabData="false" Id="-1" PrefabName="" PrefabNodeId="-1" Version="1">
+    <Comment Background="NoColor" Text="" />
+    <Parameters>
+      <Parameter Name="parIn_Self" Type="XMLPluginBehaviac.Player" DefaultValue="null" Desc="" />
+      <Parameter Name="parT_RotateAngle" Type="System.Single" DefaultValue="0" Desc="" />
+    </Parameters>
+    <DescriptorRefs value="0:" />
+    <Connector Identifier="GenericChildren">
+      <Node Class="PluginBehaviac.Nodes.DecoratorLoop" Count="const int -1" DecorateWhenChildEnds="true" Enable="true" HasOwnPrefabData="false" Id="0" PrefabName="" PrefabNodeId="-1" Version="1">
+        <Comment Background="NoColor" Text="" />
+        <Connector Identifier="GenericChildren">
+          <Node Class="PluginBehaviac.Nodes.Parallel" ChildFinishPolicy="CHILDFINISH_LOOP" Enable="true" ExitPolicy="EXIT_ABORT_RUNNINGSIBLINGS" FailurePolicy="FAIL_ON_ONE" HasOwnPrefabData="false" Id="1" PrefabName="" PrefabNodeId="-1" SuccessPolicy="SUCCEED_ON_ALL" Version="1">
+            <Comment Background="NoColor" Text="" />
+            <Connector Identifier="GenericChildren">
+              <Node Class="PluginBehaviac.Nodes.DecoratorAlwaysSuccess" DecorateWhenChildEnds="false" Enable="true" HasOwnPrefabData="false" Id="5" PrefabName="" PrefabNodeId="-1" Version="1">
+                <Comment Background="NoColor" Text="" />
+                <Connector Identifier="GenericChildren">
+                  <Node Class="PluginBehaviac.Nodes.SelectorProbability" HasOwnPrefabData="false" Id="2" PrefabName="../Prefabs/Prefab_随机移动" PrefabNodeId="2">
+                    <Comment Background="Gray" Text="Prefab[Prefab_随机移动]" />
+                  </Node>
+                </Connector>
+              </Node>
+              <Node Class="PluginBehaviac.Nodes.Action" Enable="true" HasOwnPrefabData="false" Id="16" Method="Self.Player::fire()" PreconditionFailResult="BT_FAILURE" PrefabName="" PrefabNodeId="-1" ResultFunctor="&quot;&quot;" ResultOption="BT_INVALID" Version="1">
+                <Comment Background="Blue" Text="开火射击" />
+              </Node>
+            </Connector>
+          </Node>
+        </Connector>
+      </Node>
+    </Connector>
+  </Node>
+</Behavior>

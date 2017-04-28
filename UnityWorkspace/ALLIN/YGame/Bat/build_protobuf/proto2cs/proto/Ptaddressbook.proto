@@ -1,0 +1,4 @@
+message AddressBook 
+{
+  required string address = 1;
+}

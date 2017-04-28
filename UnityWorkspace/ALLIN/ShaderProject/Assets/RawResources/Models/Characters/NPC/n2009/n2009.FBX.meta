@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: 04ce31694808920439573e15b2e455f3
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Bip01 Head
+    100002: Bip01 L Calf
+    100004: Bip01 L Clavicle
+    100006: Bip01 L Foot
+    100008: Bip01 L Forearm
+    100010: Bip01 L ForeTwist
+    100012: Bip01 L Hand
+    100014: Bip01 L HorseLink
+    100016: Bip01 L Thigh
+    100018: Bip01 L UpperArm
+    100020: Bip01 Neck
+    100022: Bip01 Pelvis
+    100024: Bip01 R Calf
+    100026: Bip01 R Clavicle
+    100028: Bip01 R Foot
+    100030: Bip01 R Forearm
+    100032: Bip01 R ForeTwist
+    100034: Bip01 R Hand
+    100036: Bip01 R HorseLink
+    100038: Bip01 R Thigh
+    100040: Bip01 R UpperArm
+    100042: Bip01 Spine
+    100044: Bip01 Spine1
+    100046: Bip_master
+    100048: Bip_weapon
+    100050: Bone_hounao_01
+    100052: Bone_hounao_02
+    100054: Bone_hounao_03
+    100056: Bone_jianjia_l
+    100058: Bone_jianjia_r
+    100060: Bone_qunbai_b
+    100062: Bone_qunbai_f
+    100064: Bone_touding_l_01
+    100066: Bone_touding_l_02
+    100068: Bone_touding_r_01
+    100070: Bone_touding_r_02
+    100072: //RootNode
+    100074: n2009
+    100076: slot_billboard
+    100078: slot_camera
+    100080: slot_chest
+    100082: slot_head
+    100084: slot_weapon_fx
+    400000: Bip01 Head
+    400002: Bip01 L Calf
+    400004: Bip01 L Clavicle
+    400006: Bip01 L Foot
+    400008: Bip01 L Forearm
+    400010: Bip01 L ForeTwist
+    400012: Bip01 L Hand
+    400014: Bip01 L HorseLink
+    400016: Bip01 L Thigh
+    400018: Bip01 L UpperArm
+    400020: Bip01 Neck
+    400022: Bip01 Pelvis
+    400024: Bip01 R Calf
+    400026: Bip01 R Clavicle
+    400028: Bip01 R Foot
+    400030: Bip01 R Forearm
+    400032: Bip01 R ForeTwist
+    400034: Bip01 R Hand
+    400036: Bip01 R HorseLink
+    400038: Bip01 R Thigh
+    400040: Bip01 R UpperArm
+    400042: Bip01 Spine
+    400044: Bip01 Spine1
+    400046: Bip_master
+    400048: Bip_weapon
+    400050: Bone_hounao_01
+    400052: Bone_hounao_02
+    400054: Bone_hounao_03
+    400056: Bone_jianjia_l
+    400058: Bone_jianjia_r
+    400060: Bone_qunbai_b
+    400062: Bone_qunbai_f
+    400064: Bone_touding_l_01
+    400066: Bone_touding_l_02
+    400068: Bone_touding_r_01
+    400070: Bone_touding_r_02
+    400072: //RootNode
+    400074: n2009
+    400076: slot_billboard
+    400078: slot_camera
+    400080: slot_chest
+    400082: slot_head
+    400084: slot_weapon_fx
+    4300000: n2009
+    9500000: //RootNode
+    13700000: n2009
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: Bip_master
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

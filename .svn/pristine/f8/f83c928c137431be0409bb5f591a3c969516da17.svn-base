@@ -1,0 +1,74 @@
+Changes of 1.85v- When importing as uGUI, the canvas now has a Canvas Scaler component.- Thanks to the Canvas Scaler component, the asset doesn’t need to compute coords and sizes that depends on the screen, it will scaled automatically and users can see the UI as is. Important: The main resolution will be the chosen one from Photoshop.- Now, an uGUI button can be parsed with no text layer.- A GameObject which is parent of an uGUI control, now has a RectTransform.- DX Editor Window now has a new button. It allows to set Anchors to Corners of each imported UI ítem (Notice that could be some uGUI controls shouldn’t be change their anchors to work, like scrollbars or sliders).Changes of 1.8v- Atlas creation feature. It allows to create an sprite atlas from your images.- Two ways for atlas creation are allowed, Unity method and Max Rects Algorithm.- Built for Unity 5.
+
+
+1.72v
+- Fixed an issue when a layer just has TOKEN_ as layer name.
+- Unity5 ready.
+- Unity4 dll come as zip.
+
+
+Changes of 1.71v
+- Finally, image import settings issue is fixed. For the people whose has reported it, I'm so sorry for the delay.
+- PS Script now is more robust against errors.
+- Experimental support for Unity 5 RC2.
+
+
+FROM 1.7v
+- There was a problem with the name of the root game object of the imported UI. Now it is fixed.
+- There was an annoying performance issue when importing the UI to Unity engine. It has been fixed but now, the folder with the UI images exported from Photoshop must be under Resources folder on your Unity Project.
+- There was an issue with the PS Script when the image layer is partially placed out of the canvas. It was cropped but now, it exports as it should.
+- Now, Basic Window Editor will parse all ".toParse" files found on the provided folder.
+
+
+FROM 1.6v
+- PS Script now creates a new folder again, and place the exported files into this one. The folder name is the file name with extension. (This feature was removed once but it has been restored due to is better for keeping the exported items sorted).
+- PS Script now has a Stop button. It allows to stop the operation before exporting everything.
+- PSD2uGUI Editor Window and PSD2uGUI DX Editor Window now allows to drop the folder where the software will try to find de UI images. This feature fixes a performance and memory bug, due to the entire Asset folder was scanned to load any image found.
+- Some text has been added to the Editor Windows in order to help the developer about how the plugin works.
+- The content of the plugin now is stored in a Folder called PSD2uGUI.
+
+
+FROM 1.5v
+- PS script now allows to select the folder where do you want to export both layer files and exchange file (only if a checkbox is checked). If you use folder naming conventions, this new folder will be placed under the export folder. It will work as ussually if the checkbox is not checked.
+- Portrait resolutions.
+- PS script bugfixes. (Layer names never will trim white spaces).
+- ".toParse" files will be named with the PSD name (psdDigest no longer be used).
+- Unity plugin now won't hijack the Main Camera gameobject,it will create one for the new UI.
+- NEW PSD2uGUI DX Editor Window.
+- It has a new gameobject field to drag and drop the file we want to parse as new uGUI.
+- In addition, a new GameObject field has been added in order to choose a gameObject from the scene as root for the new uGUI items that will hang from after exporting. If no GameObject is dropped, it creates a new
+- It will only export to uGUI.
+- It has a new button for reset by default values.
+- This new Editor Window shows the PSD LayerSet tree.
+- This tree parsing is compatible with PSD with PSD2uGUI layer naming conventions. It means it will parse the names and auto select the target UI control.
+- For old PSDs or PSDs with no layer naming conventions, it will show the tree, and will allow to the developer to select the target UI control to export by using a popup window item.
+
+
+FROM 1.3v
+- Photoshop script has been changed to allow custom target resolution export.
+- Now, Photoshop script can export the exchange file only, avoiding to exporting each layer every time.
+- Export file format extension has been changed from ".txt" to ".toParse".
+- Now, Unity plugin can parse all ".toParse" files under asset folder and import all of them as ready to run uGUI.
+- Unity 5 Beta 18 experimental support.
+- User guide has been updated fixing issues.
+- Minor bugfixes.
+
+FROM 1.2v
+- PSD2uGUI wonít create UI folder any more. Developer can control the output folder using layer naming conventions as usually. If no folder is targeted, by default PSD2uGUI folder will be used in order to avoid file name collisions with previous files of other sources.
+- Changed the method to parse the layer names. Now underscore symbol can be used in image layers.
+- User guide has been updated fixing issues.
+
+FROM 1.1v
+- 4.6 Final Release compatible.
+- Minor bugfix.
+- Well packed.
+
+FROM 1.09v
+- You can choose the folder where the png files will be exported by using the naming conventions.
+- You can choose your sprites tags for packing. The tag name will be the name of the folder under the file is placed.
+- 4.6 final release compatible.
+- Minor bugfixes (now you can build your unity project without issues).
+
+FROM 1.04v
+- Automatic border creation for the layers the designer wants. Borders allow to use small images into greater surfaces with no image quality lost.
+- By default, the software assign tags to each layer imported. It is usefull for atlas creation and image optimization.

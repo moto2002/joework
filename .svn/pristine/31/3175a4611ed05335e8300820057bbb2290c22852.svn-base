@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: 2cec411eba707a542a211c8efd7af44d
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bip001 Pelvis
+    100004: bip_master
+    100006: Bone001
+    100008: bone_claw_L_01
+    100010: bone_claw_R_01
+    100012: bone_leg_BL_01
+    100014: bone_leg_BL_02
+    100016: bone_leg_BR_01
+    100018: bone_leg_BR_02
+    100020: bone_leg_FL_01
+    100022: bone_leg_FL_02
+    100024: bone_leg_FR_01
+    100026: bone_leg_FR_02
+    100028: bone_leg_ML01_01
+    100030: bone_leg_ML01_02
+    100032: bone_leg_ML_01
+    100034: bone_leg_ML_02
+    100036: bone_leg_MR01_01
+    100038: bone_leg_MR01_02
+    100040: bone_leg_MR_01
+    100042: bone_leg_MR_02
+    100044: bone_tail01
+    100046: bone_tail02
+    100048: n1118
+    100050: n1119
+    100052: n1120
+    100054: n1121
+    100056: n1122
+    100058: n1123
+    100060: n1124
+    100062: slot_billboard
+    100064: slot_camera
+    100066: slot_chest
+    100068: slot_head
+    100070: n1125
+    400000: //RootNode
+    400002: Bip001 Pelvis
+    400004: bip_master
+    400006: Bone001
+    400008: bone_claw_L_01
+    400010: bone_claw_R_01
+    400012: bone_leg_BL_01
+    400014: bone_leg_BL_02
+    400016: bone_leg_BR_01
+    400018: bone_leg_BR_02
+    400020: bone_leg_FL_01
+    400022: bone_leg_FL_02
+    400024: bone_leg_FR_01
+    400026: bone_leg_FR_02
+    400028: bone_leg_ML01_01
+    400030: bone_leg_ML01_02
+    400032: bone_leg_ML_01
+    400034: bone_leg_ML_02
+    400036: bone_leg_MR01_01
+    400038: bone_leg_MR01_02
+    400040: bone_leg_MR_01
+    400042: bone_leg_MR_02
+    400044: bone_tail01
+    400046: bone_tail02
+    400048: n1118
+    400050: n1119
+    400052: n1120
+    400054: n1121
+    400056: n1122
+    400058: n1123
+    400060: n1124
+    400062: slot_billboard
+    400064: slot_camera
+    400066: slot_chest
+    400068: slot_head
+    400070: n1125
+    4300000: n1118
+    4300002: n1119
+    4300004: n1120
+    4300006: n1121
+    4300008: n1122
+    4300010: n1123
+    4300012: n1124
+    4300014: n1125
+    9500000: //RootNode
+    13700000: n1118
+    13700002: n1119
+    13700004: n1120
+    13700006: n1121
+    13700008: n1122
+    13700010: n1123
+    13700012: n1124
+    13700014: n1125
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: bip_master
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

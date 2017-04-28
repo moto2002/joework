@@ -1,0 +1,54 @@
+﻿{
+  "userLevelTab": [
+    {
+      "level": 1,
+      "addExp": 1000,
+      "totalExp": 1000
+    },
+    {
+      "level": 2,
+      "addExp": 2000,
+      "totalExp": 3000
+    },
+    {
+      "level": 3,
+      "addExp": 3000,
+      "totalExp": 6000
+    },
+    {
+      "level": 4,
+      "addExp": 4000,
+      "totalExp": 10000
+    },
+    {
+      "level": 5,
+      "addExp": 5000,
+      "totalExp": 15000
+    },
+    {
+      "level": 6,
+      "addExp": 6000,
+      "totalExp": 21000
+    },
+    {
+      "level": 7,
+      "addExp": 7000,
+      "totalExp": 28000
+    },
+    {
+      "level": 8,
+      "addExp": 8000,
+      "totalExp": 36000
+    },
+    {
+      "level": 9,
+      "addExp": 9000,
+      "totalExp": 45000
+    },
+    {
+      "level": 10,
+      "addExp": 10000,
+      "totalExp": 55000
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+﻿{
+  "100": {
+    "id": 100,
+    "name": "盖伦",
+    "description": "德玛西亚",
+    "iconName": "icon_hero_gailun",
+    "modelName": "model_hero_gailun",
+    "scale": 1.0,
+    "baseSkill": 1000,
+    "qSkill": 2000,
+    "wSkill": 3000,
+    "eSkill": 4000,
+    "rSkill": 5000
+  },
+  "101": {
+    "id": 101,
+    "name": "艾希",
+    "description": "德玛西亚",
+    "iconName": "icon_hero_gailun",
+    "modelName": "model_hero_gailun",
+    "scale": 1.0,
+    "baseSkill": 1001,
+    "qSkill": 2001,
+    "wSkill": 3001,
+    "eSkill": 4001,
+    "rSkill": 5001
+  },
+  "102": {
+    "id": 102,
+    "name": "瑞兹",
+    "description": "德玛西亚",
+    "iconName": "icon_hero_gailun",
+    "modelName": "model_hero_gailun",
+    "scale": 1.0,
+    "baseSkill": 1002,
+    "qSkill": 2002,
+    "wSkill": 3002,
+    "eSkill": 4002,
+    "rSkill": 5002
+  },
+  "103": {
+    "id": 103,
+    "name": "瑞兹",
+    "description": "德玛西亚",
+    "iconName": "icon_hero_gailun",
+    "modelName": "model_hero_gailun",
+    "scale": 1.0,
+    "baseSkill": 1003,
+    "qSkill": 2003,
+    "wSkill": 3003,
+    "eSkill": 4003,
+    "rSkill": 5003
+  },
+  "104": {
+    "id": 104,
+    "name": "瑞兹",
+    "description": "德玛西亚",
+    "iconName": "icon_hero_gailun",
+    "modelName": "model_hero_gailun",
+    "scale": 1.0,
+    "baseSkill": 1004,
+    "qSkill": 2004,
+    "wSkill": 3004,
+    "eSkill": 4004,
+    "rSkill": 5004
+  }
+}

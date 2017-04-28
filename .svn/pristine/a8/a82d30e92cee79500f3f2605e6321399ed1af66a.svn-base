@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="zgmoraj4" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="gkq00" name="BOSS" folder="" file="gkq00.xml" exported="true"/>
+    <image id="gkq01" name="2" folder="gkq09" qualityOption="source" file="gkq01.png" size="270,231"/>
+    <image id="gkq02" name="3" folder="gkq09" qualityOption="source" file="gkq02.png" size="396,119"/>
+    <sound id="gkq03" name="BUZZ4" folder="gkq09" file="gkq03.wav"/>
+    <component id="gkq04" name="BOSS_SKILL" folder="" file="gkq04.xml" exported="true"/>
+    <image id="gkq05" name="0" folder="gkq09" qualityOption="source" file="gkq05.png" size="1024,56"/>
+    <image id="gkq06" name="1" folder="gkq09" qualityOption="source" file="gkq06.png" size="722,66"/>
+    <component id="gkq07" name="TRAP" folder="" file="gkq07.xml" exported="true"/>
+    <image id="gkq08" name="4" folder="gkq09" qualityOption="source" file="gkq08.png" size="358,367"/>
+    <folder id="gkq09" name="images" folder=""/>
+    <component id="gkq0a" name="Main" folder="" file="gkq0a.xml" exported="true"/>
+    <component id="gkq0b" name="Button1" folder="" file="gkq0b.xml"/>
+    <component id="nra4c" name="PowerUp" folder="" file="nra4c.xml" exported="true"/>
+    <image id="nra4d" name="red" folder="gkq09" qualityOption="source" file="nra4d.png" size="462,72"/>
+    <image id="nra4e" name="power" folder="gkq09" qualityOption="source" file="nra4e.png" size="163,61"/>
+    <font id="nra4f" name="number1" folder="" file="nra4f.fnt" exported="true"/>
+    <image id="nra4g" name="0000_9.png" folder="gkq09" qualityOption="source" file="nra4g.png" size="36,46"/>
+    <image id="nra4h" name="0001_8.png" folder="gkq09" qualityOption="source" file="nra4h.png" size="36,46"/>
+    <image id="nra4i" name="0002_7.png" folder="gkq09" qualityOption="source" file="nra4i.png" size="36,46"/>
+    <image id="nra4j" name="0003_6.png" folder="gkq09" qualityOption="source" file="nra4j.png" size="36,46"/>
+    <image id="nra4k" name="0004_5.png" folder="gkq09" qualityOption="source" file="nra4k.png" size="36,46"/>
+    <image id="nra4l" name="0005_4.png" folder="gkq09" qualityOption="source" file="nra4l.png" size="36,46"/>
+    <image id="nra4m" name="0006_3.png" folder="gkq09" qualityOption="source" file="nra4m.png" size="36,46"/>
+    <image id="nra4n" name="0007_2.png" folder="gkq09" qualityOption="source" file="nra4n.png" size="36,46"/>
+    <image id="nra4o" name="0008_1.png" folder="gkq09" qualityOption="source" file="nra4o.png" size="36,46"/>
+    <image id="nra4p" name="0009_0-.png" folder="gkq09" qualityOption="source" file="nra4p.png" size="36,46"/>
+    <font id="nra4q" name="number2" folder="" file="nra4q.fnt" exported="true"/>
+    <image id="nra4r" name="0000_+" folder="gkq09" qualityOption="source" file="nra4r.png" size="28,36"/>
+    <image id="nra4s" name="0001_9" folder="gkq09" qualityOption="source" file="nra4s.png" size="28,36"/>
+    <image id="nra4t" name="0002_8" folder="gkq09" qualityOption="source" file="nra4t.png" size="28,36"/>
+    <image id="nra4u" name="0003_7" folder="gkq09" qualityOption="source" file="nra4u.png" size="28,36"/>
+    <image id="nra4v" name="0004_6" folder="gkq09" qualityOption="source" file="nra4v.png" size="28,36"/>
+    <image id="nra4w" name="0005_5" folder="gkq09" qualityOption="source" file="nra4w.png" size="28,36"/>
+    <image id="nra4x" name="0006_4" folder="gkq09" qualityOption="source" file="nra4x.png" size="28,36"/>
+    <image id="nra4y" name="0007_3" folder="gkq09" qualityOption="source" file="nra4y.png" size="28,36"/>
+    <image id="nra4z" name="0008_2" folder="gkq09" qualityOption="source" file="nra4z.png" size="28,36"/>
+    <image id="nra410" name="0009_1" folder="gkq09" qualityOption="source" file="nra410.png" size="28,36"/>
+    <image id="nra411" name="0010_0" folder="gkq09" qualityOption="source" file="nra411.png" size="28,36"/>
+    <jta id="nra412" name="U1UIT17" folder="gkq09" origin="242,83" file="nra412.jta" size="398,146"/>
+    <component id="nra413" name="GoodHit" folder="" file="nra413.xml" exported="true"/>
+    <image id="nra414" name="blood" folder="gkq09" qualityOption="source" file="nra414.png" size="227,163"/>
+    <image id="nra415" name="bangjile" folder="gkq09" qualityOption="source" file="nra415.png" size="242,123"/>
+    <font id="fou916" name="number3" folder="" file="fou916.fnt" exported="true"/>
+    <image id="fou917" name="h0" folder="" qualityOption="source" file="fou917.png" size="50,50"/>
+    <image id="fou918" name="h1" folder="" qualityOption="source" file="fou918.png" size="50,50"/>
+    <image id="fou919" name="h2" folder="" qualityOption="source" file="fou919.png" size="50,50"/>
+    <image id="fou91a" name="h3" folder="" qualityOption="source" file="fou91a.png" size="50,50"/>
+    <image id="fou91b" name="h4" folder="" qualityOption="source" file="fou91b.png" size="50,50"/>
+    <image id="fou91c" name="h5" folder="" qualityOption="source" file="fou91c.png" size="50,50"/>
+    <image id="fou91d" name="h6" folder="" qualityOption="source" file="fou91d.png" size="50,50"/>
+    <image id="fou91e" name="h7" folder="" qualityOption="source" file="fou91e.png" size="50,50"/>
+    <image id="fou91f" name="h8" folder="" qualityOption="source" file="fou91f.png" size="50,50"/>
+    <image id="fou91g" name="h9" folder="" qualityOption="source" file="fou91g.png" size="50,50"/>
+  </resources>
+  <publish name="Transition">
+    <atlas name="Default" index="0"/>
+  </publish>
+</packageDescription>

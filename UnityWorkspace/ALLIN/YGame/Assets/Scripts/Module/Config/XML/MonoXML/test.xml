@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ROOT>
+	<person id="1" age="18" name="John"/>
+	<person id="2" age="22" name="Lucy"/>
+</ROOT>

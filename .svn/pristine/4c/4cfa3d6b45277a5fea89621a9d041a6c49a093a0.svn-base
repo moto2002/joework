@@ -1,0 +1,385 @@
+fileFormatVersion: 2
+guid: 889d1cda33b3d5e4ea77e223b6621ef7
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BUFFBONE_CSTM_EXTRA
+    100004: BUFFBONE_CSTM_HAIR
+    100006: BUFFBONE_CSTM_HAIR1
+    100008: BUFFBONE_CSTM_HAIR2
+    100010: BUFFBONE_CSTM_HAIR3
+    100012: BUFFBONE_CSTM_HANDFLAME1
+    100014: BUFFBONE_CSTM_HANDFLAME2
+    100016: BUFFBONE_CSTM_HANDFLAME3
+    100018: BUFFBONE_CSTM_HANDFLAME4
+    100020: BUFFBONE_CSTM_HANDFLAME5
+    100022: BUFFBONE_CSTM_HANDFLAME6
+    100024: BUFFBONE_GLB_CHANNEL_LOC
+    100026: BUFFBONE_GLB_GROUND_LOC
+    100028: BUFFBONE_GLB_WEAPON_1
+    100030: C_BUFFBONE_GLB_CENTER_LOC
+    100032: C_BUFFBONE_GLB_CHEST_LOC
+    100034: C_BUFFBONE_GLB_HEAD_LOC
+    100036: C_BUFFBONE_GLB_LAYOUT_LOC
+    100038: C_BUFFBONE_GLB_OVERHEAD_LOC
+    100040: chest
+    100042: head
+    100044: hip
+    100046: l_arm_twist
+    100048: L_BUFFBONE_GLB_FOOT_LOC
+    100050: L_BUFFBONE_GLB_HAND_LOC
+    100052: l_foot
+    100054: l_forearm
+    100056: l_hand
+    100058: l_index
+    100060: l_index_b
+    100062: l_knee
+    100064: l_middle
+    100066: l_middle_b
+    100068: L_PARENTING_HAND_LOC
+    100070: l_pinky
+    100072: l_pinky_b
+    100074: l_ring
+    100076: l_ring_b
+    100078: l_shoulder
+    100080: l_thigh
+    100082: l_thumb
+    100084: l_thumb_b
+    100086: l_toe
+    100088: l_toe1
+    100090: l_uparm
+    100092: mouth
+    100094: neck
+    100096: R_arm_twist
+    100098: R_BUFFBONE_GLB_FOOT_LOC
+    100100: R_BUFFBONE_GLB_HAND_LOC
+    100102: r_foot
+    100104: r_forearm
+    100106: r_hand
+    100108: r_index
+    100110: r_index_b
+    100112: r_knee
+    100114: r_middle
+    100116: r_middle_b
+    100118: R_PARENTING_HAND_LOC
+    100120: r_pinky
+    100122: r_pinky_b
+    100124: r_ring
+    100126: r_ring_b
+    100128: r_shoulder
+    100130: r_thigh
+    100132: r_thumb
+    100134: r_thumb_b
+    100136: r_toe
+    100138: r_toe1
+    100140: r_uparm
+    100142: root
+    100144: spine
+    100146: transformBrand
+    400000: //RootNode
+    400002: BUFFBONE_CSTM_EXTRA
+    400004: BUFFBONE_CSTM_HAIR
+    400006: BUFFBONE_CSTM_HAIR1
+    400008: BUFFBONE_CSTM_HAIR2
+    400010: BUFFBONE_CSTM_HAIR3
+    400012: BUFFBONE_CSTM_HANDFLAME1
+    400014: BUFFBONE_CSTM_HANDFLAME2
+    400016: BUFFBONE_CSTM_HANDFLAME3
+    400018: BUFFBONE_CSTM_HANDFLAME4
+    400020: BUFFBONE_CSTM_HANDFLAME5
+    400022: BUFFBONE_CSTM_HANDFLAME6
+    400024: BUFFBONE_GLB_CHANNEL_LOC
+    400026: BUFFBONE_GLB_GROUND_LOC
+    400028: BUFFBONE_GLB_WEAPON_1
+    400030: C_BUFFBONE_GLB_CENTER_LOC
+    400032: C_BUFFBONE_GLB_CHEST_LOC
+    400034: C_BUFFBONE_GLB_HEAD_LOC
+    400036: C_BUFFBONE_GLB_LAYOUT_LOC
+    400038: C_BUFFBONE_GLB_OVERHEAD_LOC
+    400040: chest
+    400042: head
+    400044: hip
+    400046: l_arm_twist
+    400048: L_BUFFBONE_GLB_FOOT_LOC
+    400050: L_BUFFBONE_GLB_HAND_LOC
+    400052: l_foot
+    400054: l_forearm
+    400056: l_hand
+    400058: l_index
+    400060: l_index_b
+    400062: l_knee
+    400064: l_middle
+    400066: l_middle_b
+    400068: L_PARENTING_HAND_LOC
+    400070: l_pinky
+    400072: l_pinky_b
+    400074: l_ring
+    400076: l_ring_b
+    400078: l_shoulder
+    400080: l_thigh
+    400082: l_thumb
+    400084: l_thumb_b
+    400086: l_toe
+    400088: l_toe1
+    400090: l_uparm
+    400092: mouth
+    400094: neck
+    400096: R_arm_twist
+    400098: R_BUFFBONE_GLB_FOOT_LOC
+    400100: R_BUFFBONE_GLB_HAND_LOC
+    400102: r_foot
+    400104: r_forearm
+    400106: r_hand
+    400108: r_index
+    400110: r_index_b
+    400112: r_knee
+    400114: r_middle
+    400116: r_middle_b
+    400118: R_PARENTING_HAND_LOC
+    400120: r_pinky
+    400122: r_pinky_b
+    400124: r_ring
+    400126: r_ring_b
+    400128: r_shoulder
+    400130: r_thigh
+    400132: r_thumb
+    400134: r_thumb_b
+    400136: r_toe
+    400138: r_toe1
+    400140: r_uparm
+    400142: root
+    400144: spine
+    400146: transformBrand
+    4300000: transformBrand
+    7400000: Attack
+    9500000: //RootNode
+    13700000: transformBrand
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Attack
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BUFFBONE_CSTM_EXTRA
+        weight: 1
+      - path: BUFFBONE_GLB_CHANNEL_LOC
+        weight: 1
+      - path: BUFFBONE_GLB_GROUND_LOC
+        weight: 1
+      - path: C_BUFFBONE_GLB_CENTER_LOC
+        weight: 1
+      - path: C_BUFFBONE_GLB_LAYOUT_LOC
+        weight: 1
+      - path: C_BUFFBONE_GLB_OVERHEAD_LOC
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/hip
+        weight: 1
+      - path: root/hip/l_thigh
+        weight: 1
+      - path: root/hip/l_thigh/l_knee
+        weight: 1
+      - path: root/hip/l_thigh/l_knee/L_BUFFBONE_GLB_FOOT_LOC
+        weight: 1
+      - path: root/hip/l_thigh/l_knee/l_foot
+        weight: 1
+      - path: root/hip/l_thigh/l_knee/l_foot/l_toe
+        weight: 1
+      - path: root/hip/l_thigh/l_knee/l_foot/l_toe/l_toe1
+        weight: 1
+      - path: root/hip/r_thigh
+        weight: 1
+      - path: root/hip/r_thigh/r_knee
+        weight: 1
+      - path: root/hip/r_thigh/r_knee/R_BUFFBONE_GLB_FOOT_LOC
+        weight: 1
+      - path: root/hip/r_thigh/r_knee/r_foot
+        weight: 1
+      - path: root/hip/r_thigh/r_knee/r_foot/r_toe
+        weight: 1
+      - path: root/hip/r_thigh/r_knee/r_foot/r_toe/r_toe1
+        weight: 1
+      - path: root/spine
+        weight: 1
+      - path: root/spine/chest
+        weight: 1
+      - path: root/spine/chest/C_BUFFBONE_GLB_CHEST_LOC
+        weight: 1
+      - path: root/spine/chest/l_shoulder
+        weight: 1
+      - path: root/spine/chest/l_shoulder/l_uparm
+        weight: 1
+      - path: root/spine/chest/l_shoulder/l_uparm/l_forearm
+        weight: 1
+      - path: root/spine/chest/l_shoulder/l_uparm/l_forearm/l_arm_twist
+        weight: 1
+      - path: root/spine/chest/l_shoulder/l_uparm/l_forearm/L_BUFFBONE_GLB_HAND_LOC
+        weight: 1
+      - path: root/spine/chest/l_shoulder/l_uparm/l_forearm/l_hand
+        weight: 1
+      - path: root/spine/chest/l_shoulder/l_uparm/l_forearm/l_hand/BUFFBONE_CSTM_HANDFLAME1
+        weight: 1
+      - path: root/spine/chest/l_shoulder/l_uparm/l_forearm/l_hand/BUFFBONE_CSTM_HANDFLAME1/BUFFBONE_CSTM_HANDFLAME2
+        weight: 1
+      - path: root/spine/chest/l_shoulder/l_uparm/l_forearm/l_hand/BUFFBONE_CSTM_HANDFLAME1/BUFFBONE_CSTM_HANDFLAME2/BUFFBONE_CSTM_HANDFLAME3
+        weight: 1
+      - path: root/spine/chest/l_shoulder/l_uparm/l_forearm/l_hand/l_index
+        weight: 1
+      - path: root/spine/chest/l_shoulder/l_uparm/l_forearm/l_hand/l_index/l_index_b
+        weight: 1
+      - path: root/spine/chest/l_shoulder/l_uparm/l_forearm/l_hand/l_middle
+        weight: 1
+      - path: root/spine/chest/l_shoulder/l_uparm/l_forearm/l_hand/l_middle/l_middle_b
+        weight: 1
+      - path: root/spine/chest/l_shoulder/l_uparm/l_forearm/l_hand/L_PARENTING_HAND_LOC
+        weight: 1
+      - path: root/spine/chest/l_shoulder/l_uparm/l_forearm/l_hand/l_pinky
+        weight: 1
+      - path: root/spine/chest/l_shoulder/l_uparm/l_forearm/l_hand/l_pinky/l_pinky_b
+        weight: 1
+      - path: root/spine/chest/l_shoulder/l_uparm/l_forearm/l_hand/l_ring
+        weight: 1
+      - path: root/spine/chest/l_shoulder/l_uparm/l_forearm/l_hand/l_ring/l_ring_b
+        weight: 1
+      - path: root/spine/chest/l_shoulder/l_uparm/l_forearm/l_hand/l_thumb
+        weight: 1
+      - path: root/spine/chest/l_shoulder/l_uparm/l_forearm/l_hand/l_thumb/l_thumb_b
+        weight: 1
+      - path: root/spine/chest/neck
+        weight: 1
+      - path: root/spine/chest/neck/BUFFBONE_CSTM_HAIR3
+        weight: 1
+      - path: root/spine/chest/neck/head
+        weight: 1
+      - path: root/spine/chest/neck/head/BUFFBONE_CSTM_HAIR
+        weight: 1
+      - path: root/spine/chest/neck/head/BUFFBONE_CSTM_HAIR1
+        weight: 1
+      - path: root/spine/chest/neck/head/BUFFBONE_CSTM_HAIR2
+        weight: 1
+      - path: root/spine/chest/neck/head/C_BUFFBONE_GLB_HEAD_LOC
+        weight: 1
+      - path: root/spine/chest/neck/head/mouth
+        weight: 1
+      - path: root/spine/chest/r_shoulder
+        weight: 1
+      - path: root/spine/chest/r_shoulder/r_uparm
+        weight: 1
+      - path: root/spine/chest/r_shoulder/r_uparm/r_forearm
+        weight: 1
+      - path: root/spine/chest/r_shoulder/r_uparm/r_forearm/BUFFBONE_GLB_WEAPON_1
+        weight: 1
+      - path: root/spine/chest/r_shoulder/r_uparm/r_forearm/R_arm_twist
+        weight: 1
+      - path: root/spine/chest/r_shoulder/r_uparm/r_forearm/R_BUFFBONE_GLB_HAND_LOC
+        weight: 1
+      - path: root/spine/chest/r_shoulder/r_uparm/r_forearm/r_hand
+        weight: 1
+      - path: root/spine/chest/r_shoulder/r_uparm/r_forearm/r_hand/BUFFBONE_CSTM_HANDFLAME4
+        weight: 1
+      - path: root/spine/chest/r_shoulder/r_uparm/r_forearm/r_hand/BUFFBONE_CSTM_HANDFLAME4/BUFFBONE_CSTM_HANDFLAME5
+        weight: 1
+      - path: root/spine/chest/r_shoulder/r_uparm/r_forearm/r_hand/BUFFBONE_CSTM_HANDFLAME4/BUFFBONE_CSTM_HANDFLAME5/BUFFBONE_CSTM_HANDFLAME6
+        weight: 1
+      - path: root/spine/chest/r_shoulder/r_uparm/r_forearm/r_hand/r_index
+        weight: 1
+      - path: root/spine/chest/r_shoulder/r_uparm/r_forearm/r_hand/r_index/r_index_b
+        weight: 1
+      - path: root/spine/chest/r_shoulder/r_uparm/r_forearm/r_hand/r_middle
+        weight: 1
+      - path: root/spine/chest/r_shoulder/r_uparm/r_forearm/r_hand/r_middle/r_middle_b
+        weight: 1
+      - path: root/spine/chest/r_shoulder/r_uparm/r_forearm/r_hand/R_PARENTING_HAND_LOC
+        weight: 1
+      - path: root/spine/chest/r_shoulder/r_uparm/r_forearm/r_hand/r_pinky
+        weight: 1
+      - path: root/spine/chest/r_shoulder/r_uparm/r_forearm/r_hand/r_pinky/r_pinky_b
+        weight: 1
+      - path: root/spine/chest/r_shoulder/r_uparm/r_forearm/r_hand/r_ring
+        weight: 1
+      - path: root/spine/chest/r_shoulder/r_uparm/r_forearm/r_hand/r_ring/r_ring_b
+        weight: 1
+      - path: root/spine/chest/r_shoulder/r_uparm/r_forearm/r_hand/r_thumb
+        weight: 1
+      - path: root/spine/chest/r_shoulder/r_uparm/r_forearm/r_hand/r_thumb/r_thumb_b
+        weight: 1
+      - path: transformBrand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,90" extention="Button">
+  <displayList>
+    <image id="n31" name="n31" src="h5p722" xy="0,0">
+      <relation target="" sidePair="width-width"/>
+    </image>
+  </displayList>
+  <Button downEffect="dark" downEffectValue="0.80"/>
+</component>

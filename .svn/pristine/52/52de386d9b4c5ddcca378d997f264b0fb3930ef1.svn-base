@@ -1,0 +1,137 @@
+﻿{
+  "202_1": {
+    "skillId": 202,
+    "skillLevel": 1,
+    "skillName": "山崩",
+    "skillIcon": "skill_002",
+    "type": 1,
+    "distance": 3.0,
+    "range": 2
+  },
+  "203_1": {
+    "skillId": 203,
+    "skillLevel": 1,
+    "skillName": "嗥叫",
+    "skillIcon": "skill_003",
+    "type": 1,
+    "distance": 3.0,
+    "range": 3
+  },
+  "204_1": {
+    "skillId": 204,
+    "skillLevel": 1,
+    "skillName": "退化光环",
+    "skillIcon": "skill_004",
+    "type": 1,
+    "distance": 3.5,
+    "range": 3
+  },
+  "205_1": {
+    "skillId": 205,
+    "skillLevel": 1,
+    "skillName": "冰封路径",
+    "skillIcon": "skill_005",
+    "type": 1,
+    "distance": 2.0,
+    "range": 3
+  },
+  "206_1": {
+    "skillId": 206,
+    "skillLevel": 1,
+    "skillName": "魂之挽歌",
+    "skillIcon": "skill_006",
+    "type": 1,
+    "distance": 1.0,
+    "range": 4
+  },
+  "207_1": {
+    "skillId": 207,
+    "skillLevel": 1,
+    "skillName": "寄生蜘蛛",
+    "skillIcon": "skill_007",
+    "type": 1,
+    "distance": 3.0,
+    "range": 1
+  },
+  "208_1": {
+    "skillId": 208,
+    "skillLevel": 1,
+    "skillName": "隐身",
+    "skillIcon": "skill_008",
+    "type": 1,
+    "distance": 1.0,
+    "range": 1
+  },
+  "209_1": {
+    "skillId": 209,
+    "skillLevel": 1,
+    "skillName": "剑刃风暴",
+    "skillIcon": "skill_009",
+    "type": 1,
+    "distance": 2.0,
+    "range": 2
+  },
+  "210_1": {
+    "skillId": 210,
+    "skillLevel": 1,
+    "skillName": "冲击波",
+    "skillIcon": "skill_010",
+    "type": 1,
+    "distance": 3.0,
+    "range": 1
+  },
+  "211_1": {
+    "skillId": 211,
+    "skillLevel": 1,
+    "skillName": "幻影突袭",
+    "skillIcon": "skill_011",
+    "type": 1,
+    "distance": 2.0,
+    "range": 1
+  },
+  "212_1": {
+    "skillId": 212,
+    "skillLevel": 1,
+    "skillName": "移形换位",
+    "skillIcon": "skill_012",
+    "type": 1,
+    "distance": 2.0,
+    "range": 1
+  },
+  "213_1": {
+    "skillId": 213,
+    "skillLevel": 1,
+    "skillName": "接力技-力",
+    "skillIcon": "skill_013",
+    "type": 2,
+    "distance": 2.0,
+    "range": 1
+  },
+  "214_1": {
+    "skillId": 214,
+    "skillLevel": 1,
+    "skillName": "接力技-智",
+    "skillIcon": "skill_014",
+    "type": 2,
+    "distance": 2.0,
+    "range": 3
+  },
+  "215_1": {
+    "skillId": 215,
+    "skillLevel": 1,
+    "skillName": "接力技-敏",
+    "skillIcon": "skill_015",
+    "type": 2,
+    "distance": 2.0,
+    "range": 1
+  },
+  "216_1": {
+    "skillId": 216,
+    "skillLevel": 1,
+    "skillName": "接力技-均",
+    "skillIcon": "skill_016",
+    "type": 2,
+    "distance": 2.0,
+    "range": 1
+  }
+}

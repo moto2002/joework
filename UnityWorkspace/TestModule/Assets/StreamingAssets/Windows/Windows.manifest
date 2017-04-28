@@ -1,0 +1,53 @@
+ManifestFileVersion: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: building/tower.unity3d
+      Dependencies: {}
+    Info_1:
+      Name: hero/garen.unity3d
+      Dependencies: {}
+    Info_2:
+      Name: json/huanjue_json.unity3d
+      Dependencies: {}
+    Info_3:
+      Name: other/skillrange.unity3d
+      Dependencies: {}
+    Info_4:
+      Name: scene/battlescene.unity3d
+      Dependencies:
+        Dependency_0: hero/garen.unity3d
+        Dependency_1: scene/scene2.unity3d
+    Info_5:
+      Name: scene/scene1.unity3d
+      Dependencies: {}
+    Info_6:
+      Name: scene/scene2.unity3d
+      Dependencies: {}
+    Info_7:
+      Name: uiprefab/joystick.unity3d
+      Dependencies: {}
+    Info_8:
+      Name: uiprefab/notice.unity3d
+      Dependencies: {}
+    Info_9:
+      Name: uiprefab/topbar.unity3d
+      Dependencies: {}
+    Info_10:
+      Name: uiprefab/uibattle.unity3d
+      Dependencies: {}
+    Info_11:
+      Name: uiprefab/uiloading.unity3d
+      Dependencies: {}
+    Info_12:
+      Name: uiprefab/uilogin.unity3d
+      Dependencies: {}
+    Info_13:
+      Name: uiprefab/uimain.unity3d
+      Dependencies: {}
+    Info_14:
+      Name: uiprefab/uiroot.unity3d
+      Dependencies: {}
+    Info_15:
+      Name: uiprefab/uiskill.unity3d
+      Dependencies: {}

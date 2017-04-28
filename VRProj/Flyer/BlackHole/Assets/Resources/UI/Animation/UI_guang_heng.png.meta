@@ -1,0 +1,249 @@
+fileFormatVersion: 2
+guid: 1c0d65e741053554ba6fc34d3e8aa1c9
+timeCreated: 1474856675
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: UI_guang_heng_0
+    21300002: UI_guang_heng_1
+    21300004: UI_guang_heng_2
+    21300006: UI_guang_heng_3
+    21300008: UI_guang_heng_4
+    21300010: UI_guang_heng_5
+    21300012: UI_guang_heng_6
+    21300014: UI_guang_heng_7
+    21300016: UI_guang_heng_8
+    21300018: UI_guang_heng_9
+    21300020: UI_guang_heng_10
+    21300022: UI_guang_heng_11
+    21300024: UI_guang_heng_12
+    21300026: UI_guang_heng_13
+    21300028: UI_guang_heng_14
+    21300030: UI_guang_heng_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: UI_guang_heng_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 1184
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_guang_heng_1
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 198
+        width: 1184
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_guang_heng_2
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 198
+        width: 1184
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_guang_heng_3
+      rect:
+        serializedVersion: 2
+        x: 3552
+        y: 198
+        width: 1184
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_guang_heng_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 1184
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_guang_heng_5
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 132
+        width: 1184
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_guang_heng_6
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 132
+        width: 1184
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_guang_heng_7
+      rect:
+        serializedVersion: 2
+        x: 3552
+        y: 132
+        width: 1184
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_guang_heng_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 1184
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_guang_heng_9
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 66
+        width: 1184
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_guang_heng_10
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 66
+        width: 1184
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_guang_heng_11
+      rect:
+        serializedVersion: 2
+        x: 3552
+        y: 66
+        width: 1184
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_guang_heng_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1184
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_guang_heng_13
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 0
+        width: 1184
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_guang_heng_14
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 0
+        width: 1184
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_guang_heng_15
+      rect:
+        serializedVersion: 2
+        x: 3552
+        y: 0
+        width: 1184
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

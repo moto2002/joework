@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 4116407607
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: texture/xiaoyu_00000.unity3d
+      Dependencies: {}
+    Info_1:
+      Name: texture/xiaoyu_00005.unity3d
+      Dependencies: {}
+    Info_2:
+      Name: ui/button.unity3d
+      Dependencies:
+        Dependency_0: texture/xiaoyu_00000.unity3d
+        Dependency_1: texture/xiaoyu_00005.unity3d
+    Info_3:
+      Name: ui/image.unity3d
+      Dependencies: {}
+    Info_4:
+      Name: config.unity3d
+      Dependencies: {}

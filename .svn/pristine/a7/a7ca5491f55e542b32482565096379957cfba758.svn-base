@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: 2c8ac7571057ecb43bafcd94a3ad270c
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bip01 Head
+    100004: Bip01 L Calf
+    100006: Bip01 L Clavicle
+    100008: Bip01 L Foot
+    100010: Bip01 L Forearm
+    100012: Bip01 L Hand
+    100014: Bip01 L HorseLink
+    100016: Bip01 L Thigh
+    100018: Bip01 L UpperArm
+    100020: Bip01 Neck
+    100022: Bip01 Pelvis
+    100024: Bip01 R Calf
+    100026: Bip01 R Clavicle
+    100028: Bip01 R Foot
+    100030: Bip01 R Forearm
+    100032: Bip01 R Hand
+    100034: Bip01 R HorseLink
+    100036: Bip01 R Thigh
+    100038: Bip01 R UpperArm
+    100040: Bip01 Spine
+    100042: Bip01 Spine1
+    100044: Bip01 Tail
+    100046: Bip01 Tail1
+    100048: Bip01 Tail2
+    100050: Bip01 Tail3
+    100052: bip_master
+    100054: bip_mouth
+    100056: n1060
+    100058: slot_billboard
+    100060: slot_camera
+    100062: slot_chest
+    100064: slot_head
+    100066: n1058
+    100068: n1059
+    100070: n1097
+    100072: n1098
+    400000: //RootNode
+    400002: Bip01 Head
+    400004: Bip01 L Calf
+    400006: Bip01 L Clavicle
+    400008: Bip01 L Foot
+    400010: Bip01 L Forearm
+    400012: Bip01 L Hand
+    400014: Bip01 L HorseLink
+    400016: Bip01 L Thigh
+    400018: Bip01 L UpperArm
+    400020: Bip01 Neck
+    400022: Bip01 Pelvis
+    400024: Bip01 R Calf
+    400026: Bip01 R Clavicle
+    400028: Bip01 R Foot
+    400030: Bip01 R Forearm
+    400032: Bip01 R Hand
+    400034: Bip01 R HorseLink
+    400036: Bip01 R Thigh
+    400038: Bip01 R UpperArm
+    400040: Bip01 Spine
+    400042: Bip01 Spine1
+    400044: Bip01 Tail
+    400046: Bip01 Tail1
+    400048: Bip01 Tail2
+    400050: Bip01 Tail3
+    400052: bip_master
+    400054: bip_mouth
+    400056: n1060
+    400058: slot_billboard
+    400060: slot_camera
+    400062: slot_chest
+    400064: slot_head
+    400066: n1058
+    400068: n1059
+    400070: n1097
+    400072: n1098
+    4300000: n1060
+    4300002: n1058
+    4300004: n1059
+    4300006: n1097
+    4300008: n1098
+    9500000: //RootNode
+    13700000: n1060
+    13700002: n1058
+    13700004: n1059
+    13700006: n1097
+    13700008: n1098
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: bip_master
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

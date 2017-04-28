@@ -1,0 +1,234 @@
+fileFormatVersion: 2
+guid: 7787123404e33514a96467245151fec6
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Coco_tutorial
+    21300002: bk_nextchap
+    21300004: bk_prevchap
+    21300006: chest1
+    21300008: chest2
+    21300010: chest_small
+    21300012: chestopen1
+    21300014: chestopen2
+    21300016: classbtn
+    21300018: classbtnselected
+    21300020: elitetoggle-ns
+    21300022: elitetoggle-s
+    21300024: equip_frame_blue
+    21300026: equip_frame_green
+    21300028: equip_frame_orange
+    21300030: equip_frame_purple
+    21300032: equip_frame_white
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Coco_tutorial
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 325
+        width: 168
+        height: 185
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bk_nextchap
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 87
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bk_prevchap
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 27
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chest1
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 269
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chest2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 213
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chest_small
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 62
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chestopen1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 147
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: chestopen2
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 96
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: classbtn
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 203
+        width: 103
+        height: 59
+      alignment: 9
+      pivot: {x: .456310689, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: classbtnselected
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 264
+        width: 112
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: elitetoggle-ns
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 152
+        width: 98
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: elitetoggle-s
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 101
+        width: 98
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: equip_frame_blue
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 442
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: .5, y: .477941185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: equip_frame_green
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 372
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: .5, y: .477941185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: equip_frame_orange
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 302
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: .5, y: .477941185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: equip_frame_purple
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 232
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: .5, y: .477941185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: equip_frame_white
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 162
+        width: 68
+        height: 68
+      alignment: 9
+      pivot: {x: .5, y: .477941185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

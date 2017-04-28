@@ -1,0 +1,12 @@
+H:\UnityWorkSpace\AxingTest2\Temp\bin\Debug\Assembly-CSharp.dll
+H:\UnityWorkSpace\AxingTest2\Temp\bin\Debug\Assembly-CSharp.pdb
+H:\UnityWorkSpace\AxingTest2\Temp\bin\Debug\UnityEditor.dll
+H:\UnityWorkSpace\AxingTest2\Temp\bin\Debug\UnityEngine.dll
+H:\UnityWorkSpace\AxingTest2\Temp\bin\Debug\UnityEngine.UI.dll
+H:\UnityWorkSpace\AxingTest2\Temp\bin\Debug\Mono.Cecil.dll
+H:\UnityWorkSpace\AxingTest2\Temp\bin\Debug\nunit.framework.dll
+H:\UnityWorkSpace\AxingTest2\Temp\bin\Debug\Unity.DataContract.dll
+H:\UnityWorkSpace\AxingTest2\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+H:\UnityWorkSpace\AxingTest2\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+H:\UnityWorkSpace\AxingTest2\obj\Debug\Assembly-CSharp.dll
+H:\UnityWorkSpace\AxingTest2\obj\Debug\Assembly-CSharp.pdb

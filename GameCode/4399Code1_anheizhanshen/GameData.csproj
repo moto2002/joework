@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>cdca670c-e9d2-44e7-9d0a-e7b0ab8c2ca0</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>GameData</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="UnityEngine" />
+    <Reference Include="LoaderLib" />
+    <Reference Include="System.Core" />
+    <Reference Include="System" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Mogo\GameData\GameData.cs" />
+    <Compile Include="Mogo\GameData\GameData!1.cs" />
+    <Compile Include="Mogo\GameData\WingLevelData.cs" />
+    <Compile Include="Mogo\GameData\SpiritLevelData_Skill.cs" />
+    <Compile Include="Mogo\GameData\SpaceData.cs" />
+    <Compile Include="Mogo\GameData\SkillState.cs" />
+    <Compile Include="Mogo\GameData\PowerScoreStarData.cs" />
+    <Compile Include="Mogo\GameData\CameraAnimData.cs" />
+    <Compile Include="Mogo\GameData\WingData.cs" />
+    <Compile Include="Mogo\GameData\TaskData.cs" />
+    <Compile Include="Mogo\GameData\SpawnPointLevelData.cs" />
+    <Compile Include="Mogo\GameData\ShaderData.cs" />
+    <Compile Include="Mogo\GameData\LoginMarketData.cs" />
+    <Compile Include="Mogo\GameData\EquipSpecialEffectData.cs" />
+    <Compile Include="Mogo\GameData\UpgradeGuideData.cs" />
+    <Compile Include="Mogo\GameData\RoleData.cs" />
+    <Compile Include="Mogo\GameData\MonsterValueData.cs" />
+    <Compile Include="Mogo\GameData\ControllerOfWeaponData.cs" />
+    <Compile Include="Mogo\GameData\UpgradePowerSystem.cs" />
+    <Compile Include="Mogo\GameData\UpgradePowerData.cs" />
+    <Compile Include="Mogo\GameData\PropertyEffectData.cs" />
+    <Compile Include="Mogo\GameData\OccupyTowerPersonalReward.cs" />
+    <Compile Include="Mogo\GameData\SystemRequirementData.cs" />
+    <Compile Include="Mogo\GameData\QualityColorData.cs" />
+    <Compile Include="Mogo\GameData\SystemUIColorManager.cs" />
+    <Compile Include="Mogo\GameData\MissionRewardData.cs" />
+    <Compile Include="Mogo\GameData\MissionEventData.cs" />
+    <Compile Include="Mogo\GameData\GUIConfigData.cs" />
+    <Compile Include="Mogo\GameData\GlobalData.cs" />
+    <Compile Include="Mogo\GameData\VictorCameraCfgData.cs" />
+    <Compile Include="Mogo\GameData\TowerXMLData.cs" />
+    <Compile Include="Mogo\GameData\MissionData.cs" />
+    <Compile Include="Mogo\GameData\MarketData.cs" />
+    <Compile Include="Mogo\GameData\LevelGuideData.cs" />
+    <Compile Include="Mogo\GameData\InstanceLevelGridPosData.cs" />
+    <Compile Include="Mogo\GameData\FXData.cs" />
+    <Compile Include="Mogo\GameData\EffectType.cs" />
+    <Compile Include="Mogo\GameData\FXConflict.cs" />
+    <Compile Include="Mogo\GameData\FXStatic.cs" />
+    <Compile Include="Mogo\GameData\FXLocationType.cs" />
+    <Compile Include="Mogo\GameData\EquipData.cs" />
+    <Compile Include="Mogo\GameData\ElfSkillData.cs" />
+    <Compile Include="Mogo\GameData\RunePosiLock.cs" />
+    <Compile Include="Mogo\GameData\RewardLoginData.cs" />
+    <Compile Include="Mogo\GameData\MapUIMappingData.cs" />
+    <Compile Include="Mogo\GameData\LevelGiftData.cs" />
+    <Compile Include="Mogo\GameData\GameProcData.cs" />
+    <Compile Include="Mogo\GameData\ProcType.cs" />
+    <Compile Include="DataLoader.cs" />
+    <Compile Include="Mogo\GameData\GameDataControler.cs" />
+    <Compile Include="Mogo\GameData\ElfAreaLimitData.cs" />
+    <Compile Include="Mogo\GameData\CharacterInfoData.cs" />
+    <Compile Include="Mogo\GameData\AvatarModelData.cs" />
+    <Compile Include="Mogo\GameData\UIFXData.cs" />
+    <Compile Include="Mogo\GameData\GuildSkillData.cs" />
+    <Compile Include="Mogo\GameData\EventData.cs" />
+    <Compile Include="Mogo\GameData\ActivityTimeData.cs" />
+    <Compile Include="Mogo\GameData\TowerSweepCdClearCostData.cs" />
+    <Compile Include="Mogo\GameData\RuneData.cs" />
+    <Compile Include="Mogo\GameData\PowerScoreJewelData.cs" />
+    <Compile Include="Mogo\GameData\LanguageData.cs" />
+    <Compile Include="Mogo\GameData\DragonBaseData.cs" />
+    <Compile Include="Mogo\GameData\ArenaScoreRewardData.cs" />
+    <Compile Include="Mogo\GameData\SpiritSkillData.cs" />
+    <Compile Include="Mogo\GameData\NPCData.cs" />
+    <Compile Include="Mogo\GameData\ElfSkillUpgradeData.cs" />
+    <Compile Include="Mogo\GameData\DailyEventData.cs" />
+    <Compile Include="Mogo\GameData\SoundData.cs" />
+    <Compile Include="Mogo\GameData\SkillAction.cs" />
+    <Compile Include="Mogo\GameData\RewardAchievementData.cs" />
+    <Compile Include="Mogo\GameData\PrivilegeData.cs" />
+    <Compile Include="Mogo\GameData\OccupyTowerTeamReward.cs" />
+    <Compile Include="Mogo\GameData\HpTypesData.cs" />
+    <Compile Include="Mogo\GameData\GuildLevelData.cs" />
+    <Compile Include="Mogo\GameData\GuideXMLData.cs" />
+    <Compile Include="Mogo\GameData\EquipFXResData.cs" />
+    <Compile Include="Mogo\GameData\DragonEventsData.cs" />
+    <Compile Include="Mogo\GameData\AvatarLevelData.cs" />
+    <Compile Include="Mogo\GameData\ActivityRewardData.cs" />
+    <Compile Include="Mogo\GameData\SkillData.cs" />
+    <Compile Include="Mogo\GameData\GuildDragonData.cs" />
+    <Compile Include="Mogo\GameData\GearData.cs" />
+    <Compile Include="Mogo\GameData\ElfNodeData.cs" />
+    <Compile Include="Mogo\GameData\UIMapData.cs" />
+    <Compile Include="Mogo\GameData\BTData.cs" />
+    <Compile Include="Mogo\GameData\UIFaceIconData.cs" />
+    <Compile Include="Mogo\GameData\RankData.cs" />
+    <Compile Include="Mogo\GameData\FoggyAbyssData.cs" />
+    <Compile Include="Mogo\GameData\DropFXData.cs" />
+    <Compile Include="Mogo\GameData\DropFxType.cs" />
+    <Compile Include="Mogo\GameData\BodyEnhanceData.cs" />
+    <Compile Include="Mogo\GameData\SpiritLevelData_Mark.cs" />
+    <Compile Include="Mogo\GameData\SkillIdReflectData.cs" />
+    <Compile Include="Mogo\GameData\SkillBuffData.cs" />
+    <Compile Include="Mogo\GameData\RewardRechargeData.cs" />
+    <Compile Include="Mogo\GameData\DropModelData.cs" />
+    <Compile Include="Mogo\GameData\DragonStationData.cs" />
+    <Compile Include="Mogo\GameData\BossChestData.cs" />
+    <Compile Include="Mogo\GameData\ChatListData.cs" />
+    <Compile Include="Mogo\GameData\ActionSoundData.cs" />
+    <Compile Include="Mogo\GameData\SpiritMarkData.cs" />
+    <Compile Include="Mogo\GameData\PowerScoreData.cs" />
+    <Compile Include="Mogo\GameData\MogoNotificationData.cs" />
+    <Compile Include="Mogo\GameData\MissionRandomRewardData.cs" />
+    <Compile Include="Mogo\GameData\MapData.cs" />
+    <Compile Include="Mogo\GameData\LightType.cs" />
+    <Compile Include="Mogo\GameData\MapType.cs" />
+    <Compile Include="Mogo\GameData\EquipRecommendData.cs" />
+    <Compile Include="Mogo\GameData\EnergyData.cs" />
+    <Compile Include="Mogo\GameData\DragonEventDescData.cs" />
+    <Compile Include="Mogo\GameData\CGConfigData.cs" />
+    <Compile Include="Mogo\GameData\ArenaCreditReward4ChallengeData.cs" />
+  </ItemGroup>
+</Project>

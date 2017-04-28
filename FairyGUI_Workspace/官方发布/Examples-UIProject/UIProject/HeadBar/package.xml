@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="g6qoonuh" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="gjh30" name="HeadBar" folder="" file="gjh30.xml" exported="true"/>
+    <component id="gjh32" name="bloodbar" folder="" file="gjh32.xml"/>
+    <image id="gjh33" name="0" folder="" qualityOption="source" file="gjh33.png" size="145,20"/>
+    <image id="gjh34" name="1" folder="" qualityOption="source" file="gjh34.png" size="122,9" scale="9grid" scale9grid="7,2,108,3"/>
+    <image id="gjh35" name="task" folder="" file="gjh35.png" size="47,44" exported="true" qualityOption="source"/>
+    <component id="fuxf6" name="Main" folder="" file="fuxf6.xml" exported="true"/>
+    <jta id="rfrh7" name="fighting" folder="" origin="37,41" file="rfrh7.jta" size="73,70" exported="true"/>
+    <jta id="rfrh8" name="cool" folder="" file="rfrh8.jta" size="24,24" origin="0,0" exported="true"/>
+  </resources>
+  <publish name="HeadBar">
+    <atlas name="Default" index="0"/>
+  </publish>
+</packageDescription>

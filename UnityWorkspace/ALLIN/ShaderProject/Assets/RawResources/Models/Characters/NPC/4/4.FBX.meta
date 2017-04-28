@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: 03d0c3dc21adf074b8e714ec5fef38d9
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bip001 Head
+    100004: Bip001 L Clavicle
+    100006: Bip001 L Finger0
+    100008: Bip001 L Forearm
+    100010: Bip001 L Hand
+    100012: Bip001 L UpperArm
+    100014: Bip001 Neck
+    100016: Bip001 Pelvis
+    100018: Bip001 R Clavicle
+    100020: Bip001 R Finger0
+    100022: Bip001 R Forearm
+    100024: Bip001 R Hand
+    100026: Bip001 R UpperArm
+    100028: Bip001 Spine
+    100030: Bip001 Spine1
+    100032: bip_master
+    100034: bip_skirt_B_01
+    100036: bip_skirt_B_02
+    100038: bip_skirt_B_03
+    100040: bip_skirt_F_01
+    100042: bip_skirt_F_02
+    100044: bip_skirt_F_03
+    100046: bip_skirt_L_01
+    100048: bip_skirt_L_02
+    100050: bip_skirt_L_03
+    100052: bip_skirt_R_01
+    100054: bip_skirt_R_02
+    100056: bip_skirt_R_03
+    100058: n1024
+    100060: n1056
+    100062: n1057
+    100064: slot_billboard
+    100066: slot_camera
+    100068: slot_chest
+    100070: slot_head
+    100072: n1063
+    100074: n1064
+    100076: n1065
+    100078: n1066
+    100080: n1067
+    100082: n1068
+    400000: //RootNode
+    400002: Bip001 Head
+    400004: Bip001 L Clavicle
+    400006: Bip001 L Finger0
+    400008: Bip001 L Forearm
+    400010: Bip001 L Hand
+    400012: Bip001 L UpperArm
+    400014: Bip001 Neck
+    400016: Bip001 Pelvis
+    400018: Bip001 R Clavicle
+    400020: Bip001 R Finger0
+    400022: Bip001 R Forearm
+    400024: Bip001 R Hand
+    400026: Bip001 R UpperArm
+    400028: Bip001 Spine
+    400030: Bip001 Spine1
+    400032: bip_master
+    400034: bip_skirt_B_01
+    400036: bip_skirt_B_02
+    400038: bip_skirt_B_03
+    400040: bip_skirt_F_01
+    400042: bip_skirt_F_02
+    400044: bip_skirt_F_03
+    400046: bip_skirt_L_01
+    400048: bip_skirt_L_02
+    400050: bip_skirt_L_03
+    400052: bip_skirt_R_01
+    400054: bip_skirt_R_02
+    400056: bip_skirt_R_03
+    400058: n1024
+    400060: n1056
+    400062: n1057
+    400064: slot_billboard
+    400066: slot_camera
+    400068: slot_chest
+    400070: slot_head
+    400072: n1063
+    400074: n1064
+    400076: n1065
+    400078: n1066
+    400080: n1067
+    400082: n1068
+    4300000: n1057
+    4300002: n1056
+    4300004: n1024
+    4300006: n1063
+    4300008: n1064
+    4300010: n1065
+    4300012: n1066
+    4300014: n1067
+    4300016: n1068
+    9500000: //RootNode
+    13700000: n1024
+    13700002: n1056
+    13700004: n1057
+    13700006: n1063
+    13700008: n1064
+    13700010: n1065
+    13700012: n1066
+    13700014: n1067
+    13700016: n1068
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: bip_master
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

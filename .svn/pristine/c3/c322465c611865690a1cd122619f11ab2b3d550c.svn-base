@@ -1,0 +1,18 @@
+
+//Build XXX.apk
+Unity.exe -batchmode -quit -nographics -executeMethod BuildHelper.BuildAndroid
+
+//Build XXX.exe
+Unity.exe -batchmode -quit -nographics -executeMethod BuildHelper.BuildPC
+
+//Build XCode 工程
+Unity.exe -batchmode -quit -nographics -executeMethod BuildHelper.BuildIOS
+
+//切换到IOS平台
+Unity.exe -batchmode -quit -nographics -executeMethod BuildHelper.Switch2IosTarget
+
+//切换到Android平台
+Unity.exe -batchmode -quit -nographics -executeMethod BuildHelper.Switch2AndroidTarget
+
+//切换到Windows平台
+Unity.exe -batchmode -quit -nographics -executeMethod BuildHelper.Switch2PCTarget

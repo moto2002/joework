@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 4d88e55b66f3aa9418604f0e20859569
+timeCreated: 1471858682
+licenseType: Pro
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: common/shader/custom/gaussianblur
+  assetBundleVariant: 

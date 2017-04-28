@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3710318569
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6b1dc2c5c8d6cc505ea043929a21b4cc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1a17bc992b6cc96d034570c7ded497a9
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: ce7f3bbc6859bb746b9a1158bca1dd94, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/SceneLightmapData.asset
+Dependencies: []

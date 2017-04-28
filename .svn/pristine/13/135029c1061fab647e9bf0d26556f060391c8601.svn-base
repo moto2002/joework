@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 1887209566
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9e33a739cf9262896101e5ec15297d4a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8e42d7393dcc3692a8ed4e762742f7f4
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/other/SkillRange.prefab
+Dependencies: []

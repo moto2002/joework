@@ -1,0 +1,379 @@
+﻿using UnityEngine;
+using System.Collections;
+
+namespace CurvedUI
+{
+	/// <summary>
+	/// Contains a bunch of events you can subscribe to and bools to ask for current state of the controller. Can also trigger haptic feedback if you ask nicely.
+	/// </summary>
+	public class CurvedUIViveController : MonoBehaviour
+	{
+		#if CURVEDUI_VIVE
+	
+
+		#region settings
+		public int axisFidelity = 1;
+		#endregion
+
+
+
+		#region internal variables
+		private uint controllerIndex;
+		private SteamVR_TrackedObject trackedController;
+		private SteamVR_Controller.Device device;
+
+		private Vector2 touchpadAxis = Vector2.zero;
+		private Vector2 triggerAxis = Vector2.zero;
+
+		private bool controllerVisible = true;
+		private ushort hapticPulseStrength;
+		private int hapticPulseCountdown;
+		private ushort maxHapticVibration = 3999;
+		#endregion
+
+
+
+		#region EVENTS
+		public event ViveInputEvent TriggerClicked;
+		public event ViveInputEvent TriggerUnclicked;
+		public event ViveInputEvent TriggerAxisChanged;
+		public event ViveInputEvent ApplicationMenuClicked;
+		public event ViveInputEvent ApplicationMenuUnclicked;
+		public event ViveInputEvent GripClicked;
+		public event ViveInputEvent GripUnclicked;
+		public event ViveInputEvent TouchpadClicked;
+		public event ViveInputEvent TouchpadUnclicked;
+		public event ViveInputEvent TouchpadTouched;
+		public event ViveInputEvent TouchpadUntouched;
+		public event ViveInputEvent TouchpadAxisChanged;
+
+
+		public virtual void OnTriggerClicked(ViveInputArgs e)
+		{
+			if (TriggerClicked != null)
+				TriggerClicked(this, e);
+		}
+
+		public virtual void OnTriggerUnclicked(ViveInputArgs e)
+		{
+			if (TriggerUnclicked != null)
+				TriggerUnclicked(this, e);
+		}
+
+		public virtual void OnTriggerAxisChanged(ViveInputArgs e)
+		{
+			if (TriggerAxisChanged != null)
+				TriggerAxisChanged(this, e);
+		}
+
+		public virtual void OnApplicationMenuClicked(ViveInputArgs e)
+		{
+			if (ApplicationMenuClicked != null)
+				ApplicationMenuClicked(this, e);
+		}
+
+		public virtual void OnApplicationMenuUnclicked(ViveInputArgs e)
+		{
+			if (ApplicationMenuUnclicked != null)
+				ApplicationMenuUnclicked(this, e);
+		}
+
+		public virtual void OnGripClicked(ViveInputArgs e)
+		{
+			if (GripClicked != null)
+				GripClicked(this, e);
+		}
+
+		public virtual void OnGripUnclicked(ViveInputArgs e)
+		{
+			if (GripUnclicked != null)
+				GripUnclicked(this, e);
+		}
+
+		public virtual void OnTouchpadClicked(ViveInputArgs e)
+		{
+			if (TouchpadClicked != null)
+				TouchpadClicked(this, e);
+		}
+
+		public virtual void OnTouchpadUnclicked(ViveInputArgs e)
+		{
+			if (TouchpadUnclicked != null)
+				TouchpadUnclicked(this, e);
+		}
+
+		public virtual void OnTouchpadTouched(ViveInputArgs e)
+		{
+			if (TouchpadTouched != null)
+				TouchpadTouched(this, e);
+		}
+
+		public virtual void OnTouchpadUntouched(ViveInputArgs e)
+		{
+			if (TouchpadUntouched != null)
+				TouchpadUntouched(this, e);
+		}
+
+		public virtual void OnTouchpadAxisChanged(ViveInputArgs e)
+		{
+			if (TouchpadAxisChanged != null)
+				TouchpadAxisChanged(this, e);
+		}
+		#endregion
+
+
+
+
+		#region LIFECYCLE
+		void Awake()
+		{
+			trackedController = GetComponent<SteamVR_TrackedObject>();
+		}
+
+		void Update()
+		{
+			controllerIndex = (uint)trackedController.index;
+			device = SteamVR_Controller.Input((int)controllerIndex);
+
+			Vector2 currentTriggerAxis = device.GetAxis(Valve.VR.EVRButtonId.k_EButton_SteamVR_Trigger);
+			Vector2 currentTouchpadAxis = device.GetAxis();
+
+			//haptic feedback
+			if (hapticPulseCountdown > 0)
+			{
+				device.TriggerHapticPulse(hapticPulseStrength);
+				hapticPulseCountdown -= 1;
+			}
+
+			//check for changes in trigger press
+			if (Vector2ShallowEquals(triggerAxis, currentTriggerAxis))
+			{
+				triggerAxisChanged = false;
+			}
+			else
+			{
+				OnTriggerAxisChanged(SetButtonEvent(ref triggerPressed, true, currentTriggerAxis.x));
+				triggerAxisChanged = true;
+			}
+
+			//check for changes in finger pos on touchpad
+			if (Vector2ShallowEquals(touchpadAxis, currentTouchpadAxis))
+			{
+				touchpadAxisChanged = false;
+			}
+			else
+			{
+				OnTouchpadAxisChanged(SetButtonEvent(ref touchpadTouched, true, 1f));
+				touchpadAxisChanged = true;
+			}
+
+			touchpadAxis = new Vector2(currentTouchpadAxis.x, currentTouchpadAxis.y);
+			triggerAxis = new Vector2(currentTriggerAxis.x, currentTriggerAxis.y);
+
+			//Trigger
+			if (device.GetTouchDown(SteamVR_Controller.ButtonMask.Trigger))
+			{
+				OnTriggerClicked(SetButtonEvent(ref triggerPressed, true, currentTriggerAxis.x));
+				triggerDown = true;
+			}
+			else {
+				triggerDown = false;
+			}
+
+			if (device.GetTouchUp(SteamVR_Controller.ButtonMask.Trigger))
+			{
+				OnTriggerUnclicked(SetButtonEvent(ref triggerPressed, false, 0f));
+				triggerUp = true;
+			}
+			else {
+				triggerUp = false;
+			}
+
+			//ApplicationMenu
+			if (device.GetTouchDown(SteamVR_Controller.ButtonMask.ApplicationMenu))
+			{
+				OnApplicationMenuClicked(SetButtonEvent(ref applicationMenuPressed, true, 1f));
+
+			}
+			else if (device.GetTouchUp(SteamVR_Controller.ButtonMask.ApplicationMenu))
+			{
+
+				OnApplicationMenuUnclicked(SetButtonEvent(ref applicationMenuPressed, false, 0f));
+
+			}
+
+			//Grip
+			if (device.GetTouchDown(SteamVR_Controller.ButtonMask.Grip))
+			{
+				OnGripClicked(SetButtonEvent(ref gripPressed, true, 1f));
+
+			}
+			else if (device.GetTouchUp(SteamVR_Controller.ButtonMask.Grip))
+			{
+				OnGripUnclicked(SetButtonEvent(ref gripPressed, false, 0f));
+
+			}
+
+			//Touchpad Clicked
+			if (device.GetPressDown(SteamVR_Controller.ButtonMask.Touchpad))
+			{
+				OnTouchpadClicked(SetButtonEvent(ref touchpadPressed, true, 1f));
+
+			}
+			else if (device.GetPressUp(SteamVR_Controller.ButtonMask.Touchpad))
+			{
+				OnTouchpadUnclicked(SetButtonEvent(ref touchpadPressed, false, 0f));
+
+			}
+
+			//Touchpad Touched
+			if (device.GetTouchDown(SteamVR_Controller.ButtonMask.Touchpad))
+			{
+				OnTouchpadTouched(SetButtonEvent(ref touchpadTouched, true, 1f));
+
+			}
+			else if (device.GetTouchUp(SteamVR_Controller.ButtonMask.Touchpad))
+			{
+				OnTouchpadUntouched(SetButtonEvent(ref touchpadTouched, false, 0f));
+
+			}
+		}
+		#endregion 
+
+
+
+		#region PRIVATE
+		/// <summary>
+		/// Compare two vectors if there are about equal. 
+		/// </summary>
+		bool Vector2ShallowEquals(Vector2 vectorA, Vector2 vectorB)
+		{
+			return (vectorA.x.ToString("F" + axisFidelity) == vectorB.x.ToString("F" + axisFidelity) &&
+				vectorA.y.ToString("F" + axisFidelity) == vectorB.y.ToString("F" + axisFidelity));
+		}
+		#endregion
+
+
+
+		#region PUBLIC
+		public void ToggleControllerVisible(bool on)
+		{
+			foreach (MeshRenderer renderer in this.GetComponentsInChildren<MeshRenderer>())
+			{
+				renderer.enabled = on;
+			}
+
+			foreach (SkinnedMeshRenderer renderer in this.GetComponentsInChildren<SkinnedMeshRenderer>())
+			{
+				renderer.enabled = on;
+			}
+			controllerVisible = on;
+		}
+
+		/// <summary>
+		/// Triggers the haptic pulse.
+		/// </summary>
+		/// <param name="duration">Duration in frames.</param>
+		/// <param name="strength">Strength of the pulse. 100 is barely noticable, 300-500 seems about right for most uses. </param>
+		public void TriggerHapticPulse(int duration, ushort strength)
+		{
+			hapticPulseCountdown = duration;
+			hapticPulseStrength = (strength <= maxHapticVibration ? strength : maxHapticVibration);
+		}
+		#endregion
+
+
+
+		#region SETTERS AND GETTERS
+		/// <summary>
+		/// Are the render components of the Controller enabled?
+		/// </summary>
+		/// <returns><c>true</c> if this instance is controller visible; otherwise, <c>false</c>.</returns>
+		public bool IsControllerVisible() { return controllerVisible; }
+
+		/// <summary>
+		/// Has trigger been pressed down this frame?
+		/// </summary>
+		public bool IsTriggerDown { get { return triggerDown; } }
+		bool triggerDown = false;
+
+		/// <summary>
+		/// Has trigger been released this frame?
+		/// </summary>
+		public bool IsTriggerUp { get { return triggerUp; } }
+		bool triggerUp = false;
+
+		/// <summary>
+		/// Is trigger pressed during this frame?
+		/// </summary>
+		public bool IsTriggerPressed { get { return triggerPressed; } }
+		bool triggerPressed = false;
+
+		/// <summary>
+		/// Has trigger axis (how hard trigger is pressed) changed this frame?
+		/// </summary>
+		public bool IsTriggerAxisChanged { get { return triggerAxisChanged; } }
+		bool triggerAxisChanged = false;
+
+		/// <summary>
+		/// Has user's finger position changed on touchpad this grame?
+		/// </summary>
+		public bool IsTouchpadAxisChanged { get { return touchpadAxisChanged; } }
+		bool touchpadAxisChanged = false;
+
+		/// <summary>
+		/// Is Application menu pressed right now?
+		/// </summary>
+		public bool IsApplicationMenuPressed { get { return applicationMenuPressed; } }
+		bool applicationMenuPressed = false;
+
+		/// <summary>
+		/// Is touchpad pressed this frame?
+		/// </summary>
+		public bool IsTouchpadPressed { get { return touchpadPressed; } }
+		bool touchpadPressed = false;
+
+		/// <summary>
+		/// Is user's finger resting on the touchpad?
+		/// </summary>
+		public bool IsTouchpadTouched { get { return touchpadTouched; } }
+		bool touchpadTouched = false;
+
+		/// <summary>
+		/// Is user holding the grip button?
+		/// </summary>
+		public bool IsGripPressed { get { return gripPressed; } }
+		bool gripPressed = false;
+
+        /// <summary>
+		/// FingerPosition on touchpad?
+		/// </summary>
+		public Vector2 TouchPadAxis { get { return touchpadAxis; } }
+        #endregion
+
+	
+
+        ViveInputArgs SetButtonEvent(ref bool buttonBool, bool value, float buttonPressure)
+		{
+			buttonBool = value;
+			ViveInputArgs e;
+			e.controllerIndex = controllerIndex;
+			e.buttonPressure = buttonPressure;
+			e.touchpadAxis = device.GetAxis();
+			return e;
+		}
+
+		#endif 
+
+	}
+
+	public struct ViveInputArgs
+	{
+		public uint controllerIndex;
+		public float buttonPressure;
+		public Vector2 touchpadAxis;
+	}
+
+	public delegate void ViveInputEvent(object sender, ViveInputArgs e);
+
+}

@@ -1,0 +1,26 @@
+Unity_extension
+拖放3D对象
+旋转3D对象
+
+UGUI的扩展:
+分页控件，居中列表（这两个都是继承自ScrollView），UI变灰Shader
+Joystick控件
+ProgressBar控件
+UGUI Soft Clip
+
+Native2D工具
+屏幕适配，Anchor , 遮罩 , 描边 , 九宫格等
+
+水效果
+简单的水，支持折射的水，水Wave
+
+一些效果
+图片混合，Logo光影
+
+2d填色(类似魔术棒工具)，图片两点缩放
+
+2d iso地图
+
+2d遮罩，包括Stencil遮罩，非Stencil遮罩两种
+
+一些工具类：浮力，JSON,BesizerUtil , ByteArray，类as3事件 , Texturepacker图集转sprite工具，RGB+A图片生成 等

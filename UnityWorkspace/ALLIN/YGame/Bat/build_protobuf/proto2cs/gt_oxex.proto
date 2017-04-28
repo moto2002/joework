@@ -1,0 +1,329 @@
+/*
+二人牛牛
+code 900~999
+*/
+package gt_msg;
+
+import "gt_base.proto";
+
+message TagTableStatus{
+  required bool  cbtablelock = 1;
+  required bool cbplaystatus = 2;
+}
+ 
+message tagUserStatus{
+	required int32	 wTableID =1;						//桌子索引
+	required int32	 wChairID=2;							//椅子位置
+	required int32   cbUserStatus=3;	
+} 
+
+//900 用户进入房间
+message LogonUserID{
+	required string user_id = 1;
+	required string user_password = 2;
+	required int32 user_Version = 3;
+	required int32 user_LoginType = 4;
+    required string kindtype = 5;
+    required string strMachineID = 6;
+}
+
+//901 用户进入房间回复_失败
+message LogonRoomFail{
+	required int32 failCode = 1;
+	required string failstring = 2;
+}
+
+//902 用户进入房间回复_成功
+message LogonRoomSuccess{
+	 required int32 code = 1;
+}
+
+//903 用户进入房间信息
+message UserRoomEnter{
+	required User user = 1;
+}
+
+//904 房间配置信息
+message  ConfigServer{
+    required int32 wTableCount = 1;
+    required int32 wChairCount = 2;
+    required int32 wServerType = 3;
+}
+
+//905 房间系统消息
+message SystemMessage{
+	required string szstring = 1;
+	required int32 wType = 2;
+}
+
+//906 房间桌子信息
+message RoomTabInfo_OxEx{
+   required int32 tablecount = 1;
+   repeated TagTableStatus  tablestatusary=2;
+}
+
+//907 用户上桌
+message UserSitDown{
+	required int32 wtableid =1;
+	required int32 wchairid =2;
+	required string szpassword=3;
+}
+
+//908 失败消息
+message RequestFailure{
+	required int32 errorCode = 1;
+	required string szDescribeString = 2; 
+}
+
+//909 用户状态
+message GR_UserStatus{
+	required string	 dwUserID = 1;						 
+	required tagUserStatus UserStatus= 2;					 
+	required int64	 lScore =3;
+	required int64	  lInsure=4;
+}
+
+//910 用户准备回复
+message GR_USER_READY{
+}
+
+//911 用户初始化游戏完成
+message GR_GameOpiton{
+}
+
+//912 桌子状态
+message GR_TableStatus{
+   required	int32	 wTableID = 1;	 //桌子号码
+   required TagTableStatus  TableStatus=2; //桌子状态
+}
+
+
+//913 桌子状态
+message GR_UserScore{
+   required string    dwUserID = 1;      //用户ID
+   required int32     cbReason = 2;      //改变原因
+   required int64     lScore=3;          //用户金币
+   required int64     lInsure=4;         //用户银行
+   required int32     dwWinCount = 5;    //赢局
+   required int32     dwLostCount = 6;   //输局
+   required int32     dwDrawCount = 7;   //和局
+   required int32     dwFleeCount = 8;   //逃局
+}
+
+
+//914 用户金币改变
+message GR_UserScoreChange{
+ required int64     lScore=1;          //用户金币
+ required int64     lInsure=2;         //用户银行
+}
+
+// 915 用户起立
+message CMD_GR_UserStandUp{
+   required int32     wTableID=1;          //桌子位置
+   required int32     wChairID=2;         //椅子位置
+   required bool      cbForceLeave=3;         //强行离开
+}
+
+//916 用户退出房间
+message CMD_GR_USEREXIT{
+}
+
+
+
+//970 - 1000 游戏逻辑消息定义 @mp
+
+//970 游戏状态
+message OXEX_StatusFreeResponse{
+    required int64 lCellScore =1;//基础积分
+    repeated int64 lTurnScore =2;//积分信息 //历史积分
+    repeated int64 lCollectScore=3;//积分信息
+    repeated string szGameRoomName =4;//房间名称
+}
+
+//971 游戏状态
+message OXEX_StatusCallResponse{
+    required int32 wCallBanker =1; //叫庄用户
+    required bool cbDynamicJoin =2;//动态加入 
+    repeated int32 cbPlayStatus=3;//用户状态
+    repeated int64 lTurnScore=4;//积分信息
+    repeated int64 lCollectScore=5;//积分信息
+    repeated string szGameRoomName=6;//房间名称
+}
+
+//972 游戏状态
+message OXEX_StatusScoreResponse{
+    //下注信息
+    repeated int32 cbPlayStatus=1; //用户状态
+    required bool cbDynamicJoin=2; //动态加入
+    required int64 lTurnMaxScore=3; //最大下注
+    repeated int64 lTableScore=4; //下注数目
+    required int32 wBankerUser=5; //庄家用户
+    repeated string szGameRoomName=6;//房间名称
+
+   //历史积分
+    repeated int64 lTurnScore=7; //积分信息
+    repeated int64 lCollectScore=8;//积分信息
+}
+
+//973 游戏状态
+message OXEX_StatusPlayResponse{
+   //状态信息
+    repeated int32 cbPlayStatus=1; //用户状态
+    required bool cbDynamicJoin=2; //动态加入
+    required int64 lTurnMaxScore=3; //最大下注
+    repeated int64 lTableScore =4; //下注数目
+    required int32 wBankerUser =5; //庄家用户
+    //扑克信息
+    repeated HandCardData cbHandCardData=6;//桌面扑克
+    repeated int32 bOxCard =7;//牛牛数据
+
+    //历史积分
+    repeated int64 lTurnScore=8; //积分信息
+    repeated int64 lCollectScore=9; //积分信息
+    repeated string szGameRoomName=10; //房间名称
+}
+
+// 974 用户叫庄
+message OXEX_CallBankerResponse{
+    required int32 wCallBanker=1; //叫庄用户
+    required bool bFirstTimes=2; //首次叫庄
+}
+
+// 975 游戏开始
+message OXEX_GameStartResponse{
+ //下注信息
+    required int64 lTurnMaxScore=1; //最大下注
+    required int32 wBankerUser=2; //庄家用户
+}
+
+// 976 用户下注
+message OXEX_AddScoreResponse{
+    required int32 wAddScoreUser=1; //加注用户
+    required int64 lAddScoreCount=2; //加注数目
+}
+
+//977 游戏结束
+message OXEX_GameEndResponse{
+    repeated int64 lGameTax=1;//游戏税收
+    repeated int64 lGameScore=2; //游戏得分
+    repeated int32 cbOxCardType=3; //牛牛数据
+    //扑克信息
+    repeated HandCardData cbHandCardData=4;//桌面扑克
+    repeated int32 cbHandCardCount=5; //桌面扑克
+}
+// 游戏结束时玩家手上的牌
+message HandCardData{
+     repeated int32 cbHandCardData =1;
+}
+
+// 978 发牌数据包
+message OXEX_SendCardResponse{
+    repeated HandCardData cbCardData=1; //用户扑克
+    repeated int32 cbCardCount=2; //扑克长度
+    required bool bAllAndroidUser=3; //全部机器
+}
+
+// 979 发牌数据包
+message OXEX_AllCardResponse{
+    repeated bool bAICount=1;
+    repeated HandCardData cbCardData=2; //用户扑克
+}
+
+// 980 用户退出
+message OXEX_PlayerExitResponse{
+    required int32 wPlayerID =1; //退出用户
+}
+
+// 981 用户摊牌
+message OXEX_OpenCardResponse{
+    required int32 wPlayerID=1; //摊牌用户
+    required int32 bOpen=2; //摊牌标志
+}
+
+// 982
+message OXEX_UserOutResponse{
+    required int32 wChairID=1;
+};
+
+
+// 983 用户叫庄
+message OXEX_CallBankerRequest{
+    required int32 bBanker =1;//做庄标志
+}
+
+// 984 终端类型
+message OXEX_SPECIALRequest{
+    required  int32  wUserChairID =1 ;  //用户方位
+}
+
+// 985 用户加注
+message OXEX_AddScoreRequest{
+    required int64 lScore =1; //加注数目
+}
+
+// 986 用户摊牌
+message OXEX_OxCardRequest{
+  required int32 bOX = 1; //牛牛标志
+};
+
+
+//907 申请加入牌局
+message JoinFreeRequestoxex {
+
+}
+
+//908.进入牌桌回复
+message JoinFreeResponseoxex {
+}
+
+//909.强制退出牌桌，如果当前牌桌未开始，直接返回成功，否则返回弃牌映像并返回退出成功，当前在打牌，要提示是否退出的dialog
+message ForceExitTableRequestoxex{
+}
+
+//910.回复退桌
+message ForceExitTableResponseoxex{
+    enum Code{
+	    Normal = 0;//正常退出牌桌
+	    GiveUp = 1;//弃牌退出牌桌
+	    NoEnoughMoney = 2;//入场钱不足
+	    ChangeTable = 3;//换桌退
+        PlayingNoExit = 4;//打牌不能退
+    }
+    required Code code = 1;
+}
+
+
+//911.玩家准备游戏
+message GameReadyRequestoxex{
+}
+//912.玩家准备回复
+message GameReadyResponseoxex{
+	enum Code{
+	OK = 0;
+	Failed = 1;
+	}
+	required Code code = 1;
+	repeated int32 playerReady = 2;
+}
+
+
+
+//////////////////////////////////////////////排行榜/////////////////////////////////////////////////////
+//913.排行榜请求
+message GameRankListRequestoxex{
+}
+
+//914.排行榜回复 第一个数据为玩家自己的，后面10个为前十名数据
+message GameRankListResponseoxex{
+	enum Code{
+		Ok = 0;//成功
+		Failed = 1;//其他失败
+	}
+	required Code code  = 1;
+	required string uid =2;
+	repeated string day_win_chips = 3;//日赢筹码排行
+	repeated string all_times = 4;//总游戏局数排行，含胜多少局，			
+	repeated string all_chips = 5;//总筹码排行
+}
+
+

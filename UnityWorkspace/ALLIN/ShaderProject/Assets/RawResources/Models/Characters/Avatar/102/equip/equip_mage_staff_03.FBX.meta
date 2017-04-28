@@ -1,0 +1,74 @@
+fileFormatVersion: 2
+guid: 0be9dafb87139aa4fb8e8127d006d29a
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Bip_locomotion
+    100002: //RootNode
+    100004: equip_mage_staff_03
+    100006: equip_mage_staff_01
+    100008: slot_fire
+    400000: Bip_locomotion
+    400002: //RootNode
+    400004: equip_mage_staff_03
+    400006: equip_mage_staff_01
+    400008: slot_fire
+    2300000: equip_mage_staff_03
+    2300002: //RootNode
+    3300000: equip_mage_staff_03
+    3300002: //RootNode
+    4300000: equip_mage_staff_03
+    9500000: //RootNode
+    13700000: equip_mage_staff_03
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

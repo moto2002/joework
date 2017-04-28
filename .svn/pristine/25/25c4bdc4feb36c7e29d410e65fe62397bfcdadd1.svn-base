@@ -1,0 +1,94 @@
+fileFormatVersion: 2
+guid: eed0c605723897f448e89841b0b2b423
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: 03
+    100002: bip_Smallwing
+    100004: bip_Smallwing_L
+    100006: bip_Smallwing_R
+    100008: //RootNode
+    100010: bip_Smallwing_L01
+    100012: bip_Smallwing_L02
+    100014: bip_Smallwing_R01
+    100016: bip_Smallwing_R02
+    100018: 01
+    100020: 04
+    100022: 05
+    100024: 06
+    400000: 03
+    400002: bip_Smallwing
+    400004: bip_Smallwing_L
+    400006: bip_Smallwing_R
+    400008: //RootNode
+    400010: bip_Smallwing_L01
+    400012: bip_Smallwing_L02
+    400014: bip_Smallwing_R01
+    400016: bip_Smallwing_R02
+    400018: 01
+    400020: 04
+    400022: 05
+    400024: 06
+    4300000: 03
+    4300002: 04
+    4300004: 05
+    4300006: 06
+    4300008: 01
+    9500000: //RootNode
+    13700000: 03
+    13700002: 01
+    13700004: 04
+    13700006: 05
+    13700008: 06
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: bip_Smallwing
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

@@ -1,0 +1,195 @@
+fileFormatVersion: 2
+guid: f7b82881523fe1a4aa5e75cb56b17fe3
+timeCreated: 1477465903
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone01
+    100002: Bone02
+    100004: Bone03
+    100006: Bone04
+    100008: Bone05
+    100010: Bone06
+    100012: Bone07
+    100014: Bone08
+    100016: Bone09
+    100018: Bone10
+    100020: Bone11
+    100022: Bone11(mirrored)
+    100024: Bone12
+    100026: Bone12(mirrored)
+    100028: Bone13
+    100030: Bone13(mirrored)
+    100032: Bone14
+    100034: Bone14(mirrored)
+    100036: Bone15
+    100038: Bone15(mirrored)
+    100040: Dummy001
+    100042: //RootNode
+    100044: hujing
+    400000: Bone01
+    400002: Bone02
+    400004: Bone03
+    400006: Bone04
+    400008: Bone05
+    400010: Bone06
+    400012: Bone07
+    400014: Bone08
+    400016: Bone09
+    400018: Bone10
+    400020: Bone11
+    400022: Bone11(mirrored)
+    400024: Bone12
+    400026: Bone12(mirrored)
+    400028: Bone13
+    400030: Bone13(mirrored)
+    400032: Bone14
+    400034: Bone14(mirrored)
+    400036: Bone15
+    400038: Bone15(mirrored)
+    400040: Dummy001
+    400042: //RootNode
+    400044: hujing
+    4300000: hujing
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: hujing
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: -5
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy001/Bone01
+        weight: 1
+      - path: Dummy001/Bone01/Bone02
+        weight: 1
+      - path: Dummy001/Bone01/Bone02/Bone03
+        weight: 1
+      - path: Dummy001/Bone01/Bone02/Bone03/Bone13
+        weight: 1
+      - path: Dummy001/Bone01/Bone02/Bone03/Bone13/Bone14
+        weight: 1
+      - path: Dummy001/Bone01/Bone02/Bone03/Bone13/Bone14/Bone15
+        weight: 1
+      - path: Dummy001/Bone01/Bone02/Bone03/Bone13(mirrored)
+        weight: 1
+      - path: Dummy001/Bone01/Bone02/Bone03/Bone13(mirrored)/Bone14(mirrored)
+        weight: 1
+      - path: Dummy001/Bone01/Bone02/Bone03/Bone13(mirrored)/Bone14(mirrored)/Bone15(mirrored)
+        weight: 1
+      - path: Dummy001/Bone01/Bone04
+        weight: 1
+      - path: Dummy001/Bone01/Bone04/Bone05
+        weight: 1
+      - path: Dummy001/Bone01/Bone04/Bone05/Bone06
+        weight: 1
+      - path: Dummy001/Bone01/Bone04/Bone05/Bone06/Bone07
+        weight: 1
+      - path: Dummy001/Bone01/Bone04/Bone05/Bone06/Bone07/Bone08
+        weight: 1
+      - path: Dummy001/Bone01/Bone04/Bone05/Bone06/Bone07/Bone08/Bone11
+        weight: 1
+      - path: Dummy001/Bone01/Bone04/Bone05/Bone06/Bone07/Bone08/Bone11/Bone12
+        weight: 1
+      - path: Dummy001/Bone01/Bone04/Bone05/Bone06/Bone07/Bone08/Bone11(mirrored)
+        weight: 1
+      - path: Dummy001/Bone01/Bone04/Bone05/Bone06/Bone07/Bone08/Bone11(mirrored)/Bone12(mirrored)
+        weight: 1
+      - path: Dummy001/Bone01/Bone04/Bone09
+        weight: 1
+      - path: Dummy001/Bone01/Bone04/Bone09/Bone10
+        weight: 1
+      - path: hujing
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
